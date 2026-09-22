@@ -1,0 +1,23 @@
+{
+  "name": "mexico-data-seguridad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DYEWolf/mexido-data-delitos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DYEWolf/mexido-data-delitos/issues"
+  },
+  "homepage": "https://github.com/DYEWolf/mexido-data-delitos#readme",
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
