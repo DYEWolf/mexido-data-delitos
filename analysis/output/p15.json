@@ -1,0 +1,170 @@
+{
+  "pregunta": "¿Dónde ocurren los homicidios, y cuántas mujeres asesinadas en su casa se cuentan como feminicidio?",
+  "periodo_ocurrencia": [
+    2019,
+    2023
+  ],
+  "homicidios": {
+    "total": 10554,
+    "lugar_conocido": 7312,
+    "lugar_se_ignora_pct": 30.5
+  },
+  "lugar_por_sexo_pct": {
+    "HOMBRE": {
+      "VIVIENDA PARTICULAR": 11.1,
+      "VIVIENDA COLECTIVA": 0.2,
+      "ESCUELA U OFICINA PUBLICA": 0.2,
+      "AREA DEPORTIVA": 0.1,
+      "CALLE O CARRETERA VIA PUBLICA": 63.0,
+      "AREA COMERCIAL O DE SERVICIOS": 0.8,
+      "AREA INDUSTRIAL TALLER FABRICA U OBRA": 0.2,
+      "GRANJA RANCHO O PARCELA": 2.8,
+      "OTRO": 21.6
+    },
+    "MUJER": {
+      "VIVIENDA PARTICULAR": 24.5,
+      "VIVIENDA COLECTIVA": 0.3,
+      "ESCUELA U OFICINA PUBLICA": 0.3,
+      "AREA DEPORTIVA": 0.0,
+      "CALLE O CARRETERA VIA PUBLICA": 43.9,
+      "AREA COMERCIAL O DE SERVICIOS": 2.0,
+      "AREA INDUSTRIAL TALLER FABRICA U OBRA": 0.0,
+      "GRANJA RANCHO O PARCELA": 3.1,
+      "OTRO": 26.0
+    }
+  },
+  "lugar_por_sexo_n": {
+    "HOMBRE": {
+      "VIVIENDA PARTICULAR": 724,
+      "VIVIENDA COLECTIVA": 13,
+      "ESCUELA U OFICINA PUBLICA": 13,
+      "AREA DEPORTIVA": 8,
+      "CALLE O CARRETERA VIA PUBLICA": 4127,
+      "AREA COMERCIAL O DE SERVICIOS": 52,
+      "AREA INDUSTRIAL TALLER FABRICA U OBRA": 16,
+      "GRANJA RANCHO O PARCELA": 183,
+      "OTRO": 1413
+    },
+    "MUJER": {
+      "VIVIENDA PARTICULAR": 187,
+      "VIVIENDA COLECTIVA": 2,
+      "ESCUELA U OFICINA PUBLICA": 2,
+      "AREA DEPORTIVA": 0,
+      "CALLE O CARRETERA VIA PUBLICA": 335,
+      "AREA COMERCIAL O DE SERVICIOS": 15,
+      "AREA INDUSTRIAL TALLER FABRICA U OBRA": 0,
+      "GRANJA RANCHO O PARCELA": 24,
+      "OTRO": 198
+    }
+  },
+  "H15a_vivienda": {
+    "mujeres": [
+      187,
+      763,
+      0.2451
+    ],
+    "hombres": [
+      724,
+      6549,
+      0.1106
+    ],
+    "razon_mujeres_hombres": [
+      2.22,
+      1.92,
+      2.56
+    ]
+  },
+  "H15b_vivienda_vs_feminicidio": {
+    "mujeres_asesinadas_en_vivienda_inegi": 187,
+    "victimas_feminicidio_sesnsp": 300,
+    "razon": [
+      0.623,
+      0.516,
+      0.751
+    ],
+    "robustez_hogar_sitio_ocur": {
+      "mujeres_muertas_en_hogar_inegi": 172,
+      "razon": [
+        0.573,
+        0.473,
+        0.694
+      ]
+    }
+  },
+  "H15c_feminicidio_entre_asesinatos_de_mujeres": {
+    "feminicidio": 300,
+    "homicidio_doloso_mujeres": 951,
+    "proporcion": [
+      0.2398,
+      0.217,
+      0.2642
+    ]
+  },
+  "mujeres_asesinadas_inegi": 1135,
+  "E15d": {
+    "con_variable_vio_fami": 156,
+    "vio_fami_conocida": 7,
+    "hubo_violencia_familiar": [
+      7,
+      1.0,
+      0.6457,
+      1.0
+    ],
+    "parentesco_agresor": {
+      "pareja_o_expareja": 4,
+      "otro_familiar": 4,
+      "no_familiar": 1,
+      "no_registrado": 178
+    },
+    "nota": "El SESNSP y el INEGI no se cruzan caso por caso; el parentesco solo se registra cuando se conoce."
+  },
+  "E15e_serie": {
+    "2019": {
+      "mujeres_en_vivienda_inegi": 44,
+      "feminicidio_sesnsp": 67,
+      "homicidio_doloso_mujeres_sesnsp": 218
+    },
+    "2020": {
+      "mujeres_en_vivienda_inegi": 43,
+      "feminicidio_sesnsp": 72,
+      "homicidio_doloso_mujeres_sesnsp": 209
+    },
+    "2021": {
+      "mujeres_en_vivienda_inegi": 40,
+      "feminicidio_sesnsp": 79,
+      "homicidio_doloso_mujeres_sesnsp": 196
+    },
+    "2022": {
+      "mujeres_en_vivienda_inegi": 31,
+      "feminicidio_sesnsp": 43,
+      "homicidio_doloso_mujeres_sesnsp": 178
+    },
+    "2023": {
+      "mujeres_en_vivienda_inegi": 29,
+      "feminicidio_sesnsp": 39,
+      "homicidio_doloso_mujeres_sesnsp": 150
+    }
+  },
+  "hipotesis": {
+    "H15a": true,
+    "H15b": false,
+    "H15c": false,
+    "E15d": "exploratoria",
+    "E15e": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:50+00:00",
+    "script": "pieces.p15_lugar_homicidio",
+    "insumos_sha256": {
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2018_csv.zip": "3af26a3b13caa0df73020b7f432c412271ca53a036d45dc3b972eb9030d6b739",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2019_csv.zip": "ba58d2e57504f55d1a9dfd04fcccbb10f605bd29d9b861233c7843fe62936ff8",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2020_csv.zip": "79e3236a0b821bd0a9cfa722ef5b45cffeaa4b43b511d5f46be0f4a7e2a7a2ff",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2021_csv.zip": "20b6a0eb7dbd9dbe6d61a78ed6ec57451901f5958fcca1ee7e8e71c5ebc5c236",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2022_csv.zip": "bd6b76a32a681cd7ae02e13ce8a44801add18a68e8eb3e32b7f12a6d232dcd84",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_defunciones_registradas_2023_csv.zip": "527b69dcd62e3c6188d3f0d3cbdeda6e5a6cfccd656ea97ef288776fbbfdf7a6",
+      "s3-inegi-defunciones-20260924T184755Z/conjunto_de_datos_edr2024_csv.zip": "74667c1b7dc2d9227e08f2c2f548405594f791f143d088aaaccb797cfec66897",
+      "s3-extra-import-20260924T190235Z/sesnsp-victimas-estatal-2015-2025-jalisco.csv": "7f2eb3d88a8cae178c1b36b6ba00b3110b2c3822feabcdfddae1a106aee03949"
+    }
+  }
+}

@@ -1,0 +1,1560 @@
+{
+  "pregunta": "¿Contar solo homicidios subestima la violencia letal en buena parte de Jalisco?",
+  "ventana_principal": "homicidio 2015-2025; desaparición = personas pendientes (acumulado REPD)",
+  "resultados": {
+    "2015-2025": {
+      "tasa_estatal": {
+        "desaparicion_acumulada": 181.0,
+        "homicidio_anual": 17.55
+      },
+      "desaparecidas_por_homicidio_estatal": 0.984,
+      "heterogeneidad": {
+        "chi2": 2136.0,
+        "gl": 124,
+        "p": 0.0
+      },
+      "spearman": {
+        "rho": 0.198,
+        "ic95": [
+          0.022,
+          0.363
+        ],
+        "p": 0.026725961792969596
+      },
+      "cuadricula_homicidio_x_desaparicion": {
+        "alto": {
+          "alto": 5,
+          "promedio": 5,
+          "bajo": 1
+        },
+        "promedio": {
+          "alto": 7,
+          "promedio": 32,
+          "bajo": 9
+        },
+        "bajo": {
+          "alto": 12,
+          "promedio": 30,
+          "bajo": 24
+        }
+      },
+      "violencia_oculta": [
+        {
+          "municipio": "Tala",
+          "region": "Resto del estado",
+          "desaparecidas": 307,
+          "homicidios": 103,
+          "desap_eb": 311.6,
+          "hom_eb": 10.6,
+          "razon_rel": 3.03,
+          "razon_ic95": [
+            2.42,
+            3.82
+          ]
+        },
+        {
+          "municipio": "San Miguel el Alto",
+          "region": "Altos Sur",
+          "desaparecidas": 105,
+          "homicidios": 22,
+          "desap_eb": 306.0,
+          "hom_eb": 6.8,
+          "razon_rel": 4.85,
+          "razon_ic95": [
+            3.04,
+            8.07
+          ]
+        },
+        {
+          "municipio": "Tuxcacuesco",
+          "region": "Resto del estado",
+          "desaparecidas": 24,
+          "homicidios": 2,
+          "desap_eb": 294.6,
+          "hom_eb": 7.3,
+          "razon_rel": 12.2,
+          "razon_ic95": [
+            3.03,
+            106.48
+          ]
+        },
+        {
+          "municipio": "San Gabriel",
+          "region": "Resto del estado",
+          "desaparecidas": 57,
+          "homicidios": 16,
+          "desap_eb": 293.9,
+          "hom_eb": 9.6,
+          "razon_rel": 3.62,
+          "razon_ic95": [
+            2.05,
+            6.76
+          ]
+        },
+        {
+          "municipio": "Huejuquilla el Alto",
+          "region": "Resto del estado",
+          "desaparecidas": 35,
+          "homicidios": 9,
+          "desap_eb": 267.1,
+          "hom_eb": 9.6,
+          "razon_rel": 3.95,
+          "razon_ic95": [
+            1.86,
+            9.35
+          ]
+        },
+        {
+          "municipio": "Colotlán",
+          "region": "Resto del estado",
+          "desaparecidas": 62,
+          "homicidios": 11,
+          "desap_eb": 264.6,
+          "hom_eb": 6.2,
+          "razon_rel": 5.73,
+          "razon_ic95": [
+            2.99,
+            12.07
+          ]
+        },
+        {
+          "municipio": "Cihuatlán",
+          "region": "Resto del estado",
+          "desaparecidas": 109,
+          "homicidios": 53,
+          "desap_eb": 258.8,
+          "hom_eb": 12.0,
+          "razon_rel": 2.09,
+          "razon_ic95": [
+            1.49,
+            2.96
+          ]
+        },
+        {
+          "municipio": "Casimiro Castillo",
+          "region": "Resto del estado",
+          "desaparecidas": 57,
+          "homicidios": 20,
+          "desap_eb": 256.6,
+          "hom_eb": 9.4,
+          "razon_rel": 2.9,
+          "razon_ic95": [
+            1.71,
+            5.09
+          ]
+        },
+        {
+          "municipio": "Atotonilco el Alto",
+          "region": "Resto del estado",
+          "desaparecidas": 176,
+          "homicidios": 48,
+          "desap_eb": 255.4,
+          "hom_eb": 7.1,
+          "razon_rel": 3.73,
+          "razon_ic95": [
+            2.69,
+            5.24
+          ]
+        },
+        {
+          "municipio": "La Barca",
+          "region": "Resto del estado",
+          "desaparecidas": 179,
+          "homicidios": 51,
+          "desap_eb": 246.4,
+          "hom_eb": 7.0,
+          "razon_rel": 3.57,
+          "razon_ic95": [
+            2.6,
+            4.97
+          ]
+        },
+        {
+          "municipio": "Arandas",
+          "region": "Altos Sur",
+          "desaparecidas": 192,
+          "homicidios": 49,
+          "desap_eb": 220.9,
+          "hom_eb": 5.7,
+          "razon_rel": 3.98,
+          "razon_ic95": [
+            2.9,
+            5.57
+          ]
+        },
+        {
+          "municipio": "San Juan de los Lagos",
+          "region": "Altos Norte",
+          "desaparecidas": 169,
+          "homicidios": 81,
+          "desap_eb": 219.5,
+          "hom_eb": 10.2,
+          "razon_rel": 2.12,
+          "razon_ic95": [
+            1.62,
+            2.8
+          ]
+        },
+        {
+          "municipio": "Unión de Tula",
+          "region": "Resto del estado",
+          "desaparecidas": 32,
+          "homicidios": 12,
+          "desap_eb": 213.8,
+          "hom_eb": 9.1,
+          "razon_rel": 2.71,
+          "razon_ic95": [
+            1.36,
+            5.78
+          ]
+        },
+        {
+          "municipio": "Jalostotitlán",
+          "region": "Altos Sur",
+          "desaparecidas": 68,
+          "homicidios": 29,
+          "desap_eb": 202.9,
+          "hom_eb": 8.5,
+          "razon_rel": 2.38,
+          "razon_ic95": [
+            1.52,
+            3.82
+          ]
+        },
+        {
+          "municipio": "Juchitlán",
+          "region": "Resto del estado",
+          "desaparecidas": 11,
+          "homicidios": 4,
+          "desap_eb": 190.6,
+          "hom_eb": 9.5,
+          "razon_rel": 2.8,
+          "razon_ic95": [
+            0.83,
+            12.04
+          ]
+        },
+        {
+          "municipio": "Tecalitlán",
+          "region": "Resto del estado",
+          "desaparecidas": 30,
+          "homicidios": 15,
+          "desap_eb": 188.9,
+          "hom_eb": 9.3,
+          "razon_rel": 2.03,
+          "razon_ic95": [
+            1.06,
+            4.07
+          ]
+        },
+        {
+          "municipio": "Puerto Vallarta",
+          "region": "Resto del estado",
+          "desaparecidas": 573,
+          "homicidios": 305,
+          "desap_eb": 184.2,
+          "hom_eb": 9.4,
+          "razon_rel": 1.91,
+          "razon_ic95": [
+            1.66,
+            2.2
+          ]
+        },
+        {
+          "municipio": "Teuchitlán",
+          "region": "Resto del estado",
+          "desaparecidas": 18,
+          "homicidios": 7,
+          "desap_eb": 183.9,
+          "hom_eb": 8.5,
+          "razon_rel": 2.61,
+          "razon_ic95": [
+            1.04,
+            7.4
+          ]
+        },
+        {
+          "municipio": "Etzatlán",
+          "region": "Resto del estado",
+          "desaparecidas": 38,
+          "homicidios": 10,
+          "desap_eb": 182.8,
+          "hom_eb": 5.7,
+          "razon_rel": 3.86,
+          "razon_ic95": [
+            1.89,
+            8.69
+          ]
+        },
+        {
+          "municipio": "Ameca",
+          "region": "Resto del estado",
+          "desaparecidas": 108,
+          "homicidios": 54,
+          "desap_eb": 180.3,
+          "hom_eb": 8.3,
+          "razon_rel": 2.03,
+          "razon_ic95": [
+            1.45,
+            2.87
+          ]
+        },
+        {
+          "municipio": "Zapopan",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 2860,
+          "homicidios": 2095,
+          "desap_eb": 179.0,
+          "hom_eb": 12.8,
+          "razon_rel": 1.39,
+          "razon_ic95": [
+            1.31,
+            1.47
+          ]
+        },
+        {
+          "municipio": "Tapalpa",
+          "region": "Resto del estado",
+          "desaparecidas": 40,
+          "homicidios": 11,
+          "desap_eb": 175.2,
+          "hom_eb": 5.8,
+          "razon_rel": 3.7,
+          "razon_ic95": [
+            1.86,
+            7.99
+          ]
+        },
+        {
+          "municipio": "Autlán de Navarro",
+          "region": "Resto del estado",
+          "desaparecidas": 119,
+          "homicidios": 33,
+          "desap_eb": 170.5,
+          "hom_eb": 4.9,
+          "razon_rel": 3.67,
+          "razon_ic95": [
+            2.47,
+            5.57
+          ]
+        },
+        {
+          "municipio": "Sayula",
+          "region": "Resto del estado",
+          "desaparecidas": 64,
+          "homicidios": 42,
+          "desap_eb": 168.2,
+          "hom_eb": 10.5,
+          "razon_rel": 1.55,
+          "razon_ic95": [
+            1.03,
+            2.34
+          ]
+        },
+        {
+          "municipio": "Talpa de Allende",
+          "region": "Resto del estado",
+          "desaparecidas": 25,
+          "homicidios": 13,
+          "desap_eb": 167.8,
+          "hom_eb": 8.9,
+          "razon_rel": 1.95,
+          "razon_ic95": [
+            0.96,
+            4.16
+          ]
+        },
+        {
+          "municipio": "Jesús María",
+          "region": "Altos Sur",
+          "desaparecidas": 31,
+          "homicidios": 14,
+          "desap_eb": 166.0,
+          "hom_eb": 7.6,
+          "razon_rel": 2.25,
+          "razon_ic95": [
+            1.16,
+            4.58
+          ]
+        },
+        {
+          "municipio": "El Grullo",
+          "region": "Resto del estado",
+          "desaparecidas": 43,
+          "homicidios": 17,
+          "desap_eb": 163.5,
+          "hom_eb": 6.8,
+          "razon_rel": 2.57,
+          "razon_ic95": [
+            1.44,
+            4.81
+          ]
+        },
+        {
+          "municipio": "Magdalena",
+          "region": "Resto del estado",
+          "desaparecidas": 35,
+          "homicidios": 17,
+          "desap_eb": 163.2,
+          "hom_eb": 7.8,
+          "razon_rel": 2.09,
+          "razon_ic95": [
+            1.14,
+            3.98
+          ]
+        },
+        {
+          "municipio": "Tequila",
+          "region": "Resto del estado",
+          "desaparecidas": 75,
+          "homicidios": 45,
+          "desap_eb": 161.2,
+          "hom_eb": 9.4,
+          "razon_rel": 1.69,
+          "razon_ic95": [
+            1.16,
+            2.51
+          ]
+        },
+        {
+          "municipio": "Villa Corona",
+          "region": "Resto del estado",
+          "desaparecidas": 30,
+          "homicidios": 21,
+          "desap_eb": 158.3,
+          "hom_eb": 10.7,
+          "razon_rel": 1.45,
+          "razon_ic95": [
+            0.8,
+            2.67
+          ]
+        },
+        {
+          "municipio": "Yahualica de González Gallo",
+          "region": "Altos Sur",
+          "desaparecidas": 34,
+          "homicidios": 13,
+          "desap_eb": 157.1,
+          "hom_eb": 6.2,
+          "razon_rel": 2.66,
+          "razon_ic95": [
+            1.37,
+            5.49
+          ]
+        },
+        {
+          "municipio": "San Ignacio Cerro Gordo",
+          "region": "Altos Sur",
+          "desaparecidas": 28,
+          "homicidios": 10,
+          "desap_eb": 156.2,
+          "hom_eb": 6.1,
+          "razon_rel": 2.85,
+          "razon_ic95": [
+            1.34,
+            6.57
+          ]
+        },
+        {
+          "municipio": "Chiquilistlán",
+          "region": "Resto del estado",
+          "desaparecidas": 8,
+          "homicidios": 4,
+          "desap_eb": 153.8,
+          "hom_eb": 8.9,
+          "razon_rel": 2.03,
+          "razon_ic95": [
+            0.54,
+            9.22
+          ]
+        },
+        {
+          "municipio": "San Julián",
+          "region": "Altos Sur",
+          "desaparecidas": 26,
+          "homicidios": 6,
+          "desap_eb": 152.5,
+          "hom_eb": 4.8,
+          "razon_rel": 4.4,
+          "razon_ic95": [
+            1.77,
+            13.09
+          ]
+        },
+        {
+          "municipio": "San Juanito de Escobedo",
+          "region": "Resto del estado",
+          "desaparecidas": 13,
+          "homicidios": 4,
+          "desap_eb": 152.1,
+          "hom_eb": 6.3,
+          "razon_rel": 3.3,
+          "razon_ic95": [
+            1.02,
+            13.91
+          ]
+        },
+        {
+          "municipio": "Ahualulco de Mercado",
+          "region": "Resto del estado",
+          "desaparecidas": 36,
+          "homicidios": 14,
+          "desap_eb": 151.7,
+          "hom_eb": 6.3,
+          "razon_rel": 2.61,
+          "razon_ic95": [
+            1.38,
+            5.25
+          ]
+        },
+        {
+          "municipio": "Tenamaxtlán",
+          "region": "Resto del estado",
+          "desaparecidas": 10,
+          "homicidios": 4,
+          "desap_eb": 150.3,
+          "hom_eb": 7.7,
+          "razon_rel": 2.54,
+          "razon_ic95": [
+            0.73,
+            11.1
+          ]
+        },
+        {
+          "municipio": "Atengo",
+          "region": "Resto del estado",
+          "desaparecidas": 7,
+          "homicidios": 4,
+          "desap_eb": 148.9,
+          "hom_eb": 9.4,
+          "razon_rel": 1.78,
+          "razon_ic95": [
+            0.45,
+            8.29
+          ]
+        },
+        {
+          "municipio": "Concepción de Buenos Aires",
+          "region": "Resto del estado",
+          "desaparecidas": 8,
+          "homicidios": 5,
+          "desap_eb": 146.3,
+          "hom_eb": 9.6,
+          "razon_rel": 1.63,
+          "razon_ic95": [
+            0.47,
+            6.32
+          ]
+        },
+        {
+          "municipio": "Valle de Guadalupe",
+          "region": "Altos Sur",
+          "desaparecidas": 6,
+          "homicidios": 5,
+          "desap_eb": 127.6,
+          "hom_eb": 9.2,
+          "razon_rel": 1.22,
+          "razon_ic95": [
+            0.31,
+            5.05
+          ]
+        },
+        {
+          "municipio": "Atoyac",
+          "region": "Resto del estado",
+          "desaparecidas": 8,
+          "homicidios": 7,
+          "desap_eb": 119.6,
+          "hom_eb": 9.2,
+          "razon_rel": 1.16,
+          "razon_ic95": [
+            0.37,
+            3.76
+          ]
+        },
+        {
+          "municipio": "Mexticacán",
+          "region": "Altos Sur",
+          "desaparecidas": 3,
+          "homicidios": 3,
+          "desap_eb": 113.3,
+          "hom_eb": 8.6,
+          "razon_rel": 1.02,
+          "razon_ic95": [
+            0.14,
+            7.59
+          ]
+        }
+      ],
+      "violencia_oculta_fuera_amg": 41,
+      "alto_en_ambos": [
+        {
+          "municipio": "Encarnación de Díaz",
+          "region": "Altos Norte",
+          "desaparecidas": 299,
+          "homicidios": 206,
+          "desap_eb": 524.7,
+          "hom_eb": 34.0,
+          "razon_rel": 1.48,
+          "razon_ic95": [
+            1.23,
+            1.77
+          ]
+        },
+        {
+          "municipio": "Guadalajara",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 2654,
+          "homicidios": 3137,
+          "desap_eb": 191.7,
+          "hom_eb": 20.1,
+          "razon_rel": 0.86,
+          "razon_ic95": [
+            0.82,
+            0.91
+          ]
+        },
+        {
+          "municipio": "Lagos de Moreno",
+          "region": "Altos Norte",
+          "desaparecidas": 637,
+          "homicidios": 619,
+          "desap_eb": 343.9,
+          "hom_eb": 31.8,
+          "razon_rel": 1.05,
+          "razon_ic95": [
+            0.93,
+            1.17
+          ]
+        },
+        {
+          "municipio": "Mazamitla",
+          "region": "Resto del estado",
+          "desaparecidas": 58,
+          "homicidios": 46,
+          "desap_eb": 341.0,
+          "hom_eb": 27.6,
+          "razon_rel": 1.28,
+          "razon_ic95": [
+            0.86,
+            1.93
+          ]
+        },
+        {
+          "municipio": "Tlajomulco de Zúñiga",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 1610,
+          "homicidios": 2277,
+          "desap_eb": 193.9,
+          "hom_eb": 28.7,
+          "razon_rel": 0.72,
+          "razon_ic95": [
+            0.67,
+            0.77
+          ]
+        }
+      ],
+      "solo_homicidio_alto": [
+        {
+          "municipio": "Acatlán de Juárez",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 45,
+          "homicidios": 79,
+          "desap_eb": 159.2,
+          "hom_eb": 27.0,
+          "razon_rel": 0.58,
+          "razon_ic95": [
+            0.39,
+            0.85
+          ]
+        },
+        {
+          "municipio": "El Salto",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 529,
+          "homicidios": 686,
+          "desap_eb": 179.5,
+          "hom_eb": 25.9,
+          "razon_rel": 0.78,
+          "razon_ic95": [
+            0.7,
+            0.88
+          ]
+        },
+        {
+          "municipio": "San Cristóbal de la Barranca",
+          "region": "Resto del estado",
+          "desaparecidas": 3,
+          "homicidios": 25,
+          "desap_eb": 154.4,
+          "hom_eb": 52.1,
+          "razon_rel": 0.12,
+          "razon_ic95": [
+            0.02,
+            0.4
+          ]
+        },
+        {
+          "municipio": "San Sebastián del Oeste",
+          "region": "Resto del estado",
+          "desaparecidas": 14,
+          "homicidios": 21,
+          "desap_eb": 235.4,
+          "hom_eb": 31.1,
+          "razon_rel": 0.68,
+          "razon_ic95": [
+            0.32,
+            1.4
+          ]
+        },
+        {
+          "municipio": "San Pedro Tlaquepaque",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 1301,
+          "homicidios": 2611,
+          "desap_eb": 177.6,
+          "hom_eb": 33.7,
+          "razon_rel": 0.51,
+          "razon_ic95": [
+            0.47,
+            0.54
+          ]
+        },
+        {
+          "municipio": "Tonalá",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 710,
+          "homicidios": 1324,
+          "desap_eb": 116.9,
+          "hom_eb": 20.7,
+          "razon_rel": 0.55,
+          "razon_ic95": [
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "por_region": [
+        {
+          "region": "Altos Norte",
+          "desaparecidas": 1303,
+          "homicidios": 1104,
+          "razon_rel": 1.2,
+          "ic95": [
+            1.11,
+            1.3
+          ]
+        },
+        {
+          "region": "Altos Sur",
+          "desaparecidas": 771,
+          "homicidios": 269,
+          "razon_rel": 2.91,
+          "ic95": [
+            2.53,
+            3.36
+          ]
+        },
+        {
+          "region": "Resto del estado",
+          "desaparecidas": 4064,
+          "homicidios": 2541,
+          "razon_rel": 1.63,
+          "ic95": [
+            1.55,
+            1.71
+          ]
+        },
+        {
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 9979,
+          "homicidios": 12467,
+          "razon_rel": 0.81,
+          "ic95": [
+            0.79,
+            0.84
+          ]
+        }
+      ]
+    },
+    "2019-2025": {
+      "tasa_estatal": {
+        "desaparicion_acumulada": 181.0,
+        "homicidio_anual": 18.19
+      },
+      "desaparecidas_por_homicidio_estatal": 1.462,
+      "heterogeneidad": {
+        "chi2": 2097.8,
+        "gl": 124,
+        "p": 0.0
+      },
+      "spearman": {
+        "rho": 0.186,
+        "ic95": [
+          0.009,
+          0.351
+        ],
+        "p": 0.03813931931567402
+      },
+      "cuadricula_homicidio_x_desaparicion": {
+        "alto": {
+          "alto": 5,
+          "promedio": 3,
+          "bajo": 1
+        },
+        "promedio": {
+          "alto": 7,
+          "promedio": 37,
+          "bajo": 8
+        },
+        "bajo": {
+          "alto": 12,
+          "promedio": 27,
+          "bajo": 25
+        }
+      },
+      "violencia_oculta": [
+        {
+          "municipio": "Tala",
+          "region": "Resto del estado",
+          "desaparecidas": 307,
+          "homicidios": 57,
+          "desap_eb": 311.6,
+          "hom_eb": 9.1,
+          "razon_rel": 3.68,
+          "razon_ic95": [
+            2.77,
+            4.98
+          ]
+        },
+        {
+          "municipio": "San Miguel el Alto",
+          "region": "Altos Sur",
+          "desaparecidas": 105,
+          "homicidios": 11,
+          "desap_eb": 306.0,
+          "hom_eb": 5.8,
+          "razon_rel": 6.53,
+          "razon_ic95": [
+            3.5,
+            13.48
+          ]
+        },
+        {
+          "municipio": "Tuxcacuesco",
+          "region": "Resto del estado",
+          "desaparecidas": 24,
+          "homicidios": 1,
+          "desap_eb": 294.6,
+          "hom_eb": 7.0,
+          "razon_rel": 16.42,
+          "razon_ic95": [
+            2.68,
+            675.25
+          ]
+        },
+        {
+          "municipio": "San Gabriel",
+          "region": "Resto del estado",
+          "desaparecidas": 57,
+          "homicidios": 9,
+          "desap_eb": 293.9,
+          "hom_eb": 8.8,
+          "razon_rel": 4.33,
+          "razon_ic95": [
+            2.13,
+            9.96
+          ]
+        },
+        {
+          "municipio": "Huejuquilla el Alto",
+          "region": "Resto del estado",
+          "desaparecidas": 35,
+          "homicidios": 4,
+          "desap_eb": 267.1,
+          "hom_eb": 7.7,
+          "razon_rel": 5.99,
+          "razon_ic95": [
+            2.14,
+            23.19
+          ]
+        },
+        {
+          "municipio": "Colotlán",
+          "region": "Resto del estado",
+          "desaparecidas": 62,
+          "homicidios": 4,
+          "desap_eb": 264.6,
+          "hom_eb": 4.3,
+          "razon_rel": 10.6,
+          "razon_ic95": [
+            3.94,
+            40.14
+          ]
+        },
+        {
+          "municipio": "Cihuatlán",
+          "region": "Resto del estado",
+          "desaparecidas": 109,
+          "homicidios": 33,
+          "desap_eb": 258.8,
+          "hom_eb": 11.9,
+          "razon_rel": 2.26,
+          "razon_ic95": [
+            1.52,
+            3.45
+          ]
+        },
+        {
+          "municipio": "Casimiro Castillo",
+          "region": "Resto del estado",
+          "desaparecidas": 57,
+          "homicidios": 7,
+          "desap_eb": 256.6,
+          "hom_eb": 6.2,
+          "razon_rel": 5.57,
+          "razon_ic95": [
+            2.54,
+            14.48
+          ]
+        },
+        {
+          "municipio": "Atotonilco el Alto",
+          "region": "Resto del estado",
+          "desaparecidas": 176,
+          "homicidios": 22,
+          "desap_eb": 255.4,
+          "hom_eb": 5.2,
+          "razon_rel": 5.47,
+          "razon_ic95": [
+            3.5,
+            8.96
+          ]
+        },
+        {
+          "municipio": "La Barca",
+          "region": "Resto del estado",
+          "desaparecidas": 179,
+          "homicidios": 19,
+          "desap_eb": 246.4,
+          "hom_eb": 4.3,
+          "razon_rel": 6.45,
+          "razon_ic95": [
+            4.01,
+            10.96
+          ]
+        },
+        {
+          "municipio": "Arandas",
+          "region": "Altos Sur",
+          "desaparecidas": 192,
+          "homicidios": 29,
+          "desap_eb": 220.9,
+          "hom_eb": 5.3,
+          "razon_rel": 4.53,
+          "razon_ic95": [
+            3.05,
+            6.95
+          ]
+        },
+        {
+          "municipio": "San Juan de los Lagos",
+          "region": "Altos Norte",
+          "desaparecidas": 169,
+          "homicidios": 68,
+          "desap_eb": 219.5,
+          "hom_eb": 13.2,
+          "razon_rel": 1.7,
+          "razon_ic95": [
+            1.28,
+            2.29
+          ]
+        },
+        {
+          "municipio": "Unión de Tula",
+          "region": "Resto del estado",
+          "desaparecidas": 32,
+          "homicidios": 8,
+          "desap_eb": 213.8,
+          "hom_eb": 9.6,
+          "razon_rel": 2.74,
+          "razon_ic95": [
+            1.24,
+            6.87
+          ]
+        },
+        {
+          "municipio": "Jalostotitlán",
+          "region": "Altos Sur",
+          "desaparecidas": 68,
+          "homicidios": 13,
+          "desap_eb": 202.9,
+          "hom_eb": 6.5,
+          "razon_rel": 3.58,
+          "razon_ic95": [
+            1.96,
+            7.06
+          ]
+        },
+        {
+          "municipio": "Ixtlahuacán de los Membrillos",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 161,
+          "homicidios": 75,
+          "desap_eb": 194.1,
+          "hom_eb": 14.4,
+          "razon_rel": 1.47,
+          "razon_ic95": [
+            1.11,
+            1.96
+          ]
+        },
+        {
+          "municipio": "Juchitlán",
+          "region": "Resto del estado",
+          "desaparecidas": 11,
+          "homicidios": 1,
+          "desap_eb": 190.6,
+          "hom_eb": 7.2,
+          "razon_rel": 7.53,
+          "razon_ic95": [
+            1.09,
+            323.94
+          ]
+        },
+        {
+          "municipio": "Tecalitlán",
+          "region": "Resto del estado",
+          "desaparecidas": 30,
+          "homicidios": 8,
+          "desap_eb": 188.9,
+          "hom_eb": 8.4,
+          "razon_rel": 2.57,
+          "razon_ic95": [
+            1.15,
+            6.48
+          ]
+        },
+        {
+          "municipio": "Puerto Vallarta",
+          "region": "Resto del estado",
+          "desaparecidas": 573,
+          "homicidios": 174,
+          "desap_eb": 184.2,
+          "hom_eb": 8.3,
+          "razon_rel": 2.25,
+          "razon_ic95": [
+            1.9,
+            2.69
+          ]
+        },
+        {
+          "municipio": "Etzatlán",
+          "region": "Resto del estado",
+          "desaparecidas": 38,
+          "homicidios": 7,
+          "desap_eb": 182.8,
+          "hom_eb": 6.3,
+          "razon_rel": 3.71,
+          "razon_ic95": [
+            1.64,
+            9.86
+          ]
+        },
+        {
+          "municipio": "Ameca",
+          "region": "Resto del estado",
+          "desaparecidas": 108,
+          "homicidios": 45,
+          "desap_eb": 180.3,
+          "hom_eb": 10.9,
+          "razon_rel": 1.64,
+          "razon_ic95": [
+            1.15,
+            2.38
+          ]
+        },
+        {
+          "municipio": "Zapopan",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 2860,
+          "homicidios": 1346,
+          "desap_eb": 179.0,
+          "hom_eb": 12.5,
+          "razon_rel": 1.45,
+          "razon_ic95": [
+            1.36,
+            1.55
+          ]
+        },
+        {
+          "municipio": "Tapalpa",
+          "region": "Resto del estado",
+          "desaparecidas": 40,
+          "homicidios": 5,
+          "desap_eb": 175.2,
+          "hom_eb": 4.7,
+          "razon_rel": 5.47,
+          "razon_ic95": [
+            2.16,
+            17.77
+          ]
+        },
+        {
+          "municipio": "Autlán de Navarro",
+          "region": "Resto del estado",
+          "desaparecidas": 119,
+          "homicidios": 20,
+          "desap_eb": 170.5,
+          "hom_eb": 4.7,
+          "razon_rel": 4.07,
+          "razon_ic95": [
+            2.52,
+            6.9
+          ]
+        },
+        {
+          "municipio": "Sayula",
+          "region": "Resto del estado",
+          "desaparecidas": 64,
+          "homicidios": 23,
+          "desap_eb": 168.2,
+          "hom_eb": 9.2,
+          "razon_rel": 1.9,
+          "razon_ic95": [
+            1.17,
+            3.21
+          ]
+        },
+        {
+          "municipio": "Talpa de Allende",
+          "region": "Resto del estado",
+          "desaparecidas": 25,
+          "homicidios": 6,
+          "desap_eb": 167.8,
+          "hom_eb": 7.3,
+          "razon_rel": 2.85,
+          "razon_ic95": [
+            1.14,
+            8.5
+          ]
+        },
+        {
+          "municipio": "Jesús María",
+          "region": "Altos Sur",
+          "desaparecidas": 31,
+          "homicidios": 10,
+          "desap_eb": 166.0,
+          "hom_eb": 8.6,
+          "razon_rel": 2.12,
+          "razon_ic95": [
+            1.01,
+            4.85
+          ]
+        },
+        {
+          "municipio": "El Grullo",
+          "region": "Resto del estado",
+          "desaparecidas": 43,
+          "homicidios": 9,
+          "desap_eb": 163.5,
+          "hom_eb": 5.9,
+          "razon_rel": 3.27,
+          "razon_ic95": [
+            1.57,
+            7.63
+          ]
+        },
+        {
+          "municipio": "Magdalena",
+          "region": "Resto del estado",
+          "desaparecidas": 35,
+          "homicidios": 13,
+          "desap_eb": 163.2,
+          "hom_eb": 9.4,
+          "razon_rel": 1.84,
+          "razon_ic95": [
+            0.95,
+            3.79
+          ]
+        },
+        {
+          "municipio": "Tequila",
+          "region": "Resto del estado",
+          "desaparecidas": 75,
+          "homicidios": 26,
+          "desap_eb": 161.2,
+          "hom_eb": 8.6,
+          "razon_rel": 1.97,
+          "razon_ic95": [
+            1.25,
+            3.21
+          ]
+        },
+        {
+          "municipio": "Villa Corona",
+          "region": "Resto del estado",
+          "desaparecidas": 30,
+          "homicidios": 13,
+          "desap_eb": 158.3,
+          "hom_eb": 10.5,
+          "razon_rel": 1.58,
+          "razon_ic95": [
+            0.8,
+            3.3
+          ]
+        },
+        {
+          "municipio": "Yahualica de González Gallo",
+          "region": "Altos Sur",
+          "desaparecidas": 34,
+          "homicidios": 5,
+          "desap_eb": 157.1,
+          "hom_eb": 4.6,
+          "razon_rel": 4.65,
+          "razon_ic95": [
+            1.81,
+            15.24
+          ]
+        },
+        {
+          "municipio": "San Ignacio Cerro Gordo",
+          "region": "Altos Sur",
+          "desaparecidas": 28,
+          "homicidios": 5,
+          "desap_eb": 156.2,
+          "hom_eb": 5.5,
+          "razon_rel": 3.83,
+          "razon_ic95": [
+            1.46,
+            12.71
+          ]
+        },
+        {
+          "municipio": "San Julián",
+          "region": "Altos Sur",
+          "desaparecidas": 26,
+          "homicidios": 4,
+          "desap_eb": 152.5,
+          "hom_eb": 5.1,
+          "razon_rel": 4.45,
+          "razon_ic95": [
+            1.54,
+            17.53
+          ]
+        },
+        {
+          "municipio": "San Juanito de Escobedo",
+          "region": "Resto del estado",
+          "desaparecidas": 13,
+          "homicidios": 3,
+          "desap_eb": 152.1,
+          "hom_eb": 7.2,
+          "razon_rel": 2.96,
+          "razon_ic95": [
+            0.81,
+            16.22
+          ]
+        },
+        {
+          "municipio": "Ahualulco de Mercado",
+          "region": "Resto del estado",
+          "desaparecidas": 36,
+          "homicidios": 12,
+          "desap_eb": 151.7,
+          "hom_eb": 8.1,
+          "razon_rel": 2.05,
+          "razon_ic95": [
+            1.04,
+            4.33
+          ]
+        },
+        {
+          "municipio": "Tenamaxtlán",
+          "region": "Resto del estado",
+          "desaparecidas": 10,
+          "homicidios": 0,
+          "desap_eb": 150.3,
+          "hom_eb": 4.4,
+          "razon_rel": Infinity,
+          "razon_ic95": [
+            1.53,
+            Infinity
+          ]
+        },
+        {
+          "municipio": "Atengo",
+          "region": "Resto del estado",
+          "desaparecidas": 7,
+          "homicidios": 1,
+          "desap_eb": 148.9,
+          "hom_eb": 7.1,
+          "razon_rel": 4.79,
+          "razon_ic95": [
+            0.62,
+            215.85
+          ]
+        },
+        {
+          "municipio": "El Limón",
+          "region": "Resto del estado",
+          "desaparecidas": 5,
+          "homicidios": 0,
+          "desap_eb": 134.9,
+          "hom_eb": 5.6,
+          "razon_rel": Infinity,
+          "razon_ic95": [
+            0.63,
+            Infinity
+          ]
+        },
+        {
+          "municipio": "Atoyac",
+          "region": "Resto del estado",
+          "desaparecidas": 8,
+          "homicidios": 2,
+          "desap_eb": 119.6,
+          "hom_eb": 6.3,
+          "razon_rel": 2.74,
+          "razon_ic95": [
+            0.55,
+            26.45
+          ]
+        }
+      ],
+      "violencia_oculta_fuera_amg": 37,
+      "alto_en_ambos": [
+        {
+          "municipio": "Encarnación de Díaz",
+          "region": "Altos Norte",
+          "desaparecidas": 299,
+          "homicidios": 180,
+          "desap_eb": 524.7,
+          "hom_eb": 46.5,
+          "razon_rel": 1.14,
+          "razon_ic95": [
+            0.94,
+            1.38
+          ]
+        },
+        {
+          "municipio": "Guadalajara",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 2654,
+          "homicidios": 2011,
+          "desap_eb": 191.7,
+          "hom_eb": 20.6,
+          "razon_rel": 0.9,
+          "razon_ic95": [
+            0.85,
+            0.96
+          ]
+        },
+        {
+          "municipio": "Lagos de Moreno",
+          "region": "Altos Norte",
+          "desaparecidas": 637,
+          "homicidios": 459,
+          "desap_eb": 343.9,
+          "hom_eb": 36.5,
+          "razon_rel": 0.95,
+          "razon_ic95": [
+            0.84,
+            1.07
+          ]
+        },
+        {
+          "municipio": "Mazamitla",
+          "region": "Resto del estado",
+          "desaparecidas": 58,
+          "homicidios": 39,
+          "desap_eb": 341.0,
+          "hom_eb": 35.7,
+          "razon_rel": 1.02,
+          "razon_ic95": [
+            0.67,
+            1.57
+          ]
+        },
+        {
+          "municipio": "Tlajomulco de Zúñiga",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 1610,
+          "homicidios": 1674,
+          "desap_eb": 193.9,
+          "hom_eb": 30.7,
+          "razon_rel": 0.66,
+          "razon_ic95": [
+            0.61,
+            0.71
+          ]
+        }
+      ],
+      "solo_homicidio_alto": [
+        {
+          "municipio": "El Salto",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 529,
+          "homicidios": 481,
+          "desap_eb": 179.5,
+          "hom_eb": 26.2,
+          "razon_rel": 0.75,
+          "razon_ic95": [
+            0.66,
+            0.85
+          ]
+        },
+        {
+          "municipio": "San Cristóbal de la Barranca",
+          "region": "Resto del estado",
+          "desaparecidas": 3,
+          "homicidios": 18,
+          "desap_eb": 154.4,
+          "hom_eb": 57.0,
+          "razon_rel": 0.11,
+          "razon_ic95": [
+            0.02,
+            0.39
+          ]
+        },
+        {
+          "municipio": "San Pedro Tlaquepaque",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 1301,
+          "homicidios": 1917,
+          "desap_eb": 177.6,
+          "hom_eb": 38.4,
+          "razon_rel": 0.46,
+          "razon_ic95": [
+            0.43,
+            0.5
+          ]
+        },
+        {
+          "municipio": "Tonalá",
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 710,
+          "homicidios": 925,
+          "desap_eb": 116.9,
+          "hom_eb": 22.3,
+          "razon_rel": 0.53,
+          "razon_ic95": [
+            0.48,
+            0.58
+          ]
+        }
+      ],
+      "por_region": [
+        {
+          "region": "Altos Norte",
+          "desaparecidas": 1303,
+          "homicidios": 865,
+          "razon_rel": 1.03,
+          "ic95": [
+            0.95,
+            1.12
+          ]
+        },
+        {
+          "region": "Altos Sur",
+          "desaparecidas": 771,
+          "homicidios": 155,
+          "razon_rel": 3.4,
+          "ic95": [
+            2.86,
+            4.07
+          ]
+        },
+        {
+          "region": "Resto del estado",
+          "desaparecidas": 4064,
+          "homicidios": 1445,
+          "razon_rel": 1.92,
+          "ic95": [
+            1.81,
+            2.04
+          ]
+        },
+        {
+          "region": "Área metropolitana de Guadalajara",
+          "desaparecidas": 9979,
+          "homicidios": 8562,
+          "razon_rel": 0.8,
+          "ic95": [
+            0.77,
+            0.82
+          ]
+        }
+      ]
+    }
+  },
+  "coincidencia_violencia_oculta_entre_ventanas": {
+    "ambas": [
+      "Ahualulco de Mercado",
+      "Ameca",
+      "Arandas",
+      "Atengo",
+      "Atotonilco el Alto",
+      "Atoyac",
+      "Autlán de Navarro",
+      "Casimiro Castillo",
+      "Cihuatlán",
+      "Colotlán",
+      "El Grullo",
+      "Etzatlán",
+      "Huejuquilla el Alto",
+      "Jalostotitlán",
+      "Jesús María",
+      "Juchitlán",
+      "La Barca",
+      "Magdalena",
+      "Puerto Vallarta",
+      "San Gabriel",
+      "San Ignacio Cerro Gordo",
+      "San Juan de los Lagos",
+      "San Juanito de Escobedo",
+      "San Julián",
+      "San Miguel el Alto",
+      "Sayula",
+      "Tala",
+      "Talpa de Allende",
+      "Tapalpa",
+      "Tecalitlán",
+      "Tenamaxtlán",
+      "Tequila",
+      "Tuxcacuesco",
+      "Unión de Tula",
+      "Villa Corona",
+      "Yahualica de González Gallo",
+      "Zapopan"
+    ],
+    "solo_2015_2025": [
+      "Chiquilistlán",
+      "Concepción de Buenos Aires",
+      "Mexticacán",
+      "Teuchitlán",
+      "Valle de Guadalupe"
+    ],
+    "solo_2019_2025": [
+      "El Limón",
+      "Ixtlahuacán de los Membrillos"
+    ]
+  },
+  "hipotesis": {
+    "H1a": true,
+    "H1b": true,
+    "H1c": false,
+    "H1d": false
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:33+00:00",
+    "script": "pieces.p1_regiones",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s3-analysis-repd-stats-20260924T181640Z/datos_para_mapa.json": "fda9926d04d0a57c7d85ce983d40256c9d52c609c9340b726a77b1c51aef79cd",
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4"
+    }
+  }
+}

@@ -1,0 +1,1102 @@
+{
+  "pregunta": "¿Por qué no se denuncia en Jalisco, y cuánto se confía en las autoridades?",
+  "resultados": {
+    "2026": {
+      "victimizacion_del_año": 2025,
+      "motivos_no_denuncia": {
+        "casos_muestra_jalisco": 871,
+        "casos_muestra_nacional": 31112,
+        "no_denunciados_estimados_jalisco": 1669577,
+        "atribuibles_autoridad": {
+          "jalisco": [
+            0.6627,
+            0.619,
+            0.7039
+          ],
+          "nacional": [
+            0.608,
+            0.5938,
+            0.6219
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0548,
+            0.0121,
+            0.0974
+          ]
+        },
+        "por_razon": [
+          {
+            "codigo": "04",
+            "razon": "Pérdida de tiempo",
+            "casos_muestra_jalisco": 352,
+            "jalisco": [
+              0.3874,
+              0.3406,
+              0.4363
+            ],
+            "nacional": [
+              0.3575,
+              0.3429,
+              0.3724
+            ]
+          },
+          {
+            "codigo": "06",
+            "razon": "Desconfianza en la autoridad",
+            "casos_muestra_jalisco": 117,
+            "jalisco": [
+              0.1282,
+              0.0983,
+              0.1656
+            ],
+            "nacional": [
+              0.1304,
+              0.1214,
+              0.1399
+            ]
+          },
+          {
+            "codigo": "03",
+            "razon": "Delito de poca importancia",
+            "casos_muestra_jalisco": 84,
+            "jalisco": [
+              0.112,
+              0.085,
+              0.1462
+            ],
+            "nacional": [
+              0.1448,
+              0.1365,
+              0.1535
+            ]
+          },
+          {
+            "codigo": "07",
+            "razon": "No tenía pruebas",
+            "casos_muestra_jalisco": 74,
+            "jalisco": [
+              0.0865,
+              0.0611,
+              0.121
+            ],
+            "nacional": [
+              0.0906,
+              0.0843,
+              0.0972
+            ]
+          },
+          {
+            "codigo": "05",
+            "razon": "Trámites largos y difíciles",
+            "casos_muestra_jalisco": 72,
+            "jalisco": [
+              0.0857,
+              0.0621,
+              0.1172
+            ],
+            "nacional": [
+              0.0826,
+              0.0767,
+              0.0888
+            ]
+          },
+          {
+            "codigo": "09",
+            "razon": "Otra",
+            "casos_muestra_jalisco": 61,
+            "jalisco": [
+              0.0755,
+              0.0518,
+              0.1087
+            ],
+            "nacional": [
+              0.0931,
+              0.0807,
+              0.1073
+            ]
+          },
+          {
+            "codigo": "01",
+            "razon": "Por miedo al (a la) agresor(a)",
+            "casos_muestra_jalisco": 54,
+            "jalisco": [
+              0.0568,
+              0.0405,
+              0.0792
+            ],
+            "nacional": [
+              0.0595,
+              0.0543,
+              0.0651
+            ]
+          },
+          {
+            "codigo": "08",
+            "razon": "Por actitud hostil de la autoridad",
+            "casos_muestra_jalisco": 35,
+            "jalisco": [
+              0.0367,
+              0.0222,
+              0.0603
+            ],
+            "nacional": [
+              0.0272,
+              0.0234,
+              0.0316
+            ]
+          },
+          {
+            "codigo": "02",
+            "razon": "Por miedo a que lo (la) extorsionaran",
+            "casos_muestra_jalisco": 15,
+            "jalisco": [
+              0.0247,
+              0.012,
+              0.0498
+            ],
+            "nacional": [
+              0.0103,
+              0.0075,
+              0.014
+            ]
+          },
+          {
+            "codigo": "99",
+            "razon": "No sabe / no responde",
+            "casos_muestra_jalisco": 7,
+            "jalisco": [
+              0.0065,
+              0.0029,
+              0.0144
+            ],
+            "nacional": [
+              0.0041,
+              0.0032,
+              0.0051
+            ]
+          }
+        ]
+      },
+      "confianza": {
+        "personas_muestra_jalisco": 2664,
+        "personas_muestra_nacional": 91876,
+        "autoridades": [
+          {
+            "codigo": "01",
+            "autoridad": "Policía de tránsito municipal",
+            "identifica": {
+              "jalisco": [
+                0.709,
+                0.6843,
+                0.7325
+              ],
+              "nacional": [
+                0.6408,
+                0.6352,
+                0.6464
+              ]
+            },
+            "personas_muestra_jalisco": 1866,
+            "confia": {
+              "jalisco": [
+                0.4572,
+                0.4309,
+                0.4837
+              ],
+              "nacional": [
+                0.4581,
+                0.4519,
+                0.4643
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0009,
+                -0.0261,
+                0.0243
+              ]
+            }
+          },
+          {
+            "codigo": "02",
+            "autoridad": "Policía preventiva municipal",
+            "identifica": {
+              "jalisco": [
+                0.7003,
+                0.6764,
+                0.7232
+              ],
+              "nacional": [
+                0.5849,
+                0.5795,
+                0.5902
+              ]
+            },
+            "personas_muestra_jalisco": 1864,
+            "confia": {
+              "jalisco": [
+                0.5608,
+                0.5343,
+                0.5869
+              ],
+              "nacional": [
+                0.5712,
+                0.5642,
+                0.5781
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0104,
+                -0.0356,
+                0.0147
+              ]
+            }
+          },
+          {
+            "codigo": "03",
+            "autoridad": "Policía estatal",
+            "identifica": {
+              "jalisco": [
+                0.6317,
+                0.6093,
+                0.6535
+              ],
+              "nacional": [
+                0.6469,
+                0.6415,
+                0.6522
+              ]
+            },
+            "personas_muestra_jalisco": 1679,
+            "confia": {
+              "jalisco": [
+                0.6197,
+                0.5912,
+                0.6474
+              ],
+              "nacional": [
+                0.5859,
+                0.5799,
+                0.5919
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0338,
+                0.0069,
+                0.0607
+              ]
+            }
+          },
+          {
+            "codigo": "04",
+            "autoridad": "Guardia Nacional",
+            "identifica": {
+              "jalisco": [
+                0.8266,
+                0.8058,
+                0.8455
+              ],
+              "nacional": [
+                0.7805,
+                0.7757,
+                0.7852
+              ]
+            },
+            "personas_muestra_jalisco": 2174,
+            "confia": {
+              "jalisco": [
+                0.7762,
+                0.7538,
+                0.7971
+              ],
+              "nacional": [
+                0.7938,
+                0.7892,
+                0.7983
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0176,
+                -0.0381,
+                0.003
+              ]
+            }
+          },
+          {
+            "codigo": "05",
+            "autoridad": "Policía ministerial o de investigación",
+            "identifica": {
+              "jalisco": [
+                0.2183,
+                0.1969,
+                0.2414
+              ],
+              "nacional": [
+                0.3022,
+                0.2974,
+                0.307
+              ]
+            },
+            "personas_muestra_jalisco": 564,
+            "confia": {
+              "jalisco": [
+                0.6659,
+                0.625,
+                0.7044
+              ],
+              "nacional": [
+                0.6045,
+                0.5962,
+                0.6127
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0614,
+                0.0227,
+                0.1001
+              ]
+            }
+          },
+          {
+            "codigo": "06",
+            "autoridad": "MP y fiscalía estatal",
+            "identifica": {
+              "jalisco": [
+                0.3012,
+                0.2776,
+                0.3258
+              ],
+              "nacional": [
+                0.3211,
+                0.3159,
+                0.3262
+              ]
+            },
+            "personas_muestra_jalisco": 806,
+            "confia": {
+              "jalisco": [
+                0.6109,
+                0.5762,
+                0.6444
+              ],
+              "nacional": [
+                0.5837,
+                0.5751,
+                0.5923
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0271,
+                -0.006,
+                0.0602
+              ]
+            }
+          },
+          {
+            "codigo": "07",
+            "autoridad": "Fiscalía General de la República",
+            "identifica": {
+              "jalisco": [
+                0.2255,
+                0.2036,
+                0.2489
+              ],
+              "nacional": [
+                0.2337,
+                0.2293,
+                0.2381
+              ]
+            },
+            "personas_muestra_jalisco": 609,
+            "confia": {
+              "jalisco": [
+                0.6598,
+                0.6165,
+                0.7005
+              ],
+              "nacional": [
+                0.6457,
+                0.6365,
+                0.6549
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.014,
+                -0.0263,
+                0.0544
+              ]
+            }
+          },
+          {
+            "codigo": "08",
+            "autoridad": "Ejército",
+            "identifica": {
+              "jalisco": [
+                0.8172,
+                0.7967,
+                0.836
+              ],
+              "nacional": [
+                0.8162,
+                0.8113,
+                0.821
+              ]
+            },
+            "personas_muestra_jalisco": 2165,
+            "confia": {
+              "jalisco": [
+                0.8494,
+                0.8289,
+                0.8679
+              ],
+              "nacional": [
+                0.8704,
+                0.8669,
+                0.8739
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.021,
+                -0.0395,
+                -0.0026
+              ]
+            }
+          },
+          {
+            "codigo": "10",
+            "autoridad": "Marina",
+            "identifica": {
+              "jalisco": [
+                0.4906,
+                0.4639,
+                0.5173
+              ],
+              "nacional": [
+                0.5772,
+                0.5714,
+                0.583
+              ]
+            },
+            "personas_muestra_jalisco": 1293,
+            "confia": {
+              "jalisco": [
+                0.877,
+                0.8544,
+                0.8966
+              ],
+              "nacional": [
+                0.8954,
+                0.8915,
+                0.8991
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0183,
+                -0.0385,
+                0.0018
+              ]
+            }
+          },
+          {
+            "codigo": "11",
+            "autoridad": "Jueces",
+            "identifica": {
+              "jalisco": [
+                0.186,
+                0.1677,
+                0.2058
+              ],
+              "nacional": [
+                0.2041,
+                0.1998,
+                0.2085
+              ]
+            },
+            "personas_muestra_jalisco": 506,
+            "confia": {
+              "jalisco": [
+                0.6276,
+                0.5813,
+                0.6716
+              ],
+              "nacional": [
+                0.5827,
+                0.5721,
+                0.5933
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0449,
+                0.0011,
+                0.0886
+              ]
+            }
+          }
+        ],
+        "jalisco_brecha_vs_policia_preventiva": {
+          "Marina": {
+            "personas_muestra": 1019,
+            "diferencia": [
+              0.3503,
+              0.3127,
+              0.3879
+            ]
+          },
+          "Ejército": {
+            "personas_muestra": 1631,
+            "diferencia": [
+              0.3226,
+              0.2901,
+              0.3552
+            ]
+          }
+        }
+      }
+    },
+    "2025": {
+      "victimizacion_del_año": 2024,
+      "motivos_no_denuncia": {
+        "casos_muestra_jalisco": 971,
+        "casos_muestra_nacional": 31382,
+        "no_denunciados_estimados_jalisco": 1936655,
+        "atribuibles_autoridad": {
+          "jalisco": [
+            0.6111,
+            0.5627,
+            0.6574
+          ],
+          "nacional": [
+            0.6296,
+            0.6178,
+            0.6413
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0185,
+            -0.0645,
+            0.0274
+          ]
+        },
+        "por_razon": [
+          {
+            "codigo": "04",
+            "razon": "Pérdida de tiempo",
+            "casos_muestra_jalisco": 333,
+            "jalisco": [
+              0.3136,
+              0.2681,
+              0.363
+            ],
+            "nacional": [
+              0.3462,
+              0.3341,
+              0.3585
+            ]
+          },
+          {
+            "codigo": "06",
+            "razon": "Desconfianza en la autoridad",
+            "casos_muestra_jalisco": 134,
+            "jalisco": [
+              0.1587,
+              0.1094,
+              0.2246
+            ],
+            "nacional": [
+              0.1402,
+              0.1311,
+              0.1498
+            ]
+          },
+          {
+            "codigo": "03",
+            "razon": "Delito de poca importancia",
+            "casos_muestra_jalisco": 129,
+            "jalisco": [
+              0.1294,
+              0.1019,
+              0.163
+            ],
+            "nacional": [
+              0.1295,
+              0.1224,
+              0.1369
+            ]
+          },
+          {
+            "codigo": "09",
+            "razon": "Otra",
+            "casos_muestra_jalisco": 82,
+            "jalisco": [
+              0.0905,
+              0.0671,
+              0.121
+            ],
+            "nacional": [
+              0.0815,
+              0.0756,
+              0.0878
+            ]
+          },
+          {
+            "codigo": "05",
+            "razon": "Trámites largos y difíciles",
+            "casos_muestra_jalisco": 89,
+            "jalisco": [
+              0.0895,
+              0.0646,
+              0.1228
+            ],
+            "nacional": [
+              0.1017,
+              0.0938,
+              0.1102
+            ]
+          },
+          {
+            "codigo": "01",
+            "razon": "Por miedo al (a la) agresor(a)",
+            "casos_muestra_jalisco": 70,
+            "jalisco": [
+              0.0848,
+              0.0608,
+              0.117
+            ],
+            "nacional": [
+              0.0605,
+              0.0543,
+              0.0674
+            ]
+          },
+          {
+            "codigo": "07",
+            "razon": "No tenía pruebas",
+            "casos_muestra_jalisco": 78,
+            "jalisco": [
+              0.0774,
+              0.058,
+              0.1025
+            ],
+            "nacional": [
+              0.0944,
+              0.0883,
+              0.1008
+            ]
+          },
+          {
+            "codigo": "08",
+            "razon": "Por actitud hostil de la autoridad",
+            "casos_muestra_jalisco": 40,
+            "jalisco": [
+              0.0392,
+              0.0273,
+              0.056
+            ],
+            "nacional": [
+              0.0335,
+              0.0294,
+              0.0382
+            ]
+          },
+          {
+            "codigo": "02",
+            "razon": "Por miedo a que lo (la) extorsionaran",
+            "casos_muestra_jalisco": 12,
+            "jalisco": [
+              0.01,
+              0.0047,
+              0.0211
+            ],
+            "nacional": [
+              0.008,
+              0.006,
+              0.0106
+            ]
+          },
+          {
+            "codigo": "99",
+            "razon": "No sabe / no responde",
+            "casos_muestra_jalisco": 4,
+            "jalisco": [
+              0.0068,
+              0.0022,
+              0.021
+            ],
+            "nacional": [
+              0.0045,
+              0.0033,
+              0.006
+            ]
+          }
+        ]
+      },
+      "confianza": {
+        "personas_muestra_jalisco": 2561,
+        "personas_muestra_nacional": 91182,
+        "autoridades": [
+          {
+            "codigo": "01",
+            "autoridad": "Policía de tránsito municipal",
+            "identifica": {
+              "jalisco": [
+                0.6784,
+                0.6483,
+                0.707
+              ],
+              "nacional": [
+                0.6502,
+                0.6444,
+                0.6559
+              ]
+            },
+            "personas_muestra_jalisco": 1710,
+            "confia": {
+              "jalisco": [
+                0.433,
+                0.4044,
+                0.462
+              ],
+              "nacional": [
+                0.4316,
+                0.4255,
+                0.4377
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0014,
+                -0.0261,
+                0.0288
+              ]
+            }
+          },
+          {
+            "codigo": "02",
+            "autoridad": "Policía preventiva municipal",
+            "identifica": {
+              "jalisco": [
+                0.6701,
+                0.644,
+                0.6953
+              ],
+              "nacional": [
+                0.5781,
+                0.5727,
+                0.5835
+              ]
+            },
+            "personas_muestra_jalisco": 1733,
+            "confia": {
+              "jalisco": [
+                0.5361,
+                0.5062,
+                0.5657
+              ],
+              "nacional": [
+                0.5422,
+                0.5352,
+                0.5491
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0061,
+                -0.0343,
+                0.0222
+              ]
+            }
+          },
+          {
+            "codigo": "03",
+            "autoridad": "Policía estatal",
+            "identifica": {
+              "jalisco": [
+                0.6356,
+                0.61,
+                0.6605
+              ],
+              "nacional": [
+                0.6443,
+                0.6392,
+                0.6494
+              ]
+            },
+            "personas_muestra_jalisco": 1620,
+            "confia": {
+              "jalisco": [
+                0.5724,
+                0.545,
+                0.5994
+              ],
+              "nacional": [
+                0.5705,
+                0.5645,
+                0.5765
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0019,
+                -0.0241,
+                0.0279
+              ]
+            }
+          },
+          {
+            "codigo": "04",
+            "autoridad": "Guardia Nacional",
+            "identifica": {
+              "jalisco": [
+                0.8129,
+                0.793,
+                0.8313
+              ],
+              "nacional": [
+                0.7833,
+                0.7784,
+                0.7881
+              ]
+            },
+            "personas_muestra_jalisco": 2074,
+            "confia": {
+              "jalisco": [
+                0.7744,
+                0.7514,
+                0.7959
+              ],
+              "nacional": [
+                0.7987,
+                0.7942,
+                0.8031
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0243,
+                -0.0454,
+                -0.0032
+              ]
+            }
+          },
+          {
+            "codigo": "05",
+            "autoridad": "Policía ministerial o de investigación",
+            "identifica": {
+              "jalisco": [
+                0.2345,
+                0.2133,
+                0.2572
+              ],
+              "nacional": [
+                0.3078,
+                0.3031,
+                0.3126
+              ]
+            },
+            "personas_muestra_jalisco": 613,
+            "confia": {
+              "jalisco": [
+                0.639,
+                0.5945,
+                0.6812
+              ],
+              "nacional": [
+                0.5931,
+                0.5849,
+                0.6012
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0459,
+                0.004,
+                0.0879
+              ]
+            }
+          },
+          {
+            "codigo": "06",
+            "autoridad": "MP y fiscalía estatal",
+            "identifica": {
+              "jalisco": [
+                0.3328,
+                0.3072,
+                0.3595
+              ],
+              "nacional": [
+                0.3296,
+                0.3245,
+                0.3347
+              ]
+            },
+            "personas_muestra_jalisco": 870,
+            "confia": {
+              "jalisco": [
+                0.5986,
+                0.5586,
+                0.6374
+              ],
+              "nacional": [
+                0.5701,
+                0.5617,
+                0.5785
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0285,
+                -0.0091,
+                0.0662
+              ]
+            }
+          },
+          {
+            "codigo": "07",
+            "autoridad": "Fiscalía General de la República",
+            "identifica": {
+              "jalisco": [
+                0.2406,
+                0.2178,
+                0.2649
+              ],
+              "nacional": [
+                0.2297,
+                0.2255,
+                0.2339
+              ]
+            },
+            "personas_muestra_jalisco": 639,
+            "confia": {
+              "jalisco": [
+                0.6753,
+                0.6348,
+                0.7133
+              ],
+              "nacional": [
+                0.6454,
+                0.6359,
+                0.6547
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                0.0299,
+                -0.0077,
+                0.0675
+              ]
+            }
+          },
+          {
+            "codigo": "08",
+            "autoridad": "Ejército",
+            "identifica": {
+              "jalisco": [
+                0.7982,
+                0.7754,
+                0.8192
+              ],
+              "nacional": [
+                0.8148,
+                0.8098,
+                0.8197
+              ]
+            },
+            "personas_muestra_jalisco": 2042,
+            "confia": {
+              "jalisco": [
+                0.8395,
+                0.8184,
+                0.8586
+              ],
+              "nacional": [
+                0.8684,
+                0.8647,
+                0.8719
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0289,
+                -0.0479,
+                -0.0098
+              ]
+            }
+          },
+          {
+            "codigo": "10",
+            "autoridad": "Marina",
+            "identifica": {
+              "jalisco": [
+                0.5399,
+                0.5134,
+                0.5662
+              ],
+              "nacional": [
+                0.5922,
+                0.586,
+                0.5984
+              ]
+            },
+            "personas_muestra_jalisco": 1372,
+            "confia": {
+              "jalisco": [
+                0.8955,
+                0.8759,
+                0.9123
+              ],
+              "nacional": [
+                0.9105,
+                0.9069,
+                0.9139
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0149,
+                -0.0323,
+                0.0024
+              ]
+            }
+          },
+          {
+            "codigo": "11",
+            "autoridad": "Jueces",
+            "identifica": {
+              "jalisco": [
+                0.2044,
+                0.185,
+                0.2253
+              ],
+              "nacional": [
+                0.2021,
+                0.1979,
+                0.2064
+              ]
+            },
+            "personas_muestra_jalisco": 533,
+            "confia": {
+              "jalisco": [
+                0.536,
+                0.4876,
+                0.5837
+              ],
+              "nacional": [
+                0.5586,
+                0.548,
+                0.5691
+              ],
+              "diferencia_jalisco_menos_nacional": [
+                -0.0226,
+                -0.0686,
+                0.0234
+              ]
+            }
+          }
+        ],
+        "jalisco_brecha_vs_policia_preventiva": {
+          "Marina": {
+            "personas_muestra": 1058,
+            "diferencia": [
+              0.3436,
+              0.3061,
+              0.381
+            ]
+          },
+          "Ejército": {
+            "personas_muestra": 1520,
+            "diferencia": [
+              0.3202,
+              0.2855,
+              0.3548
+            ]
+          }
+        }
+      }
+    }
+  },
+  "hipotesis": {
+    "H13a": true,
+    "H13b": true,
+    "H13c": false,
+    "H13d": false,
+    "H13e": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:49+00:00",
+    "script": "pieces.p13_no_denuncia_confianza",
+    "insumos_sha256": {
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2026_csv.zip": "dd79f589eb6ed7d3675cc86e21ac9bbdbf269913963091d8698d6e28e0540a17",
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2025_csv.zip": "8a7a99fd90ce9d03229759ba0ad84db4fba98b5bb1f5c85eef7d718b007816fa"
+    }
+  }
+}

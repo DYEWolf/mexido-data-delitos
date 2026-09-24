@@ -1,0 +1,422 @@
+{
+  "pregunta": "¿Son la desaparición de adolescentes y la de hombres adultos el mismo fenómeno?",
+  "ventana": "2019-2025, personas que siguen desaparecidas; tasa por 100 mil personas-año",
+  "tasas": [
+    {
+      "sexo": "HOMBRE",
+      "age": "0-4",
+      "n": 26,
+      "person_years": 2520889,
+      "rate": 1.03,
+      "lo": 0.67,
+      "hi": 1.51
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "5-9",
+      "n": 22,
+      "person_years": 2596174,
+      "rate": 0.85,
+      "lo": 0.53,
+      "hi": 1.28
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "10-14",
+      "n": 51,
+      "person_years": 2675171,
+      "rate": 1.91,
+      "lo": 1.42,
+      "hi": 2.51
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "15-19",
+      "n": 693,
+      "person_years": 2679231,
+      "rate": 25.87,
+      "lo": 23.98,
+      "hi": 27.87
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "20-24",
+      "n": 1375,
+      "person_years": 2676193,
+      "rate": 51.38,
+      "lo": 48.7,
+      "hi": 54.17
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "25-29",
+      "n": 1484,
+      "person_years": 2621975,
+      "rate": 56.6,
+      "lo": 53.76,
+      "hi": 59.55
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "30-34",
+      "n": 1365,
+      "person_years": 2448345,
+      "rate": 55.75,
+      "lo": 52.83,
+      "hi": 58.79
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "35-39",
+      "n": 1125,
+      "person_years": 2117243,
+      "rate": 53.14,
+      "lo": 50.08,
+      "hi": 56.33
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "40-44",
+      "n": 857,
+      "person_years": 1807130,
+      "rate": 47.42,
+      "lo": 44.3,
+      "hi": 50.71
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "45-49",
+      "n": 571,
+      "person_years": 1673265,
+      "rate": 34.12,
+      "lo": 31.38,
+      "hi": 37.04
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "50-54",
+      "n": 332,
+      "person_years": 1511957,
+      "rate": 21.96,
+      "lo": 19.66,
+      "hi": 24.45
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "55-59",
+      "n": 191,
+      "person_years": 1278768,
+      "rate": 14.94,
+      "lo": 12.89,
+      "hi": 17.21
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "60-64",
+      "n": 113,
+      "person_years": 1030915,
+      "rate": 10.96,
+      "lo": 9.03,
+      "hi": 13.18
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "65-69",
+      "n": 53,
+      "person_years": 787771,
+      "rate": 6.73,
+      "lo": 5.04,
+      "hi": 8.8
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "70-74",
+      "n": 25,
+      "person_years": 582355,
+      "rate": 4.29,
+      "lo": 2.78,
+      "hi": 6.34
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "75-79",
+      "n": 21,
+      "person_years": 415829,
+      "rate": 5.05,
+      "lo": 3.13,
+      "hi": 7.72
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "80-84",
+      "n": 11,
+      "person_years": 256749,
+      "rate": 4.28,
+      "lo": 2.14,
+      "hi": 7.67
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "85+",
+      "n": 8,
+      "person_years": 214449,
+      "rate": 3.73,
+      "lo": 1.61,
+      "hi": 7.35
+    },
+    {
+      "sexo": "MUJER",
+      "age": "0-4",
+      "n": 28,
+      "person_years": 2425295,
+      "rate": 1.15,
+      "lo": 0.77,
+      "hi": 1.67
+    },
+    {
+      "sexo": "MUJER",
+      "age": "5-9",
+      "n": 23,
+      "person_years": 2495932,
+      "rate": 0.92,
+      "lo": 0.58,
+      "hi": 1.38
+    },
+    {
+      "sexo": "MUJER",
+      "age": "10-14",
+      "n": 49,
+      "person_years": 2572286,
+      "rate": 1.9,
+      "lo": 1.41,
+      "hi": 2.52
+    },
+    {
+      "sexo": "MUJER",
+      "age": "15-19",
+      "n": 159,
+      "person_years": 2593489,
+      "rate": 6.13,
+      "lo": 5.21,
+      "hi": 7.16
+    },
+    {
+      "sexo": "MUJER",
+      "age": "20-24",
+      "n": 194,
+      "person_years": 2598510,
+      "rate": 7.47,
+      "lo": 6.45,
+      "hi": 8.59
+    },
+    {
+      "sexo": "MUJER",
+      "age": "25-29",
+      "n": 207,
+      "person_years": 2548817,
+      "rate": 8.12,
+      "lo": 7.05,
+      "hi": 9.31
+    },
+    {
+      "sexo": "MUJER",
+      "age": "30-34",
+      "n": 144,
+      "person_years": 2427055,
+      "rate": 5.93,
+      "lo": 5.0,
+      "hi": 6.99
+    },
+    {
+      "sexo": "MUJER",
+      "age": "35-39",
+      "n": 111,
+      "person_years": 2225395,
+      "rate": 4.99,
+      "lo": 4.1,
+      "hi": 6.01
+    },
+    {
+      "sexo": "MUJER",
+      "age": "40-44",
+      "n": 81,
+      "person_years": 2028787,
+      "rate": 3.99,
+      "lo": 3.17,
+      "hi": 4.96
+    },
+    {
+      "sexo": "MUJER",
+      "age": "45-49",
+      "n": 47,
+      "person_years": 1883963,
+      "rate": 2.49,
+      "lo": 1.83,
+      "hi": 3.32
+    },
+    {
+      "sexo": "MUJER",
+      "age": "50-54",
+      "n": 30,
+      "person_years": 1673316,
+      "rate": 1.79,
+      "lo": 1.21,
+      "hi": 2.56
+    },
+    {
+      "sexo": "MUJER",
+      "age": "55-59",
+      "n": 15,
+      "person_years": 1419916,
+      "rate": 1.06,
+      "lo": 0.59,
+      "hi": 1.74
+    },
+    {
+      "sexo": "MUJER",
+      "age": "60-64",
+      "n": 7,
+      "person_years": 1163722,
+      "rate": 0.6,
+      "lo": 0.24,
+      "hi": 1.24
+    },
+    {
+      "sexo": "MUJER",
+      "age": "65-69",
+      "n": 8,
+      "person_years": 905483,
+      "rate": 0.88,
+      "lo": 0.38,
+      "hi": 1.74
+    },
+    {
+      "sexo": "MUJER",
+      "age": "70-74",
+      "n": 5,
+      "person_years": 678009,
+      "rate": 0.74,
+      "lo": 0.24,
+      "hi": 1.72
+    },
+    {
+      "sexo": "MUJER",
+      "age": "75-79",
+      "n": 4,
+      "person_years": 490618,
+      "rate": 0.82,
+      "lo": 0.22,
+      "hi": 2.09
+    },
+    {
+      "sexo": "MUJER",
+      "age": "80-84",
+      "n": 6,
+      "person_years": 313260,
+      "rate": 1.92,
+      "lo": 0.7,
+      "hi": 4.17
+    },
+    {
+      "sexo": "MUJER",
+      "age": "85+",
+      "n": 1,
+      "person_years": 273972,
+      "rate": 0.37,
+      "lo": 0.01,
+      "hi": 2.03
+    }
+  ],
+  "razon_hombre_mujer_por_edad": {
+    "0-4": 0.9,
+    "5-9": 0.9,
+    "10-14": 1.0,
+    "15-19": 4.2,
+    "20-24": 6.9,
+    "25-29": 7.0,
+    "30-34": 9.4,
+    "35-39": 10.7,
+    "40-44": 11.9,
+    "45-49": 13.7,
+    "50-54": 12.2,
+    "55-59": 14.1,
+    "60-64": 18.2,
+    "65-69": 7.6,
+    "70-74": 5.8,
+    "75-79": 6.2,
+    "80-84": 2.2,
+    "85+": 10.2
+  },
+  "pico": {
+    "HOMBRE": {
+      "edad": "25-29",
+      "tasa": 56.6,
+      "ic95": [
+        53.76,
+        59.55
+      ]
+    },
+    "MUJER": {
+      "edad": "25-29",
+      "tasa": 8.12,
+      "ic95": [
+        7.05,
+        9.31
+      ]
+    }
+  },
+  "desenlace_por_sexo_todos_los_años": [
+    {
+      "sexo": "HOMBRE",
+      "registradas": 29608,
+      "siguen_desaparecidas": 14446,
+      "localizadas_con_vida": 12233,
+      "localizadas_sin_vida": 2929,
+      "p_desaparecidas": [
+        0.4879,
+        0.4822,
+        0.4936
+      ],
+      "p_sin_vida_de_localizadas": [
+        0.1932,
+        0.187,
+        0.1995
+      ]
+    },
+    {
+      "sexo": "MUJER",
+      "registradas": 8659,
+      "siguen_desaparecidas": 1804,
+      "localizadas_con_vida": 6489,
+      "localizadas_sin_vida": 366,
+      "p_desaparecidas": [
+        0.2083,
+        0.1999,
+        0.217
+      ],
+      "p_sin_vida_de_localizadas": [
+        0.0534,
+        0.0483,
+        0.059
+      ]
+    }
+  ],
+  "edad_desconocida_excluida": 35,
+  "hipotesis": {
+    "H2a": true,
+    "H2b": false,
+    "H2c": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:33+00:00",
+    "script": "pieces.p2_sexo_edad",
+    "insumos_sha256": {
+      "s3-analysis-repd-stats-20260924T181640Z/hombres_desaparecidos_año_rango_edad.json": "55ec9734671c1193dd0153841735bf1e3ea1c84323f91e61024e36aa4e1d3db7",
+      "s3-analysis-repd-stats-20260924T181640Z/mujeres_desaparecidas_año_rango_edad.json": "55d7660a82e90fa7a93882001427fe5606212eb0a81e42848f451cef971164b2",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s3-analysis-repd-stats-20260924T181640Z/grafica_personas_desaparecidas_por_año_sexo.json": "6a1bdcfacea3c9b860eccf4dac7e534a3b25745d6ca0487674081cbd7f2f9633",
+      "s3-analysis-repd-stats-20260924T181640Z/hombres_localizadas_condicion_localizacion_victimas_delito.json": "1757c26d52ede74e41cd460575db0feb20766619282e42021dc9baeda32c7a8c",
+      "s3-analysis-repd-stats-20260924T181640Z/mujeres_localizadas_condicion_localizacion_victimas_delito.json": "5f533b946cf0df3aee0b4facef4760ae20717470772f44ce4b69f1c4e27cc800"
+    }
+  }
+}

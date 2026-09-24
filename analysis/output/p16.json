@@ -1,0 +1,2406 @@
+{
+  "pregunta": "¿Qué tan inseguro se siente Jalisco, y la percepción sigue la baja del homicidio registrado?",
+  "resultados": {
+    "2026": {
+      "levantamiento": "marzo-abril 2026",
+      "personas_muestra": {
+        "jalisco": 2664,
+        "amg": 1754,
+        "resto_del_estado": 910,
+        "nacional": 91876
+      },
+      "inseguro": {
+        "colonia o localidad": {
+          "jalisco": [
+            0.3499,
+            0.3266,
+            0.374
+          ],
+          "nacional": [
+            0.3594,
+            0.3536,
+            0.3652
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0095,
+            -0.0323,
+            0.0134
+          ],
+          "amg": [
+            0.4336,
+            0.4011,
+            0.4667
+          ],
+          "resto_del_estado": [
+            0.1986,
+            0.169,
+            0.2319
+          ],
+          "diferencia_amg_menos_resto": [
+            0.235,
+            0.1877,
+            0.2823
+          ]
+        },
+        "municipio": {
+          "jalisco": [
+            0.5981,
+            0.5728,
+            0.623
+          ],
+          "nacional": [
+            0.6086,
+            0.603,
+            0.6141
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0104,
+            -0.0345,
+            0.0136
+          ],
+          "amg": [
+            0.7112,
+            0.6848,
+            0.7363
+          ],
+          "resto_del_estado": [
+            0.3936,
+            0.3513,
+            0.4377
+          ],
+          "diferencia_amg_menos_resto": [
+            0.3176,
+            0.2664,
+            0.3687
+          ]
+        },
+        "estado": {
+          "jalisco": [
+            0.7892,
+            0.7703,
+            0.8069
+          ],
+          "nacional": [
+            0.74,
+            0.736,
+            0.744
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0492,
+            0.0317,
+            0.0667
+          ],
+          "amg": [
+            0.817,
+            0.7936,
+            0.8382
+          ],
+          "resto_del_estado": [
+            0.7389,
+            0.7037,
+            0.7714
+          ],
+          "diferencia_amg_menos_resto": [
+            0.078,
+            0.037,
+            0.119
+          ]
+        }
+      },
+      "gradiente_jalisco": {
+        "estado_menos_municipio": [
+          0.1911,
+          0.1679,
+          0.2142
+        ],
+        "municipio_menos_colonia": [
+          0.2482,
+          0.2252,
+          0.2712
+        ]
+      },
+      "lugares": [
+        {
+          "codigo": "08",
+          "lugar": "Cajero automático en la vía pública",
+          "jalisco": [
+            0.6648,
+            0.6384,
+            0.6902
+          ],
+          "nacional": [
+            0.7041,
+            0.6989,
+            0.7093
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0393,
+            -0.064,
+            -0.0146
+          ],
+          "personas_muestra_jalisco": 2250
+        },
+        {
+          "codigo": "11",
+          "lugar": "Carretera",
+          "jalisco": [
+            0.5815,
+            0.5597,
+            0.603
+          ],
+          "nacional": [
+            0.626,
+            0.6208,
+            0.6312
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0444,
+            -0.0653,
+            -0.0235
+          ],
+          "personas_muestra_jalisco": 2475
+        },
+        {
+          "codigo": "09",
+          "lugar": "Transporte público",
+          "jalisco": [
+            0.5578,
+            0.5249,
+            0.5902
+          ],
+          "nacional": [
+            0.6232,
+            0.6174,
+            0.629
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0654,
+            -0.0969,
+            -0.0339
+          ],
+          "personas_muestra_jalisco": 1683
+        },
+        {
+          "codigo": "07",
+          "lugar": "Banco",
+          "jalisco": [
+            0.5245,
+            0.4968,
+            0.552
+          ],
+          "nacional": [
+            0.5743,
+            0.5686,
+            0.5801
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0499,
+            -0.0762,
+            -0.0235
+          ],
+          "personas_muestra_jalisco": 2247
+        },
+        {
+          "codigo": "03",
+          "lugar": "Calle",
+          "jalisco": [
+            0.5223,
+            0.4984,
+            0.5461
+          ],
+          "nacional": [
+            0.5891,
+            0.5835,
+            0.5946
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0668,
+            -0.0897,
+            -0.0438
+          ],
+          "personas_muestra_jalisco": 2608
+        },
+        {
+          "codigo": "12",
+          "lugar": "Parque o centro recreativo",
+          "jalisco": [
+            0.4382,
+            0.4111,
+            0.4657
+          ],
+          "nacional": [
+            0.4739,
+            0.4678,
+            0.48
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0357,
+            -0.0619,
+            -0.0094
+          ],
+          "personas_muestra_jalisco": 2143
+        },
+        {
+          "codigo": "05",
+          "lugar": "Mercado",
+          "jalisco": [
+            0.3702,
+            0.3456,
+            0.3955
+          ],
+          "nacional": [
+            0.4724,
+            0.4665,
+            0.4783
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.1022,
+            -0.1263,
+            -0.0781
+          ],
+          "personas_muestra_jalisco": 2247
+        },
+        {
+          "codigo": "06",
+          "lugar": "Centro comercial",
+          "jalisco": [
+            0.3511,
+            0.3266,
+            0.3765
+          ],
+          "nacional": [
+            0.3756,
+            0.37,
+            0.3813
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0245,
+            -0.0485,
+            -0.0005
+          ],
+          "personas_muestra_jalisco": 2234
+        },
+        {
+          "codigo": "10",
+          "lugar": "Automóvil",
+          "jalisco": [
+            0.3309,
+            0.3084,
+            0.3542
+          ],
+          "nacional": [
+            0.382,
+            0.3767,
+            0.3874
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0511,
+            -0.0731,
+            -0.0291
+          ],
+          "personas_muestra_jalisco": 2505
+        },
+        {
+          "codigo": "04",
+          "lugar": "Escuela",
+          "jalisco": [
+            0.3105,
+            0.2443,
+            0.3854
+          ],
+          "nacional": [
+            0.3261,
+            0.3094,
+            0.3434
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0157,
+            -0.0855,
+            0.0541
+          ],
+          "personas_muestra_jalisco": 178
+        },
+        {
+          "codigo": "02",
+          "lugar": "Trabajo",
+          "jalisco": [
+            0.225,
+            0.2043,
+            0.2471
+          ],
+          "nacional": [
+            0.2428,
+            0.2375,
+            0.2482
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0178,
+            -0.0383,
+            0.0028
+          ],
+          "personas_muestra_jalisco": 1863
+        },
+        {
+          "codigo": "01",
+          "lugar": "Casa",
+          "jalisco": [
+            0.1132,
+            0.0997,
+            0.1281
+          ],
+          "nacional": [
+            0.1432,
+            0.1395,
+            0.1471
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0301,
+            -0.0438,
+            -0.0163
+          ],
+          "personas_muestra_jalisco": 2664
+        }
+      ],
+      "incivilidades": [
+        {
+          "codigo": "01",
+          "incivilidad": "Consumo de alcohol en la calle",
+          "jalisco": [
+            0.5909,
+            0.5654,
+            0.616
+          ],
+          "nacional": [
+            0.6201,
+            0.6145,
+            0.6256
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0291,
+            -0.0534,
+            -0.0049
+          ],
+          "amg": [
+            0.591,
+            0.5587,
+            0.6225
+          ],
+          "resto_del_estado": [
+            0.5908,
+            0.5432,
+            0.6368
+          ]
+        },
+        {
+          "codigo": "08",
+          "incivilidad": "Consumo de droga",
+          "jalisco": [
+            0.568,
+            0.5426,
+            0.5931
+          ],
+          "nacional": [
+            0.507,
+            0.5013,
+            0.5128
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.061,
+            0.0368,
+            0.0852
+          ],
+          "amg": [
+            0.6193,
+            0.5896,
+            0.6482
+          ],
+          "resto_del_estado": [
+            0.4752,
+            0.4277,
+            0.5232
+          ]
+        },
+        {
+          "codigo": "10",
+          "incivilidad": "Venta de droga",
+          "jalisco": [
+            0.438,
+            0.4121,
+            0.4642
+          ],
+          "nacional": [
+            0.3555,
+            0.3499,
+            0.3612
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0824,
+            0.0575,
+            0.1074
+          ],
+          "amg": [
+            0.4714,
+            0.4404,
+            0.5025
+          ],
+          "resto_del_estado": [
+            0.3776,
+            0.3303,
+            0.4273
+          ]
+        },
+        {
+          "codigo": "09",
+          "incivilidad": "Robos o asaltos frecuentes",
+          "jalisco": [
+            0.3867,
+            0.3613,
+            0.4127
+          ],
+          "nacional": [
+            0.3854,
+            0.3792,
+            0.3915
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0013,
+            -0.0235,
+            0.026
+          ],
+          "amg": [
+            0.5019,
+            0.4664,
+            0.5374
+          ],
+          "resto_del_estado": [
+            0.1782,
+            0.1484,
+            0.2125
+          ]
+        },
+        {
+          "codigo": "11",
+          "incivilidad": "Disparos frecuentes",
+          "jalisco": [
+            0.2555,
+            0.2327,
+            0.2798
+          ],
+          "nacional": [
+            0.2953,
+            0.2894,
+            0.3014
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0398,
+            -0.0625,
+            -0.0171
+          ],
+          "amg": [
+            0.3257,
+            0.2948,
+            0.3582
+          ],
+          "resto_del_estado": [
+            0.1287,
+            0.1006,
+            0.1633
+          ]
+        },
+        {
+          "codigo": "02",
+          "incivilidad": "Pandillerismo o bandas violentas",
+          "jalisco": [
+            0.2297,
+            0.2085,
+            0.2524
+          ],
+          "nacional": [
+            0.2467,
+            0.2413,
+            0.2521
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.017,
+            -0.0381,
+            0.0042
+          ],
+          "amg": [
+            0.2972,
+            0.2675,
+            0.3287
+          ],
+          "resto_del_estado": [
+            0.1077,
+            0.0862,
+            0.1339
+          ]
+        },
+        {
+          "codigo": "17",
+          "incivilidad": "Tomas irregulares de luz",
+          "jalisco": [
+            0.2213,
+            0.1987,
+            0.2456
+          ],
+          "nacional": [
+            0.2073,
+            0.2026,
+            0.2121
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0139,
+            -0.0084,
+            0.0363
+          ],
+          "amg": [
+            0.2864,
+            0.2594,
+            0.315
+          ],
+          "resto_del_estado": [
+            0.1036,
+            0.0788,
+            0.135
+          ]
+        },
+        {
+          "codigo": "03",
+          "incivilidad": "Riñas entre vecinos",
+          "jalisco": [
+            0.2066,
+            0.1885,
+            0.226
+          ],
+          "nacional": [
+            0.2336,
+            0.229,
+            0.2382
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.027,
+            -0.045,
+            -0.0089
+          ],
+          "amg": [
+            0.2328,
+            0.2091,
+            0.2584
+          ],
+          "resto_del_estado": [
+            0.1592,
+            0.131,
+            0.1921
+          ]
+        },
+        {
+          "codigo": "14",
+          "incivilidad": "Homicidios",
+          "jalisco": [
+            0.2053,
+            0.1856,
+            0.2265
+          ],
+          "nacional": [
+            0.2108,
+            0.2057,
+            0.2159
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0055,
+            -0.0253,
+            0.0142
+          ],
+          "amg": [
+            0.2625,
+            0.2362,
+            0.2906
+          ],
+          "resto_del_estado": [
+            0.1019,
+            0.081,
+            0.1275
+          ]
+        },
+        {
+          "codigo": "15",
+          "incivilidad": "Extorsiones (cobro de piso)",
+          "jalisco": [
+            0.1994,
+            0.1818,
+            0.2181
+          ],
+          "nacional": [
+            0.1837,
+            0.1794,
+            0.188
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0157,
+            -0.0018,
+            0.0331
+          ],
+          "amg": [
+            0.2262,
+            0.2036,
+            0.2505
+          ],
+          "resto_del_estado": [
+            0.1508,
+            0.1237,
+            0.1827
+          ]
+        },
+        {
+          "codigo": "05",
+          "incivilidad": "Venta de productos piratas",
+          "jalisco": [
+            0.1956,
+            0.1749,
+            0.2181
+          ],
+          "nacional": [
+            0.1692,
+            0.1649,
+            0.1736
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0264,
+            0.0058,
+            0.047
+          ],
+          "amg": [
+            0.2294,
+            0.2033,
+            0.2578
+          ],
+          "resto_del_estado": [
+            0.1344,
+            0.1057,
+            0.1695
+          ]
+        },
+        {
+          "codigo": "07",
+          "incivilidad": "Invasión de predios",
+          "jalisco": [
+            0.186,
+            0.1641,
+            0.2102
+          ],
+          "nacional": [
+            0.1754,
+            0.1709,
+            0.1799
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0107,
+            -0.0112,
+            0.0326
+          ],
+          "amg": [
+            0.2312,
+            0.2036,
+            0.2613
+          ],
+          "resto_del_estado": [
+            0.1044,
+            0.0754,
+            0.1428
+          ]
+        },
+        {
+          "codigo": "04",
+          "incivilidad": "Venta ilegal de alcohol",
+          "jalisco": [
+            0.1402,
+            0.1234,
+            0.1589
+          ],
+          "nacional": [
+            0.1985,
+            0.194,
+            0.2031
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0583,
+            -0.0755,
+            -0.0411
+          ],
+          "amg": [
+            0.1405,
+            0.1203,
+            0.1634
+          ],
+          "resto_del_estado": [
+            0.1397,
+            0.1102,
+            0.1755
+          ]
+        },
+        {
+          "codigo": "06",
+          "incivilidad": "Violencia policiaca contra ciudadanos",
+          "jalisco": [
+            0.1309,
+            0.1159,
+            0.1474
+          ],
+          "nacional": [
+            0.1495,
+            0.1458,
+            0.1533
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0187,
+            -0.0338,
+            -0.0035
+          ],
+          "amg": [
+            0.1535,
+            0.1337,
+            0.1756
+          ],
+          "resto_del_estado": [
+            0.0899,
+            0.0704,
+            0.1141
+          ]
+        },
+        {
+          "codigo": "13",
+          "incivilidad": "Secuestros",
+          "jalisco": [
+            0.1221,
+            0.1075,
+            0.1383
+          ],
+          "nacional": [
+            0.1049,
+            0.1011,
+            0.1088
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0171,
+            0.0023,
+            0.032
+          ],
+          "amg": [
+            0.1527,
+            0.1333,
+            0.1743
+          ],
+          "resto_del_estado": [
+            0.0667,
+            0.0505,
+            0.0875
+          ]
+        },
+        {
+          "codigo": "16",
+          "incivilidad": "Robo o venta ilegal de combustible (huachicol)",
+          "jalisco": [
+            0.0765,
+            0.0646,
+            0.0903
+          ],
+          "nacional": [
+            0.0671,
+            0.0641,
+            0.0702
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0094,
+            -0.0029,
+            0.0217
+          ],
+          "amg": [
+            0.0635,
+            0.0505,
+            0.0795
+          ],
+          "resto_del_estado": [
+            0.1001,
+            0.0772,
+            0.1287
+          ]
+        },
+        {
+          "codigo": "12",
+          "incivilidad": "Prostitución",
+          "jalisco": [
+            0.0668,
+            0.0547,
+            0.0812
+          ],
+          "nacional": [
+            0.0518,
+            0.0495,
+            0.0541
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.015,
+            0.0025,
+            0.0275
+          ],
+          "amg": [
+            0.0586,
+            0.0457,
+            0.0747
+          ],
+          "resto_del_estado": [
+            0.0816,
+            0.0579,
+            0.1138
+          ]
+        }
+      ],
+      "tendencia_estado": {
+        "mejorará": {
+          "jalisco": [
+            0.2693,
+            0.2483,
+            0.2913
+          ],
+          "nacional": [
+            0.2605,
+            0.256,
+            0.265
+          ]
+        },
+        "seguirá igual de bien": {
+          "jalisco": [
+            0.0924,
+            0.0799,
+            0.1066
+          ],
+          "nacional": [
+            0.1284,
+            0.1253,
+            0.1314
+          ]
+        },
+        "seguirá igual de mal": {
+          "jalisco": [
+            0.2986,
+            0.2809,
+            0.3169
+          ],
+          "nacional": [
+            0.2995,
+            0.2949,
+            0.3042
+          ]
+        },
+        "empeorará": {
+          "jalisco": [
+            0.3191,
+            0.2976,
+            0.3414
+          ],
+          "nacional": [
+            0.2847,
+            0.28,
+            0.2894
+          ]
+        }
+      }
+    },
+    "2025": {
+      "levantamiento": "marzo-abril 2025",
+      "personas_muestra": {
+        "jalisco": 2561,
+        "amg": 1707,
+        "resto_del_estado": 854,
+        "nacional": 91182
+      },
+      "inseguro": {
+        "colonia o localidad": {
+          "jalisco": [
+            0.3717,
+            0.3476,
+            0.3965
+          ],
+          "nacional": [
+            0.4046,
+            0.3989,
+            0.4104
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0329,
+            -0.0564,
+            -0.0094
+          ],
+          "amg": [
+            0.4661,
+            0.4329,
+            0.4997
+          ],
+          "resto_del_estado": [
+            0.1838,
+            0.1536,
+            0.2183
+          ],
+          "diferencia_amg_menos_resto": [
+            0.2823,
+            0.2355,
+            0.3292
+          ]
+        },
+        "municipio": {
+          "jalisco": [
+            0.6131,
+            0.5854,
+            0.6401
+          ],
+          "nacional": [
+            0.6471,
+            0.6415,
+            0.6527
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.034,
+            -0.0601,
+            -0.0079
+          ],
+          "amg": [
+            0.7195,
+            0.6925,
+            0.745
+          ],
+          "resto_del_estado": [
+            0.4012,
+            0.3475,
+            0.4574
+          ],
+          "diferencia_amg_menos_resto": [
+            0.3183,
+            0.2571,
+            0.3795
+          ]
+        },
+        "estado": {
+          "jalisco": [
+            0.7736,
+            0.7503,
+            0.7954
+          ],
+          "nacional": [
+            0.7556,
+            0.7514,
+            0.7597
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0181,
+            -0.0033,
+            0.0394
+          ],
+          "amg": [
+            0.8002,
+            0.7706,
+            0.8267
+          ],
+          "resto_del_estado": [
+            0.7208,
+            0.6771,
+            0.7607
+          ],
+          "diferencia_amg_menos_resto": [
+            0.0793,
+            0.0289,
+            0.1297
+          ]
+        }
+      },
+      "gradiente_jalisco": {
+        "estado_menos_municipio": [
+          0.1605,
+          0.1324,
+          0.1887
+        ],
+        "municipio_menos_colonia": [
+          0.2414,
+          0.2154,
+          0.2674
+        ]
+      },
+      "lugares": [
+        {
+          "codigo": "08",
+          "lugar": "Cajero automático en la vía pública",
+          "jalisco": [
+            0.6979,
+            0.6712,
+            0.7234
+          ],
+          "nacional": [
+            0.735,
+            0.7301,
+            0.7398
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.037,
+            -0.0618,
+            -0.0123
+          ],
+          "personas_muestra_jalisco": 2125
+        },
+        {
+          "codigo": "09",
+          "lugar": "Transporte público",
+          "jalisco": [
+            0.5936,
+            0.5632,
+            0.6233
+          ],
+          "nacional": [
+            0.6507,
+            0.6451,
+            0.6562
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0571,
+            -0.0859,
+            -0.0283
+          ],
+          "personas_muestra_jalisco": 1714
+        },
+        {
+          "codigo": "03",
+          "lugar": "Calle",
+          "jalisco": [
+            0.5914,
+            0.5648,
+            0.6174
+          ],
+          "nacional": [
+            0.6204,
+            0.615,
+            0.6259
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.029,
+            -0.0541,
+            -0.0039
+          ],
+          "personas_muestra_jalisco": 2520
+        },
+        {
+          "codigo": "07",
+          "lugar": "Banco",
+          "jalisco": [
+            0.5892,
+            0.5628,
+            0.6151
+          ],
+          "nacional": [
+            0.6068,
+            0.6012,
+            0.6123
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0176,
+            -0.0426,
+            0.0074
+          ],
+          "personas_muestra_jalisco": 2163
+        },
+        {
+          "codigo": "11",
+          "lugar": "Carretera",
+          "jalisco": [
+            0.5838,
+            0.5574,
+            0.6096
+          ],
+          "nacional": [
+            0.6291,
+            0.6238,
+            0.6344
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0454,
+            -0.0703,
+            -0.0205
+          ],
+          "personas_muestra_jalisco": 2378
+        },
+        {
+          "codigo": "12",
+          "lugar": "Parque o centro recreativo",
+          "jalisco": [
+            0.46,
+            0.4348,
+            0.4854
+          ],
+          "nacional": [
+            0.4993,
+            0.4931,
+            0.5056
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0393,
+            -0.0637,
+            -0.015
+          ],
+          "personas_muestra_jalisco": 2133
+        },
+        {
+          "codigo": "05",
+          "lugar": "Mercado",
+          "jalisco": [
+            0.4162,
+            0.3907,
+            0.4422
+          ],
+          "nacional": [
+            0.5034,
+            0.4975,
+            0.5092
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0872,
+            -0.1119,
+            -0.0624
+          ],
+          "personas_muestra_jalisco": 2165
+        },
+        {
+          "codigo": "06",
+          "lugar": "Centro comercial",
+          "jalisco": [
+            0.3653,
+            0.34,
+            0.3914
+          ],
+          "nacional": [
+            0.3966,
+            0.3911,
+            0.4022
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0313,
+            -0.056,
+            -0.0067
+          ],
+          "personas_muestra_jalisco": 2120
+        },
+        {
+          "codigo": "10",
+          "lugar": "Automóvil",
+          "jalisco": [
+            0.3414,
+            0.3185,
+            0.3651
+          ],
+          "nacional": [
+            0.4001,
+            0.3947,
+            0.4055
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0587,
+            -0.081,
+            -0.0363
+          ],
+          "personas_muestra_jalisco": 2336
+        },
+        {
+          "codigo": "04",
+          "lugar": "Escuela",
+          "jalisco": [
+            0.2475,
+            0.1891,
+            0.3169
+          ],
+          "nacional": [
+            0.336,
+            0.3182,
+            0.3543
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0885,
+            -0.1507,
+            -0.0262
+          ],
+          "personas_muestra_jalisco": 200
+        },
+        {
+          "codigo": "02",
+          "lugar": "Trabajo",
+          "jalisco": [
+            0.2157,
+            0.196,
+            0.2369
+          ],
+          "nacional": [
+            0.2583,
+            0.253,
+            0.2637
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0426,
+            -0.0623,
+            -0.0228
+          ],
+          "personas_muestra_jalisco": 1798
+        },
+        {
+          "codigo": "01",
+          "lugar": "Casa",
+          "jalisco": [
+            0.1377,
+            0.1228,
+            0.1542
+          ],
+          "nacional": [
+            0.1623,
+            0.1585,
+            0.1662
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0245,
+            -0.0396,
+            -0.0094
+          ],
+          "personas_muestra_jalisco": 2561
+        }
+      ],
+      "incivilidades": [
+        {
+          "codigo": "01",
+          "incivilidad": "Consumo de alcohol en la calle",
+          "jalisco": [
+            0.6059,
+            0.5795,
+            0.6316
+          ],
+          "nacional": [
+            0.638,
+            0.6327,
+            0.6433
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0321,
+            -0.057,
+            -0.0073
+          ],
+          "amg": [
+            0.6064,
+            0.5734,
+            0.6384
+          ],
+          "resto_del_estado": [
+            0.6049,
+            0.5641,
+            0.6443
+          ]
+        },
+        {
+          "codigo": "08",
+          "incivilidad": "Consumo de droga",
+          "jalisco": [
+            0.5871,
+            0.5613,
+            0.6125
+          ],
+          "nacional": [
+            0.5207,
+            0.5148,
+            0.5267
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0664,
+            0.0418,
+            0.091
+          ],
+          "amg": [
+            0.6123,
+            0.5805,
+            0.6433
+          ],
+          "resto_del_estado": [
+            0.5369,
+            0.493,
+            0.5802
+          ]
+        },
+        {
+          "codigo": "09",
+          "incivilidad": "Robos o asaltos frecuentes",
+          "jalisco": [
+            0.4572,
+            0.4281,
+            0.4866
+          ],
+          "nacional": [
+            0.4296,
+            0.4235,
+            0.4357
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0276,
+            -0.0003,
+            0.0556
+          ],
+          "amg": [
+            0.5812,
+            0.5492,
+            0.6126
+          ],
+          "resto_del_estado": [
+            0.2103,
+            0.1728,
+            0.2534
+          ]
+        },
+        {
+          "codigo": "10",
+          "incivilidad": "Venta de droga",
+          "jalisco": [
+            0.435,
+            0.4099,
+            0.4605
+          ],
+          "nacional": [
+            0.3697,
+            0.364,
+            0.3755
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0653,
+            0.0411,
+            0.0895
+          ],
+          "amg": [
+            0.4452,
+            0.4145,
+            0.4763
+          ],
+          "resto_del_estado": [
+            0.4147,
+            0.3731,
+            0.4577
+          ]
+        },
+        {
+          "codigo": "11",
+          "incivilidad": "Disparos frecuentes",
+          "jalisco": [
+            0.2999,
+            0.2762,
+            0.3247
+          ],
+          "nacional": [
+            0.3436,
+            0.3373,
+            0.3499
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0437,
+            -0.0671,
+            -0.0202
+          ],
+          "amg": [
+            0.3775,
+            0.3507,
+            0.4051
+          ],
+          "resto_del_estado": [
+            0.1453,
+            0.1102,
+            0.1893
+          ]
+        },
+        {
+          "codigo": "02",
+          "incivilidad": "Pandillerismo o bandas violentas",
+          "jalisco": [
+            0.2628,
+            0.2409,
+            0.2859
+          ],
+          "nacional": [
+            0.2647,
+            0.2596,
+            0.2699
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0019,
+            -0.0235,
+            0.0197
+          ],
+          "amg": [
+            0.3227,
+            0.2962,
+            0.3505
+          ],
+          "resto_del_estado": [
+            0.1434,
+            0.1125,
+            0.1811
+          ]
+        },
+        {
+          "codigo": "14",
+          "incivilidad": "Homicidios",
+          "jalisco": [
+            0.2613,
+            0.2384,
+            0.2856
+          ],
+          "nacional": [
+            0.2373,
+            0.2321,
+            0.2426
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.024,
+            0.0014,
+            0.0466
+          ],
+          "amg": [
+            0.3271,
+            0.299,
+            0.3564
+          ],
+          "resto_del_estado": [
+            0.1303,
+            0.1042,
+            0.1619
+          ]
+        },
+        {
+          "codigo": "17",
+          "incivilidad": "Tomas irregulares de luz",
+          "jalisco": [
+            0.231,
+            0.2081,
+            0.2557
+          ],
+          "nacional": [
+            0.2098,
+            0.205,
+            0.2147
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0212,
+            -0.0015,
+            0.0439
+          ],
+          "amg": [
+            0.2761,
+            0.2493,
+            0.3047
+          ],
+          "resto_del_estado": [
+            0.1411,
+            0.1137,
+            0.174
+          ]
+        },
+        {
+          "codigo": "03",
+          "incivilidad": "Riñas entre vecinos",
+          "jalisco": [
+            0.2294,
+            0.2099,
+            0.2501
+          ],
+          "nacional": [
+            0.2478,
+            0.243,
+            0.2527
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0185,
+            -0.0378,
+            0.0009
+          ],
+          "amg": [
+            0.2597,
+            0.2356,
+            0.2852
+          ],
+          "resto_del_estado": [
+            0.169,
+            0.1415,
+            0.2006
+          ]
+        },
+        {
+          "codigo": "15",
+          "incivilidad": "Extorsiones (cobro de piso)",
+          "jalisco": [
+            0.2201,
+            0.1978,
+            0.2442
+          ],
+          "nacional": [
+            0.1977,
+            0.1932,
+            0.2023
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0224,
+            0.0003,
+            0.0445
+          ],
+          "amg": [
+            0.2291,
+            0.203,
+            0.2574
+          ],
+          "resto_del_estado": [
+            0.2022,
+            0.1645,
+            0.2461
+          ]
+        },
+        {
+          "codigo": "05",
+          "incivilidad": "Venta de productos piratas",
+          "jalisco": [
+            0.2168,
+            0.1963,
+            0.2388
+          ],
+          "nacional": [
+            0.1779,
+            0.1738,
+            0.1821
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0389,
+            0.0187,
+            0.0591
+          ],
+          "amg": [
+            0.2338,
+            0.209,
+            0.2605
+          ],
+          "resto_del_estado": [
+            0.183,
+            0.1464,
+            0.2262
+          ]
+        },
+        {
+          "codigo": "07",
+          "incivilidad": "Invasión de predios",
+          "jalisco": [
+            0.1941,
+            0.1726,
+            0.2176
+          ],
+          "nacional": [
+            0.1845,
+            0.1799,
+            0.1892
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0096,
+            -0.0118,
+            0.0311
+          ],
+          "amg": [
+            0.2282,
+            0.2027,
+            0.2559
+          ],
+          "resto_del_estado": [
+            0.1263,
+            0.0944,
+            0.1668
+          ]
+        },
+        {
+          "codigo": "13",
+          "incivilidad": "Secuestros",
+          "jalisco": [
+            0.1775,
+            0.1586,
+            0.1981
+          ],
+          "nacional": [
+            0.128,
+            0.1241,
+            0.1321
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0495,
+            0.0307,
+            0.0682
+          ],
+          "amg": [
+            0.2105,
+            0.187,
+            0.236
+          ],
+          "resto_del_estado": [
+            0.1119,
+            0.0849,
+            0.1461
+          ]
+        },
+        {
+          "codigo": "06",
+          "incivilidad": "Violencia policiaca contra ciudadanos",
+          "jalisco": [
+            0.1614,
+            0.1421,
+            0.1829
+          ],
+          "nacional": [
+            0.1668,
+            0.1628,
+            0.1709
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0054,
+            -0.0248,
+            0.014
+          ],
+          "amg": [
+            0.1751,
+            0.1537,
+            0.1988
+          ],
+          "resto_del_estado": [
+            0.1342,
+            0.1006,
+            0.1767
+          ]
+        },
+        {
+          "codigo": "04",
+          "incivilidad": "Venta ilegal de alcohol",
+          "jalisco": [
+            0.1496,
+            0.1338,
+            0.1669
+          ],
+          "nacional": [
+            0.2112,
+            0.2068,
+            0.2157
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0616,
+            -0.0776,
+            -0.0455
+          ],
+          "amg": [
+            0.1498,
+            0.1308,
+            0.171
+          ],
+          "resto_del_estado": [
+            0.1493,
+            0.1207,
+            0.1833
+          ]
+        },
+        {
+          "codigo": "16",
+          "incivilidad": "Robo o venta ilegal de combustible (huachicol)",
+          "jalisco": [
+            0.0915,
+            0.0765,
+            0.1091
+          ],
+          "nacional": [
+            0.0748,
+            0.0713,
+            0.0784
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0168,
+            0.0013,
+            0.0323
+          ],
+          "amg": [
+            0.0806,
+            0.0644,
+            0.1005
+          ],
+          "resto_del_estado": [
+            0.1132,
+            0.0838,
+            0.1513
+          ]
+        },
+        {
+          "codigo": "12",
+          "incivilidad": "Prostitución",
+          "jalisco": [
+            0.085,
+            0.0722,
+            0.0999
+          ],
+          "nacional": [
+            0.0564,
+            0.0542,
+            0.0588
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0286,
+            0.0155,
+            0.0416
+          ],
+          "amg": [
+            0.0722,
+            0.0583,
+            0.089
+          ],
+          "resto_del_estado": [
+            0.1106,
+            0.0852,
+            0.1424
+          ]
+        }
+      ],
+      "tendencia_estado": {
+        "mejorará": {
+          "jalisco": [
+            0.2884,
+            0.2682,
+            0.3096
+          ],
+          "nacional": [
+            0.2733,
+            0.2689,
+            0.2777
+          ]
+        },
+        "seguirá igual de bien": {
+          "jalisco": [
+            0.093,
+            0.079,
+            0.1091
+          ],
+          "nacional": [
+            0.1137,
+            0.1106,
+            0.1168
+          ]
+        },
+        "seguirá igual de mal": {
+          "jalisco": [
+            0.3096,
+            0.2879,
+            0.3322
+          ],
+          "nacional": [
+            0.3025,
+            0.2979,
+            0.3072
+          ]
+        },
+        "empeorará": {
+          "jalisco": [
+            0.2874,
+            0.2664,
+            0.3093
+          ],
+          "nacional": [
+            0.287,
+            0.2824,
+            0.2917
+          ]
+        }
+      }
+    }
+  },
+  "cambio_2025_a_2026": {
+    "colonia o localidad": {
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0218,
+          -0.0559,
+          0.0123
+        ],
+        "razon": [
+          0.941,
+          0.856,
+          1.035
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0452,
+          -0.0534,
+          -0.0371
+        ],
+        "razon": [
+          0.888,
+          0.869,
+          0.907
+        ]
+      },
+      "cambio_jalisco_menos_cambio_nacional": [
+        0.0234,
+        -0.0116,
+        0.0584
+      ]
+    },
+    "municipio": {
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.015,
+          -0.0522,
+          0.0222
+        ],
+        "razon": [
+          0.976,
+          0.918,
+          1.037
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0385,
+          -0.0464,
+          -0.0307
+        ],
+        "razon": [
+          0.94,
+          0.929,
+          0.952
+        ]
+      },
+      "cambio_jalisco_menos_cambio_nacional": [
+        0.0235,
+        -0.0145,
+        0.0615
+      ]
+    },
+    "estado": {
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          0.0155,
+          -0.0135,
+          0.0446
+        ],
+        "razon": [
+          1.02,
+          0.983,
+          1.059
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0156,
+          -0.0213,
+          -0.0098
+        ],
+        "razon": [
+          0.979,
+          0.972,
+          0.987
+        ]
+      },
+      "cambio_jalisco_menos_cambio_nacional": [
+        0.0311,
+        0.0014,
+        0.0608
+      ]
+    }
+  },
+  "E16g_cambio_incivilidades": [
+    {
+      "codigo": "09",
+      "incivilidad": "Robos o asaltos frecuentes",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0705,
+          -0.1095,
+          -0.0315
+        ],
+        "razon": [
+          0.846,
+          0.771,
+          0.928
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0442,
+          -0.0529,
+          -0.0356
+        ],
+        "razon": [
+          0.897,
+          0.878,
+          0.916
+        ]
+      }
+    },
+    {
+      "codigo": "14",
+      "incivilidad": "Homicidios",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.056,
+          -0.0873,
+          -0.0248
+        ],
+        "razon": [
+          0.786,
+          0.687,
+          0.899
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0265,
+          -0.0338,
+          -0.0192
+        ],
+        "razon": [
+          0.888,
+          0.86,
+          0.918
+        ]
+      }
+    },
+    {
+      "codigo": "13",
+      "incivilidad": "Secuestros",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0554,
+          -0.0805,
+          -0.0304
+        ],
+        "razon": [
+          0.688,
+          0.581,
+          0.814
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0231,
+          -0.0287,
+          -0.0176
+        ],
+        "razon": [
+          0.819,
+          0.781,
+          0.86
+        ]
+      }
+    },
+    {
+      "codigo": "11",
+      "incivilidad": "Disparos frecuentes",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0443,
+          -0.0781,
+          -0.0106
+        ],
+        "razon": [
+          0.852,
+          0.754,
+          0.963
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0482,
+          -0.0569,
+          -0.0396
+        ],
+        "razon": [
+          0.86,
+          0.836,
+          0.883
+        ]
+      }
+    },
+    {
+      "codigo": "02",
+      "incivilidad": "Pandillerismo o bandas violentas",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0331,
+          -0.0645,
+          -0.0016
+        ],
+        "razon": [
+          0.874,
+          0.769,
+          0.994
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.018,
+          -0.0255,
+          -0.0106
+        ],
+        "razon": [
+          0.932,
+          0.905,
+          0.96
+        ]
+      }
+    },
+    {
+      "codigo": "06",
+      "incivilidad": "Violencia policiaca contra ciudadanos",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0306,
+          -0.0563,
+          -0.0048
+        ],
+        "razon": [
+          0.811,
+          0.681,
+          0.965
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0173,
+          -0.0228,
+          -0.0117
+        ],
+        "razon": [
+          0.896,
+          0.866,
+          0.928
+        ]
+      }
+    },
+    {
+      "codigo": "03",
+      "incivilidad": "Riñas entre vecinos",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0228,
+          -0.0503,
+          0.0048
+        ],
+        "razon": [
+          0.901,
+          0.794,
+          1.022
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0143,
+          -0.0209,
+          -0.0076
+        ],
+        "razon": [
+          0.942,
+          0.917,
+          0.969
+        ]
+      }
+    },
+    {
+      "codigo": "05",
+      "incivilidad": "Venta de productos piratas",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0212,
+          -0.0515,
+          0.0091
+        ],
+        "razon": [
+          0.902,
+          0.778,
+          1.046
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0087,
+          -0.0148,
+          -0.0027
+        ],
+        "razon": [
+          0.951,
+          0.918,
+          0.985
+        ]
+      }
+    },
+    {
+      "codigo": "15",
+      "incivilidad": "Extorsiones (cobro de piso)",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0208,
+          -0.0502,
+          0.0087
+        ],
+        "razon": [
+          0.906,
+          0.788,
+          1.041
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.014,
+          -0.0203,
+          -0.0078
+        ],
+        "razon": [
+          0.929,
+          0.899,
+          0.96
+        ]
+      }
+    },
+    {
+      "codigo": "08",
+      "incivilidad": "Consumo de droga",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0191,
+          -0.0551,
+          0.0169
+        ],
+        "razon": [
+          0.967,
+          0.909,
+          1.03
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0137,
+          -0.022,
+          -0.0055
+        ],
+        "razon": [
+          0.974,
+          0.958,
+          0.989
+        ]
+      }
+    },
+    {
+      "codigo": "12",
+      "incivilidad": "Prostitución",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0183,
+          -0.0373,
+          0.0008
+        ],
+        "razon": [
+          0.785,
+          0.608,
+          1.014
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0047,
+          -0.0079,
+          -0.0014
+        ],
+        "razon": [
+          0.917,
+          0.863,
+          0.974
+        ]
+      }
+    },
+    {
+      "codigo": "01",
+      "incivilidad": "Consumo de alcohol en la calle",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.015,
+          -0.0513,
+          0.0214
+        ],
+        "razon": [
+          0.975,
+          0.918,
+          1.036
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0179,
+          -0.0256,
+          -0.0103
+        ],
+        "razon": [
+          0.972,
+          0.96,
+          0.984
+        ]
+      }
+    },
+    {
+      "codigo": "16",
+      "incivilidad": "Robo o venta ilegal de combustible (huachicol)",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.015,
+          -0.0357,
+          0.0056
+        ],
+        "razon": [
+          0.836,
+          0.655,
+          1.067
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0077,
+          -0.0124,
+          -0.003
+        ],
+        "razon": [
+          0.897,
+          0.84,
+          0.959
+        ]
+      }
+    },
+    {
+      "codigo": "17",
+      "incivilidad": "Tomas irregulares de luz",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0097,
+          -0.0431,
+          0.0237
+        ],
+        "razon": [
+          0.958,
+          0.826,
+          1.11
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0025,
+          -0.0093,
+          0.0043
+        ],
+        "razon": [
+          0.988,
+          0.956,
+          1.021
+        ]
+      }
+    },
+    {
+      "codigo": "04",
+      "incivilidad": "Venta ilegal de alcohol",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0094,
+          -0.0337,
+          0.0149
+        ],
+        "razon": [
+          0.937,
+          0.792,
+          1.109
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0127,
+          -0.0191,
+          -0.0064
+        ],
+        "razon": [
+          0.94,
+          0.911,
+          0.969
+        ]
+      }
+    },
+    {
+      "codigo": "07",
+      "incivilidad": "Invasión de predios",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          -0.0081,
+          -0.0403,
+          0.0241
+        ],
+        "razon": [
+          0.958,
+          0.809,
+          1.136
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0091,
+          -0.0156,
+          -0.0026
+        ],
+        "razon": [
+          0.951,
+          0.917,
+          0.986
+        ]
+      }
+    },
+    {
+      "codigo": "10",
+      "incivilidad": "Venta de droga",
+      "jalisco_2026_vs_2025": {
+        "diferencia": [
+          0.0029,
+          -0.0334,
+          0.0393
+        ],
+        "razon": [
+          1.007,
+          0.926,
+          1.094
+        ]
+      },
+      "nacional_2026_vs_2025": {
+        "diferencia": [
+          -0.0142,
+          -0.0222,
+          -0.0061
+        ],
+        "razon": [
+          0.962,
+          0.941,
+          0.983
+        ]
+      }
+    }
+  ],
+  "hipotesis": {
+    "H16a": true,
+    "H16b": false,
+    "H16c": true,
+    "H16d": true,
+    "H16e": true,
+    "H16f": true,
+    "E16g": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:09:15+00:00",
+    "script": "pieces.p16_percepcion",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97"
+    }
+  }
+}

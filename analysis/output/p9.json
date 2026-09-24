@@ -1,0 +1,284 @@
+{
+  "pregunta": "¿Qué parte de los delitos en Jalisco nunca llega a las cifras oficiales?",
+  "resultados": {
+    "2026": {
+      "victimizacion_del_año": 2025,
+      "nacional": [
+        0.9341,
+        0.9297,
+        0.9383
+      ],
+      "jalisco": [
+        0.9219,
+        0.8981,
+        0.9406
+      ],
+      "nacional_delitos_estimados": 33802897,
+      "jalisco_vandalismo_aparte": [
+        0.9925,
+        0.9482,
+        0.9989
+      ],
+      "jalisco_delitos_estimados": 1842260,
+      "jalisco_casos_muestra": 995,
+      "por_delito": [
+        {
+          "codigo": "13",
+          "delito": "Alguien en contra de su voluntad lo (la) agredió mediante hostigamiento o intimidación sexual, manoseo, exhibicionismo o intento de violación",
+          "casos_muestra": 36,
+          "delitos_estimados": 74805,
+          "cifra_negra": [
+            0.988,
+            0.9151,
+            0.9984
+          ]
+        },
+        {
+          "codigo": "08",
+          "delito": "Entregó dinero por un producto o un servicio que no recibió conforme a lo acordado (fraude al consumidor)",
+          "casos_muestra": 112,
+          "delitos_estimados": 243897,
+          "cifra_negra": [
+            0.986,
+            0.9463,
+            0.9965
+          ]
+        },
+        {
+          "codigo": "10",
+          "delito": "Amenazas verbales o por escrito hacia su persona diciendo\nque le va a causar un daño a usted, a su familia, a sus bienes\no su trabajo",
+          "casos_muestra": 105,
+          "delitos_estimados": 241110,
+          "cifra_negra": [
+            0.9578,
+            0.9012,
+            0.9826
+          ]
+        },
+        {
+          "codigo": "07",
+          "delito": "Alguien usó su chequera, número de tarjeta o cuenta bancaria sin su permiso para realizar cargos o para extraer dinero de sus cuentas (fraude bancario) o le dio dinero falso",
+          "casos_muestra": 141,
+          "delitos_estimados": 286516,
+          "cifra_negra": [
+            0.9444,
+            0.877,
+            0.9759
+          ]
+        },
+        {
+          "codigo": "11",
+          "delito": "Alguien solo por actitud abusiva o por una discusión lo (la) golpeó, empujó o atacó generándole una lesión física (moretones, fracturas, cortadas, etcétera)",
+          "casos_muestra": 31,
+          "delitos_estimados": 68943,
+          "cifra_negra": [
+            0.9431,
+            0.8246,
+            0.9832
+          ]
+        },
+        {
+          "codigo": "09",
+          "delito": "Presiones, engaños o advertencias para exigirle dinero o bienes; o para que hiciera algo o dejara de hacerlo (extorsión)",
+          "casos_muestra": 109,
+          "delitos_estimados": 252382,
+          "cifra_negra": [
+            0.9396,
+            0.8467,
+            0.9777
+          ]
+        },
+        {
+          "codigo": "02",
+          "delito": "Robo de accesorios, refacciones o herramientas de vehículos (automóvil, camioneta o camión)",
+          "casos_muestra": 174,
+          "delitos_estimados": 160066,
+          "cifra_negra": [
+            0.9331,
+            0.8827,
+            0.9627
+          ]
+        },
+        {
+          "codigo": "04",
+          "delito": "Alguien entró a su casa o departamento sin permiso mediante el uso de la fuerza o por engaños y robó o intentó robar algo",
+          "casos_muestra": 60,
+          "delitos_estimados": 58973,
+          "cifra_negra": [
+            0.8877,
+            0.7792,
+            0.9465
+          ]
+        },
+        {
+          "codigo": "05",
+          "delito": "Robo o asalto en la calle o en el transporte público (incluye robo en banco o cajero automático)",
+          "casos_muestra": 151,
+          "delitos_estimados": 344658,
+          "cifra_negra": [
+            0.8705,
+            0.7861,
+            0.9248
+          ]
+        },
+        {
+          "codigo": "01",
+          "delito": "Robo total de vehículo (automóvil, camioneta o camión)",
+          "casos_muestra": 42,
+          "delitos_estimados": 37784,
+          "cifra_negra": [
+            0.2129,
+            0.1117,
+            0.3679
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "victimizacion_del_año": 2024,
+      "nacional": [
+        0.9325,
+        0.9281,
+        0.9365
+      ],
+      "jalisco": [
+        0.9171,
+        0.8939,
+        0.9357
+      ],
+      "nacional_delitos_estimados": 33450221,
+      "jalisco_vandalismo_aparte": [
+        0.9796,
+        0.924,
+        0.9948
+      ],
+      "jalisco_delitos_estimados": 2145635,
+      "jalisco_casos_muestra": 1117,
+      "por_delito": [
+        {
+          "codigo": "13",
+          "delito": "Alguien en contra de su voluntad lo (la) agredió mediante hostigamiento o intimidación sexual, manoseo, exhibicionismo o intento de violación",
+          "casos_muestra": 58,
+          "delitos_estimados": 164702,
+          "cifra_negra": [
+            0.9826,
+            0.877,
+            0.9978
+          ]
+        },
+        {
+          "codigo": "07",
+          "delito": "Alguien usó su chequera, número de tarjeta o cuenta bancaria sin su permiso para realizar cargos o para extraer dinero de sus cuentas (fraude bancario) o le dio dinero falso",
+          "casos_muestra": 110,
+          "delitos_estimados": 246013,
+          "cifra_negra": [
+            0.9782,
+            0.8941,
+            0.9958
+          ]
+        },
+        {
+          "codigo": "08",
+          "delito": "Entregó dinero por un producto o un servicio que no recibió conforme a lo acordado (fraude al consumidor).",
+          "casos_muestra": 106,
+          "delitos_estimados": 241878,
+          "cifra_negra": [
+            0.9689,
+            0.9178,
+            0.9886
+          ]
+        },
+        {
+          "codigo": "09",
+          "delito": "Amenazas, presiones o engaños para exigirle dinero o bienes; o para que hiciera algo o dejara de hacerlo (extorsión)",
+          "casos_muestra": 177,
+          "delitos_estimados": 407929,
+          "cifra_negra": [
+            0.9511,
+            0.8995,
+            0.9769
+          ]
+        },
+        {
+          "codigo": "10",
+          "delito": "Amenazas verbales o por escrito hacia su persona diciendo\nque le va a causar un daño a usted, a su familia, a sus bienes\no su trabajo",
+          "casos_muestra": 111,
+          "delitos_estimados": 246070,
+          "cifra_negra": [
+            0.9076,
+            0.8282,
+            0.9524
+          ]
+        },
+        {
+          "codigo": "05",
+          "delito": "Robo o asalto en la calle o en el transporte público (incluye robo en banco o cajero automático)",
+          "casos_muestra": 154,
+          "delitos_estimados": 345766,
+          "cifra_negra": [
+            0.8994,
+            0.8286,
+            0.943
+          ]
+        },
+        {
+          "codigo": "11",
+          "delito": "Alguien solo por actitud abusiva o por una discusión lo (la) golpeó, empujó o atacó generándole una lesión física (moretones, fracturas, cortadas, etcétera)",
+          "casos_muestra": 41,
+          "delitos_estimados": 112610,
+          "cifra_negra": [
+            0.8964,
+            0.7697,
+            0.9572
+          ]
+        },
+        {
+          "codigo": "02",
+          "delito": "Robo de accesorios, refacciones o herramientas de vehículos (automóvil, camioneta, camión)",
+          "casos_muestra": 188,
+          "delitos_estimados": 181709,
+          "cifra_negra": [
+            0.8962,
+            0.8407,
+            0.9339
+          ]
+        },
+        {
+          "codigo": "04",
+          "delito": "Alguien entró a su casa o departamento sin permiso mediante el uso de la fuerza o por engaños y robó o intentó robar algo",
+          "casos_muestra": 82,
+          "delitos_estimados": 83470,
+          "cifra_negra": [
+            0.8637,
+            0.7489,
+            0.9309
+          ]
+        },
+        {
+          "codigo": "01",
+          "delito": "Robo total de vehículo (automóvil, camioneta, camión)",
+          "casos_muestra": 54,
+          "delitos_estimados": 52258,
+          "cifra_negra": [
+            0.3979,
+            0.2758,
+            0.5342
+          ]
+        }
+      ]
+    }
+  },
+  "hipotesis": {
+    "H9a": false,
+    "H9b": false,
+    "H9c": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:37+00:00",
+    "script": "pieces.p9_cifra_negra",
+    "insumos_sha256": {
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2026_csv.zip": "dd79f589eb6ed7d3675cc86e21ac9bbdbf269913963091d8698d6e28e0540a17",
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2025_csv.zip": "8a7a99fd90ce9d03229759ba0ad84db4fba98b5bb1f5c85eef7d718b007816fa"
+    }
+  }
+}

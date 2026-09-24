@@ -61,14 +61,15 @@ footer.site{border-top:1px solid var(--line);color:var(--ink-2);font-size:.88rem
 `;
 
 export function page({ title, path = '/', body, meta = {}, head = '', status = 200, cache = 'public, max-age=300' }) {
-  const nav = [['/', 'Cédulas'], ['/mapa', 'Mapa'], ['/metodologia', 'Metodología'], ['/retiro', 'Solicitar retiro']]
+  // Cédula wall and takedown form are hidden from navigation for now (routes still exist).
+  const nav = [['/mapa', 'Mapa'], ['/metodologia', 'Metodología']]
     .map(([href, label]) => `<a href="${href}"${(href === '/' ? path === '/' || path.startsWith('/cedula') : path.startsWith(href)) ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   const html = `<!doctype html><html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} · México Visible</title><meta name="description" content="${esc(meta.description || 'Personas desaparecidas en Jalisco: cédulas de búsqueda, mapa municipal y metodología de las fuentes oficiales.')}">
 <style>${CSS}</style>${head}</head><body>
-<header class="site"><div class="wrap"><a class="brand" href="/">México Visible · Jalisco</a><nav class="main" aria-label="Principal">${nav}</nav></div></header>
+<header class="site"><div class="wrap"><a class="brand" href="/mapa">México Visible · Jalisco</a><nav class="main" aria-label="Principal">${nav}</nav></div></header>
 <main><div class="wrap">${body}</div></main>
-<footer class="site"><div class="wrap">Datos de fuentes oficiales: Registro Estatal de Personas Desaparecidas de Jalisco, SESNSP, CONAPO e INEGI. ${meta.updated ? `Actualizado con el registro observado el ${esc(meta.updated)}.` : ''} <a href="/metodologia">Metodología</a> · <a href="/retiro">Solicitar retiro</a></div></footer>
+<footer class="site"><div class="wrap">Datos de fuentes oficiales: Registro Estatal de Personas Desaparecidas de Jalisco, SESNSP, CONAPO e INEGI. ${meta.updated ? `Actualizado con el registro observado el ${esc(meta.updated)}.` : ''} <a href="/metodologia">Metodología</a></div></footer>
 </body></html>`;
   return new Response(html, { status, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': cache,
     'x-content-type-options': 'nosniff', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-frame-options': 'DENY',

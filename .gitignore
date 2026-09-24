@@ -9,3 +9,7 @@ node_modules/
 
 # Wrangler local state (local D1 contains personal data)
 .wrangler/
+
+# Python analysis environment
+analysis/.venv/
+__pycache__/

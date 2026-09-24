@@ -1,0 +1,478 @@
+{
+  "pregunta": "¿La caída del homicidio en 2025 es real, o es reclasificación?",
+  "homicidio_doloso": {
+    "carpetas_por_año": {
+      "2019": 2017,
+      "2020": 1754,
+      "2021": 1816,
+      "2022": 1600,
+      "2023": 1450,
+      "2024": 1439,
+      "2025": 952
+    },
+    "victimas_por_año": {
+      "2019": 2671,
+      "2020": 2625,
+      "2021": 2370,
+      "2022": 2066,
+      "2023": 1962,
+      "2024": 1797,
+      "2025": 1196
+    },
+    "razon_tasas_2025_vs_2024": {
+      "carpetas": [
+        0.655,
+        0.603,
+        0.712
+      ],
+      "victimas": [
+        0.659,
+        0.612,
+        0.71
+      ]
+    },
+    "victimas_por_mes": {
+      "2024": [
+        153,
+        143,
+        162,
+        141,
+        148,
+        180,
+        191,
+        155,
+        144,
+        116,
+        128,
+        136
+      ],
+      "2025": [
+        124,
+        99,
+        146,
+        133,
+        115,
+        76,
+        123,
+        95,
+        51,
+        76,
+        67,
+        91
+      ]
+    },
+    "carpetas_por_mes": {
+      "2024": [
+        134,
+        106,
+        128,
+        117,
+        127,
+        138,
+        147,
+        113,
+        116,
+        99,
+        105,
+        109
+      ],
+      "2025": [
+        87,
+        79,
+        105,
+        95,
+        95,
+        68,
+        85,
+        79,
+        45,
+        70,
+        60,
+        84
+      ]
+    },
+    "meses_2025_debajo_de_2024_victimas": 12,
+    "con_arma_de_fuego_carpetas": {
+      "2019": 1165,
+      "2020": 1002,
+      "2021": 1114,
+      "2022": 914,
+      "2023": 841,
+      "2024": 877,
+      "2025": 606
+    }
+  },
+  "sustitucion": {
+    "caida_carpetas_doloso_2024_2025": 487,
+    "categorias_vecinas_carpetas": {
+      "Homicidio culposo": {
+        "2019": 734,
+        "2020": 872,
+        "2021": 918,
+        "2022": 1047,
+        "2023": 1045,
+        "2024": 969,
+        "2025": 1072
+      },
+      "Feminicidio": {
+        "2019": 65,
+        "2020": 70,
+        "2021": 77,
+        "2022": 43,
+        "2023": 37,
+        "2024": 39,
+        "2025": 40
+      },
+      "Otros delitos que atentan contra la vida y la integridad corporal": {
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 177,
+        "2025": 126
+      },
+      "Homicidio culposo con arma de fuego o blanca": {
+        "2019": 4,
+        "2020": 4,
+        "2021": 0,
+        "2022": 2,
+        "2023": 6,
+        "2024": 0,
+        "2025": 2
+      }
+    },
+    "homicidio_culposo_por_modalidad_2024_2025": {
+      "Con arma blanca": [
+        0,
+        0
+      ],
+      "Con arma de fuego": [
+        0,
+        2
+      ],
+      "Con otro elemento": [
+        12,
+        12
+      ],
+      "En accidente de tránsito": [
+        957,
+        1058
+      ],
+      "No especificado": [
+        0,
+        0
+      ]
+    },
+    "compensacion_culposo_con_arma": 0.0041
+  },
+  "lesiones_dolosas_arma_de_fuego": {
+    "carpetas_por_año": {
+      "2019": 775,
+      "2020": 627,
+      "2021": 760,
+      "2022": 678,
+      "2023": 638,
+      "2024": 643,
+      "2025": 596
+    },
+    "razon_tasas_2025_vs_2024": [
+      0.918,
+      0.82,
+      1.028
+    ]
+  },
+  "intencion_no_determinada_inegi_2019_2023": {
+    "se_ignora": {
+      "n": 2712,
+      "hombres": [
+        0.7814,
+        0.7654,
+        0.7966
+      ],
+      "edad_mediana": 38.0,
+      "pct_15_44": 0.5404,
+      "pct_edad_desconocida": 0.083,
+      "mecanismo_pct": {
+        "otro medio": 74.4,
+        "ahorcamiento/estrangulamiento": 13.3,
+        "arma de fuego": 9.7,
+        "arma blanca": 2.5
+      }
+    },
+    "homicidio": {
+      "n": 10554,
+      "hombres": [
+        0.8922,
+        0.8861,
+        0.8979
+      ],
+      "edad_mediana": 32.0,
+      "pct_15_44": 0.7857,
+      "pct_edad_desconocida": 0.0562,
+      "mecanismo_pct": {
+        "arma de fuego": 59.5,
+        "otro medio": 18.2,
+        "arma blanca": 11.3,
+        "ahorcamiento/estrangulamiento": 10.9
+      }
+    }
+  },
+  "inegi_ocurrencia": {
+    "por_año": {
+      "2018": {
+        "homicidio": 2676,
+        "se_ignora": 513
+      },
+      "2019": {
+        "homicidio": 2529,
+        "se_ignora": 617
+      },
+      "2020": {
+        "homicidio": 2343,
+        "se_ignora": 643
+      },
+      "2021": {
+        "homicidio": 2241,
+        "se_ignora": 650
+      },
+      "2022": {
+        "homicidio": 1848,
+        "se_ignora": 519
+      },
+      "2023": {
+        "homicidio": 1593,
+        "se_ignora": 283
+      },
+      "2024": {
+        "homicidio": 1685,
+        "se_ignora": 146
+      }
+    },
+    "nota": "2024 incompleto (faltan registros tardíos).",
+    "tendencia_2019_2023_pct_anual": {
+      "homicidio": [
+        -11.5,
+        -14.3,
+        -8.5
+      ],
+      "homicidio_mas_se_ignora": [
+        -12.1,
+        -16.6,
+        -7.3
+      ]
+    },
+    "se_ignora_entre_homicidio_mas_se_ignora_pct": {
+      "2018": 16.1,
+      "2019": 19.6,
+      "2020": 21.5,
+      "2021": 22.5,
+      "2022": 21.9,
+      "2023": 15.1,
+      "2024": 8.0
+    }
+  },
+  "desaparicion_por_victima_de_homicidio": {
+    "por_año": [
+      {
+        "año": 2019,
+        "denuncias_desaparicion": 4872,
+        "victimas_homicidio": 2671,
+        "razon": [
+          1.82,
+          1.74,
+          1.91
+        ]
+      },
+      {
+        "año": 2020,
+        "denuncias_desaparicion": 4254,
+        "victimas_homicidio": 2625,
+        "razon": [
+          1.62,
+          1.54,
+          1.7
+        ]
+      },
+      {
+        "año": 2021,
+        "denuncias_desaparicion": 4382,
+        "victimas_homicidio": 2370,
+        "razon": [
+          1.85,
+          1.76,
+          1.94
+        ]
+      },
+      {
+        "año": 2022,
+        "denuncias_desaparicion": 4021,
+        "victimas_homicidio": 2066,
+        "razon": [
+          1.95,
+          1.85,
+          2.05
+        ]
+      },
+      {
+        "año": 2023,
+        "denuncias_desaparicion": 3406,
+        "victimas_homicidio": 1962,
+        "razon": [
+          1.74,
+          1.64,
+          1.84
+        ]
+      },
+      {
+        "año": 2024,
+        "denuncias_desaparicion": 3169,
+        "victimas_homicidio": 1797,
+        "razon": [
+          1.76,
+          1.66,
+          1.87
+        ]
+      },
+      {
+        "año": 2025,
+        "denuncias_desaparicion": 2647,
+        "victimas_homicidio": 1196,
+        "razon": [
+          2.21,
+          2.07,
+          2.37
+        ]
+      }
+    ],
+    "razon_2025_vs_2019_2024": [
+      1.239,
+      1.153,
+      1.331
+    ]
+  },
+  "donde_bajo_2024_2025": {
+    "por_region": [
+      {
+        "region": "Altos Norte",
+        "2024": 146,
+        "2025": 75,
+        "cambio_pct": -48.6
+      },
+      {
+        "region": "Altos Sur",
+        "2024": 17,
+        "2025": 9,
+        "cambio_pct": -47.1
+      },
+      {
+        "region": "Resto del estado",
+        "2024": 145,
+        "2025": 110,
+        "cambio_pct": -24.1
+      },
+      {
+        "region": "Área metropolitana de Guadalajara",
+        "2024": 1131,
+        "2025": 758,
+        "cambio_pct": -33.0
+      }
+    ],
+    "municipios_que_mas_bajaron": [
+      {
+        "municipio": "Tlajomulco de Zúñiga",
+        "2024": 271,
+        "2025": 144,
+        "cambio": -127
+      },
+      {
+        "municipio": "Guadalajara",
+        "2024": 232,
+        "2025": 150,
+        "cambio": -82
+      },
+      {
+        "municipio": "San Pedro Tlaquepaque",
+        "2024": 280,
+        "2025": 205,
+        "cambio": -75
+      },
+      {
+        "municipio": "Encarnación de Díaz",
+        "2024": 59,
+        "2025": 7,
+        "cambio": -52
+      },
+      {
+        "municipio": "Zapopan",
+        "2024": 153,
+        "2025": 107,
+        "cambio": -46
+      },
+      {
+        "municipio": "Lagos de Moreno",
+        "2024": 51,
+        "2025": 20,
+        "cambio": -31
+      },
+      {
+        "municipio": "Tonalá",
+        "2024": 113,
+        "2025": 94,
+        "cambio": -19
+      },
+      {
+        "municipio": "San Juan de los Lagos",
+        "2024": 16,
+        "2025": 4,
+        "cambio": -12
+      },
+      {
+        "municipio": "El Salto",
+        "2024": 56,
+        "2025": 44,
+        "cambio": -12
+      },
+      {
+        "municipio": "Puerto Vallarta",
+        "2024": 24,
+        "2025": 15,
+        "cambio": -9
+      }
+    ],
+    "proporcion_de_la_caida_en_5_municipios": 0.784,
+    "municipios_que_subieron": 31
+  },
+  "victimas_ene_ago_2026_vs_2025": {
+    "2025": 911,
+    "2026": 550,
+    "razon_tasas": [
+      0.598,
+      0.537,
+      0.666
+    ]
+  },
+  "hipotesis": {
+    "H12a": true,
+    "H12b": true,
+    "H12c": false,
+    "H12d": true,
+    "E12e": "exploratoria",
+    "E12f": "exploratoria",
+    "E12g": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:38+00:00",
+    "script": "pieces.p12_caida_homicidio",
+    "insumos_sha256": {
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-extra-import-20260924T190235Z/sesnsp-victimas-estatal-2015-2025-jalisco.csv": "7f2eb3d88a8cae178c1b36b6ba00b3110b2c3822feabcdfddae1a106aee03949",
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c",
+      "s3-analysis-repd-stats-20260924T181640Z/porcentaje_localizacion_año.json": "a1c8fc90df779fac394b5ca5f4ce1bc1aa0d9e4e3df5d56d992e1cea36598b4f",
+      "s3-extra-import-20260924T190235Z/sesnsp-victimas-municipal-2026-jalisco.csv": "bf19242892b2058aa0ec4d5380275226c5eedd60d2ba0afaf4f2cedbf8ce5fec"
+    }
+  }
+}

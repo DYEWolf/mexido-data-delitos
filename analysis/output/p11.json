@@ -1,0 +1,1648 @@
+{
+  "pregunta": "¿Sobre quién recae cada delito? Víctimas por sexo y edad, Jalisco enero-agosto 2026",
+  "total_victimas": 80631,
+  "calidad": {
+    "sin_sexo": 0.073,
+    "sin_edad": 0.203
+  },
+  "perfil_por_delito": [
+    {
+      "delito": "Violación",
+      "victimas": 348,
+      "mujeres": [
+        0.9425,
+        0.9129,
+        0.9625
+      ],
+      "menores_0_17": [
+        0.009,
+        0.0031,
+        0.0261
+      ],
+      "sin_sexo_pct": 0.0,
+      "sin_edad_pct": 0.043
+    },
+    {
+      "delito": "Violación a la intimidad sexual",
+      "victimas": 428,
+      "mujeres": [
+        0.911,
+        0.8802,
+        0.9345
+      ],
+      "menores_0_17": [
+        0.2261,
+        0.1878,
+        0.2697
+      ],
+      "sin_sexo_pct": 0.002,
+      "sin_edad_pct": 0.07
+    },
+    {
+      "delito": "Abuso sexual",
+      "victimas": 2581,
+      "mujeres": [
+        0.9102,
+        0.8985,
+        0.9206
+      ],
+      "menores_0_17": [
+        0.9011,
+        0.8886,
+        0.9124
+      ],
+      "sin_sexo_pct": 0.003,
+      "sin_edad_pct": 0.064
+    },
+    {
+      "delito": "Violencia familiar",
+      "victimas": 9045,
+      "mujeres": [
+        0.9049,
+        0.8987,
+        0.9108
+      ],
+      "menores_0_17": [
+        0.0216,
+        0.0187,
+        0.0249
+      ],
+      "sin_sexo_pct": 0.0,
+      "sin_edad_pct": 0.042
+    },
+    {
+      "delito": "Acoso sexual",
+      "victimas": 218,
+      "mujeres": [
+        0.8945,
+        0.8467,
+        0.9287
+      ],
+      "menores_0_17": [
+        0.3724,
+        0.3078,
+        0.442
+      ],
+      "sin_sexo_pct": 0.0,
+      "sin_edad_pct": 0.101
+    },
+    {
+      "delito": "Otros delitos que atentan contra la libertad y la seguridad sexual",
+      "victimas": 410,
+      "mujeres": [
+        0.7897,
+        0.7476,
+        0.8264
+      ],
+      "menores_0_17": [
+        0.227,
+        0.1861,
+        0.2739
+      ],
+      "sin_sexo_pct": 0.002,
+      "sin_edad_pct": 0.151
+    },
+    {
+      "delito": "Retención o sustracción de menores e incapaces",
+      "victimas": 278,
+      "mujeres": [
+        0.5787,
+        0.5173,
+        0.6378
+      ],
+      "menores_0_17": [
+        0.9909,
+        0.9673,
+        0.9975
+      ],
+      "sin_sexo_pct": 0.086,
+      "sin_edad_pct": 0.212
+    },
+    {
+      "delito": "Otros delitos del Fuero Común",
+      "victimas": 6811,
+      "mujeres": [
+        0.5584,
+        0.5463,
+        0.5705
+      ],
+      "menores_0_17": [
+        0.2481,
+        0.237,
+        0.2595
+      ],
+      "sin_sexo_pct": 0.05,
+      "sin_edad_pct": 0.168
+    },
+    {
+      "delito": "Incumplimiento de obligaciones de asistencia familiar",
+      "victimas": 962,
+      "mujeres": [
+        0.5434,
+        0.5111,
+        0.5753
+      ],
+      "menores_0_17": [
+        0.9247,
+        0.9032,
+        0.9417
+      ],
+      "sin_sexo_pct": 0.042,
+      "sin_edad_pct": 0.241
+    },
+    {
+      "delito": "Amenazas",
+      "victimas": 6910,
+      "mujeres": [
+        0.5091,
+        0.4973,
+        0.5209
+      ],
+      "menores_0_17": [
+        0.0349,
+        0.0306,
+        0.0398
+      ],
+      "sin_sexo_pct": 0.008,
+      "sin_edad_pct": 0.125
+    },
+    {
+      "delito": "Suplantación y usurpación de identidad",
+      "victimas": 3259,
+      "mujeres": [
+        0.476,
+        0.4588,
+        0.4932
+      ],
+      "menores_0_17": [
+        0.0312,
+        0.025,
+        0.0389
+      ],
+      "sin_sexo_pct": 0.004,
+      "sin_edad_pct": 0.253
+    },
+    {
+      "delito": "Falsificación",
+      "victimas": 1112,
+      "mujeres": [
+        0.4577,
+        0.4153,
+        0.5007
+      ],
+      "menores_0_17": [
+        0.0502,
+        0.0301,
+        0.0825
+      ],
+      "sin_sexo_pct": 0.532,
+      "sin_edad_pct": 0.749
+    },
+    {
+      "delito": "Fraude",
+      "victimas": 7705,
+      "mujeres": [
+        0.4553,
+        0.4439,
+        0.4667
+      ],
+      "menores_0_17": [
+        0.0065,
+        0.0047,
+        0.0089
+      ],
+      "sin_sexo_pct": 0.052,
+      "sin_edad_pct": 0.26
+    },
+    {
+      "delito": "Despojo",
+      "victimas": 940,
+      "mujeres": [
+        0.4106,
+        0.3793,
+        0.4425
+      ],
+      "menores_0_17": [
+        0.0149,
+        0.0078,
+        0.028
+      ],
+      "sin_sexo_pct": 0.013,
+      "sin_edad_pct": 0.355
+    },
+    {
+      "delito": "Lesiones",
+      "victimas": 11594,
+      "mujeres": [
+        0.396,
+        0.387,
+        0.4052
+      ],
+      "menores_0_17": [
+        0.1271,
+        0.1205,
+        0.1339
+      ],
+      "sin_sexo_pct": 0.041,
+      "sin_edad_pct": 0.177
+    },
+    {
+      "delito": "Abuso de confianza",
+      "victimas": 580,
+      "mujeres": [
+        0.3857,
+        0.3463,
+        0.4267
+      ],
+      "menores_0_17": [
+        0.0,
+        0.0,
+        0.0098
+      ],
+      "sin_sexo_pct": 0.034,
+      "sin_edad_pct": 0.333
+    },
+    {
+      "delito": "Daño a la propiedad",
+      "victimas": 1835,
+      "mujeres": [
+        0.3644,
+        0.3415,
+        0.3878
+      ],
+      "menores_0_17": [
+        0.0045,
+        0.002,
+        0.0097
+      ],
+      "sin_sexo_pct": 0.098,
+      "sin_edad_pct": 0.268
+    },
+    {
+      "delito": "Privación ilegal de la libertad",
+      "victimas": 331,
+      "mujeres": [
+        0.3125,
+        0.2617,
+        0.3682
+      ],
+      "menores_0_17": [
+        0.0727,
+        0.0453,
+        0.1149
+      ],
+      "sin_sexo_pct": 0.13,
+      "sin_edad_pct": 0.335
+    },
+    {
+      "delito": "Robo",
+      "victimas": 20178,
+      "mujeres": [
+        0.3091,
+        0.3025,
+        0.3157
+      ],
+      "menores_0_17": [
+        0.0113,
+        0.0098,
+        0.0131
+      ],
+      "sin_sexo_pct": 0.059,
+      "sin_edad_pct": 0.174
+    },
+    {
+      "delito": "Delitos cometidos por servidores públicos",
+      "victimas": 294,
+      "mujeres": [
+        0.2632,
+        0.2081,
+        0.3267
+      ],
+      "menores_0_17": [
+        0.1616,
+        0.102,
+        0.2465
+      ],
+      "sin_sexo_pct": 0.289,
+      "sin_edad_pct": 0.663
+    },
+    {
+      "delito": "Homicidio",
+      "victimas": 1298,
+      "mujeres": [
+        0.153,
+        0.1342,
+        0.1739
+      ],
+      "menores_0_17": [
+        0.0917,
+        0.0757,
+        0.1106
+      ],
+      "sin_sexo_pct": 0.023,
+      "sin_edad_pct": 0.185
+    },
+    {
+      "delito": "Narcomenudeo",
+      "victimas": 2230,
+      "mujeres": [
+        0.0455,
+        0.0081,
+        0.218
+      ],
+      "menores_0_17": [
+        0.8333,
+        0.4365,
+        0.9699
+      ],
+      "sin_sexo_pct": 0.99,
+      "sin_edad_pct": 0.997
+    }
+  ],
+  "delitos_clave": {
+    "Homicidio doloso": {
+      "victimas": 550,
+      "mujeres": [
+        0.0836,
+        0.0633,
+        0.1098
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 0.0,
+          "pop": 932654.4,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 14.0,
+          "pop": 381082.2,
+          "rate": 3.67,
+          "lo": 2.01,
+          "hi": 6.16
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 125.0,
+          "pop": 909493.4,
+          "rate": 13.74,
+          "lo": 11.44,
+          "hi": 16.38
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 278.0,
+          "pop": 1706767.8,
+          "rate": 16.29,
+          "lo": 14.43,
+          "hi": 18.32
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 16.0,
+          "pop": 507608.2,
+          "rate": 3.15,
+          "lo": 1.8,
+          "hi": 5.12
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 0.0,
+          "pop": 895133.6,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.41
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 0.0,
+          "pop": 364752.4,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 1.01
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 11.0,
+          "pop": 881185.0,
+          "rate": 1.25,
+          "lo": 0.62,
+          "hi": 2.23
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 19.0,
+          "pop": 1811286.2,
+          "rate": 1.05,
+          "lo": 0.63,
+          "hi": 1.64
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 6.0,
+          "pop": 592063.8,
+          "rate": 1.01,
+          "lo": 0.37,
+          "hi": 2.21
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Hombre",
+        "edad": "30 a 60 años",
+        "tasa": 16.29,
+        "ic95": [
+          14.43,
+          18.32
+        ],
+        "separado_del_segundo": false
+      }
+    },
+    "Feminicidio": {
+      "victimas": 17,
+      "mujeres": [
+        1.0,
+        0.8157,
+        1.0
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 0.0,
+          "pop": 932654.4,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 0.0,
+          "pop": 381082.2,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.97
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 0.0,
+          "pop": 909493.4,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.41
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 0.0,
+          "pop": 1706767.8,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.22
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 0.0,
+          "pop": 507608.2,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.73
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 1.0,
+          "pop": 895133.6,
+          "rate": 0.11,
+          "lo": 0.0,
+          "hi": 0.62
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 1.0,
+          "pop": 364752.4,
+          "rate": 0.27,
+          "lo": 0.01,
+          "hi": 1.53
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 2.0,
+          "pop": 881185.0,
+          "rate": 0.23,
+          "lo": 0.03,
+          "hi": 0.82
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 9.0,
+          "pop": 1811286.2,
+          "rate": 0.5,
+          "lo": 0.23,
+          "hi": 0.94
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 4.0,
+          "pop": 592063.8,
+          "rate": 0.68,
+          "lo": 0.18,
+          "hi": 1.73
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "Más de 60 años",
+        "tasa": 0.68,
+        "ic95": [
+          0.18,
+          1.73
+        ],
+        "separado_del_segundo": false
+      }
+    },
+    "Lesiones dolosas": {
+      "victimas": 6784,
+      "mujeres": [
+        0.458,
+        0.4462,
+        0.4699
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 44,
+          "pop": 932654.4,
+          "rate": 4.72,
+          "lo": 3.43,
+          "hi": 6.33
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 194,
+          "pop": 381082.2,
+          "rate": 50.91,
+          "lo": 44.0,
+          "hi": 58.6
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 924,
+          "pop": 909493.4,
+          "rate": 101.6,
+          "lo": 95.15,
+          "hi": 108.36
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 1831,
+          "pop": 1706767.8,
+          "rate": 107.28,
+          "lo": 102.42,
+          "hi": 112.31
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 238,
+          "pop": 507608.2,
+          "rate": 46.89,
+          "lo": 41.12,
+          "hi": 53.24
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 34,
+          "pop": 895133.6,
+          "rate": 3.8,
+          "lo": 2.63,
+          "hi": 5.31
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 218,
+          "pop": 364752.4,
+          "rate": 59.77,
+          "lo": 52.1,
+          "hi": 68.25
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 801,
+          "pop": 881185.0,
+          "rate": 90.9,
+          "lo": 84.71,
+          "hi": 97.42
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 1606,
+          "pop": 1811286.2,
+          "rate": 88.67,
+          "lo": 84.38,
+          "hi": 93.11
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 133,
+          "pop": 592063.8,
+          "rate": 22.46,
+          "lo": 18.81,
+          "hi": 26.62
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Hombre",
+        "edad": "30 a 60 años",
+        "tasa": 107.28,
+        "ic95": [
+          102.42,
+          112.31
+        ],
+        "separado_del_segundo": false
+      }
+    },
+    "Violencia familiar": {
+      "victimas": 9045,
+      "mujeres": [
+        0.9049,
+        0.8987,
+        0.9108
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 23,
+          "pop": 932654.4,
+          "rate": 2.47,
+          "lo": 1.56,
+          "hi": 3.7
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 35,
+          "pop": 381082.2,
+          "rate": 9.18,
+          "lo": 6.4,
+          "hi": 12.77
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 115,
+          "pop": 909493.4,
+          "rate": 12.64,
+          "lo": 10.44,
+          "hi": 15.18
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 373,
+          "pop": 1706767.8,
+          "rate": 21.85,
+          "lo": 19.69,
+          "hi": 24.19
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 243,
+          "pop": 507608.2,
+          "rate": 47.87,
+          "lo": 42.04,
+          "hi": 54.28
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 32,
+          "pop": 895133.6,
+          "rate": 3.57,
+          "lo": 2.45,
+          "hi": 5.05
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 97,
+          "pop": 364752.4,
+          "rate": 26.59,
+          "lo": 21.57,
+          "hi": 32.44
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 2520,
+          "pop": 881185.0,
+          "rate": 285.98,
+          "lo": 274.92,
+          "hi": 297.37
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 4709,
+          "pop": 1811286.2,
+          "rate": 259.98,
+          "lo": 252.61,
+          "hi": 267.51
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 520,
+          "pop": 592063.8,
+          "rate": 87.83,
+          "lo": 80.44,
+          "hi": 95.71
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "18 a 29 años",
+        "tasa": 285.98,
+        "ic95": [
+          274.92,
+          297.37
+        ],
+        "separado_del_segundo": true
+      }
+    },
+    "Abuso sexual": {
+      "victimas": 2581,
+      "mujeres": [
+        0.9102,
+        0.8985,
+        0.9206
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 136.0,
+          "pop": 932654.4,
+          "rate": 14.58,
+          "lo": 12.23,
+          "hi": 17.25
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 67.0,
+          "pop": 381082.2,
+          "rate": 17.58,
+          "lo": 13.63,
+          "hi": 22.33
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 6.0,
+          "pop": 909493.4,
+          "rate": 0.66,
+          "lo": 0.24,
+          "hi": 1.44
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 6.0,
+          "pop": 1706767.8,
+          "rate": 0.35,
+          "lo": 0.13,
+          "hi": 0.77
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 0.0,
+          "pop": 507608.2,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.73
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 538.0,
+          "pop": 895133.6,
+          "rate": 60.1,
+          "lo": 55.13,
+          "hi": 65.4
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 1437.0,
+          "pop": 364752.4,
+          "rate": 393.97,
+          "lo": 373.86,
+          "hi": 414.87
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 125.0,
+          "pop": 881185.0,
+          "rate": 14.19,
+          "lo": 11.81,
+          "hi": 16.9
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 95.0,
+          "pop": 1811286.2,
+          "rate": 5.24,
+          "lo": 4.24,
+          "hi": 6.41
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 7.0,
+          "pop": 592063.8,
+          "rate": 1.18,
+          "lo": 0.48,
+          "hi": 2.44
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "13 a 17 años",
+        "tasa": 393.97,
+        "ic95": [
+          373.86,
+          414.87
+        ],
+        "separado_del_segundo": true
+      }
+    },
+    "Violación": {
+      "victimas": 348,
+      "mujeres": [
+        0.9425,
+        0.9129,
+        0.9625
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 1.0,
+          "pop": 932654.4,
+          "rate": 0.11,
+          "lo": 0.0,
+          "hi": 0.6
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 0.0,
+          "pop": 381082.2,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.97
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 13.0,
+          "pop": 909493.4,
+          "rate": 1.43,
+          "lo": 0.76,
+          "hi": 2.44
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 4.0,
+          "pop": 1706767.8,
+          "rate": 0.23,
+          "lo": 0.06,
+          "hi": 0.6
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 1.0,
+          "pop": 507608.2,
+          "rate": 0.2,
+          "lo": 0.0,
+          "hi": 1.1
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 0.0,
+          "pop": 895133.6,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.41
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 2.0,
+          "pop": 364752.4,
+          "rate": 0.55,
+          "lo": 0.07,
+          "hi": 1.98
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 157.0,
+          "pop": 881185.0,
+          "rate": 17.82,
+          "lo": 15.14,
+          "hi": 20.83
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 151.0,
+          "pop": 1811286.2,
+          "rate": 8.34,
+          "lo": 7.06,
+          "hi": 9.78
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 4.0,
+          "pop": 592063.8,
+          "rate": 0.68,
+          "lo": 0.18,
+          "hi": 1.73
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "18 a 29 años",
+        "tasa": 17.82,
+        "ic95": [
+          15.14,
+          20.83
+        ],
+        "separado_del_segundo": true
+      }
+    },
+    "Delitos sexuales (todos)": {
+      "victimas": 4045,
+      "mujeres": [
+        0.9001,
+        0.8904,
+        0.909
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 153,
+          "pop": 932654.4,
+          "rate": 16.4,
+          "lo": 13.91,
+          "hi": 19.22
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 90,
+          "pop": 381082.2,
+          "rate": 23.62,
+          "lo": 18.99,
+          "hi": 29.03
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 45,
+          "pop": 909493.4,
+          "rate": 4.95,
+          "lo": 3.61,
+          "hi": 6.62
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 61,
+          "pop": 1706767.8,
+          "rate": 3.57,
+          "lo": 2.73,
+          "hi": 4.59
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 4,
+          "pop": 507608.2,
+          "rate": 0.79,
+          "lo": 0.21,
+          "hi": 2.02
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 587,
+          "pop": 895133.6,
+          "rate": 65.58,
+          "lo": 60.38,
+          "hi": 71.1
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 1606,
+          "pop": 364752.4,
+          "rate": 440.3,
+          "lo": 419.03,
+          "hi": 462.37
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 620,
+          "pop": 881185.0,
+          "rate": 70.36,
+          "lo": 64.93,
+          "hi": 76.12
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 558,
+          "pop": 1811286.2,
+          "rate": 30.81,
+          "lo": 28.3,
+          "hi": 33.47
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 16,
+          "pop": 592063.8,
+          "rate": 2.7,
+          "lo": 1.54,
+          "hi": 4.39
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "13 a 17 años",
+        "tasa": 440.3,
+        "ic95": [
+          419.03,
+          462.37
+        ],
+        "separado_del_segundo": true
+      }
+    },
+    "Robo con violencia": {
+      "victimas": 7061,
+      "mujeres": [
+        0.2759,
+        0.2654,
+        0.2866
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 26,
+          "pop": 932654.4,
+          "rate": 2.79,
+          "lo": 1.82,
+          "hi": 4.08
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 26,
+          "pop": 381082.2,
+          "rate": 6.82,
+          "lo": 4.46,
+          "hi": 10.0
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 1531,
+          "pop": 909493.4,
+          "rate": 168.34,
+          "lo": 160.01,
+          "hi": 176.98
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 2620,
+          "pop": 1706767.8,
+          "rate": 153.51,
+          "lo": 147.68,
+          "hi": 159.5
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 242,
+          "pop": 507608.2,
+          "rate": 47.67,
+          "lo": 41.86,
+          "hi": 54.07
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 10,
+          "pop": 895133.6,
+          "rate": 1.12,
+          "lo": 0.54,
+          "hi": 2.05
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 4,
+          "pop": 364752.4,
+          "rate": 1.1,
+          "lo": 0.3,
+          "hi": 2.81
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 450,
+          "pop": 881185.0,
+          "rate": 51.07,
+          "lo": 46.46,
+          "hi": 56.01
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 1056,
+          "pop": 1811286.2,
+          "rate": 58.3,
+          "lo": 54.84,
+          "hi": 61.93
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 71,
+          "pop": 592063.8,
+          "rate": 11.99,
+          "lo": 9.37,
+          "hi": 15.13
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Hombre",
+        "edad": "18 a 29 años",
+        "tasa": 168.34,
+        "ic95": [
+          160.01,
+          176.98
+        ],
+        "separado_del_segundo": true
+      }
+    },
+    "Extorsión": {
+      "victimas": 181,
+      "mujeres": [
+        0.4912,
+        0.4173,
+        0.5655
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 1,
+          "pop": 932654.4,
+          "rate": 0.11,
+          "lo": 0.0,
+          "hi": 0.6
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 8,
+          "pop": 381082.2,
+          "rate": 2.1,
+          "lo": 0.91,
+          "hi": 4.14
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 13,
+          "pop": 909493.4,
+          "rate": 1.43,
+          "lo": 0.76,
+          "hi": 2.44
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 41,
+          "pop": 1706767.8,
+          "rate": 2.4,
+          "lo": 1.72,
+          "hi": 3.26
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 7,
+          "pop": 507608.2,
+          "rate": 1.38,
+          "lo": 0.55,
+          "hi": 2.84
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 4,
+          "pop": 895133.6,
+          "rate": 0.45,
+          "lo": 0.12,
+          "hi": 1.14
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 7,
+          "pop": 364752.4,
+          "rate": 1.92,
+          "lo": 0.77,
+          "hi": 3.95
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 9,
+          "pop": 881185.0,
+          "rate": 1.02,
+          "lo": 0.47,
+          "hi": 1.94
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 44,
+          "pop": 1811286.2,
+          "rate": 2.43,
+          "lo": 1.77,
+          "hi": 3.26
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 4,
+          "pop": 592063.8,
+          "rate": 0.68,
+          "lo": 0.18,
+          "hi": 1.73
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Mujer",
+        "edad": "30 a 60 años",
+        "tasa": 2.43,
+        "ic95": [
+          1.77,
+          3.26
+        ],
+        "separado_del_segundo": false
+      }
+    },
+    "Privación ilegal de la libertad": {
+      "victimas": 331,
+      "mujeres": [
+        0.3125,
+        0.2617,
+        0.3682
+      ],
+      "tasas_por_100k_8_meses": [
+        {
+          "sexo": "Hombre",
+          "edad": "0 a 12 años",
+          "n": 6,
+          "pop": 932654.4,
+          "rate": 0.64,
+          "lo": 0.24,
+          "hi": 1.4
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "13 a 17 años",
+          "n": 5,
+          "pop": 381082.2,
+          "rate": 1.31,
+          "lo": 0.43,
+          "hi": 3.06
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "18 a 29 años",
+          "n": 47,
+          "pop": 909493.4,
+          "rate": 5.17,
+          "lo": 3.8,
+          "hi": 6.87
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "30 a 60 años",
+          "n": 85,
+          "pop": 1706767.8,
+          "rate": 4.98,
+          "lo": 3.98,
+          "hi": 6.16
+        },
+        {
+          "sexo": "Hombre",
+          "edad": "Más de 60 años",
+          "n": 5,
+          "pop": 507608.2,
+          "rate": 0.99,
+          "lo": 0.32,
+          "hi": 2.3
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "0 a 12 años",
+          "n": 1,
+          "pop": 895133.6,
+          "rate": 0.11,
+          "lo": 0.0,
+          "hi": 0.62
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "13 a 17 años",
+          "n": 4,
+          "pop": 364752.4,
+          "rate": 1.1,
+          "lo": 0.3,
+          "hi": 2.81
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "18 a 29 años",
+          "n": 31,
+          "pop": 881185.0,
+          "rate": 3.52,
+          "lo": 2.39,
+          "hi": 4.99
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "30 a 60 años",
+          "n": 33,
+          "pop": 1811286.2,
+          "rate": 1.82,
+          "lo": 1.25,
+          "hi": 2.56
+        },
+        {
+          "sexo": "Mujer",
+          "edad": "Más de 60 años",
+          "n": 1,
+          "pop": 592063.8,
+          "rate": 0.17,
+          "lo": 0.0,
+          "hi": 0.94
+        }
+      ],
+      "grupo_mas_afectado": {
+        "sexo": "Hombre",
+        "edad": "18 a 29 años",
+        "tasa": 5.17,
+        "ic95": [
+          3.8,
+          6.87
+        ],
+        "separado_del_segundo": false
+      }
+    }
+  },
+  "violencia_contra_mujeres_municipios": {
+    "definicion": "mujeres víctimas de violencia familiar o delitos sexuales por 100 mil mujeres, ene-ago 2026",
+    "tasa_estatal": 260.0,
+    "victimas": 11814,
+    "creiblemente_superiores": [
+      {
+        "municipio": "Colotlán",
+        "region": "Resto del estado",
+        "victimas": 85,
+        "tasa_eb": 656.3,
+        "ic95": [
+          528.9,
+          797.2
+        ]
+      },
+      {
+        "municipio": "Puerto Vallarta",
+        "region": "Resto del estado",
+        "victimas": 928,
+        "tasa_eb": 593.3,
+        "ic95": [
+          555.9,
+          631.9
+        ]
+      },
+      {
+        "municipio": "El Grullo",
+        "region": "Resto del estado",
+        "victimas": 83,
+        "tasa_eb": 553.0,
+        "ic95": [
+          444.6,
+          673.1
+        ]
+      },
+      {
+        "municipio": "Gómez Farías",
+        "region": "Resto del estado",
+        "victimas": 56,
+        "tasa_eb": 530.0,
+        "ic95": [
+          407.1,
+          668.8
+        ]
+      },
+      {
+        "municipio": "Bolaños",
+        "region": "Resto del estado",
+        "victimas": 22,
+        "tasa_eb": 468.6,
+        "ic95": [
+          313.4,
+          654.6
+        ]
+      },
+      {
+        "municipio": "Ameca",
+        "region": "Resto del estado",
+        "victimas": 130,
+        "tasa_eb": 416.0,
+        "ic95": [
+          349.2,
+          488.5
+        ]
+      },
+      {
+        "municipio": "Cihuatlán",
+        "region": "Resto del estado",
+        "victimas": 87,
+        "tasa_eb": 413.7,
+        "ic95": [
+          334.2,
+          501.5
+        ]
+      },
+      {
+        "municipio": "Mascota",
+        "region": "Resto del estado",
+        "victimas": 33,
+        "tasa_eb": 400.3,
+        "ic95": [
+          285.7,
+          533.8
+        ]
+      },
+      {
+        "municipio": "Cocula",
+        "region": "Resto del estado",
+        "victimas": 68,
+        "tasa_eb": 387.1,
+        "ic95": [
+          304.4,
+          479.5
+        ]
+      },
+      {
+        "municipio": "Tecolotlán",
+        "region": "Resto del estado",
+        "victimas": 35,
+        "tasa_eb": 376.9,
+        "ic95": [
+          271.4,
+          499.4
+        ]
+      },
+      {
+        "municipio": "Tala",
+        "region": "Resto del estado",
+        "victimas": 187,
+        "tasa_eb": 376.0,
+        "ic95": [
+          324.9,
+          430.7
+        ]
+      },
+      {
+        "municipio": "Autlán de Navarro",
+        "region": "Resto del estado",
+        "victimas": 135,
+        "tasa_eb": 368.6,
+        "ic95": [
+          310.4,
+          431.7
+        ]
+      },
+      {
+        "municipio": "Zapotlán el Grande",
+        "region": "Resto del estado",
+        "victimas": 238,
+        "tasa_eb": 356.8,
+        "ic95": [
+          313.5,
+          402.9
+        ]
+      },
+      {
+        "municipio": "San Pedro Tlaquepaque",
+        "region": "Área metropolitana de Guadalajara",
+        "victimas": 1179,
+        "tasa_eb": 317.3,
+        "ic95": [
+          299.5,
+          335.6
+        ]
+      },
+      {
+        "municipio": "Guadalajara",
+        "region": "Área metropolitana de Guadalajara",
+        "victimas": 2048,
+        "tasa_eb": 285.6,
+        "ic95": [
+          273.4,
+          298.1
+        ]
+      },
+      {
+        "municipio": "Tonalá",
+        "region": "Área metropolitana de Guadalajara",
+        "victimas": 849,
+        "tasa_eb": 278.6,
+        "ic95": [
+          260.2,
+          297.6
+        ]
+      }
+    ]
+  },
+  "hipotesis": {
+    "H11a": true,
+    "H11b": true,
+    "H11c": true,
+    "H11d": true,
+    "H11e": true,
+    "H11f": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:37+00:00",
+    "script": "pieces.p11_victimas_sexo_edad",
+    "insumos_sha256": {
+      "s3-extra-import-20260924T190235Z/sesnsp-victimas-municipal-2026-jalisco.csv": "bf19242892b2058aa0ec4d5380275226c5eedd60d2ba0afaf4f2cedbf8ce5fec",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97"
+    }
+  }
+}

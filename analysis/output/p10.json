@@ -1,0 +1,165 @@
+{
+  "pregunta": "¿La desaparición sigue a la marginación y a la ruralidad, y el homicidio no?",
+  "modelos": {
+    "solo_marginacion": {
+      "desaparicion_IRR_por_DE": {
+        "marg": [
+          0.895,
+          0.807,
+          0.992
+        ]
+      },
+      "homicidio_IRR_por_DE": {
+        "marg": [
+          1.032,
+          0.896,
+          1.188
+        ]
+      },
+      "razon_D_sobre_D_mas_H_OR_por_DE": {
+        "marg": [
+          1.196,
+          0.986,
+          1.451
+        ]
+      },
+      "razon_D_sobre_D_mas_H_OR_por_DE_sin_amg": {
+        "marg": [
+          0.713,
+          0.586,
+          0.866
+        ]
+      },
+      "dispersion_pearson": {
+        "todos": 15.4,
+        "sin_amg": 6.2
+      },
+      "alpha_nb": {
+        "desaparicion": 0.269,
+        "homicidio": 0.558
+      }
+    },
+    "marginacion_y_ruralidad": {
+      "desaparicion_IRR_por_DE": {
+        "marg": [
+          0.82,
+          0.722,
+          0.93
+        ],
+        "rural": [
+          1.129,
+          1.001,
+          1.274
+        ]
+      },
+      "homicidio_IRR_por_DE": {
+        "marg": [
+          1.023,
+          0.864,
+          1.211
+        ],
+        "rural": [
+          1.015,
+          0.853,
+          1.208
+        ]
+      },
+      "razon_D_sobre_D_mas_H_OR_por_DE": {
+        "marg": [
+          0.709,
+          0.52,
+          0.968
+        ],
+        "rural": [
+          1.801,
+          1.341,
+          2.417
+        ]
+      },
+      "razon_D_sobre_D_mas_H_OR_por_DE_sin_amg": {
+        "marg": [
+          0.698,
+          0.529,
+          0.922
+        ],
+        "rural": [
+          1.025,
+          0.813,
+          1.294
+        ]
+      },
+      "dispersion_pearson": {
+        "todos": 13.6,
+        "sin_amg": 6.2
+      },
+      "alpha_nb": {
+        "desaparicion": 0.261,
+        "homicidio": 0.558
+      }
+    }
+  },
+  "correlacion_marginacion_ruralidad": 0.539,
+  "por_grado_de_marginacion": [
+    {
+      "grupo": "Muy bajo",
+      "municipios": 78,
+      "D": 15262,
+      "H": 10095.0,
+      "pop25": 8336914,
+      "py": 40121245,
+      "desap_acumuladas_100k": 183.1,
+      "homicidio_inegi_100k_anual_2019_2023": 25.2,
+      "desap_acumuladas_por_homicidio_inegi_2019_2023": 1.51
+    },
+    {
+      "grupo": "Bajo",
+      "municipios": 34,
+      "D": 686,
+      "H": 329.0,
+      "pop25": 452023,
+      "py": 2205048,
+      "desap_acumuladas_100k": 151.8,
+      "homicidio_inegi_100k_anual_2019_2023": 14.9,
+      "desap_acumuladas_por_homicidio_inegi_2019_2023": 2.09
+    },
+    {
+      "grupo": "Medio",
+      "municipios": 8,
+      "D": 128,
+      "H": 56.0,
+      "pop25": 59556,
+      "py": 292929,
+      "desap_acumuladas_100k": 214.9,
+      "homicidio_inegi_100k_anual_2019_2023": 19.1,
+      "desap_acumuladas_por_homicidio_inegi_2019_2023": 2.29
+    },
+    {
+      "grupo": "Alto o muy alto",
+      "municipios": 5,
+      "D": 41,
+      "H": 59.0,
+      "pop25": 54833,
+      "py": 268771,
+      "desap_acumuladas_100k": 74.8,
+      "homicidio_inegi_100k_anual_2019_2023": 22.0,
+      "desap_acumuladas_por_homicidio_inegi_2019_2023": 0.69
+    }
+  ],
+  "hipotesis": {
+    "H10a": false,
+    "H10b": true,
+    "H10c": false,
+    "H10d": false
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:37+00:00",
+    "script": "pieces.p10_marginacion",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-extra-import-20260924T190235Z/conapo-marginacion-2020-jalisco.csv": "c3642ba45f8b8d87bc67ca3110623840fe41fd4c27fe6d951af306c9f7d328c9",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s3-analysis-repd-stats-20260924T181640Z/datos_para_mapa.json": "fda9926d04d0a57c7d85ce983d40256c9d52c609c9340b726a77b1c51aef79cd",
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c"
+    }
+  }
+}

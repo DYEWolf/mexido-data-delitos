@@ -1,0 +1,589 @@
+{
+  "pregunta": "¿Las personas asesinadas y las que desaparecen son la misma población?",
+  "hombres": {
+    "homicidio_inegi_2019_2023": [
+      0.8922,
+      0.8861,
+      0.8979
+    ],
+    "siguen_desaparecidas_2019_2025": [
+      0.8814,
+      0.8747,
+      0.8877
+    ]
+  },
+  "edad_media_hombres": {
+    "homicidio": 35.2,
+    "desaparicion": 33.5
+  },
+  "jensen_shannon_edad_hombres": 0.0726,
+  "E7d_escala_jensen_shannon": {
+    "homicidio_vs_desaparicion": {
+      "js": 0.0726,
+      "ic95_bootstrap": [
+        0.0647,
+        0.0893
+      ]
+    },
+    "homicidio_vs_poblacion_masculina": {
+      "js": 0.409,
+      "ic95_bootstrap": [
+        0.4034,
+        0.4156
+      ]
+    },
+    "desaparicion_vs_poblacion_masculina": {
+      "js": 0.4074,
+      "ic95_bootstrap": [
+        0.4012,
+        0.415
+      ]
+    },
+    "edad_media_poblacion_masculina_2019_2023": 31.1,
+    "nota": "Percentil del bootstrap; la distancia estimada con muestras finitas tiene sesgo hacia arriba, así que sirve para escala, no como prueba."
+  },
+  "distribucion_edad_hombres_pct": {
+    "homicidio": {
+      "0-4": 0.3,
+      "5-9": 0.1,
+      "10-14": 0.3,
+      "15-19": 5.9,
+      "20-24": 15.3,
+      "25-29": 18.1,
+      "30-34": 15.6,
+      "35-39": 13.6,
+      "40-44": 10.5,
+      "45-49": 8.0,
+      "50-54": 5.1,
+      "55-59": 2.8,
+      "60-64": 1.8,
+      "65-69": 1.1,
+      "70-74": 0.8,
+      "75-79": 0.4,
+      "80-84": 0.1,
+      "85+": 0.1
+    },
+    "desaparicion": {
+      "0-4": 0.3,
+      "5-9": 0.3,
+      "10-14": 0.6,
+      "15-19": 8.3,
+      "20-24": 16.5,
+      "25-29": 17.8,
+      "30-34": 16.4,
+      "35-39": 13.5,
+      "40-44": 10.3,
+      "45-49": 6.9,
+      "50-54": 4.0,
+      "55-59": 2.3,
+      "60-64": 1.4,
+      "65-69": 0.6,
+      "70-74": 0.3,
+      "75-79": 0.3,
+      "80-84": 0.1,
+      "85+": 0.1
+    }
+  },
+  "tasa_homicidio_sexo_edad": [
+    {
+      "sexo": "HOMBRE",
+      "age": "0-4",
+      "n": 29,
+      "py": 1813844,
+      "rate": 1.6,
+      "lo": 1.07,
+      "hi": 2.3
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "5-9",
+      "n": 10,
+      "py": 1869357,
+      "rate": 0.53,
+      "lo": 0.26,
+      "hi": 0.98
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "10-14",
+      "n": 24,
+      "py": 1918141,
+      "rate": 1.25,
+      "lo": 0.8,
+      "hi": 1.86
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "15-19",
+      "n": 522,
+      "py": 1910730,
+      "rate": 27.32,
+      "lo": 25.03,
+      "hi": 29.77
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "20-24",
+      "n": 1356,
+      "py": 1913977,
+      "rate": 70.85,
+      "lo": 67.13,
+      "hi": 74.72
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "25-29",
+      "n": 1611,
+      "py": 1871645,
+      "rate": 86.07,
+      "lo": 81.92,
+      "hi": 90.38
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "30-34",
+      "n": 1386,
+      "py": 1719366,
+      "rate": 80.61,
+      "lo": 76.42,
+      "hi": 84.97
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "35-39",
+      "n": 1211,
+      "py": 1466217,
+      "rate": 82.59,
+      "lo": 78.01,
+      "hi": 87.38
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "40-44",
+      "n": 930,
+      "py": 1261118,
+      "rate": 73.74,
+      "lo": 69.08,
+      "hi": 78.64
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "45-49",
+      "n": 712,
+      "py": 1188970,
+      "rate": 59.88,
+      "lo": 55.57,
+      "hi": 64.45
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "50-54",
+      "n": 450,
+      "py": 1056774,
+      "rate": 42.58,
+      "lo": 38.74,
+      "hi": 46.7
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "55-59",
+      "n": 250,
+      "py": 887851,
+      "rate": 28.16,
+      "lo": 24.78,
+      "hi": 31.87
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "60-64",
+      "n": 162,
+      "py": 711123,
+      "rate": 22.78,
+      "lo": 19.41,
+      "hi": 26.57
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "65-69",
+      "n": 100,
+      "py": 541406,
+      "rate": 18.47,
+      "lo": 15.03,
+      "hi": 22.46
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "70-74",
+      "n": 71,
+      "py": 404184,
+      "rate": 17.57,
+      "lo": 13.72,
+      "hi": 22.16
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "75-79",
+      "n": 38,
+      "py": 288277,
+      "rate": 13.18,
+      "lo": 9.33,
+      "hi": 18.09
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "80-84",
+      "n": 11,
+      "py": 175309,
+      "rate": 6.27,
+      "lo": 3.13,
+      "hi": 11.23
+    },
+    {
+      "sexo": "HOMBRE",
+      "age": "85+",
+      "n": 11,
+      "py": 145593,
+      "rate": 7.56,
+      "lo": 3.77,
+      "hi": 13.52
+    },
+    {
+      "sexo": "MUJER",
+      "age": "0-4",
+      "n": 24,
+      "py": 1745586,
+      "rate": 1.37,
+      "lo": 0.88,
+      "hi": 2.05
+    },
+    {
+      "sexo": "MUJER",
+      "age": "5-9",
+      "n": 14,
+      "py": 1798000,
+      "rate": 0.78,
+      "lo": 0.43,
+      "hi": 1.31
+    },
+    {
+      "sexo": "MUJER",
+      "age": "10-14",
+      "n": 14,
+      "py": 1846708,
+      "rate": 0.76,
+      "lo": 0.41,
+      "hi": 1.27
+    },
+    {
+      "sexo": "MUJER",
+      "age": "15-19",
+      "n": 112,
+      "py": 1854759,
+      "rate": 6.04,
+      "lo": 4.97,
+      "hi": 7.27
+    },
+    {
+      "sexo": "MUJER",
+      "age": "20-24",
+      "n": 174,
+      "py": 1858168,
+      "rate": 9.36,
+      "lo": 8.02,
+      "hi": 10.86
+    },
+    {
+      "sexo": "MUJER",
+      "age": "25-29",
+      "n": 182,
+      "py": 1819532,
+      "rate": 10.0,
+      "lo": 8.6,
+      "hi": 11.57
+    },
+    {
+      "sexo": "MUJER",
+      "age": "30-34",
+      "n": 131,
+      "py": 1713696,
+      "rate": 7.64,
+      "lo": 6.39,
+      "hi": 9.07
+    },
+    {
+      "sexo": "MUJER",
+      "age": "35-39",
+      "n": 107,
+      "py": 1564603,
+      "rate": 6.84,
+      "lo": 5.6,
+      "hi": 8.26
+    },
+    {
+      "sexo": "MUJER",
+      "age": "40-44",
+      "n": 103,
+      "py": 1427885,
+      "rate": 7.21,
+      "lo": 5.89,
+      "hi": 8.75
+    },
+    {
+      "sexo": "MUJER",
+      "age": "45-49",
+      "n": 63,
+      "py": 1330899,
+      "rate": 4.73,
+      "lo": 3.64,
+      "hi": 6.06
+    },
+    {
+      "sexo": "MUJER",
+      "age": "50-54",
+      "n": 44,
+      "py": 1164761,
+      "rate": 3.78,
+      "lo": 2.74,
+      "hi": 5.07
+    },
+    {
+      "sexo": "MUJER",
+      "age": "55-59",
+      "n": 29,
+      "py": 985765,
+      "rate": 2.94,
+      "lo": 1.97,
+      "hi": 4.23
+    },
+    {
+      "sexo": "MUJER",
+      "age": "60-64",
+      "n": 24,
+      "py": 803175,
+      "rate": 2.99,
+      "lo": 1.91,
+      "hi": 4.45
+    },
+    {
+      "sexo": "MUJER",
+      "age": "65-69",
+      "n": 15,
+      "py": 621487,
+      "rate": 2.41,
+      "lo": 1.35,
+      "hi": 3.98
+    },
+    {
+      "sexo": "MUJER",
+      "age": "70-74",
+      "n": 13,
+      "py": 468585,
+      "rate": 2.77,
+      "lo": 1.48,
+      "hi": 4.74
+    },
+    {
+      "sexo": "MUJER",
+      "age": "75-79",
+      "n": 8,
+      "py": 339202,
+      "rate": 2.36,
+      "lo": 1.02,
+      "hi": 4.65
+    },
+    {
+      "sexo": "MUJER",
+      "age": "80-84",
+      "n": 9,
+      "py": 214307,
+      "rate": 4.2,
+      "lo": 1.92,
+      "hi": 7.97
+    },
+    {
+      "sexo": "MUJER",
+      "age": "85+",
+      "n": 7,
+      "py": 186993,
+      "rate": 3.74,
+      "lo": 1.51,
+      "hi": 7.71
+    }
+  ],
+  "robustez_pieza1_con_inegi": {
+    "celda_homicidio_bajo_desaparicion_alta": [
+      "Arandas",
+      "Atotonilco el Alto",
+      "Casimiro Castillo",
+      "Cihuatlán",
+      "Colotlán",
+      "Huejuquilla el Alto",
+      "La Barca",
+      "San Gabriel",
+      "San Juan de los Lagos",
+      "San Miguel el Alto",
+      "Tala",
+      "Tuxcacuesco"
+    ],
+    "de_los_12_se_mantienen": [
+      "Arandas",
+      "Atotonilco el Alto",
+      "Casimiro Castillo",
+      "Cihuatlán",
+      "Colotlán",
+      "Huejuquilla el Alto",
+      "La Barca",
+      "San Gabriel",
+      "San Juan de los Lagos",
+      "San Miguel el Alto",
+      "Tala",
+      "Tuxcacuesco"
+    ],
+    "n_mantenidos": 12,
+    "spearman_tasas": {
+      "rho": 0.216,
+      "ic95": [
+        0.04,
+        0.379
+      ],
+      "p": 0.015378419786709445
+    },
+    "por_region": [
+      {
+        "region": "Altos Norte",
+        "desaparecidas": 1303,
+        "homicidios": 886,
+        "razon_rel": 0.96,
+        "ic95": [
+          0.88,
+          1.05
+        ]
+      },
+      {
+        "region": "Altos Sur",
+        "desaparecidas": 771,
+        "homicidios": 162,
+        "razon_rel": 3.11,
+        "ic95": [
+          2.62,
+          3.71
+        ]
+      },
+      {
+        "region": "Resto del estado",
+        "desaparecidas": 4064,
+        "homicidios": 1446,
+        "razon_rel": 1.84,
+        "ic95": [
+          1.73,
+          1.95
+        ]
+      },
+      {
+        "region": "Área metropolitana de Guadalajara",
+        "desaparecidas": 9979,
+        "homicidios": 8045,
+        "razon_rel": 0.81,
+        "ic95": [
+          0.79,
+          0.84
+        ]
+      }
+    ]
+  },
+  "acuerdo_municipal_inegi_vs_sesnsp": {
+    "spearman": 0.913
+  },
+  "edad_desconocida_por_año": [
+    {
+      "año": 2018,
+      "n": 2676,
+      "edad_desconocida": 412,
+      "pct": 15.4,
+      "ic95": [
+        14.1,
+        16.8
+      ]
+    },
+    {
+      "año": 2019,
+      "n": 2529,
+      "edad_desconocida": 145,
+      "pct": 5.7,
+      "ic95": [
+        4.9,
+        6.7
+      ]
+    },
+    {
+      "año": 2020,
+      "n": 2343,
+      "edad_desconocida": 132,
+      "pct": 5.6,
+      "ic95": [
+        4.8,
+        6.6
+      ]
+    },
+    {
+      "año": 2021,
+      "n": 2241,
+      "edad_desconocida": 129,
+      "pct": 5.8,
+      "ic95": [
+        4.9,
+        6.8
+      ]
+    },
+    {
+      "año": 2022,
+      "n": 1848,
+      "edad_desconocida": 106,
+      "pct": 5.7,
+      "ic95": [
+        4.8,
+        6.9
+      ]
+    },
+    {
+      "año": 2023,
+      "n": 1593,
+      "edad_desconocida": 81,
+      "pct": 5.1,
+      "ic95": [
+        4.1,
+        6.3
+      ]
+    },
+    {
+      "año": 2024,
+      "n": 1685,
+      "edad_desconocida": 151,
+      "pct": 9.0,
+      "ic95": [
+        7.7,
+        10.4
+      ]
+    }
+  ],
+  "hipotesis": {
+    "H7a": true,
+    "H7b": true,
+    "H7c": "exploratoria",
+    "E7d": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:35+00:00",
+    "script": "pieces.p7_victimas",
+    "insumos_sha256": {
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c",
+      "s3-analysis-repd-stats-20260924T181640Z/hombres_desaparecidos_año_rango_edad.json": "55ec9734671c1193dd0153841735bf1e3ea1c84323f91e61024e36aa4e1d3db7",
+      "s3-analysis-repd-stats-20260924T181640Z/mujeres_desaparecidas_año_rango_edad.json": "55d7660a82e90fa7a93882001427fe5606212eb0a81e42848f451cef971164b2",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-analysis-repd-stats-20260924T181640Z/datos_para_mapa.json": "fda9926d04d0a57c7d85ce983d40256c9d52c609c9340b726a77b1c51aef79cd",
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4"
+    }
+  }
+}

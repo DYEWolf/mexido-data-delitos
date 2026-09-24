@@ -1,0 +1,141 @@
+{
+  "pregunta": "Si cada año desaparecen menos personas, ¿se está reduciendo la deuda pendiente?",
+  "acervo_total_hoy": 16250,
+  "anteriores_2019": 6222,
+  "proporcion_anterior_2019": 0.3829,
+  "por_cohorte": [
+    {
+      "año": "2019",
+      "siguen_desaparecidas": 1681,
+      "ic95": [
+        1601.6,
+        1763.3
+      ],
+      "acumulado_desde_antes_2019": 7903
+    },
+    {
+      "año": "2020",
+      "siguen_desaparecidas": 1419,
+      "ic95": [
+        1346.1,
+        1494.8
+      ],
+      "acumulado_desde_antes_2019": 9322
+    },
+    {
+      "año": "2021",
+      "siguen_desaparecidas": 1451,
+      "ic95": [
+        1377.3,
+        1527.6
+      ],
+      "acumulado_desde_antes_2019": 10773
+    },
+    {
+      "año": "2022",
+      "siguen_desaparecidas": 1528,
+      "ic95": [
+        1452.3,
+        1606.6
+      ],
+      "acumulado_desde_antes_2019": 12301
+    },
+    {
+      "año": "2023",
+      "siguen_desaparecidas": 1383,
+      "ic95": [
+        1311.1,
+        1457.9
+      ],
+      "acumulado_desde_antes_2019": 13684
+    },
+    {
+      "año": "2024",
+      "siguen_desaparecidas": 1087,
+      "ic95": [
+        1023.3,
+        1153.6
+      ],
+      "acumulado_desde_antes_2019": 14771
+    },
+    {
+      "año": "2025",
+      "siguen_desaparecidas": 910,
+      "ic95": [
+        851.8,
+        971.1
+      ],
+      "acumulado_desde_antes_2019": 15681
+    },
+    {
+      "año": "2026",
+      "siguen_desaparecidas": 569,
+      "ic95": [
+        523.2,
+        617.7
+      ],
+      "acumulado_desde_antes_2019": 16250
+    }
+  ],
+  "denuncias_por_año": [
+    {
+      "anio": 2019,
+      "desaparecidas_reportadas_mismo_anio": 4872,
+      "localizadas_mismo_anio": 2495
+    },
+    {
+      "anio": 2020,
+      "desaparecidas_reportadas_mismo_anio": 4254,
+      "localizadas_mismo_anio": 2317
+    },
+    {
+      "anio": 2021,
+      "desaparecidas_reportadas_mismo_anio": 4382,
+      "localizadas_mismo_anio": 2346
+    },
+    {
+      "anio": 2022,
+      "desaparecidas_reportadas_mismo_anio": 4021,
+      "localizadas_mismo_anio": 1990
+    },
+    {
+      "anio": 2023,
+      "desaparecidas_reportadas_mismo_anio": 3406,
+      "localizadas_mismo_anio": 1730
+    },
+    {
+      "anio": 2024,
+      "desaparecidas_reportadas_mismo_anio": 3169,
+      "localizadas_mismo_anio": 1841
+    },
+    {
+      "anio": 2025,
+      "desaparecidas_reportadas_mismo_anio": 2647,
+      "localizadas_mismo_anio": 1632
+    }
+  ],
+  "tendencia_denuncias_anual_pct": [
+    -8.8,
+    -10.8,
+    -6.8
+  ],
+  "tendencia_aun_desaparecidas_anual_pct": [
+    -7.8,
+    -11.5,
+    -3.9
+  ],
+  "nota_2026": "2026 incluye solo enero-agosto; no entra en tendencias.",
+  "hipotesis": {
+    "H3a": true,
+    "H3b": true,
+    "H3c": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:33+00:00",
+    "script": "pieces.p3_acervo",
+    "insumos_sha256": {
+      "s3-analysis-repd-stats-20260924T181640Z/grafica_personas_desaparecidas_por_año_sexo.json": "6a1bdcfacea3c9b860eccf4dac7e534a3b25745d6ca0487674081cbd7f2f9633",
+      "s3-analysis-repd-stats-20260924T181640Z/porcentaje_localizacion_año.json": "a1c8fc90df779fac394b5ca5f4ce1bc1aa0d9e4e3df5d56d992e1cea36598b4f"
+    }
+  }
+}

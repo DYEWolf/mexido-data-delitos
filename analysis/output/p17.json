@@ -1,0 +1,3706 @@
+{
+  "pregunta": "¿Las razones para no denunciar cambian según el delito?",
+  "regla_tamano": "tipos con al menos 100 delitos no denunciados en la muestra del dominio",
+  "resultados": {
+    "2026": {
+      "victimizacion_del_año": 2025,
+      "jalisco": {
+        "tipos": [
+          {
+            "codigo": "02",
+            "delito": "Robo de accesorios de vehículo",
+            "no_denunciados_muestra": 161,
+            "no_denunciados_estimados": 147428,
+            "atribuibles_autoridad": [
+              0.7638,
+              0.6817,
+              0.83
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.5042,
+                  0.4098,
+                  0.5984
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1221,
+                  0.0744,
+                  0.194
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1101,
+                  0.0641,
+                  0.1826
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0982,
+                  0.0595,
+                  0.1577
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0559,
+                  0.0267,
+                  0.1133
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0393,
+                  0.0156,
+                  0.0959
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0382,
+                  0.0153,
+                  0.0918
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0188,
+                  0.006,
+                  0.0572
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0133,
+                  0.0033,
+                  0.0519
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "08",
+            "delito": "Fraude al consumidor",
+            "no_denunciados_muestra": 107,
+            "no_denunciados_estimados": 238551,
+            "atribuibles_autoridad": [
+              0.7613,
+              0.6499,
+              0.8457
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.5328,
+                  0.4058,
+                  0.6557
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1066,
+                  0.0488,
+                  0.2172
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1046,
+                  0.0555,
+                  0.1884
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1014,
+                  0.0354,
+                  0.2579
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0802,
+                  0.0336,
+                  0.1796
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0385,
+                  0.0142,
+                  0.1002
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.021,
+                  0.0051,
+                  0.0828
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0084,
+                  0.0015,
+                  0.0468
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0066,
+                  0.001,
+                  0.0422
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "05",
+            "delito": "Robo o asalto en calle o transporte",
+            "no_denunciados_muestra": 131,
+            "no_denunciados_estimados": 297473,
+            "atribuibles_autoridad": [
+              0.706,
+              0.6175,
+              0.7812
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3721,
+                  0.279,
+                  0.4756
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1192,
+                  0.0692,
+                  0.1977
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1181,
+                  0.0719,
+                  0.1881
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1022,
+                  0.0528,
+                  0.1885
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0864,
+                  0.0423,
+                  0.1684
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0852,
+                  0.0474,
+                  0.1485
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.081,
+                  0.039,
+                  0.1606
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0202,
+                  0.0073,
+                  0.0545
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0155,
+                  0.0026,
+                  0.0874
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "07",
+            "delito": "Fraude bancario",
+            "no_denunciados_muestra": 126,
+            "no_denunciados_estimados": 264509,
+            "atribuibles_autoridad": [
+              0.659,
+              0.5475,
+              0.7552
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3788,
+                  0.2778,
+                  0.4916
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1872,
+                  0.1104,
+                  0.2996
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1292,
+                  0.0752,
+                  0.2131
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1118,
+                  0.0545,
+                  0.2155
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0774,
+                  0.0368,
+                  0.1556
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0428,
+                  0.0168,
+                  0.1046
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0249,
+                  0.0078,
+                  0.0765
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0247,
+                  0.0077,
+                  0.076
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0142,
+                  0.002,
+                  0.0943
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0089,
+                  0.0013,
+                  0.0594
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "09",
+            "delito": "Extorsión",
+            "no_denunciados_muestra": 100,
+            "no_denunciados_estimados": 234080,
+            "atribuibles_autoridad": [
+              0.6182,
+              0.5115,
+              0.7147
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.323,
+                  0.2116,
+                  0.4587
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1926,
+                  0.1108,
+                  0.3134
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1532,
+                  0.0839,
+                  0.2634
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1018,
+                  0.0486,
+                  0.2012
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1,
+                  0.0567,
+                  0.1703
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0438,
+                  0.0154,
+                  0.1185
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0392,
+                  0.0141,
+                  0.1039
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0267,
+                  0.0084,
+                  0.0819
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0197,
+                  0.0029,
+                  0.1205
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          }
+        ],
+        "excluidos_por_menos_de_100": {
+          "Robo total de vehículo": 6,
+          "Robo en casa": 51,
+          "Otro robo": 18,
+          "Amenazas": 95,
+          "Lesiones": 28,
+          "Hostigamiento o intimidación sexual": 34,
+          "Violación": 5,
+          "Otros delitos": 9
+        },
+        "miedo_al_agresor": {
+          "extorsion": [
+            0.0267,
+            0.0084,
+            0.0819
+          ],
+          "resto_sin_extorsion": [
+            0.0617,
+            0.0432,
+            0.0875
+          ],
+          "diferencia_extorsion_menos_resto": [
+            -0.0351,
+            -0.0735,
+            0.0034
+          ],
+          "sexuales_muestra": 39,
+          "sexuales": null,
+          "diferencia_sexuales_menos_resto": null
+        },
+        "brecha_autoridad_max_menos_min": {
+          "max": "Robo de accesorios de vehículo",
+          "min": "Extorsión",
+          "diferencia": [
+            0.1456,
+            0.0208,
+            0.2704
+          ]
+        }
+      },
+      "nacional": {
+        "tipos": [
+          {
+            "codigo": "02",
+            "delito": "Robo de accesorios de vehículo",
+            "no_denunciados_muestra": 5013,
+            "no_denunciados_estimados": 2344354,
+            "atribuibles_autoridad": [
+              0.7455,
+              0.7275,
+              0.7628
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4687,
+                  0.448,
+                  0.4895
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1468,
+                  0.1332,
+                  0.1616
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1215,
+                  0.1095,
+                  0.1346
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1003,
+                  0.0887,
+                  0.1133
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0843,
+                  0.0734,
+                  0.0965
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0287,
+                  0.0208,
+                  0.0394
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0285,
+                  0.0213,
+                  0.038
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0156,
+                  0.0118,
+                  0.0205
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0047,
+                  0.0027,
+                  0.0081
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0011,
+                  0.0005,
+                  0.0027
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "05",
+            "delito": "Robo o asalto en calle o transporte",
+            "no_denunciados_muestra": 3562,
+            "no_denunciados_estimados": 5012654,
+            "atribuibles_autoridad": [
+              0.717,
+              0.6864,
+              0.7456
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4456,
+                  0.4129,
+                  0.4788
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1458,
+                  0.1269,
+                  0.167
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0929,
+                  0.0779,
+                  0.1105
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0908,
+                  0.0769,
+                  0.1069
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0803,
+                  0.0671,
+                  0.0958
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0735,
+                  0.061,
+                  0.0883
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.034,
+                  0.0271,
+                  0.0425
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0291,
+                  0.0224,
+                  0.0377
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0057,
+                  0.0033,
+                  0.0098
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0023,
+                  0.0013,
+                  0.0041
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "08",
+            "delito": "Fraude al consumidor",
+            "no_denunciados_muestra": 3262,
+            "no_denunciados_estimados": 3413376,
+            "atribuibles_autoridad": [
+              0.6192,
+              0.5924,
+              0.6453
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3785,
+                  0.3528,
+                  0.4049
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.2027,
+                  0.181,
+                  0.2262
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1116,
+                  0.0962,
+                  0.1291
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0953,
+                  0.0779,
+                  0.1161
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0916,
+                  0.0771,
+                  0.1086
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0628,
+                  0.0518,
+                  0.076
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0258,
+                  0.0149,
+                  0.0443
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0198,
+                  0.0126,
+                  0.031
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0081,
+                  0.0049,
+                  0.0133
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0038,
+                  0.0017,
+                  0.0088
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "07",
+            "delito": "Fraude bancario",
+            "no_denunciados_muestra": 4130,
+            "no_denunciados_estimados": 4330779,
+            "atribuibles_autoridad": [
+              0.5875,
+              0.5635,
+              0.6112
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.369,
+                  0.3457,
+                  0.3928
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.2232,
+                  0.2042,
+                  0.2434
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1164,
+                  0.1025,
+                  0.1319
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1083,
+                  0.0929,
+                  0.1259
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0835,
+                  0.071,
+                  0.0979
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0689,
+                  0.056,
+                  0.0845
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0151,
+                  0.0108,
+                  0.021
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.007,
+                  0.0045,
+                  0.011
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.005,
+                  0.0028,
+                  0.0091
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0036,
+                  0.0015,
+                  0.0085
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "04",
+            "delito": "Robo en casa",
+            "no_denunciados_muestra": 3018,
+            "no_denunciados_estimados": 1247913,
+            "atribuibles_autoridad": [
+              0.5786,
+              0.5526,
+              0.6041
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3127,
+                  0.2898,
+                  0.3367
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1804,
+                  0.1613,
+                  0.2011
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1531,
+                  0.1365,
+                  0.1713
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0887,
+                  0.077,
+                  0.102
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.074,
+                  0.0632,
+                  0.0864
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0739,
+                  0.0616,
+                  0.0885
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0726,
+                  0.0595,
+                  0.0883
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0308,
+                  0.0228,
+                  0.0415
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.008,
+                  0.0037,
+                  0.0169
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0058,
+                  0.0028,
+                  0.012
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "09",
+            "delito": "Extorsión",
+            "no_denunciados_muestra": 5014,
+            "no_denunciados_estimados": 6438344,
+            "atribuibles_autoridad": [
+              0.5692,
+              0.5243,
+              0.613
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3249,
+                  0.2794,
+                  0.3739
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1836,
+                  0.1587,
+                  0.2115
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1482,
+                  0.1277,
+                  0.1714
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1066,
+                  0.0614,
+                  0.1788
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0883,
+                  0.0733,
+                  0.106
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0563,
+                  0.0459,
+                  0.069
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0486,
+                  0.0397,
+                  0.0592
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.025,
+                  0.017,
+                  0.0366
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0147,
+                  0.0108,
+                  0.02
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0037,
+                  0.0021,
+                  0.0066
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "01",
+            "delito": "Robo total de vehículo",
+            "no_denunciados_muestra": 197,
+            "no_denunciados_estimados": 86155,
+            "atribuibles_autoridad": [
+              0.5626,
+              0.4701,
+              0.6509
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2353,
+                  0.1735,
+                  0.3109
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.2036,
+                  0.1485,
+                  0.2727
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1604,
+                  0.0993,
+                  0.2487
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1422,
+                  0.0873,
+                  0.2231
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1154,
+                  0.0634,
+                  0.2008
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0922,
+                  0.052,
+                  0.1585
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0182,
+                  0.0052,
+                  0.0613
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0167,
+                  0.004,
+                  0.0669
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0132,
+                  0.0046,
+                  0.0375
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0028,
+                  0.0007,
+                  0.0112
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "10",
+            "delito": "Amenazas",
+            "no_denunciados_muestra": 3572,
+            "no_denunciados_estimados": 4061809,
+            "atribuibles_autoridad": [
+              0.5532,
+              0.5189,
+              0.5871
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2839,
+                  0.2549,
+                  0.3149
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1808,
+                  0.1579,
+                  0.206
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1473,
+                  0.1221,
+                  0.1765
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1182,
+                  0.0995,
+                  0.1399
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0777,
+                  0.0632,
+                  0.0953
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0674,
+                  0.056,
+                  0.081
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0631,
+                  0.0466,
+                  0.0849
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0305,
+                  0.0222,
+                  0.0418
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0284,
+                  0.0133,
+                  0.0596
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0027,
+                  0.0015,
+                  0.0048
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "11",
+            "delito": "Lesiones",
+            "no_denunciados_muestra": 978,
+            "no_denunciados_estimados": 1158605,
+            "atribuibles_autoridad": [
+              0.548,
+              0.4928,
+              0.6021
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3287,
+                  0.2765,
+                  0.3855
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1951,
+                  0.1526,
+                  0.246
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1301,
+                  0.1012,
+                  0.1657
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1132,
+                  0.0859,
+                  0.1479
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0775,
+                  0.0478,
+                  0.1234
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0688,
+                  0.0443,
+                  0.1053
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0465,
+                  0.0331,
+                  0.0651
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0359,
+                  0.02,
+                  0.0637
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0028,
+                  0.0008,
+                  0.0096
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0014,
+                  0.0003,
+                  0.0056
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "13",
+            "delito": "Hostigamiento o intimidación sexual",
+            "no_denunciados_muestra": 1395,
+            "no_denunciados_estimados": 1738474,
+            "atribuibles_autoridad": [
+              0.5418,
+              0.4918,
+              0.5911
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2742,
+                  0.2328,
+                  0.3199
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1545,
+                  0.1147,
+                  0.2049
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1489,
+                  0.1159,
+                  0.1892
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.131,
+                  0.1024,
+                  0.1661
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1125,
+                  0.0881,
+                  0.1425
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0639,
+                  0.0479,
+                  0.0848
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0559,
+                  0.0405,
+                  0.0766
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.05,
+                  0.0317,
+                  0.0782
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0048,
+                  0.002,
+                  0.0114
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0043,
+                  0.0009,
+                  0.0211
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "06",
+            "delito": "Otro robo",
+            "no_denunciados_muestra": 692,
+            "no_denunciados_estimados": 678721,
+            "atribuibles_autoridad": [
+              0.4888,
+              0.436,
+              0.542
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3104,
+                  0.2634,
+                  0.3617
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.2116,
+                  0.1737,
+                  0.2552
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1599,
+                  0.1223,
+                  0.2063
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0987,
+                  0.0697,
+                  0.1379
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0785,
+                  0.0547,
+                  0.1114
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0674,
+                  0.0463,
+                  0.0972
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0357,
+                  0.0228,
+                  0.0556
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0262,
+                  0.0121,
+                  0.0558
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0063,
+                  0.0018,
+                  0.0222
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0053,
+                  0.0017,
+                  0.0166
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "15",
+            "delito": "Otros delitos",
+            "no_denunciados_muestra": 146,
+            "no_denunciados_estimados": 124823,
+            "atribuibles_autoridad": [
+              0.4246,
+              0.3235,
+              0.5325
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2335,
+                  0.1575,
+                  0.3318
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1652,
+                  0.1044,
+                  0.2515
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1626,
+                  0.0856,
+                  0.2871
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1301,
+                  0.0787,
+                  0.2075
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1152,
+                  0.0659,
+                  0.1938
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.113,
+                  0.0473,
+                  0.2463
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.054,
+                  0.0253,
+                  0.1116
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0196,
+                  0.0061,
+                  0.0607
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0044,
+                  0.0006,
+                  0.031
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0023,
+                  0.0003,
+                  0.0162
+                ]
+              }
+            ]
+          }
+        ],
+        "excluidos_por_menos_de_100": {
+          "Secuestro": 45,
+          "Violación": 88
+        },
+        "miedo_al_agresor": {
+          "extorsion": [
+            0.0486,
+            0.0397,
+            0.0592
+          ],
+          "resto_sin_extorsion": [
+            0.0624,
+            0.0566,
+            0.0688
+          ],
+          "diferencia_extorsion_menos_resto": [
+            -0.0138,
+            -0.025,
+            -0.0026
+          ],
+          "sexuales_muestra": 1483,
+          "sexuales": [
+            0.1243,
+            0.0995,
+            0.1541
+          ],
+          "diferencia_sexuales_menos_resto": [
+            0.0689,
+            0.0418,
+            0.096
+          ]
+        },
+        "brecha_autoridad_max_menos_min": {
+          "max": "Robo de accesorios de vehículo",
+          "min": "Otros delitos",
+          "diferencia": [
+            0.3209,
+            0.2136,
+            0.4282
+          ]
+        }
+      }
+    },
+    "2025": {
+      "victimizacion_del_año": 2024,
+      "jalisco": {
+        "tipos": [
+          {
+            "codigo": "02",
+            "delito": "Robo de accesorios de vehículo",
+            "no_denunciados_muestra": 161,
+            "no_denunciados_estimados": 154074,
+            "atribuibles_autoridad": [
+              0.7817,
+              0.7086,
+              0.8407
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4852,
+                  0.3961,
+                  0.5752
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1342,
+                  0.0855,
+                  0.2044
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1277,
+                  0.0765,
+                  0.2054
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.117,
+                  0.0748,
+                  0.1784
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0516,
+                  0.0248,
+                  0.1043
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0367,
+                  0.0224,
+                  0.0594
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0342,
+                  0.0141,
+                  0.0808
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.013,
+                  0.0032,
+                  0.0507
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0005,
+                  0.0001,
+                  0.0036
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "05",
+            "delito": "Robo o asalto en calle o transporte",
+            "no_denunciados_muestra": 134,
+            "no_denunciados_estimados": 308200,
+            "atribuibles_autoridad": [
+              0.7164,
+              0.6127,
+              0.8014
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4444,
+                  0.3389,
+                  0.5552
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1163,
+                  0.0628,
+                  0.2054
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0951,
+                  0.0535,
+                  0.1635
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0921,
+                  0.0491,
+                  0.1664
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.089,
+                  0.0444,
+                  0.1703
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.07,
+                  0.0298,
+                  0.1561
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0602,
+                  0.0267,
+                  0.1302
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0182,
+                  0.0046,
+                  0.07
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0141,
+                  0.0032,
+                  0.0602
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0004,
+                  0.0001,
+                  0.0027
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "08",
+            "delito": "Fraude al consumidor",
+            "no_denunciados_muestra": 100,
+            "no_denunciados_estimados": 232263,
+            "atribuibles_autoridad": [
+              0.6468,
+              0.53,
+              0.7484
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2668,
+                  0.1789,
+                  0.3779
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.2131,
+                  0.1367,
+                  0.3167
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1543,
+                  0.0876,
+                  0.2575
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0926,
+                  0.0459,
+                  0.1781
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0917,
+                  0.0324,
+                  0.2332
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0847,
+                  0.0425,
+                  0.1614
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.053,
+                  0.0391,
+                  0.0714
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0222,
+                  0.0031,
+                  0.1414
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0216,
+                  0.003,
+                  0.1388
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "07",
+            "delito": "Fraude bancario",
+            "no_denunciados_muestra": 108,
+            "no_denunciados_estimados": 240646,
+            "atribuibles_autoridad": [
+              0.6009,
+              0.4729,
+              0.7164
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3792,
+                  0.2708,
+                  0.5011
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.2617,
+                  0.1687,
+                  0.3824
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1195,
+                  0.0538,
+                  0.2448
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0696,
+                  0.0154,
+                  0.2634
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0628,
+                  0.0212,
+                  0.1719
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0549,
+                  0.0235,
+                  0.123
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0204,
+                  0.0051,
+                  0.0788
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.019,
+                  0.0046,
+                  0.0749
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.013,
+                  0.0018,
+                  0.0869
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "09",
+            "delito": "Extorsión",
+            "no_denunciados_muestra": 164,
+            "no_denunciados_estimados": 382645,
+            "atribuibles_autoridad": [
+              0.5404,
+              0.4335,
+              0.6436
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2877,
+                  0.1885,
+                  0.4125
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.222,
+                  0.1497,
+                  0.3162
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1286,
+                  0.0785,
+                  0.2037
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0992,
+                  0.0437,
+                  0.2098
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0874,
+                  0.0416,
+                  0.1745
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0873,
+                  0.0503,
+                  0.1473
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0606,
+                  0.0315,
+                  0.1136
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0168,
+                  0.0061,
+                  0.0457
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.008,
+                  0.0011,
+                  0.0549
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0023,
+                  0.0003,
+                  0.0165
+                ]
+              }
+            ]
+          }
+        ],
+        "excluidos_por_menos_de_100": {
+          "Robo total de vehículo": 17,
+          "Robo en casa": 70,
+          "Otro robo": 20,
+          "Amenazas": 98,
+          "Lesiones": 33,
+          "Secuestro": 2,
+          "Hostigamiento o intimidación sexual": 57,
+          "Violación": 3,
+          "Otros delitos": 4
+        },
+        "miedo_al_agresor": {
+          "extorsion": [
+            0.0873,
+            0.0503,
+            0.1473
+          ],
+          "resto_sin_extorsion": [
+            0.0842,
+            0.0567,
+            0.1232
+          ],
+          "diferencia_extorsion_menos_resto": [
+            0.0031,
+            -0.0544,
+            0.0606
+          ],
+          "sexuales_muestra": 60,
+          "sexuales": null,
+          "diferencia_sexuales_menos_resto": null
+        },
+        "brecha_autoridad_max_menos_min": {
+          "max": "Robo de accesorios de vehículo",
+          "min": "Extorsión",
+          "diferencia": [
+            0.2414,
+            0.119,
+            0.3637
+          ]
+        }
+      },
+      "nacional": {
+        "tipos": [
+          {
+            "codigo": "02",
+            "delito": "Robo de accesorios de vehículo",
+            "no_denunciados_muestra": 5241,
+            "no_denunciados_estimados": 2436369,
+            "atribuibles_autoridad": [
+              0.7742,
+              0.7586,
+              0.7891
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4543,
+                  0.4344,
+                  0.4743
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1531,
+                  0.1386,
+                  0.169
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.123,
+                  0.1099,
+                  0.1373
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1027,
+                  0.0925,
+                  0.1138
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0848,
+                  0.0753,
+                  0.0954
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0395,
+                  0.0305,
+                  0.051
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0222,
+                  0.018,
+                  0.0274
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0128,
+                  0.0097,
+                  0.017
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0043,
+                  0.0022,
+                  0.0087
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0033,
+                  0.0017,
+                  0.0065
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "05",
+            "delito": "Robo o asalto en calle o transporte",
+            "no_denunciados_muestra": 3571,
+            "no_denunciados_estimados": 5250951,
+            "atribuibles_autoridad": [
+              0.7698,
+              0.7442,
+              0.7936
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4335,
+                  0.4048,
+                  0.4626
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1574,
+                  0.139,
+                  0.1777
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1356,
+                  0.1136,
+                  0.1611
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0884,
+                  0.0735,
+                  0.1061
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0557,
+                  0.0453,
+                  0.0685
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0553,
+                  0.0465,
+                  0.0657
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0385,
+                  0.0301,
+                  0.0492
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0278,
+                  0.017,
+                  0.045
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0049,
+                  0.0026,
+                  0.0091
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0029,
+                  0.0014,
+                  0.006
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "08",
+            "delito": "Fraude al consumidor",
+            "no_denunciados_muestra": 2931,
+            "no_denunciados_estimados": 3103777,
+            "atribuibles_autoridad": [
+              0.6572,
+              0.6292,
+              0.6842
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3684,
+                  0.3395,
+                  0.3984
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1673,
+                  0.1468,
+                  0.1899
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1347,
+                  0.1141,
+                  0.1583
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.118,
+                  0.099,
+                  0.1401
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0775,
+                  0.0652,
+                  0.092
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0766,
+                  0.0636,
+                  0.0921
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0278,
+                  0.0183,
+                  0.0421
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0176,
+                  0.0119,
+                  0.026
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0083,
+                  0.0043,
+                  0.0159
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0038,
+                  0.0016,
+                  0.0086
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "15",
+            "delito": "Otros delitos",
+            "no_denunciados_muestra": 173,
+            "no_denunciados_estimados": 202384,
+            "atribuibles_autoridad": [
+              0.6547,
+              0.4666,
+              0.8043
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.4494,
+                  0.2199,
+                  0.7026
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1182,
+                  0.0579,
+                  0.2262
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.096,
+                  0.0485,
+                  0.1813
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0953,
+                  0.0456,
+                  0.1885
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0726,
+                  0.0353,
+                  0.1434
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0627,
+                  0.0286,
+                  0.1318
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0614,
+                  0.0288,
+                  0.1263
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0334,
+                  0.0136,
+                  0.0801
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0069,
+                  0.002,
+                  0.0234
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0041,
+                  0.0005,
+                  0.0299
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "04",
+            "delito": "Robo en casa",
+            "no_denunciados_muestra": 3299,
+            "no_denunciados_estimados": 1305860,
+            "atribuibles_autoridad": [
+              0.5888,
+              0.5642,
+              0.6129
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2909,
+                  0.2698,
+                  0.313
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1782,
+                  0.1608,
+                  0.197
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1632,
+                  0.1464,
+                  0.1816
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0926,
+                  0.08,
+                  0.1069
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0831,
+                  0.0706,
+                  0.0976
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0691,
+                  0.0577,
+                  0.0825
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0677,
+                  0.0567,
+                  0.0806
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0453,
+                  0.0361,
+                  0.0567
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0063,
+                  0.0032,
+                  0.0124
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0037,
+                  0.002,
+                  0.0069
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "01",
+            "delito": "Robo total de vehículo",
+            "no_denunciados_muestra": 306,
+            "no_denunciados_estimados": 132980,
+            "atribuibles_autoridad": [
+              0.588,
+              0.5172,
+              0.6552
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2072,
+                  0.1586,
+                  0.266
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1597,
+                  0.1145,
+                  0.2184
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.15,
+                  0.1033,
+                  0.2128
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.1266,
+                  0.0854,
+                  0.1836
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1176,
+                  0.0798,
+                  0.1699
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0993,
+                  0.0647,
+                  0.1493
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0575,
+                  0.0312,
+                  0.1035
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.0358,
+                  0.0156,
+                  0.0804
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0327,
+                  0.0167,
+                  0.0633
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0136,
+                  0.0063,
+                  0.029
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "09",
+            "delito": "Extorsión",
+            "no_denunciados_muestra": 5057,
+            "no_denunciados_estimados": 5424259,
+            "atribuibles_autoridad": [
+              0.5841,
+              0.56,
+              0.6078
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.31,
+                  0.2859,
+                  0.3351
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1928,
+                  0.1761,
+                  0.2106
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1396,
+                  0.1237,
+                  0.1571
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0881,
+                  0.0768,
+                  0.1009
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0823,
+                  0.0682,
+                  0.0989
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0698,
+                  0.0591,
+                  0.0821
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0608,
+                  0.051,
+                  0.0725
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0378,
+                  0.0277,
+                  0.0515
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0145,
+                  0.0111,
+                  0.0189
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0044,
+                  0.0025,
+                  0.0075
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "07",
+            "delito": "Fraude bancario",
+            "no_denunciados_muestra": 3592,
+            "no_denunciados_estimados": 3817647,
+            "atribuibles_autoridad": [
+              0.5743,
+              0.5464,
+              0.6017
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3453,
+                  0.3184,
+                  0.3733
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.2443,
+                  0.2206,
+                  0.2697
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.1125,
+                  0.0961,
+                  0.1313
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1016,
+                  0.0848,
+                  0.1212
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.0977,
+                  0.0821,
+                  0.1158
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0663,
+                  0.0545,
+                  0.0804
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0154,
+                  0.0105,
+                  0.0226
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0093,
+                  0.0054,
+                  0.0162
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0042,
+                  0.0024,
+                  0.0073
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0034,
+                  0.0016,
+                  0.0072
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "11",
+            "delito": "Lesiones",
+            "no_denunciados_muestra": 1025,
+            "no_denunciados_estimados": 1228079,
+            "atribuibles_autoridad": [
+              0.5688,
+              0.516,
+              0.6202
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3226,
+                  0.2703,
+                  0.3798
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1527,
+                  0.1204,
+                  0.1919
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1364,
+                  0.1091,
+                  0.1693
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1358,
+                  0.1084,
+                  0.1687
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.085,
+                  0.0621,
+                  0.1152
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0772,
+                  0.0545,
+                  0.1083
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0453,
+                  0.0303,
+                  0.0672
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.029,
+                  0.0176,
+                  0.0475
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0124,
+                  0.0047,
+                  0.0325
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0036,
+                  0.0017,
+                  0.0076
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "10",
+            "delito": "Amenazas",
+            "no_denunciados_muestra": 3362,
+            "no_denunciados_estimados": 3914068,
+            "atribuibles_autoridad": [
+              0.5686,
+              0.5329,
+              0.6035
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2832,
+                  0.253,
+                  0.3156
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1692,
+                  0.1441,
+                  0.1977
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1586,
+                  0.1347,
+                  0.1857
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.1203,
+                  0.0943,
+                  0.1523
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0766,
+                  0.0593,
+                  0.0985
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0703,
+                  0.0558,
+                  0.0881
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.0662,
+                  0.0541,
+                  0.0808
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0334,
+                  0.0239,
+                  0.0466
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0167,
+                  0.0067,
+                  0.0407
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0055,
+                  0.0019,
+                  0.0158
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "06",
+            "delito": "Otro robo",
+            "no_denunciados_muestra": 1142,
+            "no_denunciados_estimados": 1078996,
+            "atribuibles_autoridad": [
+              0.5405,
+              0.4955,
+              0.5848
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.3027,
+                  0.2657,
+                  0.3424
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1973,
+                  0.1614,
+                  0.239
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.172,
+                  0.1432,
+                  0.2051
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1116,
+                  0.087,
+                  0.142
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0933,
+                  0.0656,
+                  0.131
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0577,
+                  0.0423,
+                  0.0782
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0319,
+                  0.0206,
+                  0.049
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0288,
+                  0.0187,
+                  0.044
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0038,
+                  0.0013,
+                  0.0116
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.001,
+                  0.0002,
+                  0.0043
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "13",
+            "delito": "Hostigamiento o intimidación sexual",
+            "no_denunciados_muestra": 1529,
+            "no_denunciados_estimados": 2178368,
+            "atribuibles_autoridad": [
+              0.5404,
+              0.4882,
+              0.5917
+            ],
+            "razones": [
+              {
+                "codigo": "04",
+                "razon": "Pérdida de tiempo",
+                "p": [
+                  0.2757,
+                  0.2328,
+                  0.3232
+                ]
+              },
+              {
+                "codigo": "07",
+                "razon": "No tenía pruebas",
+                "p": [
+                  0.1845,
+                  0.1474,
+                  0.2285
+                ]
+              },
+              {
+                "codigo": "06",
+                "razon": "Desconfianza en la autoridad",
+                "p": [
+                  0.1628,
+                  0.1176,
+                  0.2211
+                ]
+              },
+              {
+                "codigo": "03",
+                "razon": "Delito de poca importancia",
+                "p": [
+                  0.1243,
+                  0.0912,
+                  0.1673
+                ]
+              },
+              {
+                "codigo": "01",
+                "razon": "Por miedo al (a la) agresor(a)",
+                "p": [
+                  0.0935,
+                  0.0714,
+                  0.1215
+                ]
+              },
+              {
+                "codigo": "05",
+                "razon": "Trámites largos y difíciles",
+                "p": [
+                  0.0586,
+                  0.0392,
+                  0.0869
+                ]
+              },
+              {
+                "codigo": "09",
+                "razon": "Otra",
+                "p": [
+                  0.0548,
+                  0.0379,
+                  0.0787
+                ]
+              },
+              {
+                "codigo": "08",
+                "razon": "Por actitud hostil de la autoridad",
+                "p": [
+                  0.0404,
+                  0.0236,
+                  0.0683
+                ]
+              },
+              {
+                "codigo": "02",
+                "razon": "Por miedo a que lo (la) extorsionaran",
+                "p": [
+                  0.0027,
+                  0.0011,
+                  0.0066
+                ]
+              },
+              {
+                "codigo": "99",
+                "razon": "No sabe / no responde",
+                "p": [
+                  0.0025,
+                  0.001,
+                  0.0064
+                ]
+              }
+            ]
+          }
+        ],
+        "excluidos_por_menos_de_100": {
+          "Secuestro": 56,
+          "Violación": 98
+        },
+        "miedo_al_agresor": {
+          "extorsion": [
+            0.0608,
+            0.051,
+            0.0725
+          ],
+          "resto_sin_extorsion": [
+            0.0604,
+            0.0534,
+            0.0684
+          ],
+          "diferencia_extorsion_menos_resto": [
+            0.0004,
+            -0.0121,
+            0.013
+          ],
+          "sexuales_muestra": 1627,
+          "sexuales": [
+            0.1108,
+            0.087,
+            0.1402
+          ],
+          "diferencia_sexuales_menos_resto": [
+            0.0544,
+            0.0287,
+            0.0802
+          ]
+        },
+        "brecha_autoridad_max_menos_min": {
+          "max": "Robo de accesorios de vehículo",
+          "min": "Hostigamiento o intimidación sexual",
+          "diferencia": [
+            0.2339,
+            0.1796,
+            0.2881
+          ]
+        }
+      }
+    }
+  },
+  "hipotesis": {
+    "H17a": true,
+    "H17b": false,
+    "H17c": false,
+    "H17d": true,
+    "H17e": false
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:09:35+00:00",
+    "script": "pieces.p17_motivos_por_delito",
+    "insumos_sha256": {
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2026_csv.zip": "dd79f589eb6ed7d3675cc86e21ac9bbdbf269913963091d8698d6e28e0540a17",
+      "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2025_csv.zip": "8a7a99fd90ce9d03229759ba0ad84db4fba98b5bb1f5c85eef7d718b007816fa"
+    }
+  }
+}

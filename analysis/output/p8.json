@@ -1,0 +1,273 @@
+{
+  "pregunta": "¿Qué dice el registro oficial de fosas, y qué deja fuera?",
+  "totales": {
+    "sitios": 259,
+    "en_proceso": 20,
+    "victimas_localizadas": 2218,
+    "identificadas": 1174,
+    "municipios_con_fosa": 19
+  },
+  "proporcion_identificada": [
+    0.5293,
+    0.5085,
+    0.55
+  ],
+  "identificacion_por_año_de_inicio_sitios_cerrados": [
+    {
+      "anio_inicio": 2018,
+      "localizadas": 14,
+      "identificadas": 7,
+      "pct": 50.0
+    },
+    {
+      "anio_inicio": 2019,
+      "localizadas": 398,
+      "identificadas": 245,
+      "pct": 61.6
+    },
+    {
+      "anio_inicio": 2020,
+      "localizadas": 589,
+      "identificadas": 347,
+      "pct": 58.9
+    },
+    {
+      "anio_inicio": 2021,
+      "localizadas": 160,
+      "identificadas": 110,
+      "pct": 68.8
+    },
+    {
+      "anio_inicio": 2022,
+      "localizadas": 269,
+      "identificadas": 159,
+      "pct": 59.1
+    },
+    {
+      "anio_inicio": 2023,
+      "localizadas": 301,
+      "identificadas": 171,
+      "pct": 56.8
+    },
+    {
+      "anio_inicio": 2024,
+      "localizadas": 140,
+      "identificadas": 44,
+      "pct": 31.4
+    },
+    {
+      "anio_inicio": 2025,
+      "localizadas": 211,
+      "identificadas": 74,
+      "pct": 35.1
+    },
+    {
+      "anio_inicio": 2026,
+      "localizadas": 59,
+      "identificadas": 7,
+      "pct": 11.9
+    }
+  ],
+  "identificadas_por_sexo": {
+    "hombres": 1027,
+    "mujeres": 147
+  },
+  "proporcion_victimas_fosas_en_amg": [
+    0.9509,
+    0.9411,
+    0.9591
+  ],
+  "proporcion_desaparecidas_en_amg": 0.6192,
+  "municipios_desaparicion_alta_fuera_amg": 22,
+  "de_esos_con_fosa_registrada": [
+    "Lagos de Moreno",
+    "El Arenal",
+    "Jocotepec",
+    "San Juan de los Lagos"
+  ],
+  "comparacion_base_H8c": {
+    "desaparicion_alta_con_fosa": [
+      4,
+      22
+    ],
+    "demas_fuera_amg_con_fosa": [
+      7,
+      93
+    ],
+    "razon_de_momios": 2.73,
+    "p_fisher": 0.217
+  },
+  "fuera_amg": {
+    "municipios": 115,
+    "con_fosa": 11,
+    "victimas_localizadas": 109,
+    "proporcion_victimas": 0.0491,
+    "proporcion_desaparecidas": 0.3808
+  },
+  "sitios_sin_victimas": [
+    {
+      "id": "188",
+      "sitio": "LA ESTANZUELA",
+      "municipio": "TEUCHITLAN",
+      "inicio": "03/2025",
+      "fin": "03/2025"
+    },
+    {
+      "id": "191",
+      "sitio": "PRESA SANTA ELENA",
+      "municipio": "AMECA",
+      "inicio": "03/2025",
+      "fin": "07/2025"
+    }
+  ],
+  "inicio_mas_antiguo": "10/2018",
+  "por_municipio": [
+    {
+      "municipio": "TLAJOMULCO DE ZÚÑIGA",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 99,
+      "localizadas": 750,
+      "identificadas": 402
+    },
+    {
+      "municipio": "ZAPOPAN",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 45,
+      "localizadas": 538,
+      "identificadas": 275
+    },
+    {
+      "municipio": "EL SALTO",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 14,
+      "localizadas": 274,
+      "identificadas": 168
+    },
+    {
+      "municipio": "SAN PEDRO TLAQUEPAQUE",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 24,
+      "localizadas": 176,
+      "identificadas": 95
+    },
+    {
+      "municipio": "TONALÁ",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 13,
+      "localizadas": 136,
+      "identificadas": 89
+    },
+    {
+      "municipio": "IXTLAHUACÁN DE LOS MEMBRILLOS",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 27,
+      "localizadas": 100,
+      "identificadas": 24
+    },
+    {
+      "municipio": "JUANACATLÁN",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 2,
+      "localizadas": 97,
+      "identificadas": 48
+    },
+    {
+      "municipio": "LAGOS DE MORENO",
+      "region": "Altos Norte",
+      "sitios": 9,
+      "localizadas": 70,
+      "identificadas": 32
+    },
+    {
+      "municipio": "GUADALAJARA",
+      "region": "Área metropolitana de Guadalajara",
+      "sitios": 12,
+      "localizadas": 38,
+      "identificadas": 18
+    },
+    {
+      "municipio": "CHAPALA",
+      "region": "Resto del estado",
+      "sitios": 4,
+      "localizadas": 17,
+      "identificadas": 11
+    },
+    {
+      "municipio": "SAN JUAN DE LOS LAGOS",
+      "region": "Altos Norte",
+      "sitios": 1,
+      "localizadas": 7,
+      "identificadas": 4
+    },
+    {
+      "municipio": "JOCOTEPEC",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 5,
+      "identificadas": 2
+    },
+    {
+      "municipio": "VILLA GUERRERO",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 3,
+      "identificadas": 1
+    },
+    {
+      "municipio": "OJUELOS DE JALISCO",
+      "region": "Altos Norte",
+      "sitios": 1,
+      "localizadas": 2,
+      "identificadas": 2
+    },
+    {
+      "municipio": "PUERTO VALLARTA",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 2,
+      "identificadas": 2
+    },
+    {
+      "municipio": "PIHUAMO",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 1,
+      "identificadas": 1
+    },
+    {
+      "municipio": "EL ARENAL",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 1,
+      "identificadas": 0
+    },
+    {
+      "municipio": "AMECA",
+      "region": "Resto del estado",
+      "sitios": 2,
+      "localizadas": 1,
+      "identificadas": 0
+    },
+    {
+      "municipio": "TEUCHITLAN",
+      "region": "Resto del estado",
+      "sitios": 1,
+      "localizadas": 0,
+      "identificadas": 0
+    }
+  ],
+  "hipotesis": {
+    "H8a": true,
+    "H8b": true,
+    "H8c": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:08:35+00:00",
+    "script": "pieces.p8_fosas",
+    "insumos_sha256": {
+      "s3-fosas-20260924T184227Z/fosas-sitios.csv": "2a2b3785522f9b324499e75409f8c92227c303eaaf985da6c1ad218750776ba4",
+      "s3-analysis-repd-stats-20260924T181640Z/datos_para_mapa.json": "fda9926d04d0a57c7d85ce983d40256c9d52c609c9340b726a77b1c51aef79cd",
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97"
+    }
+  }
+}

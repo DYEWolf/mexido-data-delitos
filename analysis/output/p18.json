@@ -1,0 +1,141 @@
+{
+  "pregunta": "¿La proporción de asesinatos de mujeres que se registra como feminicidio cambia entre regiones?",
+  "periodo_ocurrencia": [
+    2019,
+    2023
+  ],
+  "estatal": {
+    "carpetas_feminicidio_con_municipio": 292,
+    "carpetas_feminicidio_sin_municipio": 0,
+    "mujeres_asesinadas_inegi_con_municipio": 1133,
+    "mujeres_asesinadas_inegi_sin_municipio": 2,
+    "feminicidio_por_mujer_asesinada": [
+      0.258,
+      0.226,
+      0.293
+    ]
+  },
+  "por_region": {
+    "Área metropolitana de Guadalajara": {
+      "carpetas_feminicidio": 215,
+      "mujeres_asesinadas_inegi": 803,
+      "feminicidio_por_mujer_asesinada": [
+        0.268,
+        0.229,
+        0.312
+      ],
+      "conteo_chico": false,
+      "tasa_feminicidio_100mil_mujeres_año": [
+        1.56,
+        1.36,
+        1.79
+      ],
+      "tasa_mujeres_asesinadas_100mil_año": [
+        5.84,
+        5.44,
+        6.26
+      ]
+    },
+    "Altos Norte": {
+      "carpetas_feminicidio": 7,
+      "mujeres_asesinadas_inegi": 112,
+      "feminicidio_por_mujer_asesinada": [
+        0.062,
+        0.025,
+        0.133
+      ],
+      "conteo_chico": true,
+      "tasa_feminicidio_100mil_mujeres_año": [
+        0.64,
+        0.26,
+        1.32
+      ],
+      "tasa_mujeres_asesinadas_100mil_año": [
+        10.24,
+        8.43,
+        12.32
+      ]
+    },
+    "Altos Sur": {
+      "carpetas_feminicidio": 6,
+      "mujeres_asesinadas_inegi": 22,
+      "feminicidio_por_mujer_asesinada": [
+        0.273,
+        0.09,
+        0.694
+      ],
+      "conteo_chico": true,
+      "tasa_feminicidio_100mil_mujeres_año": [
+        0.56,
+        0.2,
+        1.21
+      ],
+      "tasa_mujeres_asesinadas_100mil_año": [
+        2.04,
+        1.28,
+        3.08
+      ]
+    },
+    "Resto del estado": {
+      "carpetas_feminicidio": 64,
+      "mujeres_asesinadas_inegi": 196,
+      "feminicidio_por_mujer_asesinada": [
+        0.327,
+        0.242,
+        0.435
+      ],
+      "conteo_chico": false,
+      "tasa_feminicidio_100mil_mujeres_año": [
+        1.1,
+        0.85,
+        1.4
+      ],
+      "tasa_mujeres_asesinadas_100mil_año": [
+        3.36,
+        2.91,
+        3.87
+      ]
+    }
+  },
+  "H18a_resto_vs_amg": {
+    "fuera_amg": [
+      77,
+      330
+    ],
+    "amg": [
+      215,
+      803
+    ],
+    "razon": [
+      0.871,
+      0.643,
+      1.174
+    ],
+    "sensibilidad_resto_sin_altos": [
+      1.22,
+      0.87,
+      1.694
+    ]
+  },
+  "H18b_homogeneidad": {
+    "chi2": 18.56,
+    "gl": 3,
+    "p_monte_carlo": 0.0005,
+    "replicas": 20000
+  },
+  "hipotesis": {
+    "H18a": false,
+    "H18b": true
+  },
+  "_procedencia": {
+    "generado": "2026-09-24T21:09:36+00:00",
+    "script": "pieces.p18_feminicidio_region",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4",
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4"
+    }
+  }
+}
