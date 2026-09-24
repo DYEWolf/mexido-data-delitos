@@ -64,6 +64,26 @@ test('validates the observed response and all 21 record fields', () => {
   assert.deepEqual(result, { valid: true, errors: [] });
 });
 
+test('validates observed nullable metadata and redacts it from public output', () => {
+  const raw = syntheticRecord({
+    colonia: null,
+    estatura: null,
+    ruta_foto: null,
+  });
+
+  const result = validateResponse(syntheticResponse([raw]));
+  const normalized = normalizeRecord(raw);
+  const publicSummary = redactForPublic(normalized);
+  const publicText = JSON.stringify(publicSummary);
+
+  assert.deepEqual(result, { valid: true, errors: [] });
+  assert.equal(normalized.internalRecord.colonia, null);
+  assert.equal(normalized.internalRecord.estatura, null);
+  assert.equal(normalized.internalRecord.ruta_foto, null);
+  assert.deepEqual(publicSummary, { source: 'JAL-REPD-CED', sourceId: 'SYNTHETIC-001' });
+  assert.doesNotMatch(publicText, /colonia|estatura|ruta_foto/);
+});
+
 test('returns structured missing-field errors without throwing on source data', () => {
   const record = syntheticRecord();
   delete record.sexo;

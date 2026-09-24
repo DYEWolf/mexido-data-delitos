@@ -4,7 +4,7 @@
 **Versión:** `0.1.0`  
 **Estado:** propuesta para ejecutar descubrimiento; arquitectura de producción pendiente  
 **Fecha:** 2026-09-21  
-**Ámbito inicial:** Jalisco, México  
+**Ámbito permanente del producto (incluida la publicación pública final):** Jalisco, México\
 **Productos previstos:** muro vivo de cédulas de búsqueda y explorador de indicadores territoriales  
 **Responsable de producto y publicación:** asociación promotora, por designar nominalmente
 
@@ -38,24 +38,24 @@ Una decisión de arquitectura se registrará en un **ADR**, un documento que exp
 
 | Línea | Resultado buscado | Unidad que debe preservarse |
 |---|---|---|
-| Cédulas públicas de Jalisco | Catálogo e imágenes para un muro vivo | Cédula/documento publicado; no asumir una persona única por archivo |
+| Cédulas publicadas en el registro estatal de Jalisco | Catálogo e imágenes para un muro vivo | Cédula/documento publicado, aun si el hecho o la residencia están fuera de Jalisco; no asumir una persona única por archivo |
 | Estadísticas de desaparición | Indicadores territoriales y temporales disponibles | Unidad y situación definidas por cada fuente |
 | Incidencia delictiva | Series oficiales que cubran Jalisco | Presuntos delitos, víctimas u otra unidad, sin intercambiarlas |
 | Geografía | Claves y geometrías compatibles con las estadísticas | Unidad geoestadística y versión territorial |
 | Población de referencia | Denominadores para tasas cuando sean adecuados | Población, año, ámbito y metodología identificados |
 | Mantenimiento | Altas, cambios, fallos, revisiones y retiros | Observaciones y decisiones trazables |
 
-La descarga de archivos nacionales puede ser necesaria para obtener el subconjunto de Jalisco. Eso no amplía automáticamente el producto a cobertura nacional.
+Jalisco es el límite permanente del producto, no un piloto para ampliar la cobertura a otros estados, tampoco en la publicación final. La pertenencia de una cédula se determina por su publicación en el registro estatal de Jalisco; no exige que el hecho, el reporte o la residencia estén en Jalisco. Los indicadores territoriales y las geometrías del producto se limitan al subconjunto de Jalisco. SESNSP, INEGI y CONAPO pueden aportar archivos federales o nacionales: sus artefactos originales pueden conservarse privadamente para procedencia y reproducción, sin publicar cobertura nacional ni materializarla como ámbito del producto.
 
 ### 2.2 No incluido inicialmente
 
 No se implementarán búsquedas faciales, inferencia de identidad mediante fotografías, expedientes de presuntos responsables, recepción pública de acusaciones, predicción policial, publicación de domicilios particulares, scraping de perfiles privados ni enriquecimiento de las fichas con datos personales ajenos a la fuente seleccionada.
 
-Tampoco se desarrollarán aplicaciones móviles, microservicios, una API pública masiva de fotografías ni un índice compuesto de “seguridad” antes de demostrar su necesidad. La cobertura de otros estados queda para adaptadores posteriores.
+Tampoco se desarrollarán aplicaciones móviles, microservicios, una API pública masiva de fotografías ni un índice compuesto de “seguridad” antes de demostrar su necesidad. No se planifican adaptadores de producto para ampliar la cobertura a otros estados.
 
 ### 2.3 Qué significa “obtener toda la data”
 
-Significa intentar obtener **el conjunto público accesible dentro de un alcance explícito**, no todos los casos reales de desaparición o delincuencia.
+Significa intentar obtener **el conjunto público accesible dentro de un alcance explícito**, no todos los casos reales de desaparición o delincuencia. Para `JAL-REPD-CED` el recorrido completo corresponde a metadatos de las cédulas del registro estatal; las imágenes son un subconjunto privado de hasta 100, no toda la biblioteca de archivos.
 
 Cada extracción declarará fuente, filtros, periodo, tipo de registro, inicio y fin del recorrido y exclusiones. Si el total público no es verificable, la cobertura será `unknown`; nunca se anunciará un porcentaje inventado. Una extracción técnicamente completa tampoco acredita exhaustividad de la realidad social.
 
@@ -175,7 +175,7 @@ No se enumerarán rutas ocultas ni se recogerán campos adicionales que no corre
 
 Como punto de partida, obtener 30 cédulas distintas, o el conjunto disponible si es menor. Distribuir la muestra entre páginas, fechas y formatos que se observen, incluyendo registros incompletos cuando existan. Esta muestra prueba el conector; no es una muestra estadísticamente representativa de las desapariciones.
 
-Descargar una muestra controlada de hasta 20 archivos para comprobar formato real, tamaño, dimensiones, legibilidad, orientación y correspondencia con el registro. El presupuesto podrá ampliarse de forma explícita.
+Descargar una muestra controlada inicial de hasta 20 archivos para comprobar formato real, tamaño, dimensiones, legibilidad, orientación y correspondencia con el registro. Este presupuesto histórico de EXP-02 no es el límite de la adquisición privada de hasta 100 imágenes de Etapa 2; cualquier ampliación del piloto requiere autorización explícita.
 
 Revisar manualmente todos los pares registro/archivo de esta muestra. Detectar placeholders, miniaturas equivocadas, páginas HTML servidas como imagen, PDFs y enlaces expirables. La URL por sí sola no identifica una versión del contenido.
 
@@ -400,7 +400,11 @@ Estas son responsabilidades lógicas, no una decisión de usar siete servicios o
 
 ### 8.2 Separar catálogo y archivos
 
-Primero enumerar referencias y metadatos. Después descargar los archivos necesarios, por lotes reanudables. No obligar a repetir todo el listado porque una imagen falle. Tampoco anunciar el muro completo si solo se enumeraron fichas pero sus imágenes no se verificaron.
+Primero enumerar referencias y metadatos de todas las cédulas publicadas en el registro estatal de Jalisco, incluso cuando el hecho, reporte o residencia sean externos o desconocidos. Después seleccionar de forma determinista un subconjunto privado de hasta 100 referencias de imagen y descargar solo ese subconjunto, por lotes reanudables, con evidencia separada.
+
+La selección de Etapa 2 ordena por `(source_id, id_cedula_busqueda)` como texto y toma los primeros hasta 100 registros con `ruta_foto` utilizable de un baseline completo validado; congela la regla, baseline y selección en el manifest privado para resume/replay. No es una muestra representativa ni cobertura integral de imágenes.
+
+No obligar a repetir todo el listado porque una imagen falle, ni perder metadatos por falta de URL o error de descarga. Tampoco anunciar el muro completo si solo se enumeraron fichas o se validó este subconjunto; los campos públicos y la política de imágenes siguen pendientes de la asociación antes de Etapa 3.
 
 Usar identificadores internos y hashes para almacenamiento, no nombres personales en rutas. Mantener la asociación registro–archivo–versión para permitir corregirla y retirarla.
 
@@ -420,7 +424,9 @@ Si no existe identidad estable, registrar `identity_quality = weak`, conservar p
 
 ### 8.5 Integridad y cuantificación de cobertura
 
-Medir por separado cobertura del índice, metadatos procesados, archivos recuperados y documentos publicables. Conservar numerador y denominador, y explicar qué representan.
+Medir por separado cobertura del índice, metadatos procesados, referencias de imagen disponibles, subconjunto seleccionado, archivos recuperados y documentos publicables. Conservar numerador y denominador, y explicar qué representan.
+
+En el manifest privado de Etapa 2 registrar total de registros únicos de metadatos, cuántos tienen `ruta_foto` utilizable, cuántos no la tienen, cuántos con referencia quedaron fuera de la selección (≤100) y cuántos fueron seleccionados. Los conteos esperados, descargados, fallidos y en cuarentena de assets se calculan solo sobre los seleccionados; distinguir pendientes de fallidos y no incluir como fallos los no seleccionados o sin URL. Una ejecución `metadata_only`/`skip` no acredita descarga ni comparación de bytes de imágenes.
 
 ```text
 Cobertura de índice = referencias únicas observadas / total público compatible
@@ -432,7 +438,7 @@ En datos estadísticos, conciliar sumas únicamente cuando unidad, filtros, geog
 
 ### 8.6 Cuarentena sin desaparición silenciosa
 
-Un registro que no cumple el contrato va a cuarentena con un motivo: error de parser, identidad ambigua, archivo inválido, dimensión desconocida u otro código documentado.
+Un registro que no cumple el contrato va a cuarentena con un motivo: error de parser, identidad ambigua, archivo inválido, dimensión desconocida u otro código documentado. Un asset inválido se pone en cuarentena privada y se cuenta dentro del subconjunto seleccionado sin descartar su registro de metadatos. La ausencia de `ruta_foto` se registra por separado, no como descarga fallida.
 
 Los informes muestran cuántos registros quedaron fuera y por qué. Un lote no se declara completo porque el pipeline descartó silenciosamente las filas difíciles. Un valor desconocido válido no es, por sí mismo, un error.
 
@@ -543,7 +549,7 @@ Se elegirá posteriormente una estrategia de entrega —proxy controlado, URLs t
 | Solicitudes privadas de retiro | Acceso administrativo y plazo específico |
 | Registro de exclusión | Mínimo necesario para evitar republicación |
 
-“Inmutable” no significa conservar indefinidamente datos personales. Los snapshots personales pueden eliminarse conforme a la política; se conserva cuando corresponda un manifiesto mínimo de la operación, no una copia pública del dato retirado.
+“Inmutable” no significa conservar indefinidamente datos personales. Los snapshots personales pueden eliminarse conforme a la política; se conserva cuando corresponda un manifiesto mínimo de la operación, no una copia pública del dato retirado. Para assets y evidencia privada de Etapa 2 se revisará la conservación a los 30 días: no es un TTL ni una autorización de borrado automático o recursivo. El R2 privado existente se limita al dueño y las automatizaciones autorizadas; antes de subir se comprobarán privacidad y lifecycle efectivos. Esta decisión de acceso no aprueba publicación ni sustituye la política final de retención de la asociación.
 
 Los backups deben expirar según política. Cualquier restauración aplicará el registro vigente de exclusiones antes de habilitar el acceso público. Las pruebas deben demostrarlo.
 
@@ -647,7 +653,7 @@ En fuentes de descarga masiva, `list` puede devolver un archivo. En una fuente a
 
 ### 12.1 Requisitos de ejecución
 
-Cada operación tiene timeout, presupuesto, reintentos acotados y errores tipados. Distinguir al menos `access_blocked`, `rate_limited`, `upstream_unavailable`, `schema_changed`, `invalid_asset`, `pagination_inconsistent`, `checkpoint_invalid` y `validation_failed`.
+Cada operación tiene timeout, presupuesto, reintentos acotados y errores tipados. Para imágenes, acotar también tasa y bytes por descarga; perfilar privadamente tamaño, formato y orígenes antes de fijar topes conservadores, y pausar si no alcanzan. Los presupuestos propuestos de 5/15 GiB no fueron aprobados. Distinguir al menos `access_blocked`, `rate_limited`, `upstream_unavailable`, `schema_changed`, `invalid_asset`, `pagination_inconsistent`, `checkpoint_invalid` y `validation_failed`. Validación MIME/tamaño/hash, cuarentena, manifest, replay y readback privado R2 permanecen pendientes de implementación y evidencia.
 
 La ejecución devuelve código de salida y manifiesto. Un comando que falla no debe aparentar éxito porque alcanzó a escribir un archivo. `dry-run` significa que no promueve datos; no significa ausencia de solicitudes externas.
 
@@ -726,7 +732,7 @@ Antes de una corrida se definirán fuentes y dominios autorizados, alcance, pres
 
 Para las primeras pruebas se propone un solo trabajador por origen, pausas entre navegaciones y reintentos limitados. Ante `429`, respetar `Retry-After` cuando se reciba y reducir presión. Ante bloqueo persistente, autenticación o CAPTCHA, detener esa ruta y documentar el obstáculo; no incorporar evasión de controles.
 
-Ejemplo de configuración inicial del experimento, ajustable antes de ejecutarlo:
+Ejemplo de configuración inicial del piloto EXP-02 (hasta 20 archivos), ajustable antes de ejecutarlo; `max_assets` no es el límite actual de Etapa 2 (hasta 100):
 
 ```yaml
 mode: sample
@@ -771,7 +777,7 @@ Si se utiliza OCR o extracción asistida por un modelo, guardar método y versi�
 
 Un agregado municipal se representará mediante el municipio, no mediante puntos simulados ni un centroide presentado como lugar del hecho. Si se dispone después de coordenadas verificadas, la admisión de una capa puntual exige conocer qué representan, su precisión y si es apropiado publicarlas.
 
-No confundir municipio del hecho, del reporte, de residencia o de registro. No cruzar automáticamente esas variables como si describieran el mismo fenómeno. Registrar cambios territoriales y equivalencias; una geometría actual no siempre coincide con la unidad usada por un archivo histórico.
+Separar jurisdicción de publicación de la fuente (registro estatal de Jalisco) de la geografía del hecho, reporte y residencia. Una cédula publicada en ese registro sigue en alcance aunque alguna de esas geografías esté fuera de Jalisco, sea desconocida o no tenga municipio; no exigir `14` en todos sus campos geográficos ni descartar esas categorías. Para mapas y tasas municipales, preservar por separado las geografías no mapeables y las definiciones de cada indicador: no convertirlas en municipios de Jalisco ni cruzar papeles geográficos como si describieran el mismo fenómeno. Registrar cambios territoriales y equivalencias; una geometría actual no siempre coincide con la unidad usada por un archivo histórico.
 
 ### 15.2 Conteos, tasas y periodos
 
@@ -1025,7 +1031,7 @@ Texto de arranque para incorporar al contexto de un agente en el repositorio:
 
 ### G0 — Preparado para probar
 
-- [ ] Alcance inicial de Jalisco y fuentes prioritarias registrados.
+- [ ] Alcance permanente de Jalisco y fuentes prioritarias registrados.
 - [ ] Entorno reproducible mínimo, límites, secretos y almacenamiento restringido listos.
 - [ ] Estado inicial de cada fuente distingue referencia, consulta y prueba pendiente.
 - [ ] Responsable operativo de las pruebas identificado.
@@ -1040,8 +1046,8 @@ Texto de arranque para incorporar al contexto de un agente en el repositorio:
 
 ### G2 — Carga inicial utilizable
 
-- [ ] Alcance y cobertura del baseline declarados sin exageraciones.
-- [ ] Archivos y registros admitidos validados; cuarentena contabilizada.
+- [ ] Cobertura completa de metadatos del registro estatal y cobertura separada del subconjunto privado de hasta 100 imágenes declaradas sin exageraciones.
+- [ ] Archivos del subconjunto y registros admitidos validados; fallos y cuarentena contabilizados sin perder metadatos.
 - [ ] Reanudación, idempotencia y reprocesamiento offline comprobados.
 - [ ] Estadísticas conciliadas donde corresponda; geografías compatibles.
 - [ ] Inventario de volumen y costes iniciales medidos.
@@ -1067,7 +1073,7 @@ Texto de arranque para incorporar al contexto de un agente en el repositorio:
 
 - [ ] Muro y/o indicadores utilizan datos validados y fuentes visibles.
 - [ ] Administración y retiro completo funcionan de extremo a extremo.
-- [ ] Política de retención, antigüedad y restauración aprobada y probada.
+- [ ] Campos públicos, política de imágenes, retención, antigüedad y restauración aprobados y probados; revisión privada a 30 días no equivale a aprobación de publicación ni borrado automático.
 - [ ] Alertas, responsables, seguridad y accesibilidad comprobados.
 - [ ] Fecha de corte, cobertura, unidades y limitaciones aparecen en la interfaz.
 

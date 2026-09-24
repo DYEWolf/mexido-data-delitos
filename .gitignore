@@ -2,3 +2,10 @@
 .atl/
 
 node_modules/
+
+# Secrets locales
+.env
+.dev.vars
+
+# Wrangler local state (local D1 contains personal data)
+.wrangler/

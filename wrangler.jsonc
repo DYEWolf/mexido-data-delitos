@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Single environment: production only (no staging, by owner decision 2026-09-24).
+  "name": "mexico-data-seguridad-api",
+  "main": "src/worker/index.mjs",
+  "compatibility_date": "2026-09-22",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "mexicovisible.com", "custom_domain": true },
+    { "pattern": "admin.mexicovisible.com", "custom_domain": true }
+  ],
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "persist": true
+    }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "seguridad-jalisco",
+      "database_id": "2970ef1c-5d4e-4a2a-913c-56cc9f51b1f7"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "PRIVATE_ASSETS",
+      "bucket_name": "seguridad-jalisco-private"
+    },
+    {
+      "binding": "PUBLIC_DERIVATIVES",
+      "bucket_name": "seguridad-jalisco-public"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "PRIVATE_ASSETS_BUCKET": "seguridad-jalisco-private",
+    "PUBLIC_DERIVATIVES_BUCKET": "seguridad-jalisco-public",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAE_dq8-rpvXJN1SP",
+    "PUBLIC_HOSTNAME": "mexicovisible.com",
+    "ADMIN_HOSTNAME": "admin.mexicovisible.com",
+    "ACCESS_AUD": "931948c4865aad26bc9666eaef403e2e1622957dedea82c212bcb45d010a76fd",
+    "CF_ZONE_NAME": "mexicovisible.com"
+  }
+}

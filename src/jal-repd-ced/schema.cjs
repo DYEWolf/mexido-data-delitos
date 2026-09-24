@@ -30,6 +30,11 @@ const ARRAY_FIELDS = new Set([
   'descripcion_sena_particular',
   'descripcion_vestimenta',
 ]);
+const STRING_OR_NULL_FIELDS = new Set([
+  'colonia',
+  'nacionalidad',
+  'ruta_foto',
+]);
 
 function typeName(value) {
   if (value === null) return 'null';
@@ -64,10 +69,10 @@ function validateRecord(record, path = 'record') {
     } else if (field === 'edad_momento_desaparicion') {
       if (!Number.isInteger(value)) errors.push(error(fieldPath, 'invalid_type', 'integer', value));
     } else if (field === 'estatura') {
-      if (typeof value !== 'number' || !Number.isFinite(value)) {
-        errors.push(error(fieldPath, 'invalid_type', 'finite number', value));
+      if (value !== null && (typeof value !== 'number' || !Number.isFinite(value))) {
+        errors.push(error(fieldPath, 'invalid_type', 'finite number or null', value));
       }
-    } else if (field === 'nacionalidad') {
+    } else if (STRING_OR_NULL_FIELDS.has(field)) {
       if (value !== null && typeof value !== 'string') {
         errors.push(error(fieldPath, 'invalid_type', 'string or null', value));
       }
