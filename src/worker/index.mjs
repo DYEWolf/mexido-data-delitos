@@ -1,4 +1,6 @@
-import { home, cedula, mapa, metodologia, retiroForm, retiroSubmit, notFound } from './pages.mjs';
+import { cedulas, cedula, metodologia, retiroForm, retiroSubmit, notFound } from './pages.mjs';
+import { home, violenciaLetal, busqueda, tendencias, victimas, cifraNegra } from './story.mjs';
+import { mapa, municipio, municipioIndex } from './explore.mjs';
 import { admin } from './admin.mjs';
 import { parseFilters, listCedulas, getCedula, municipios, overview } from './data.mjs';
 
@@ -33,18 +35,22 @@ async function foto(env, id) {
   return new Response(obj.body, { headers: { 'content-type': 'image/jpeg', 'cache-control': 'public, max-age=3600', 'x-content-type-options': 'nosniff' } });
 }
 
+const STORY = { '/violencia-letal': violenciaLetal, '/busqueda': busqueda, '/tendencias': tendencias, '/victimas': victimas, '/cifra-negra': cifraNegra };
 const ROBOTS = `User-agent: *
 Allow: /$
 Allow: /cedula/
+Allow: /cedulas$
 Allow: /mapa
+Allow: /municipio
 Allow: /metodologia
+${Object.keys(STORY).map((p) => `Allow: ${p}`).join('\n')}
 Disallow: /*?
 Disallow: /api/
 Disallow: /retiro
 Disallow: /foto/
 `;
 // Public GET pages are cached at the edge for 10 minutes: repeated visits and crawlers cost no D1 reads.
-const CACHEABLE = /^\/($|cedula\/|mapa$|metodologia$|api\/(cedulas|municipios|resumen))/;
+const CACHEABLE = /^\/($|cedula\/|cedulas$|mapa$|municipio(\/14\d{3})?$|metodologia$|violencia-letal$|busqueda$|tendencias$|victimas$|cifra-negra$|api\/(cedulas|municipios|resumen))/;
 const EDGE_TTL = 600;
 
 export default {
@@ -84,12 +90,24 @@ async function route(request, env, url, path) {
 
   try {
     if (path.startsWith('/api/')) return (await api(request, env, path)) || notFound(request);
-    if (path === '/') return await home(request, env);
+    if (path === '/') {
+      // The wall moved to /cedulas; old filtered links keep working.
+      if (['q', 'municipio', 'sexo', 'anio', 'despues', 'antes'].some((k) => url.searchParams.has(k))) return Response.redirect(`${url.origin}/cedulas${url.search}`, 301);
+      return home();
+    }
+    if (STORY[path]) return STORY[path]();
+    if (path === '/cedulas') return await cedulas(request, env);
+    if (path === '/municipio') {
+      const m = url.searchParams.get('m');
+      return /^14\d{3}$/.test(m || '') ? Response.redirect(`${url.origin}/municipio/${m}`, 302) : municipioIndex();
+    }
+    const mu = path.match(/^\/municipio\/(14\d{3})$/);
+    if (mu) return (await municipio(request, env, mu[1], (c) => env.DB.prepare('SELECT repd_desaparecidas FROM municipios WHERE cvegeo = ?').bind(c).first())) || notFound(request);
     const c = path.match(/^\/cedula\/([A-Za-z0-9_-]{1,64})$/);
     if (c) return await cedula(request, env, c[1]);
     const f = path.match(/^\/foto\/([A-Za-z0-9_-]{1,64})$/);
     if (f) return (await foto(env, f[1])) || notFound(request);
-    if (path === '/mapa') return await mapa(request, env);
+    if (path === '/mapa') return await mapa(request, env, () => municipios(env.DB));
     if (path === '/metodologia') return await metodologia(request, env);
     if (path === '/retiro') return request.method === 'POST' ? await retiroSubmit(request, env) : retiroForm(request, env);
     return notFound(request);

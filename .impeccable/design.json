@@ -1,0 +1,659 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T22:19:20+00:00",
+  "title": "Design System: México Visible · Jalisco",
+  "extensions": {
+    "colorMeta": {
+      "record-ink": {
+        "role": "primary",
+        "displayName": "Record Ink",
+        "canonical": "#0b0b0b",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "dark": "#f4f3ef"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "dark": "#191918"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "dark": "#212120"
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "#45443f",
+        "tonalRamp": [
+          "#0c0b07",
+          "#262521",
+          "#43423d",
+          "#62615c",
+          "#83827d",
+          "#a6a59f",
+          "#cac9c3",
+          "#f0efe8"
+        ],
+        "dark": "#c3c2b7"
+      },
+      "ink-tertiary": {
+        "role": "neutral",
+        "displayName": "Ink Tertiary",
+        "canonical": "#6b6a64",
+        "tonalRamp": [
+          "#0c0b07",
+          "#262520",
+          "#43423d",
+          "#62615b",
+          "#83827c",
+          "#a6a59f",
+          "#cac9c3",
+          "#f0efe8"
+        ],
+        "dark": "#9a998f"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e6e5e0",
+        "tonalRamp": [
+          "#0c0b08",
+          "#262521",
+          "#43423e",
+          "#62615d",
+          "#83827e",
+          "#a6a5a0",
+          "#cac9c4",
+          "#f0eee9"
+        ],
+        "dark": "#353532"
+      },
+      "heavy-rule": {
+        "role": "neutral",
+        "displayName": "Heavy Rule",
+        "canonical": "#0b0b0b",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "dark": "#d8d7d0"
+      },
+      "quiet-fill": {
+        "role": "neutral",
+        "displayName": "Quiet Fill",
+        "canonical": "#f4f4f1",
+        "tonalRamp": [
+          "#0b0b09",
+          "#252523",
+          "#424240",
+          "#61615f",
+          "#828280",
+          "#a5a5a2",
+          "#c9c9c6",
+          "#efefec"
+        ],
+        "dark": "#262624"
+      },
+      "chart-grid": {
+        "role": "neutral",
+        "displayName": "Chart Grid",
+        "canonical": "#e1e0d9",
+        "tonalRamp": [
+          "#0c0b07",
+          "#262520",
+          "#43423c",
+          "#62615b",
+          "#83827c",
+          "#a6a59f",
+          "#cac9c2",
+          "#f0efe8"
+        ],
+        "dark": "#2c2c2a"
+      },
+      "chart-axis": {
+        "role": "neutral",
+        "displayName": "Chart Axis",
+        "canonical": "#c3c2b7",
+        "tonalRamp": [
+          "#0c0b05",
+          "#26251d",
+          "#434239",
+          "#636258",
+          "#848379",
+          "#a7a69b",
+          "#cbcabf",
+          "#f0efe4"
+        ],
+        "dark": "#4a4a46"
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Selection Tint",
+        "canonical": "#cfe0f7",
+        "tonalRamp": [
+          "#030b1a",
+          "#192637",
+          "#354355",
+          "#546276",
+          "#748498",
+          "#96a7bc",
+          "#bacbe1",
+          "#dff0ff"
+        ],
+        "dark": "#1f3f66"
+      },
+      "link-blue": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#2263b3",
+        "tonalRamp": [
+          "#000045",
+          "#001c67",
+          "#003e8b",
+          "#1f60b0",
+          "#4383d6",
+          "#66a7fd",
+          "#89ccff",
+          "#adf2ff"
+        ],
+        "dark": "#7cb0ee"
+      },
+      "caution-fill": {
+        "role": "neutral",
+        "displayName": "Caution Fill",
+        "canonical": "#fdf3e1",
+        "tonalRamp": [
+          "#110a01",
+          "#2b2416",
+          "#494132",
+          "#696051",
+          "#8a8171",
+          "#ada493",
+          "#d2c8b7",
+          "#f7eddb"
+        ],
+        "dark": "#3a2c12"
+      },
+      "caution-ink": {
+        "role": "neutral",
+        "displayName": "Caution Ink",
+        "canonical": "#7a4b00",
+        "tonalRamp": [
+          "#220000",
+          "#421700",
+          "#633500",
+          "#855513",
+          "#a9773a",
+          "#ce9a5d",
+          "#f4be81",
+          "#ffe3a5"
+        ],
+        "dark": "#f3cf8a"
+      },
+      "data-blue": {
+        "role": "data",
+        "displayName": "Data Blue · homicidio / baja",
+        "canonical": "#2a78d6",
+        "tonalRamp": [
+          "#00004d",
+          "#001670",
+          "#003c95",
+          "#055fba",
+          "#3582e1",
+          "#59a6ff",
+          "#7eccff",
+          "#a2f2ff"
+        ],
+        "dark": "#3987e5"
+      },
+      "data-orange": {
+        "role": "data",
+        "displayName": "Data Orange · desaparición",
+        "canonical": "#eb6834",
+        "tonalRamp": [
+          "#390000",
+          "#5f0000",
+          "#860000",
+          "#ad2d00",
+          "#d5531b",
+          "#fd7845",
+          "#ff9d6b",
+          "#ffc390"
+        ],
+        "dark": "#d95926"
+      },
+      "data-green": {
+        "role": "data",
+        "displayName": "Data Green · hombres / Altos Norte",
+        "canonical": "#1baf7a",
+        "tonalRamp": [
+          "#001800",
+          "#00360b",
+          "#005729",
+          "#007848",
+          "#009b68",
+          "#37c08a",
+          "#65e5ad",
+          "#8dffd2"
+        ],
+        "dark": "#199e70"
+      },
+      "data-amber": {
+        "role": "data",
+        "displayName": "Data Amber · Altos Sur",
+        "canonical": "#eda100",
+        "tonalRamp": [
+          "#2b0000",
+          "#4d0400",
+          "#702b00",
+          "#944d00",
+          "#b97000",
+          "#de9300",
+          "#ffb835",
+          "#ffde63"
+        ],
+        "dark": "#c98500"
+      },
+      "data-violet": {
+        "role": "data",
+        "displayName": "Data Violet · mujeres",
+        "canonical": "#4a3aa7",
+        "tonalRamp": [
+          "#14004d",
+          "#250071",
+          "#3d2895",
+          "#594cbb",
+          "#7870e1",
+          "#9994ff",
+          "#bcb8ff",
+          "#e1deff"
+        ],
+        "dark": "#9085e9"
+      },
+      "data-red": {
+        "role": "data",
+        "displayName": "Data Red · sube",
+        "canonical": "#e34948",
+        "tonalRamp": [
+          "#3d0000",
+          "#650000",
+          "#8d0000",
+          "#b51221",
+          "#dd4443",
+          "#ff6a65",
+          "#ff9088",
+          "#ffb6ac"
+        ],
+        "dark": "#e66767"
+      },
+      "data-neutral": {
+        "role": "data",
+        "displayName": "Data Neutral · sin tendencia / población",
+        "canonical": "#898781",
+        "tonalRamp": [
+          "#0d0b07",
+          "#272520",
+          "#44423d",
+          "#63615b",
+          "#84827c",
+          "#a7a59f",
+          "#cbc9c3",
+          "#f1eee8"
+        ],
+        "dark": "#898781"
+      },
+      "seq-0": {
+        "role": "data",
+        "displayName": "Sequential 0",
+        "canonical": "#f0efec",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#383835"
+      },
+      "seq-1": {
+        "role": "data",
+        "displayName": "Sequential 1",
+        "canonical": "#b7d3f6",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#104281"
+      },
+      "seq-2": {
+        "role": "data",
+        "displayName": "Sequential 2",
+        "canonical": "#6da7ec",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#1c5cab"
+      },
+      "seq-3": {
+        "role": "data",
+        "displayName": "Sequential 3",
+        "canonical": "#3987e5",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#2a78d6"
+      },
+      "seq-4": {
+        "role": "data",
+        "displayName": "Sequential 4",
+        "canonical": "#1c5cab",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#5598e7"
+      },
+      "seq-5": {
+        "role": "data",
+        "displayName": "Sequential 5",
+        "canonical": "#0d366b",
+        "tonalRamp": [
+          "#f0efec",
+          "#b7d3f6",
+          "#6da7ec",
+          "#3987e5",
+          "#1c5cab",
+          "#0d366b"
+        ],
+        "dark": "#9ec5f4"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page h1."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section h2 in chapters."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Paragraph under an h1."
+      },
+      "body-reading": {
+        "displayName": "Body Reading",
+        "purpose": "Argument paragraphs in sections."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "UI, lists, tables."
+      },
+      "figure-title": {
+        "displayName": "Figure Title",
+        "purpose": "Chart h3."
+      },
+      "figure-number": {
+        "displayName": "Figure Number",
+        "purpose": "Stat strip numbers; tabular."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Bylines, breadcrumbs, control labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "chart-tooltip",
+        "value": "0 4px 18px rgba(0,0,0,.12)",
+        "purpose": "Chart mark tooltip on surface."
+      },
+      {
+        "name": "map-tooltip",
+        "value": "0 4px 14px rgb(0 0 0/.18)",
+        "purpose": "Inverted ink tooltip over maps."
+      },
+      {
+        "name": "mark-separation",
+        "value": "0 0 0 2px var(--surface)",
+        "purpose": "Ring that keeps overlapping dots legible; separation, not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "theme-crossfade",
+        "value": "0.28s cubic-bezier(.16,1,.3,1)",
+        "purpose": "View-transition crossfade when the theme toggles; disabled under reduced motion."
+      },
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "In-page anchor scrolling when motion is allowed."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "480px"
+      },
+      {
+        "name": "container-sm",
+        "value": "560px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "findings",
+        "value": "820px"
+      },
+      {
+        "name": "container",
+        "value": "1120px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink button for the one action in a form (Ver ficha, Buscar, Enviar).",
+      "html": "<button class=\"ds-btn\">Ver ficha</button>",
+      "css": ".ds-btn{font:550 16px/1.2 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--ink,#0b0b0b);color:var(--bg,#fff);border:1px solid var(--ink,#0b0b0b);border-radius:6px;padding:9px 18px;min-height:44px;cursor:pointer;display:inline-flex;align-items:center}.ds-btn:hover{background:var(--ink-2,#45443f);border-color:var(--ink-2,#45443f)}.ds-btn:focus-visible{outline:2px solid var(--accent,#2263b3);outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline companion to the primary button (Ver el mapa).",
+      "html": "<a class=\"ds-btn2\" href=\"#\">Ver el mapa</a>",
+      "css": ".ds-btn2{font:550 16px/1.2 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:transparent;color:var(--ink,#0b0b0b);border:1px solid var(--axis,#c3c2b7);border-radius:6px;padding:9px 18px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}.ds-btn2:hover{border-color:var(--ink,#0b0b0b)}.ds-btn2:focus-visible{outline:2px solid var(--accent,#2263b3);outline-offset:2px}"
+    },
+    {
+      "name": "Select Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled field; label above in secondary ink.",
+      "html": "<label class=\"ds-fl\">Municipio<select class=\"ds-in\"><option>Elige un municipio</option><option>Guadalajara</option></select></label>",
+      "css": ".ds-fl{display:flex;flex-direction:column;gap:4px;font:.85rem system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink-2,#45443f)}.ds-in{font:16px system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink,#0b0b0b);background:var(--surface,#fff);border:1px solid var(--axis,#c3c2b7);border-radius:6px;padding:8px 10px;min-height:44px}.ds-in:hover{border-color:var(--ink-3,#6b6a64)}.ds-in:focus-visible{outline:2px solid var(--accent,#2263b3);outline-offset:2px}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "Map-layer and chart toggles; active is an ink pill.",
+      "html": "<nav class=\"ds-seg\"><a href=\"#\" aria-current=\"page\">Homicidio y desaparición</a><a href=\"#\">Fosas</a><a href=\"#\">Violencia contra mujeres</a></nav>",
+      "css": ".ds-seg{display:flex;flex-wrap:wrap;gap:6px}.ds-seg a{font:.88rem system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;padding:6px 12px;border:1px solid var(--line,#e6e5e0);border-radius:999px;background:var(--surface,#fff);color:var(--ink-2,#45443f);min-height:36px;display:inline-flex;align-items:center;text-decoration:none}.ds-seg a:not([aria-current]):hover{border-color:var(--ink-3,#6b6a64);color:var(--ink,#0b0b0b)}.ds-seg a[aria-current]{background:var(--ink,#0b0b0b);border-color:var(--ink,#0b0b0b);color:var(--bg,#fff)}.ds-seg a:focus-visible{outline:2px solid var(--accent,#2263b3);outline-offset:2px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Serif wordmark, sans links, current page underlined in ink flush with the header rule.",
+      "html": "<header class=\"ds-hd\"><a class=\"ds-br\" href=\"#\">México Visible <span>· Jalisco</span></a><nav><a href=\"#\">Violencia letal</a><a href=\"#\" aria-current=\"page\">Tendencias</a><a href=\"#\">Mapa</a><a href=\"#\">Metodología</a></nav></header>",
+      "css": ".ds-hd{display:flex;flex-wrap:wrap;align-items:center;gap:0 32px;border-bottom:1px solid var(--line,#e6e5e0);background:var(--bg,#fff);padding:0 20px}.ds-br{font:600 1.08rem/1 'Source Serif 4',Georgia,serif;color:var(--ink,#0b0b0b);text-decoration:none;padding:18px 0}.ds-br span{color:var(--ink-3,#6b6a64);font-weight:400}.ds-hd nav{display:flex;gap:0 22px}.ds-hd nav a{font:.92rem system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink-2,#45443f);text-decoration:none;padding:19px 0 17px;border-bottom:2px solid transparent}.ds-hd nav a:hover{color:var(--ink,#0b0b0b)}.ds-hd nav a[aria-current]{color:var(--ink,#0b0b0b);border-bottom-color:var(--ink,#0b0b0b)}"
+    },
+    {
+      "name": "Stat Strip",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Signature replacement for KPI cards: heavy rule, tabular figures, hairline-closed cells.",
+      "html": "<div class=\"ds-st\"><div><b>16,250</b><span>personas siguen desaparecidas</span><small>REPD, corte 31 ago 2026</small></div><div><b>−34%</b><span>víctimas de homicidio doloso, 2025 contra 2024</span><small>SESNSP; falta INEGI 2025</small></div><div><b>92.2%</b><span>de los delitos no llega a una carpeta</span><small>ENVIPE 2026</small></div></div>",
+      "css": ".ds-st{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0 28px;border-top:2px solid var(--rule,#0b0b0b);font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}.ds-st>div{padding:14px 0 16px;border-bottom:1px solid var(--line,#e6e5e0)}.ds-st b{display:block;font-size:2rem;line-height:1.1;letter-spacing:-.025em;font-weight:650;font-variant-numeric:tabular-nums;color:var(--ink,#0b0b0b)}.ds-st span{display:block;font-size:.92rem;margin-top:6px;line-height:1.4;color:var(--ink,#0b0b0b)}.ds-st small{display:block;font-size:.78rem;margin-top:6px;color:var(--ink-3,#6b6a64)}"
+    },
+    {
+      "name": "Figure Frame",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Every chart: hairline, sans title, method subtitle, body, source line, data disclosure.",
+      "html": "<figure class=\"ds-fig\"><h3>Cambio anual promedio de 16 delitos denunciados, 2019–2025</h3><p class=\"ds-sub\">Tasa por 100 mil habitantes; punto y línea: estimación y su intervalo al 95%.</p><div class=\"ds-bars\"><i style=\"width:62%;background:var(--c1,#2a78d6)\"></i><i style=\"width:38%;background:var(--c2,#eb6834)\"></i></div><p class=\"ds-src\">Fuente: SESNSP y CONAPO. <a href=\"#\">Pieza 6</a></p><details><summary>Ver los datos</summary></details></figure>",
+      "css": ".ds-fig{margin:0;padding:14px 0 0;border-top:1px solid var(--line,#e6e5e0);font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;max-width:640px}.ds-fig h3{font-size:1.02rem;font-weight:650;margin:0 0 4px;line-height:1.35;color:var(--ink,#0b0b0b)}.ds-sub{margin:0 0 14px;color:var(--ink-2,#45443f);font-size:.9rem}.ds-bars{display:flex;gap:2px;height:26px}.ds-bars i:first-child{border-radius:4px 0 0 4px}.ds-bars i:last-child{border-radius:0 4px 4px 0}.ds-src{color:var(--ink-3,#6b6a64);font-size:.8rem;margin:12px 0 0}.ds-src a{color:inherit}.ds-fig summary{cursor:pointer;color:var(--accent,#2263b3);font-size:.88rem;margin-top:8px}"
+    },
+    {
+      "name": "Callout",
+      "kind": "card",
+      "refersTo": "callout",
+      "description": "Interpretive aside in a chapter; quiet fill, never a colored side border.",
+      "html": "<div class=\"ds-co\"><p><b>Tres explicaciones que estos datos no distinguen:</b> una baja real de los asesinatos; un cambio en la letalidad; o violencia letal registrada como desaparición.</p></div>",
+      "css": ".ds-co{background:var(--soft,#f4f4f1);border-radius:6px;padding:14px 18px;max-width:66ch;font:.98rem/1.55 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink,#0b0b0b)}.ds-co p{margin:0}"
+    },
+    {
+      "name": "Theme Toggle",
+      "kind": "button",
+      "refersTo": "theme-toggle",
+      "description": "Circular ghost toggle with a drawn moon/sun; aria-pressed reflects dark mode.",
+      "html": "<button class=\"ds-tt\" aria-pressed=\"false\" aria-label=\"Modo oscuro\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z\"/></svg></button>",
+      "css": ".ds-tt{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;background:transparent;color:var(--ink-2,#45443f);border:1px solid transparent;border-radius:999px;cursor:pointer}.ds-tt svg{width:20px;height:20px}.ds-tt:hover{background:var(--soft,#f4f4f1);border-color:var(--line,#e6e5e0);color:var(--ink,#0b0b0b)}.ds-tt:focus-visible{outline:2px solid var(--accent,#2263b3);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El expediente público (The Public Record)",
+    "overview": "The site reads like a well-edited official record: sober, verifiable, every figure carrying its footnote. Its authority comes from precision and restraint, never from rhetoric. The subject is grave (homicide, disappearance, graves, sexual violence), so the mood is sober, serene and precise. Nothing on the page raises its voice; the data is allowed to be alarming on its own, qualified by its interval and its source.\n\nThe page is black ink on white paper. A serif carries everything meant to be read as argument (headlines, ledes, reading paragraphs); a plain system sans carries everything meant to be checked (figures, charts, tables, labels, controls). Structure comes from rules, not boxes: a heavy rule opens a group of figures or a list of findings, hairlines separate what sits inside it. Color is reserved almost entirely for data. The interface itself is monochrome plus one link blue.\n\nThe site must never look like a *nota roja* tabloid (alarm red, blood, tabloid type, scene photography), a corporate dashboard (KPI cards, gradients, icons, soft SaaS shadows) or government propaganda (institutional colors, logos, a celebratory tone about figures).",
+    "keyCharacteristics": [
+      "Black ink on white paper, with a full dark theme that mirrors it.",
+      "Serif for argument, sans for evidence.",
+      "Rules, not boxes: heavy rule to open, hairlines to divide.",
+      "Color belongs to the data; the interface is monochrome plus a link blue.",
+      "Every chart has a title, a subtitle stating the unit and method, a source line and a data table.",
+      "No hover-only information, no decoration, no eyebrow labels."
+    ],
+    "rules": [
+      {
+        "name": "The Data-Owns-Color Rule",
+        "body": "Saturated color appears only in charts, maps, legends and the chips that key to them. Interface chrome stays ink, paper and link blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Meaning Rule",
+        "body": "A data color means the same thing on every page. Blue is homicide and \"down\"; orange is disappearance; red is only \"up\".",
+        "section": "colors"
+      },
+      {
+        "name": "The No Alarm Rule",
+        "body": "Red never signals danger, urgency or emphasis. Emphasis comes from weight and size.",
+        "section": "colors"
+      },
+      {
+        "name": "The Argument/Evidence Rule",
+        "body": "If the reader is meant to be persuaded, it is serif. If the reader is meant to check it, it is sans. Chart titles are evidence and stay sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "No uppercase kicker above a heading. Sequence and context (\"Capítulo 3 de 5 · Tendencias\", \"Jalisco · datos oficiales 2015–2026\") go below the lede as a quiet byline, or become a breadcrumb.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every number that sits in a column, strip, axis or table uses tabular figures and the true minus sign (−).",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Record Rule",
+        "body": "Nothing at rest casts a shadow. Stats, findings, callouts and figures are separated by rules and space, never by lifted cards.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** open every group of figures or findings with the 2px heavy rule, and divide inside it with 1px hairlines.",
+      "**Do** give every chart a title, a method subtitle, a source line linked to its piece, and a data table under \"Ver los datos\".",
+      "**Do** set argument in Source Serif 4 and evidence in the system sans, with tabular figures and the true minus sign.",
+      "**Do** keep each data color's meaning fixed site-wide (blue homicide/down, orange disappearance, red only up).",
+      "**Do** put chapter sequence and dataset context in a byline below the lede.",
+      "**Do** self-host every font and asset; the CSP allows no third-party origins except Turnstile.",
+      "**Do** verify every page at 390px wide with no horizontal scroll, in both themes."
+    ],
+    "donts": [
+      "**Don't** make it look like *nota roja*: no alarm red, blood imagery, tabloid type or scene photography.",
+      "**Don't** make it look like a corporate dashboard: no KPI cards, gradients, icon tiles or soft lifted shadows.",
+      "**Don't** make it look like government propaganda: no institutional colors, logos or celebratory framing of figures.",
+      "**Don't** put an uppercase eyebrow or kicker above a heading.",
+      "**Don't** use a colored side border on callouts or notes, or any shadow on content at rest.",
+      "**Don't** use saturated color for interface chrome; link blue is the only non-data color.",
+      "**Don't** put information only in hover; tooltips repeat what the table already holds."
+    ]
+  }
+}

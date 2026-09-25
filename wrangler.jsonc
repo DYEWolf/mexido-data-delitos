@@ -5,6 +5,8 @@
   "main": "src/worker/index.mjs",
   "compatibility_date": "2026-09-22",
   "workers_dev": false,
+  // Static files (self-hosted fonts) are served before the Worker runs.
+  "assets": { "directory": "./public" },
   "routes": [
     { "pattern": "mexicovisible.com", "custom_domain": true },
     { "pattern": "admin.mexicovisible.com", "custom_domain": true }
