@@ -546,7 +546,7 @@
     "E14f": "exploratoria"
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:50+00:00",
+    "generado": "2026-09-25T20:16:36+00:00",
     "script": "pieces.p14_tendencias_region",
     "insumos_sha256": {
       "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",

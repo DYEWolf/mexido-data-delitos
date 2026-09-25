@@ -274,7 +274,7 @@
     "H9c": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:37+00:00",
+    "generado": "2026-09-25T20:16:23+00:00",
     "script": "pieces.p9_cifra_negra",
     "insumos_sha256": {
       "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2026_csv.zip": "dd79f589eb6ed7d3675cc86e21ac9bbdbf269913963091d8698d6e28e0540a17",

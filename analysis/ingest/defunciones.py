@@ -59,7 +59,9 @@ def read_year(zp: Path) -> pd.DataFrame:
     with zipfile.ZipFile(zp) as z:
         name = next(n for n in z.namelist() if re.search(r"conjunto_de_datos/.*\.csv$", n, re.I))
         raw = z.read(name)
-        cat = pd.read_csv(io.BytesIO(z.read("catalogos/presunta_defuncion_violenta.csv")), dtype=str, encoding="latin1")
+        # 2018 en adelante: presunta_defuncion_violenta.csv; 2015-2017: depresunto.csv (mismos códigos 1-3).
+        cat_name = next(n for n in z.namelist() if re.search(r"catalogos/(presunta_defuncion_violenta|depresunto)\.csv$", n, re.I))
+        cat = pd.read_csv(io.BytesIO(z.read(cat_name)), dtype=str, encoding="latin1")
     codes = {c.strip(): label(d) for c, d in zip(cat.CVE, cat.DESCRIP)}
     D.check(codes.get("1") == "accidente" and codes.get("2") == "homicidio" and codes.get("3") == "suicidio",
             f"{zp.name}: catálogo de presunto con códigos inesperados {codes}")

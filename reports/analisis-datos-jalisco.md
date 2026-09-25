@@ -374,6 +374,149 @@ El detalle está en `ANALISIS.md` (§5, §6, §8 y §10). Las hipótesis de las 
 - `run.py` corre ahora 17 piezas en alrededor de un minuto; las piezas 16 y 17 toman unos 21 segundos cada una.
 - §7 (tesis) no se tocó.
 
+### 2.25 Pieza 19: tendencias por municipio con un modelo jerárquico (25-09-2026)
+
+Revisión previa: el pedido del 25-09-2026 listaba como pendientes las piezas 16–18, pero ya estaban hechas y documentadas (2.24). Se volvió a correr todo: las 17 piezas dan resultados idénticos (salvo la fecha de generación), §6 cuadra con los JSON (73 = 42 + 22 + 9) y las cifras de §5 de las piezas 16–18 salen del output. No se rehicieron.
+
+- **Pieza 19 (nueva): tendencias 2019–2025 por municipio de los cinco delitos de la pieza 14.** Hipótesis escritas en `pieces/p19_tendencias_municipio.py` antes de calcular. Ya se conocían las tendencias por región (pieza 14) y el cambio 2024→2025 del homicidio por municipio (E12g); no se había calculado ninguna tendencia municipal 2019–2025.
+  - Modelo: Poisson con intercepto y pendiente aleatorios por municipio, máxima verosimilitud por cuadratura de Gauss-Hermite adaptativa, escrito con SciPy (sin dependencias nuevas). IC95 municipales con 200 sorteos de los parámetros. Robustez declarada: binomial negativa. Validación con datos simulados (en el scratchpad, no en el repo): recupera los parámetros y cubre 93.4% con datos Poisson.
+  - Confirmado: la tendencia del homicidio varía entre municipios (p < 0.001; binomial negativa, p = 0.038), y también la de los otros cuatro delitos. 44 municipios con aumento creíble de abuso sexual (binomial negativa: 47; sin 2019: 43) y ninguno con baja creíble.
+  - Refutado: un municipio de menos de 20,000 habitantes (Amatitán, 20 carpetas) se aparta de la tendencia estatal del homicidio; de 9 municipios que se apartan en crudo, solo 3 dejan de hacerlo en el modelo jerárquico.
+  - Descripción: el municipio típico no baja en robo (+1.3% y +1.8% anual, sin significancia) mientras el estado baja 14.6% y 10.7%; la violencia familiar sube 7.7% anual en el municipio típico [5.6, 9.9] y el estado, +2.9% sin significancia.
+- **Error detectado, sin corregir (§9).** El Poisson jerárquico no admite sobre-dispersión de un año a otro dentro del municipio. Señal: en municipios grandes sus IC95 eran más angostos que los crudos. La binomial negativa estima α = 0.21 en homicidio, y en simulación con esa sobre-dispersión el IC95 del Poisson cubre 72% contra 92.5% de la binomial negativa. Con la binomial negativa, H19b y H19c serían ✅. Los veredictos se dejan como se declararon porque la corrección favorece a las hipótesis; la decisión queda en §10.
+- **Registro:** 78 hipótesis: 45 confirmadas, 24 refutadas, 9 exploratorias (recuento verificado sobre las marcas de la tabla de §6).
+- `ANALISIS.md`: §5 (pieza 19), §6, §4 (método jerárquico e intervalos), §8.18, §9, §10, §11 (unos 75 segundos) y en §1 solo los recuentos de piezas e hipótesis. §7 (tesis) no se tocó.
+
+### 2.26 Pieza 19: corrección de método, binomial negativa como modelo principal (25-09-2026)
+
+Decisión del dueño del proyecto sobre el pendiente de 2.25. El modelo principal de la pieza 19 pasa de Poisson jerárquico a binomial negativa jerárquica (antes, la robustez declarada), porque el Poisson subestima la incertidumbre: en simulación con la sobre-dispersión observada en homicidio (α = 0.21), su IC95 municipal cubre 72% contra 92.5%. El Poisson queda en el JSON como comparación (`poisson_comparacion`, `comparacion_poisson_hipotesis`). El encabezado del script conserva la declaración original y agrega una nota fechada con la corrección.
+
+- Hipótesis, umbrales y criterios sin cambio. **H19b y H19c pasan de ❌ a ✅**: ningún municipio de menos de 20,000 habitantes se aparta de la tendencia estatal del homicidio (Amatitán queda en −4.8% [−16.3, 19.7]), y 8 de 9 municipios que se apartan en crudo dejan de hacerlo. H19a sigue ✅ con p = 0.038; H19d y H19e, ✅ (abuso sexual: 47 municipios; sin 2019, 44).
+- Las cifras municipales de §5 ahora son las de la binomial negativa (por ejemplo, homicidio: 48 municipios con baja creíble y ninguno con subida creíble).
+- **Registro:** 78 hipótesis: 47 confirmadas, 22 refutadas, 9 exploratorias (recuento verificado sobre la tabla de §6).
+- `ANALISIS.md`: §5 (pieza 19 reescrita con el modelo nuevo), §6, §1 (recuentos), §4, §8.18, §9 (fila marcada como corregida) y §10 (se quita el pendiente). §7 no se tocó.
+
+### 2.27 Tesis del sitio en tres frases (25-09-2026)
+
+A pedido del dueño del proyecto, `ANALISIS.md` §7 pasa de 4 a 3 frases (versión A de tres propuestas). Ninguna cifra cambia. Cambios de redacción:
+- "son las mismas personas" → "tienen el mismo perfil": H7a mide el perfil de sexo y edad, no si son los mismos individuos.
+- "casi no se busca" → "casi no hay búsqueda registrada", como quedó H8c tras la corrección de §9.
+- La advertencia sobre la caída del homicidio registrado se integra en la segunda frase.
+- "Todo lo que registran las cifras oficiales es una fracción" pasa a la cifra de §1: alrededor de 92 de cada 100 delitos no llegan a una carpeta de investigación (pieza 9).
+- El abuso sexual queda como "subió", sin "en ninguna parte", porque en Altos Norte baja (2.23).
+- La nota bajo la tesis ahora dice qué pieza sostiene cada frase.
+
+La síntesis de abajo es la versión histórica de las piezas 1–10; la vigente está en §7. §1 no cambia.
+
+### 2.28 Validación de la percepción contra los tabulados de INEGI (25-09-2026)
+
+- **Descarga.** Tabulados básicos de la ENVIPE 2025 y 2026 desde las páginas de INEGI: "V. Percepción sobre la seguridad pública" (estimaciones, errores estándar, coeficientes de variación, intervalos al 90%), "VIII. Áreas urbanas de interés" (estimaciones y errores) y los PDF de resultados de Jalisco y nacionales. Quedaron en `s3-envipe-tabulados-20260925T174524Z`, con `SOURCES.txt` (URL de cada archivo) y `SHA256SUMS`. Las ligas se leyeron de la página de INEGI con el navegador, porque la página arma sus enlaces con JavaScript; los archivos se bajaron con `curl`, y se verificó que fueran Excel o PDF y no páginas de error.
+- **Hipótesis H16h e H16i**, escritas en `pieces/p16_percepcion.py` antes de leer cifras de los tabulados. Antes solo se revisó la estructura: índice, títulos, encabezados, etiquetas de fila y notas al pie.
+  - Confirmado: las 12 cifras de inseguridad (colonia, municipio y entidad; Jalisco y nacional; dos ediciones) coinciden con las publicadas con diferencia de 0.00 puntos, y sus errores estándar con razón 1.000. Sin hipótesis, también coinciden los 12 lugares y las 4 categorías de tendencia esperada.
+  - Una lectura equivocada durante la validación: la nota del cuadro de espacios ("excluye no sabe / no responde") se leyó como exclusión del denominador, y con ese alcance los lugares diferían hasta 0.5 puntos. Con los datos (escuela, transporte público y parque, 2025) se comprobó que INEGI deja "no sabe / no responde" en el denominador, como ya lo hacía la pieza 16; la nota se refiere a las columnas del cuadro. Se volvió al cálculo original. No afecta ninguna hipótesis y queda anotado en el encabezado del script.
+  - Las incivilidades (`AP4_5`) no están en el tabulado V y no se validaron.
+- **Error de hecho corregido (§9).** La ENVIPE 2026 se levantó de febrero a abril de 2026, no en marzo–abril (así lo dicen los títulos de los tabulados). Se corrigió en el script, en §5 y en §8.16. Ninguna cifra cambia.
+- Dependencia nueva: `openpyxl` (con `uv add`) para leer los Excel de INEGI.
+- **Registro:** 80 hipótesis: 49 confirmadas, 22 refutadas, 9 exploratorias (recuento verificado sobre la tabla de §6).
+- `ANALISIS.md`: §5 (pieza 16), §6, §1 (recuentos), §2.5, §3.2, §4 (herramientas), §8.16, §9 y §10 (se quita el pendiente). §7 no cambia.
+
+### 2.29 Pieza 20: feminicidio frente a asesinatos de mujeres, 2015–2018 (25-09-2026)
+
+- **Descarga.** Defunciones registradas de INEGI 2015, 2016 y 2017, desde la sección de datos abiertos de las EDR. Las ligas se leyeron de la página con el navegador: esos años usan otro nombre de archivo que 2018 en adelante. Antes se comprobó el patrón de URL bajando el ZIP de 2018, que dio el mismo SHA-256 que el de la evidencia. Quedaron en `s3-inegi-defunciones-2015-2017-20260925T182641Z`, con `SOURCES.txt` y `SHA256SUMS`.
+- **Importador.** `ingest/defunciones.py` ahora también acepta el catálogo de presunto de 2015–2017 (`depresunto.csv`, mismos códigos 1–3). La extracción de 2018–2024 no se tocó: las demás piezas y su verificación de 15,131 homicidios siguen igual. Cargador nuevo `defunciones_2015_2017()`, que verifica los años de registro y 4,095 homicidios. Los totales nacionales de defunciones registradas (655,688; 685,766; 703,047) coinciden con los que INEGI publica para esos años.
+- **Hipótesis escritas antes de importar.** Como 2019–2023 ya se había visto (pieza 18), las pruebas usan solo 2015–2018, como réplica fuera de muestra; 2015–2023 es exploratorio. La ventana 2019–2023 reproduce la pieza 18 sin diferencias.
+  - Refutado (H20a): en 2015–2018, Altos Norte no registra menos feminicidio por mujer asesinada que el resto sin los Altos (0.93 [0.34–2.20]; 7 carpetas contra 31 mujeres). La brecha de 2019–2023 (7 contra 112) apareció cuando los asesinatos de mujeres en Altos Norte pasaron de 3.6 a 10.2 por 100 mil al año, sin más carpetas.
+  - Refutado (H20b): la medida estatal de 2015–2018 no es menor que la de 2019–2023 (0.96 [0.77–1.19]).
+  - Exploratorio (E20c): la razón anual estatal cae de 0.44 en 2015 a 0.13 en 2018 y sube a 0.21–0.31 desde 2019.
+- **Registro:** 83 hipótesis: 49 confirmadas, 24 refutadas, 10 exploratorias (recuento verificado sobre la tabla de §6).
+- `ANALISIS.md`: §5 (pieza 20), §6, §1 (recuentos), §2.3, §3.2, §8.17, §10 y §11. §7 no cambia: la pieza 20 no toca ninguna de sus frases.
+
+### 2.30 Motivos de no denuncia de los delitos sexuales: cerrado como no medible en Jalisco (25-09-2026)
+
+- La pieza 17 declaró antes de calcular un umbral de 100 delitos no denunciados en la muestra por tipo y edición. Los delitos sexuales en Jalisco quedan en 39 (ENVIPE 2026) y 60 (ENVIPE 2025); las amenazas, en 95 y 98.
+- Se decidió no juntar las dos ediciones. Juntarlas no se declaró antes de calcular y mezclaría delitos de 2024 y 2025. Además, con 99 casos de una encuesta por conglomerados, el intervalo no distinguiría a Jalisco del país. Para este tema se usa la cifra nacional (H17d ✅: el miedo al agresor pesa 6.9 puntos más en los delitos sexuales).
+- No cambia ningún veredicto ni el recuento. `ANALISIS.md`: límites de la pieza 17 y §10 (pasa de pendiente a "lo que no tenemos").
+
+### 2.31 Pieza 21: tendencias de los tipos de delito menores (25-09-2026)
+
+- **Universo.** Los 27 tipos del SESNSP con serie 2015–2025 que no cubre ninguna categoría de la pieza 6: 30,619 carpetas en 2019 y 24,651 en 2025. Con al menos 30 carpetas cada año pasan 15. Antes de calcular solo se conocían los conteos de 2025 de "otros delitos del fuero común" y de daño a la propiedad.
+- **Hipótesis escritas antes de calcular:**
+  - Confirmado (H21a): las categorías residuales ("otros …") pasan de 9.1% a 14.2% del total de carpetas, +8.0% al año [4.2, 11.9].
+  - Confirmado (H21b): 8 de los 15 tipos con conteos suficientes no bajan.
+  - Refutado (H21c): ninguno de los 4 delitos sexuales y de género menores sube con significancia. Violencia de género distinta a la familiar no tiene carpetas en 2015–2025.
+  - Exploratorio (E21d): enero–agosto 2026 contra 2025, con las reagrupaciones del SESNSP.
+  - Exploratorio (E21e): el homicidio culposo sube 4.2% al año [1.2, 7.2] y las lesiones culposas 12.5% [7.1, 18.2].
+- **Hallazgo agregado después de ver las series (E21f, exploratorio).** Hay rupturas de registro:
+  - En 2024, "otros contra la familia" se parte en dos al aparecer "incumplimiento de obligaciones de asistencia familiar"; la suma de los dos es estable.
+  - En 2023, daño a la propiedad cae de 7,010 a 2,911, el mismo año en que suben otros del fuero común y las lesiones culposas; no se puede saber a dónde se fueron esas carpetas.
+  - En 2021, "otros contra la libertad sexual" se multiplica por 3.6.
+- Se agregó como sesgo §8.19. No cambia ningún veredicto.
+- **Registro:** 89 hipótesis: 51 confirmadas, 25 refutadas, 13 exploratorias (recuento verificado sobre la tabla de §6).
+- `ANALISIS.md`: §5 (pieza 21), §6, §1 (recuentos), §8.19, §10 y §11 (unos 80 s). §7 no cambia: la pieza 21 no toca ninguna de sus frases. Las demás salidas se reproducen idénticas.
+
+### 2.32 Pieza 22: qué deja de hacer la gente por miedo y cómo se protege (25-09-2026)
+
+- **Datos.** Resto del módulo `AP4` de la ENVIPE 2026 y 2025: actividades que se dejaron de hacer, medidas de protección, gasto, problemas de la colonia y organización vecinal, y sensación de poder ser víctima. Antes de escribir las hipótesis solo se revisaron el diccionario, los catálogos y el flujo de preguntas.
+- **Transparencia.** Las filas del cuadro 5.32 de INEGI vienen ordenadas por la estimación, así que al revisar su estructura se vio el orden de las actividades (país y Jalisco), no sus cifras. Por eso no se planteó ninguna hipótesis sobre qué actividad es la primera.
+- **Hipótesis escritas antes de calcular:**
+  - Confirmado (H22a): 69.7% [67.3–72.1] de los adultos de Jalisco dejó de hacer al menos una actividad por temor.
+  - Confirmado (H22b): esa proporción no siguió la baja del homicidio (razón 2026/2025 de 0.97 [0.92–1.01]).
+  - Confirmado (H22c): más mujeres que hombres dejaron de salir de noche, +15.3 puntos [11.3, 19.3].
+  - Confirmado (H22d): el área metropolitana está por encima del resto del estado, +18.9 puntos [13.9, 24.0].
+  - Confirmado (H22e): tomar medidas de protección es 30.6 puntos [27.7, 33.5] menos común que dejar de hacer cosas.
+  - Refutado (H22f): en 2026, la organización vecinal contra los robos no es menor que por el alumbrado (−2.0 [−6.4, +2.4], sin significancia; en 2025 sí lo era).
+  - Confirmado (H22g, H22h): se reproducen las 64 cifras del cuadro 5.32 de INEGI, con diferencia de 0.00 y razón de errores estándar de 1.000.
+  - Exploratorio (E22i): cambio por actividad entre ediciones. En Jalisco bajan cuatro actividades: llevar celular, efectivo, caminar y usar transporte público.
+- **Hallazgo del flujo de preguntas.** En 2026 la pregunta de gasto también se hace a quien solo tomó medidas electrónicas (nuevas), así que el gasto no se compara entre ediciones. Quedó como verificación explícita en el script y en §8.16. No afecta ninguna hipótesis.
+- **Registro:** 98 hipótesis: 58 confirmadas, 26 refutadas, 14 exploratorias.
+- `ANALISIS.md`: §5 (pieza 22), §6, §1 (recuentos), §2.5, §3.2, §8.16. §7 no cambia.
+
+### 2.33 Pieza 23: el SESNSP frente a los certificados de defunción, 2015–2023 (25-09-2026)
+
+- **Diseño.** Las series 2019–2023 ya se conocían (§3.3, pieza 7), así que las hipótesis se prueban con 2015–2018 como réplica fuera de muestra. Para comparar lo mismo que INEGI, las víctimas del SESNSP suman homicidio doloso y feminicidio.
+- **Hipótesis escritas antes de calcular:**
+  - Confirmado (H23a): el SESNSP registraba 0.94 [0.91–0.97] víctimas por homicidio INEGI en 2015–2018, contra 1.14 [1.11–1.17] en 2019–2023 (razón de razones de 0.83 [0.79–0.86]). El cambio es sobre todo un escalón en 2019. Hasta 2023, el SESNSP no se fue quedando corto frente a INEGI.
+  - Refutado por centésimas (H23b): el acuerdo municipal de 2015–2018 es ρ = 0.84 [0.77–0.89]; el límite inferior no pasa el umbral de 0.80.
+  - Refutado (H23c): con el homicidio INEGI de 2015–2018 se sostienen 6 de los 12 municipios de "violencia oculta" (Arandas, Atotonilco el Alto, La Barca, San Juan de los Lagos, San Miguel el Alto y Tala).
+  - Exploratorio (E23d): serie anual 2015–2023, con la razón de víctimas SESNSP por homicidio INEGI subiendo +3.9% al año [2.3, 5.6].
+- **§1 cambia.** El hallazgo 1 aclara que los 12 municipios se confirman con SESNSP 2015–2025 y 2019–2025 y con INEGI 2019–2023, y que con el homicidio de 2015–2018 solo se mantienen 6. §7 no cambia: la tesis no nombra los 12 municipios, y con 2015–2018 la correlación entre desaparición y homicidio es aún más débil (ρ = 0.14 [−0.04, 0.30]).
+- **Registro:** 102 hipótesis: 59 confirmadas, 28 refutadas, 15 exploratorias.
+- `ANALISIS.md`: §1, §2.3, §3.3 (filas 2015–2018), §5 (pieza 23), §6, §8.13 y §8.20.
+
+### 2.34 Pieza 24: a quién representan las cédulas públicas de búsqueda (25-09-2026)
+
+- **Datos.** Cédulas del REPD con estatus de persona desaparecida hasta el corte del 31-08-2026 (5,262), contra la estadística oficial por año, sexo y edad (16,250). El cargador nuevo `D.cedulas()` solo lee sexo, edad, fecha y estatus: ningún nombre ni rasgo sale del archivo.
+- **Hipótesis escritas antes de calcular:**
+  - Confirmado (H24a): las mujeres tienen más cobertura que los hombres (37.2% contra 31.8%; razón de 1.17 [1.06–1.29]).
+  - Confirmado (H24b): los menores de 15 años tienen más que las personas de 20 o más (40.6% contra 31.5%; 1.29 [1.04–1.59]).
+  - Confirmado (H24c): la cobertura cambia entre años, de 19.1% en 2019 a 69.3% en 2024 (p < 0.001).
+  - Exploratorio (E24d): las desapariciones de 2018 o antes tienen 11.4% de cobertura, contra 45.4% desde 2019.
+- **Consecuencia.** Las cédulas no representan al registro: sobrerrepresentan casos recientes, mujeres y menores. Quedó en §8.6 y en §2.1. El perfil de las personas desaparecidas sigue saliendo de la estadística oficial.
+- **Registro:** 106 hipótesis: 62 confirmadas, 28 refutadas, 16 exploratorias.
+- `ANALISIS.md`: §1 (recuentos), §2.1, §3.2, §5 (pieza 24), §6 y §8.6.
+
+### 2.35 Cierre del análisis con los datos disponibles (25-09-2026)
+
+- **Plataforma Ciudadana de Fosas.** Se revisó el sitio. Ofrece su base completa en `plataformaciudadanadefosas.org/assets/bases_pcdf-2024.zip` (1.3 MB; hallazgos de 2006 a diciembre de 2024; prensa, fiscalías y FGR). No se descargó; queda anotada en §10 y en el inventario.
+- **Corrida completa:** unos 2 minutos. Las 23 piezas se reproducen idénticas entre dos corridas seguidas.
+- **Verificación del registro.** Las 106 marcas de §6 coinciden una por una con los veredictos de los JSON: 62 confirmadas, 28 refutadas, 16 exploratorias.
+- **Revisión de redacción.** Se revisaron las palabras absolutas y los órdenes del texto nuevo. Se corrigió un orden sin significancia (joyas frente a salir de noche, pieza 22) y el número de actividades que bajan en el país (11 de 16, no 10).
+- **§10.** Con los datos que tenemos no queda análisis pendiente. Quedan dos límites que estos datos no resuelven: la clasificación de la Fiscalía en Altos Norte y el parentesco en los certificados. Siguen fuera de alcance: defunciones INEGI 2025, RNPDNO, IJCF y desaparición por municipio y año.
+- `ANALISIS.md`: §4 (reglas para las piezas 20–24, validación contra lo publicado), §10 y §11.
+
+### 2.36 Pieza 25: el registro de fosas frente a la Plataforma Ciudadana de Fosas (25-09-2026)
+
+- **Descarga, con autorización del dueño.** Base de la Plataforma Ciudadana de Fosas (`bases_pcdf-2024.zip`, SHA-256 `49ed1b27a0b7b823`), en `s3-plataforma-fosas-20260925T201301Z`, con `SOURCES.txt` y `SHA256SUMS`. Trae tres bases (fiscalía por transparencia, FGR y prensa) por municipio y año, 2006–2024. Cargador nuevo: `D.pcdf()`.
+- **Hipótesis escritas antes de ver cifras de Jalisco (ventana 2019–2024):**
+  - Confirmado (H25a), justo en el umbral: la prensa reporta fosas en 5 municipios fuera del área metropolitana sin ningún sitio en el registro (Amatitán, Teocaltiche, Tepatitlán de Morelos, Tomatlán y Villa Corona).
+  - Confirmado (H25b), pero frágil: la prensa concentra algo menos en el área metropolitana (94.1% de los cuerpos, contra 96.1% en el registro; 0.65 [0.44–0.96]). Contando fosas, sin significancia.
+  - Refutado (H25c): la base de fiscalía por transparencia no coincide con el registro público (990 cuerpos contra 1,857 víctimas).
+  - Exploratorio (E25d): con la base por transparencia, son 8 los municipios del interior con fosas y sin sitio en el registro. Dos están entre los 12 de "violencia oculta" (Atotonilco el Alto y Casimiro Castillo). La FGR casi no reporta hallazgos en Jalisco.
+  - Exploratorio (E25e): la diferencia de H25c no se explica sumando restos o fragmentos. Las unidades no se pueden conciliar.
+- **§1 cambia:** el hallazgo 3 agrega los 8 municipios. §7 no cambia: la tesis habla de búsqueda registrada, y eso sigue siendo cierto.
+- **Registro:** 111 hipótesis: 64 confirmadas, 29 refutadas, 18 exploratorias.
+- `ANALISIS.md`: §1, §2.4, §3.1, §3.2, §5 (pieza 25), §6, §8.7 y §10.
+
 ## Tesis del sitio (síntesis de las piezas 1–10; versión vigente en `ANALISIS.md` §7)
 
 > **En Jalisco, la violencia letal tiene dos caras que casi no se parecen en el mapa, pero sí en las víctimas.** Quienes desaparecen y quienes son asesinados son la misma población: 9 de cada 10 son hombres, con la misma edad. Sin embargo, el homicidio se concentra en el sur del área metropolitana y Altos Norte, mientras la desaparición se reparte por todo el estado y pesa más donde el territorio es rural: en 12 municipios el homicidio es bajo y la desaparición alta, un hallazgo que se repite con dos fuentes independientes. Ahí casi no se busca: el 95% de las víctimas en fosas registradas están en el área metropolitana, y solo 4 de 22 municipios rurales con desaparición alta tienen alguna fosa en el registro oficial. La violencia letal, callejera y patrimonial baja; la familiar y la sexual no, y recaen sobre ellas: 9 de cada 10 víctimas de violencia familiar son mujeres, y 9 de cada 10 víctimas de abuso sexual son menores de edad, sobre todo adolescentes mujeres. Los casos nuevos de desaparición bajan, pero la deuda crece: 16,250 personas sin localizar y casi la mitad de los hombres reportados nunca aparece. Y todo esto es una fracción: en Jalisco 92 de cada 100 delitos no llegan a una carpeta de investigación.

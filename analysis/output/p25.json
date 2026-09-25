@@ -1,0 +1,295 @@
+{
+  "pregunta": "¿El registro de fosas de la Fiscalía deja fuera lo que otras fuentes sí ven?",
+  "ventana": [
+    2019,
+    2024
+  ],
+  "H25a_prensa_fuera_amg_sin_sitio_en_registro": {
+    "municipios_prensa_fuera_amg": [
+      "Amatitán",
+      "Chapala",
+      "Jocotepec",
+      "Lagos de Moreno",
+      "Puerto Vallarta",
+      "San Juan de los Lagos",
+      "Teocaltiche",
+      "Tepatitlán de Morelos",
+      "Tomatlán",
+      "Villa Corona"
+    ],
+    "sin_ningun_sitio_en_registro": [
+      "Amatitán",
+      "Teocaltiche",
+      "Tepatitlán de Morelos",
+      "Tomatlán",
+      "Villa Corona"
+    ],
+    "n": 5
+  },
+  "H25b_concentracion": {
+    "prensa_cuerpos": [
+      777,
+      49
+    ],
+    "prensa_cuerpos_sin_municipio": 0,
+    "registro_victimas": [
+      1784,
+      73
+    ],
+    "prensa_proporcion_amg": 0.9407,
+    "registro_proporcion_amg": 0.9607,
+    "razon_de_razones": [
+      0.649,
+      0.441,
+      0.962
+    ],
+    "por_fosas_y_sitios": {
+      "prensa_fosas": [
+        158,
+        18
+      ],
+      "registro_sitios": [
+        155,
+        15
+      ],
+      "razon_de_razones": [
+        0.849,
+        0.384,
+        1.857
+      ]
+    }
+  },
+  "H25c_fiscalia_plataforma_vs_registro": {
+    "plataforma_fiscalia_cuerpos": 990,
+    "registro_victimas": 1857,
+    "diferencia_relativa": -0.4669
+  },
+  "E25d_serie_anual": {
+    "2019": {
+      "registro_sitios": 36,
+      "registro_victimas": 398,
+      "fiscalia_fosas": 58,
+      "fgr_fosas": 0,
+      "prensa_fosas": 9,
+      "fiscalia_cuerpos": 154,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 179,
+      "prensa_cuerpos_alto": 197
+    },
+    "2020": {
+      "registro_sitios": 27,
+      "registro_victimas": 589,
+      "fiscalia_fosas": 23,
+      "fgr_fosas": 0,
+      "prensa_fosas": 16,
+      "fiscalia_cuerpos": 611,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 162,
+      "prensa_cuerpos_alto": 296
+    },
+    "2021": {
+      "registro_sitios": 23,
+      "registro_victimas": 160,
+      "fiscalia_fosas": 23,
+      "fgr_fosas": 0,
+      "prensa_fosas": 22,
+      "fiscalia_cuerpos": 16,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 161,
+      "prensa_cuerpos_alto": 202
+    },
+    "2022": {
+      "registro_sitios": 41,
+      "registro_victimas": 269,
+      "fiscalia_fosas": 62,
+      "fgr_fosas": 0,
+      "prensa_fosas": 46,
+      "fiscalia_cuerpos": 80,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 100,
+      "prensa_cuerpos_alto": 111
+    },
+    "2023": {
+      "registro_sitios": 22,
+      "registro_victimas": 301,
+      "fiscalia_fosas": 59,
+      "fgr_fosas": 1,
+      "prensa_fosas": 28,
+      "fiscalia_cuerpos": 71,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 142,
+      "prensa_cuerpos_alto": 144
+    },
+    "2024": {
+      "registro_sitios": 21,
+      "registro_victimas": 140,
+      "fiscalia_fosas": 50,
+      "fgr_fosas": 0,
+      "prensa_fosas": 55,
+      "fiscalia_cuerpos": 58,
+      "fgr_cuerpos": 0,
+      "prensa_cuerpos": 82,
+      "prensa_cuerpos_alto": 90
+    }
+  },
+  "E25d_municipios_con_fosas_2019_2024": {
+    "registro_2019_2024": [
+      "Chapala",
+      "El Salto",
+      "Guadalajara",
+      "Ixtlahuacán de los Membrillos",
+      "Jocotepec",
+      "Juanacatlán",
+      "Lagos de Moreno",
+      "Ojuelos de Jalisco",
+      "Pihuamo",
+      "Puerto Vallarta",
+      "San Juan de los Lagos",
+      "San Pedro Tlaquepaque",
+      "Tlajomulco de Zúñiga",
+      "Tonalá",
+      "Villa Guerrero",
+      "Zapopan"
+    ],
+    "fiscalia": [
+      "Atotonilco el Alto",
+      "Autlán de Navarro",
+      "Casimiro Castillo",
+      "Chapala",
+      "El Salto",
+      "Guadalajara",
+      "Ixtlahuacán de los Membrillos",
+      "Jocotepec",
+      "Juanacatlán",
+      "Lagos de Moreno",
+      "Ojuelos de Jalisco",
+      "Puerto Vallarta",
+      "San Juan de los Lagos",
+      "San Pedro Tlaquepaque",
+      "Teuchitlán",
+      "Tlajomulco de Zúñiga",
+      "Tomatlán",
+      "Tonalá",
+      "Zapopan",
+      "Zapotlanejo"
+    ],
+    "fgr": [
+      "Autlán de Navarro"
+    ],
+    "prensa": [
+      "Amatitán",
+      "Chapala",
+      "El Salto",
+      "Guadalajara",
+      "Ixtlahuacán de los Membrillos",
+      "Jocotepec",
+      "Juanacatlán",
+      "Lagos de Moreno",
+      "Puerto Vallarta",
+      "San Juan de los Lagos",
+      "San Pedro Tlaquepaque",
+      "Teocaltiche",
+      "Tepatitlán de Morelos",
+      "Tlajomulco de Zúñiga",
+      "Tomatlán",
+      "Tonalá",
+      "Villa Corona",
+      "Zapopan"
+    ]
+  },
+  "E25d_reparto_cuerpos_2019_2024": {
+    "fiscalia": {
+      "amg": 958,
+      "fuera": 32,
+      "sin_municipio": 0
+    },
+    "fgr": {
+      "amg": 0,
+      "fuera": 0,
+      "sin_municipio": 0
+    },
+    "prensa": {
+      "amg": 777,
+      "fuera": 49,
+      "sin_municipio": 0
+    },
+    "registro": {
+      "amg": 1784,
+      "fuera": 73,
+      "sin_municipio": 0
+    }
+  },
+  "E25d_fuera_amg_sin_sitio_en_registro": {
+    "base_fiscalia": [
+      "Atotonilco el Alto",
+      "Autlán de Navarro",
+      "Casimiro Castillo",
+      "Tomatlán"
+    ],
+    "prensa_o_base_fiscalia": [
+      "Amatitán",
+      "Atotonilco el Alto",
+      "Autlán de Navarro",
+      "Casimiro Castillo",
+      "Teocaltiche",
+      "Tepatitlán de Morelos",
+      "Tomatlán",
+      "Villa Corona"
+    ],
+    "de_ellos_en_los_12_de_violencia_oculta": [
+      "Atotonilco el Alto",
+      "Casimiro Castillo"
+    ]
+  },
+  "E25e_fiscalia_cuerpos_y_restos": {
+    "por_año": {
+      "2019": {
+        "cuerpos": 154,
+        "restos_fragmentos": 15,
+        "registro_victimas": 398
+      },
+      "2020": {
+        "cuerpos": 611,
+        "restos_fragmentos": 0,
+        "registro_victimas": 589
+      },
+      "2021": {
+        "cuerpos": 16,
+        "restos_fragmentos": 142,
+        "registro_victimas": 160
+      },
+      "2022": {
+        "cuerpos": 80,
+        "restos_fragmentos": 2022,
+        "registro_victimas": 269
+      },
+      "2023": {
+        "cuerpos": 71,
+        "restos_fragmentos": 274,
+        "registro_victimas": 301
+      },
+      "2024": {
+        "cuerpos": 58,
+        "restos_fragmentos": 135,
+        "registro_victimas": 140
+      }
+    },
+    "total_cuerpos_mas_restos": 3578
+  },
+  "hipotesis": {
+    "H25a": true,
+    "H25b": true,
+    "H25c": false,
+    "E25d": "exploratoria",
+    "E25e": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-25T20:18:16+00:00",
+    "script": "pieces.p25_fosas_otras_fuentes",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-fosas-20260924T184227Z/fosas-sitios.csv": "2a2b3785522f9b324499e75409f8c92227c303eaaf985da6c1ad218750776ba4",
+      "s3-plataforma-fosas-20260925T201301Z/bases_pcdf-2024.zip": "49ed1b27a0b7b82340d6bbbe80d6a63c24f649bdf009b78ea800571465043712"
+    }
+  }
+}

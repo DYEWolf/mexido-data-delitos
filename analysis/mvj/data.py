@@ -166,6 +166,8 @@ PATHS.update({
     "fosas": EVIDENCE / "s3-fosas-20260924T184227Z/fosas-sitios.csv",
     "extra": EVIDENCE / "s3-extra-import-20260924T190235Z",
     "envipe": EVIDENCE / "s3-envipe-20260924T184849Z",
+    "defunciones_2015_2017": EVIDENCE / "s3-inegi-defunciones-2015-2017-20260925T182641Z/jalisco-defunciones-violentas.csv",
+    "envipe_tab": EVIDENCE / "s3-envipe-tabulados-20260925T174524Z",
 })
 
 
@@ -178,6 +180,19 @@ def defunciones() -> pd.DataFrame:
     df["edad_anios"] = pd.to_numeric(df["edad_anios"], errors="coerce")
     h = df[df.tipo == "homicidio"]
     check(len(h) == 15_131, f"homicidios INEGI Jalisco registro 2018-2024 = 15,131 ({len(h):,})")
+    return df
+
+
+def defunciones_2015_2017() -> pd.DataFrame:
+    """Violent deaths occurred in Jalisco (INEGI), registration years 2015-2017 (separate extraction, same importer)."""
+    p = PATHS["defunciones_2015_2017"]; _sha(p)
+    df = pd.read_csv(p, dtype=str)
+    for c in ("anio_ocur", "anio_regis"):
+        df[c] = pd.to_numeric(df[c], errors="coerce")
+    df["edad_anios"] = pd.to_numeric(df["edad_anios"], errors="coerce")
+    check(set(df.anio_regis) == {2015, 2016, 2017}, f"defunciones 2015-2017: años de registro {sorted(set(df.anio_regis))}")
+    h = df[df.tipo == "homicidio"]
+    check(len(h) == 4_095, f"homicidios INEGI Jalisco registro 2015-2017 = 4,095 ({len(h):,})")
     return df
 
 
@@ -206,4 +221,44 @@ def marginacion() -> pd.DataFrame:
     p = PATHS["extra"] / "conapo-marginacion-2020-jalisco.csv"; _sha(p)
     df = pd.read_csv(p, dtype={"cvegeo": str})
     check(len(df) == 125 and df.POB_TOT.sum() == 8_348_151, "IMM Jalisco 125 / 8,348,151")
+    return df
+
+
+PATHS["cedulas"] = EVIDENCE / "s2-second-baseline-20260923T214140Z/records.ndjson"
+
+
+def cedulas() -> pd.DataFrame:
+    """Cédulas públicas del REPD: solo sexo, edad al desaparecer, fecha y estatus (ningún dato identificable)."""
+    import json
+    p = PATHS["cedulas"]; _sha(p)
+    rows = []
+    with open(p) as f:
+        for line in f:
+            r = json.loads(line)["internalRecord"]
+            rows.append({"sexo": r.get("sexo"), "edad": r.get("edad_momento_desaparicion"),
+                         "fecha": r.get("fecha_desaparicion"), "estatus": r.get("estatus_persona_desaparecida"),
+                         "condicion": r.get("condicion_localizacion")})
+    df = pd.DataFrame(rows)
+    check(len(df) == 10_234, f"cédulas REPD = 10,234 ({len(df):,})")
+    check((df.estatus == "PERSONA DESAPARECIDA").sum() == 5_285, "cédulas de personas desaparecidas = 5,285")
+    df["fecha"] = pd.to_datetime(df.fecha, errors="coerce", dayfirst=not df.fecha.str.match(r"\d{4}-").all())
+    check(df.fecha.notna().all(), "cédulas: todas las fechas de desaparición se leen")
+    return df
+
+
+PATHS["pcdf"] = EVIDENCE / "s3-plataforma-fosas-20260925T201301Z/bases_pcdf-2024.zip"
+PCDF = {"fgr": "hallazgos_fgr__upd-2024.csv", "fiscalia": "hallazgos_statefis__upd-2024.csv",
+        "prensa": "hallazgos_prensa__upd-2024.csv"}
+
+
+def pcdf(fuente: str) -> pd.DataFrame:
+    """Plataforma Ciudadana de Fosas (PDH IBERO, ARTICLE 19, Data Cívica), base 2024: Jalisco, municipio × año."""
+    import io
+    import zipfile
+    p = PATHS["pcdf"]; _sha(p)
+    z = zipfile.ZipFile(p)
+    df = pd.read_csv(io.BytesIO(z.read(f"bases_plataformaciudadanadefosas-2024/{PCDF[fuente]}")))
+    check(df.year.between(2006, 2024).all() and df.id_ent.nunique() == 32, f"pcdf {fuente}: años 2006-2024 y 32 entidades")
+    df = df[df.id_ent == 14].copy()
+    df["cvegeo"] = "14" + df.id_mun.astype(int).astype(str).str.zfill(3)
     return df

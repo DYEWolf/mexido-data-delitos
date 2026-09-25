@@ -1,0 +1,1247 @@
+{
+  "pregunta": "¿Qué pasa con los delitos que no entraron en la pieza 6?",
+  "unidad": "tasa por 100 mil habitantes (CONAPO), delitos denunciados SESNSP, estatal",
+  "universo": [
+    "Aborto",
+    "Abuso de confianza",
+    "Acoso sexual",
+    "Allanamiento de morada",
+    "Contra el medio ambiente",
+    "Corrupción de menores",
+    "Daño a la propiedad",
+    "Delitos cometidos por servidores públicos",
+    "Despojo",
+    "Electorales",
+    "Evasión de presos",
+    "Falsedad",
+    "Falsificación",
+    "Hostigamiento sexual",
+    "Incesto",
+    "Incumplimiento de obligaciones de asistencia familiar",
+    "Otros delitos contra el patrimonio",
+    "Otros delitos contra la familia",
+    "Otros delitos contra la sociedad",
+    "Otros delitos del Fuero Común",
+    "Otros delitos que atentan contra la libertad personal",
+    "Otros delitos que atentan contra la libertad y la seguridad sexual",
+    "Otros delitos que atentan contra la vida y la integridad corporal",
+    "Rapto",
+    "Trata de personas",
+    "Tráfico de menores",
+    "Violencia de género en todas sus modalidades distinta a la violencia familiar"
+  ],
+  "tipos": {
+    "Aborto": {
+      "n_2019": 5,
+      "n_2025": 10,
+      "tasa_2019": 0.06,
+      "tasa_2025": 0.11,
+      "tendencia_2019_2025_pct_anual": [
+        9.7,
+        -7.6,
+        30.2
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 23,
+        "2016": 31,
+        "2017": 29,
+        "2018": 17,
+        "2019": 5,
+        "2020": 13,
+        "2021": 11,
+        "2022": 6,
+        "2023": 11,
+        "2024": 21,
+        "2025": 10
+      }
+    },
+    "Abuso de confianza": {
+      "n_2019": 2394,
+      "n_2025": 1191,
+      "tasa_2019": 28.42,
+      "tasa_2025": 13.38,
+      "tendencia_2019_2025_pct_anual": [
+        -8.9,
+        -13.8,
+        -3.7
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 792,
+        "2016": 1326,
+        "2017": 2187,
+        "2018": 2181,
+        "2019": 2394,
+        "2020": 1855,
+        "2021": 1432,
+        "2022": 1509,
+        "2023": 1743,
+        "2024": 1556,
+        "2025": 1191
+      }
+    },
+    "Acoso sexual": {
+      "n_2019": 292,
+      "n_2025": 260,
+      "tasa_2019": 3.47,
+      "tasa_2025": 2.92,
+      "tendencia_2019_2025_pct_anual": [
+        -0.3,
+        -4.8,
+        4.4
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 130,
+        "2016": 199,
+        "2017": 172,
+        "2018": 284,
+        "2019": 292,
+        "2020": 263,
+        "2021": 277,
+        "2022": 321,
+        "2023": 355,
+        "2024": 299,
+        "2025": 260
+      }
+    },
+    "Allanamiento de morada": {
+      "n_2019": 338,
+      "n_2025": 226,
+      "tasa_2019": 4.01,
+      "tasa_2025": 2.54,
+      "tendencia_2019_2025_pct_anual": [
+        -8.0,
+        -11.6,
+        -4.1
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 554,
+        "2016": 565,
+        "2017": 473,
+        "2018": 431,
+        "2019": 338,
+        "2020": 254,
+        "2021": 267,
+        "2022": 253,
+        "2023": 203,
+        "2024": 198,
+        "2025": 226
+      }
+    },
+    "Contra el medio ambiente": {
+      "n_2019": 69,
+      "n_2025": 44,
+      "tasa_2019": 0.82,
+      "tasa_2025": 0.49,
+      "tendencia_2019_2025_pct_anual": [
+        -8.2,
+        -15.0,
+        -0.9
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 17,
+        "2016": 126,
+        "2017": 32,
+        "2018": 125,
+        "2019": 69,
+        "2020": 72,
+        "2021": 35,
+        "2022": 49,
+        "2023": 47,
+        "2024": 48,
+        "2025": 44
+      }
+    },
+    "Corrupción de menores": {
+      "n_2019": 142,
+      "n_2025": 168,
+      "tasa_2019": 1.69,
+      "tasa_2025": 1.89,
+      "tendencia_2019_2025_pct_anual": [
+        1.0,
+        -4.4,
+        6.7
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 128,
+        "2016": 203,
+        "2017": 195,
+        "2018": 153,
+        "2019": 142,
+        "2020": 133,
+        "2021": 117,
+        "2022": 111,
+        "2023": 128,
+        "2024": 124,
+        "2025": 168
+      }
+    },
+    "Daño a la propiedad": {
+      "n_2019": 8591,
+      "n_2025": 2175,
+      "tasa_2019": 101.99,
+      "tasa_2025": 24.43,
+      "tendencia_2019_2025_pct_anual": [
+        -21.5,
+        -29.5,
+        -12.6
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 7496,
+        "2016": 8612,
+        "2017": 9526,
+        "2018": 9290,
+        "2019": 8591,
+        "2020": 7084,
+        "2021": 7583,
+        "2022": 7010,
+        "2023": 2911,
+        "2024": 2251,
+        "2025": 2175
+      }
+    },
+    "Delitos cometidos por servidores públicos": {
+      "n_2019": 324,
+      "n_2025": 425,
+      "tasa_2019": 3.85,
+      "tasa_2025": 4.77,
+      "tendencia_2019_2025_pct_anual": [
+        2.9,
+        -1.9,
+        7.9
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 1414,
+        "2016": 1189,
+        "2017": 1241,
+        "2018": 646,
+        "2019": 324,
+        "2020": 357,
+        "2021": 489,
+        "2022": 441,
+        "2023": 459,
+        "2024": 443,
+        "2025": 425
+      }
+    },
+    "Despojo": {
+      "n_2019": 2093,
+      "n_2025": 1257,
+      "tasa_2019": 24.85,
+      "tasa_2025": 14.12,
+      "tendencia_2019_2025_pct_anual": [
+        -9.1,
+        -10.8,
+        -7.3
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 1458,
+        "2016": 1787,
+        "2017": 1984,
+        "2018": 2095,
+        "2019": 2093,
+        "2020": 1859,
+        "2021": 1674,
+        "2022": 1442,
+        "2023": 1536,
+        "2024": 1282,
+        "2025": 1257
+      }
+    },
+    "Electorales": {
+      "n_2019": 16,
+      "n_2025": 0,
+      "tasa_2019": 0.19,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": [
+        -33.6,
+        -58.3,
+        5.7
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 45,
+        "2016": 0,
+        "2017": 0,
+        "2018": 98,
+        "2019": 16,
+        "2020": 8,
+        "2021": 6,
+        "2022": 0,
+        "2023": 0,
+        "2024": 8,
+        "2025": 0
+      }
+    },
+    "Evasión de presos": {
+      "n_2019": 0,
+      "n_2025": 2,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.02,
+      "tendencia_2019_2025_pct_anual": [
+        10.6,
+        -14.5,
+        43.0
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 7,
+        "2016": 9,
+        "2017": 0,
+        "2018": 11,
+        "2019": 0,
+        "2020": 2,
+        "2021": 6,
+        "2022": 4,
+        "2023": 4,
+        "2024": 5,
+        "2025": 2
+      }
+    },
+    "Falsedad": {
+      "n_2019": 262,
+      "n_2025": 157,
+      "tasa_2019": 3.11,
+      "tasa_2025": 1.76,
+      "tendencia_2019_2025_pct_anual": [
+        -2.2,
+        -14.1,
+        11.3
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 208,
+        "2016": 244,
+        "2017": 218,
+        "2018": 248,
+        "2019": 262,
+        "2020": 125,
+        "2021": 114,
+        "2022": 165,
+        "2023": 146,
+        "2024": 234,
+        "2025": 157
+      }
+    },
+    "Falsificación": {
+      "n_2019": 1824,
+      "n_2025": 1594,
+      "tasa_2019": 21.65,
+      "tasa_2025": 17.9,
+      "tendencia_2019_2025_pct_anual": [
+        -4.9,
+        -9.2,
+        -0.4
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 1394,
+        "2016": 1481,
+        "2017": 1429,
+        "2018": 1808,
+        "2019": 1824,
+        "2020": 1694,
+        "2021": 1464,
+        "2022": 1310,
+        "2023": 1375,
+        "2024": 1230,
+        "2025": 1594
+      }
+    },
+    "Hostigamiento sexual": {
+      "n_2019": 74,
+      "n_2025": 80,
+      "tasa_2019": 0.88,
+      "tasa_2025": 0.9,
+      "tendencia_2019_2025_pct_anual": [
+        6.0,
+        -2.5,
+        15.3
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": false,
+      "serie": {
+        "2015": 24,
+        "2016": 119,
+        "2017": 116,
+        "2018": 65,
+        "2019": 74,
+        "2020": 60,
+        "2021": 79,
+        "2022": 93,
+        "2023": 125,
+        "2024": 112,
+        "2025": 80
+      }
+    },
+    "Incesto": {
+      "n_2019": 0,
+      "n_2025": 0,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": null,
+      "clase": "sin casos",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 1,
+        "2016": 31,
+        "2017": 0,
+        "2018": 1,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "Incumplimiento de obligaciones de asistencia familiar": {
+      "n_2019": 0,
+      "n_2025": 856,
+      "tasa_2019": 0.0,
+      "tasa_2025": 9.61,
+      "tendencia_2019_2025_pct_anual": [
+        190.9,
+        39.8,
+        505.5
+      ],
+      "clase": "sube",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 900,
+        "2025": 856
+      }
+    },
+    "Otros delitos contra el patrimonio": {
+      "n_2019": 0,
+      "n_2025": 0,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": null,
+      "clase": "sin casos",
+      "conteo_chico": true,
+      "residual": true,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "Otros delitos contra la familia": {
+      "n_2019": 1437,
+      "n_2025": 303,
+      "tasa_2019": 17.06,
+      "tasa_2025": 3.4,
+      "tendencia_2019_2025_pct_anual": [
+        -17.7,
+        -28.6,
+        -5.2
+      ],
+      "clase": "baja",
+      "conteo_chico": false,
+      "residual": true,
+      "serie": {
+        "2015": 1319,
+        "2016": 1978,
+        "2017": 1574,
+        "2018": 1442,
+        "2019": 1437,
+        "2020": 1081,
+        "2021": 926,
+        "2022": 1027,
+        "2023": 1219,
+        "2024": 346,
+        "2025": 303
+      }
+    },
+    "Otros delitos contra la sociedad": {
+      "n_2019": 0,
+      "n_2025": 2,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.02,
+      "tendencia_2019_2025_pct_anual": [
+        -5.3,
+        -32.2,
+        32.3
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": true,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 12,
+        "2021": 6,
+        "2022": 2,
+        "2023": 4,
+        "2024": 7,
+        "2025": 2
+      }
+    },
+    "Otros delitos del Fuero Común": {
+      "n_2019": 11863,
+      "n_2025": 13785,
+      "tasa_2019": 140.83,
+      "tasa_2025": 154.83,
+      "tendencia_2019_2025_pct_anual": [
+        3.9,
+        -0.5,
+        8.5
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": true,
+      "serie": {
+        "2015": 8494,
+        "2016": 11026,
+        "2017": 10206,
+        "2018": 11002,
+        "2019": 11863,
+        "2020": 10946,
+        "2021": 11068,
+        "2022": 13667,
+        "2023": 16308,
+        "2024": 14149,
+        "2025": 13785
+      }
+    },
+    "Otros delitos que atentan contra la libertad personal": {
+      "n_2019": 695,
+      "n_2025": 670,
+      "tasa_2019": 8.25,
+      "tasa_2025": 7.53,
+      "tendencia_2019_2025_pct_anual": [
+        -0.8,
+        -7.4,
+        6.3
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": true,
+      "serie": {
+        "2015": 415,
+        "2016": 515,
+        "2017": 531,
+        "2018": 614,
+        "2019": 695,
+        "2020": 986,
+        "2021": 823,
+        "2022": 870,
+        "2023": 1076,
+        "2024": 912,
+        "2025": 670
+      }
+    },
+    "Otros delitos que atentan contra la libertad y la seguridad sexual": {
+      "n_2019": 194,
+      "n_2025": 1311,
+      "tasa_2019": 2.3,
+      "tasa_2025": 14.72,
+      "tendencia_2019_2025_pct_anual": [
+        19.6,
+        -0.5,
+        43.7
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": false,
+      "residual": true,
+      "serie": {
+        "2015": 157,
+        "2016": 226,
+        "2017": 180,
+        "2018": 146,
+        "2019": 194,
+        "2020": 335,
+        "2021": 1214,
+        "2022": 1602,
+        "2023": 1351,
+        "2024": 1236,
+        "2025": 1311
+      }
+    },
+    "Otros delitos que atentan contra la vida y la integridad corporal": {
+      "n_2019": 0,
+      "n_2025": 126,
+      "tasa_2019": 0.0,
+      "tasa_2025": 1.42,
+      "tendencia_2019_2025_pct_anual": [
+        166.7,
+        20.4,
+        490.7
+      ],
+      "clase": "sube",
+      "conteo_chico": true,
+      "residual": true,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 177,
+        "2025": 126
+      }
+    },
+    "Rapto": {
+      "n_2019": 0,
+      "n_2025": 0,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": null,
+      "clase": "sin casos",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "Trata de personas": {
+      "n_2019": 6,
+      "n_2025": 9,
+      "tasa_2019": 0.07,
+      "tasa_2025": 0.1,
+      "tendencia_2019_2025_pct_anual": [
+        -5.3,
+        -23.2,
+        16.7
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 0,
+        "2016": 2,
+        "2017": 1,
+        "2018": 1,
+        "2019": 6,
+        "2020": 17,
+        "2021": 13,
+        "2022": 7,
+        "2023": 2,
+        "2024": 12,
+        "2025": 9
+      }
+    },
+    "Tráfico de menores": {
+      "n_2019": 0,
+      "n_2025": 0,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": [
+        12.5,
+        -29.5,
+        79.3
+      ],
+      "clase": "sin tendencia clara",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 4,
+        "2016": 4,
+        "2017": 0,
+        "2018": 4,
+        "2019": 0,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 0,
+        "2024": 3,
+        "2025": 0
+      }
+    },
+    "Violencia de género en todas sus modalidades distinta a la violencia familiar": {
+      "n_2019": 0,
+      "n_2025": 0,
+      "tasa_2019": 0.0,
+      "tasa_2025": 0.0,
+      "tendencia_2019_2025_pct_anual": null,
+      "clase": "sin casos",
+      "conteo_chico": true,
+      "residual": false,
+      "serie": {
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    }
+  },
+  "resumen": {
+    "baja": [
+      "Abuso de confianza",
+      "Allanamiento de morada",
+      "Contra el medio ambiente",
+      "Daño a la propiedad",
+      "Despojo",
+      "Falsificación",
+      "Otros delitos contra la familia"
+    ],
+    "sube": [
+      "Incumplimiento de obligaciones de asistencia familiar",
+      "Otros delitos que atentan contra la vida y la integridad corporal"
+    ],
+    "sin tendencia clara": [
+      "Aborto",
+      "Acoso sexual",
+      "Corrupción de menores",
+      "Delitos cometidos por servidores públicos",
+      "Electorales",
+      "Evasión de presos",
+      "Falsedad",
+      "Hostigamiento sexual",
+      "Otros delitos contra la sociedad",
+      "Otros delitos del Fuero Común",
+      "Otros delitos que atentan contra la libertad personal",
+      "Otros delitos que atentan contra la libertad y la seguridad sexual",
+      "Trata de personas",
+      "Tráfico de menores"
+    ],
+    "sin casos": [
+      "Incesto",
+      "Otros delitos contra el patrimonio",
+      "Rapto",
+      "Violencia de género en todas sus modalidades distinta a la violencia familiar"
+    ]
+  },
+  "carpetas_universo": {
+    "2019": 30619,
+    "2025": 24651,
+    "total_sesnsp_2019": 156654,
+    "total_sesnsp_2025": 114418
+  },
+  "H21a_participacion_residual": {
+    "tipos": [
+      "Otros delitos contra el patrimonio",
+      "Otros delitos contra la familia",
+      "Otros delitos contra la sociedad",
+      "Otros delitos del Fuero Común",
+      "Otros delitos que atentan contra la libertad personal",
+      "Otros delitos que atentan contra la libertad y la seguridad sexual",
+      "Otros delitos que atentan contra la vida y la integridad corporal"
+    ],
+    "participacion_pct": {
+      "2019": 9.06,
+      "2020": 10.55,
+      "2021": 10.92,
+      "2022": 13.37,
+      "2023": 15.16,
+      "2024": 13.56,
+      "2025": 14.16
+    },
+    "cambio_anual_pct": [
+      8.0,
+      4.2,
+      11.9
+    ]
+  },
+  "H21b_tipos_con_30_o_mas": {
+    "n_tipos": 15,
+    "no_bajan": [
+      "Acoso sexual",
+      "Corrupción de menores",
+      "Delitos cometidos por servidores públicos",
+      "Falsedad",
+      "Hostigamiento sexual",
+      "Otros delitos del Fuero Común",
+      "Otros delitos que atentan contra la libertad personal",
+      "Otros delitos que atentan contra la libertad y la seguridad sexual"
+    ],
+    "n_no_bajan": 8
+  },
+  "H21c_sexuales_y_genero": {
+    "Acoso sexual": [
+      -0.3,
+      -4.8,
+      4.4
+    ],
+    "Hostigamiento sexual": [
+      6.0,
+      -2.5,
+      15.3
+    ],
+    "Violencia de género en todas sus modalidades distinta a la violencia familiar": null,
+    "Otros delitos que atentan contra la libertad y la seguridad sexual": [
+      19.6,
+      -0.5,
+      43.7
+    ],
+    "suben": []
+  },
+  "E21d_ene_ago_2026_vs_2025": {
+    "meses_2026": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "grupos": {
+      "Aborto": {
+        "ene_ago_2025": 7,
+        "ene_ago_2026": 5,
+        "razon_tasas": [
+          0.708,
+          0.177,
+          2.592
+        ]
+      },
+      "Abuso de confianza": {
+        "ene_ago_2025": 851,
+        "ene_ago_2026": 572,
+        "razon_tasas": [
+          0.666,
+          0.598,
+          0.742
+        ]
+      },
+      "Acoso sexual": {
+        "ene_ago_2025": 172,
+        "ene_ago_2026": 206,
+        "razon_tasas": [
+          1.187,
+          0.965,
+          1.462
+        ]
+      },
+      "Allanamiento de morada": {
+        "ene_ago_2025": 152,
+        "ene_ago_2026": 186,
+        "razon_tasas": [
+          1.213,
+          0.974,
+          1.513
+        ]
+      },
+      "Contra el medio ambiente": {
+        "ene_ago_2025": 38,
+        "ene_ago_2026": 13,
+        "razon_tasas": [
+          0.339,
+          0.166,
+          0.651
+        ]
+      },
+      "Corrupción de menores": {
+        "ene_ago_2025": 112,
+        "ene_ago_2026": 108,
+        "razon_tasas": [
+          0.956,
+          0.727,
+          1.256
+        ]
+      },
+      "Daño a la propiedad": {
+        "ene_ago_2025": 1503,
+        "ene_ago_2026": 1793,
+        "razon_tasas": [
+          1.182,
+          1.104,
+          1.267
+        ]
+      },
+      "Delitos cometidos por servidores públicos": {
+        "ene_ago_2025": 291,
+        "ene_ago_2026": 271,
+        "razon_tasas": [
+          0.923,
+          0.779,
+          1.093
+        ]
+      },
+      "Despojo": {
+        "ene_ago_2025": 870,
+        "ene_ago_2026": 906,
+        "razon_tasas": [
+          1.032,
+          0.94,
+          1.134
+        ]
+      },
+      "Electorales": {
+        "ene_ago_2025": 0,
+        "ene_ago_2026": 0,
+        "razon_tasas": [
+          null,
+          null,
+          null
+        ]
+      },
+      "Evasión de presos": {
+        "ene_ago_2025": 1,
+        "ene_ago_2026": 1,
+        "razon_tasas": [
+          0.991,
+          0.013,
+          77.809
+        ]
+      },
+      "Falsedad": {
+        "ene_ago_2025": 103,
+        "ene_ago_2026": 97,
+        "razon_tasas": [
+          0.933,
+          0.7,
+          1.244
+        ]
+      },
+      "Falsificación": {
+        "ene_ago_2025": 984,
+        "ene_ago_2026": 1101,
+        "razon_tasas": [
+          1.109,
+          1.017,
+          1.21
+        ]
+      },
+      "Hostigamiento sexual": {
+        "ene_ago_2025": 55,
+        "ene_ago_2026": 59,
+        "razon_tasas": [
+          1.063,
+          0.724,
+          1.564
+        ]
+      },
+      "Incesto": {
+        "ene_ago_2025": 0,
+        "ene_ago_2026": 0,
+        "razon_tasas": [
+          null,
+          null,
+          null
+        ]
+      },
+      "Incumplimiento de obligaciones de asistencia familiar": {
+        "ene_ago_2025": 540,
+        "ene_ago_2026": 643,
+        "razon_tasas": [
+          1.18,
+          1.051,
+          1.326
+        ]
+      },
+      "Otros contra la libertad sexual + violencia de género + intimidad sexual": {
+        "ene_ago_2025": 859,
+        "ene_ago_2026": 801,
+        "razon_tasas": [
+          0.924,
+          0.838,
+          1.019
+        ]
+      },
+      "Otros delitos contra el patrimonio": {
+        "ene_ago_2025": 0,
+        "ene_ago_2026": 160,
+        "razon_tasas": [
+          null,
+          null,
+          null
+        ]
+      },
+      "Otros delitos contra la familia": {
+        "ene_ago_2025": 185,
+        "ene_ago_2026": 57,
+        "razon_tasas": [
+          0.305,
+          0.223,
+          0.413
+        ]
+      },
+      "Otros delitos contra la sociedad": {
+        "ene_ago_2025": 1,
+        "ene_ago_2026": 3,
+        "razon_tasas": [
+          2.974,
+          0.239,
+          156.112
+        ]
+      },
+      "Otros delitos del Fuero Común": {
+        "ene_ago_2025": 9342,
+        "ene_ago_2026": 9492,
+        "razon_tasas": [
+          1.007,
+          0.979,
+          1.036
+        ]
+      },
+      "Otros delitos que atentan contra la libertad personal": {
+        "ene_ago_2025": 477,
+        "ene_ago_2026": 632,
+        "razon_tasas": [
+          1.313,
+          1.164,
+          1.482
+        ]
+      },
+      "Otros delitos que atentan contra la vida y la integridad corporal": {
+        "ene_ago_2025": 74,
+        "ene_ago_2026": 148,
+        "razon_tasas": [
+          1.982,
+          1.49,
+          2.657
+        ]
+      },
+      "Rapto": {
+        "ene_ago_2025": 0,
+        "ene_ago_2026": 0,
+        "razon_tasas": [
+          null,
+          null,
+          null
+        ]
+      },
+      "Trata de personas": {
+        "ene_ago_2025": 5,
+        "ene_ago_2026": 6,
+        "razon_tasas": [
+          1.189,
+          0.302,
+          4.927
+        ]
+      },
+      "Tráfico de menores": {
+        "ene_ago_2025": 0,
+        "ene_ago_2026": 0,
+        "razon_tasas": [
+          null,
+          null,
+          null
+        ]
+      }
+    }
+  },
+  "E21e_culposos": {
+    "Homicidio culposo": {
+      "n_2019": 734,
+      "n_2025": 1072,
+      "tendencia_2019_2025_pct_anual": [
+        4.2,
+        1.2,
+        7.2
+      ]
+    },
+    "Lesiones culposas": {
+      "n_2019": 2907,
+      "n_2025": 5124,
+      "tendencia_2019_2025_pct_anual": [
+        12.5,
+        7.1,
+        18.2
+      ]
+    }
+  },
+  "E21f_rupturas_de_registro": {
+    "rupturas": [
+      {
+        "tipo": "Contra el medio ambiente",
+        "año": 2016,
+        "antes": 17,
+        "despues": 126
+      },
+      {
+        "tipo": "Contra el medio ambiente",
+        "año": 2017,
+        "antes": 126,
+        "despues": 32
+      },
+      {
+        "tipo": "Contra el medio ambiente",
+        "año": 2018,
+        "antes": 32,
+        "despues": 125
+      },
+      {
+        "tipo": "Contra el medio ambiente",
+        "año": 2021,
+        "antes": 72,
+        "despues": 35
+      },
+      {
+        "tipo": "Daño a la propiedad",
+        "año": 2023,
+        "antes": 7010,
+        "despues": 2911
+      },
+      {
+        "tipo": "Electorales",
+        "año": 2016,
+        "antes": 45,
+        "despues": 0
+      },
+      {
+        "tipo": "Electorales",
+        "año": 2018,
+        "antes": 0,
+        "despues": 98
+      },
+      {
+        "tipo": "Electorales",
+        "año": 2019,
+        "antes": 98,
+        "despues": 16
+      },
+      {
+        "tipo": "Falsedad",
+        "año": 2020,
+        "antes": 262,
+        "despues": 125
+      },
+      {
+        "tipo": "Hostigamiento sexual",
+        "año": 2016,
+        "antes": 24,
+        "despues": 119
+      },
+      {
+        "tipo": "Incesto",
+        "año": 2016,
+        "antes": 1,
+        "despues": 31
+      },
+      {
+        "tipo": "Incesto",
+        "año": 2017,
+        "antes": 31,
+        "despues": 0
+      },
+      {
+        "tipo": "Incumplimiento de obligaciones de asistencia familiar",
+        "año": 2024,
+        "antes": 0,
+        "despues": 900
+      },
+      {
+        "tipo": "Otros delitos contra la familia",
+        "año": 2024,
+        "antes": 1219,
+        "despues": 346
+      },
+      {
+        "tipo": "Otros delitos que atentan contra la libertad y la seguridad sexual",
+        "año": 2021,
+        "antes": 335,
+        "despues": 1214
+      },
+      {
+        "tipo": "Otros delitos que atentan contra la vida y la integridad corporal",
+        "año": 2024,
+        "antes": 0,
+        "despues": 177
+      }
+    ],
+    "familia_mas_incumplimiento": {
+      "2015": 1319,
+      "2016": 1978,
+      "2017": 1574,
+      "2018": 1442,
+      "2019": 1437,
+      "2020": 1081,
+      "2021": 926,
+      "2022": 1027,
+      "2023": 1219,
+      "2024": 1246,
+      "2025": 1159
+    }
+  },
+  "hipotesis": {
+    "H21a": true,
+    "H21b": true,
+    "H21c": false,
+    "E21d": "exploratoria",
+    "E21e": "exploratoria",
+    "E21f": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-25T20:17:37+00:00",
+    "script": "pieces.p21_delitos_menores",
+    "insumos_sha256": {
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4"
+    }
+  }
+}

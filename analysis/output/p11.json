@@ -1637,7 +1637,7 @@
     "H11f": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:37+00:00",
+    "generado": "2026-09-25T20:16:23+00:00",
     "script": "pieces.p11_victimas_sexo_edad",
     "insumos_sha256": {
       "s3-extra-import-20260924T190235Z/sesnsp-victimas-municipal-2026-jalisco.csv": "bf19242892b2058aa0ec4d5380275226c5eedd60d2ba0afaf4f2cedbf8ce5fec",

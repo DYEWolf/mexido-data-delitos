@@ -1,0 +1,164 @@
+{
+  "pregunta": "¿A quién representan las cédulas públicas de búsqueda?",
+  "total": {
+    "cedulas": 5262,
+    "desaparecidas": 16250,
+    "cobertura": 0.324
+  },
+  "cedulas_desaparecidas_posteriores_al_corte": 23,
+  "H24a_sexo": {
+    "MUJER": {
+      "cedulas": 671,
+      "desaparecidas": 1804,
+      "cobertura": 0.372
+    },
+    "HOMBRE": {
+      "cedulas": 4591,
+      "desaparecidas": 14446,
+      "cobertura": 0.318
+    },
+    "razon_mujeres_hombres": [
+      1.17,
+      1.063,
+      1.288
+    ]
+  },
+  "H24b_edad": {
+    "0-14": {
+      "cedulas": 130,
+      "desaparecidas": 320,
+      "cobertura": 0.406
+    },
+    "15-19": {
+      "cedulas": 570,
+      "desaparecidas": 1444,
+      "cobertura": 0.395
+    },
+    "20+": {
+      "cedulas": 4559,
+      "desaparecidas": 14451,
+      "cobertura": 0.315
+    },
+    "desconocida": {
+      "cedulas": 3,
+      "desaparecidas": 35,
+      "cobertura": 0.086
+    },
+    "razon_0_14_vs_20_y_mas": [
+      1.288,
+      1.039,
+      1.588
+    ]
+  },
+  "H24c_por_año": {
+    "cobertura": {
+      "2018 y anteriores": {
+        "cedulas": 707,
+        "desaparecidas": 6222,
+        "cobertura": 0.114
+      },
+      "2019": {
+        "cedulas": 321,
+        "desaparecidas": 1681,
+        "cobertura": 0.191
+      },
+      "2020": {
+        "cedulas": 359,
+        "desaparecidas": 1419,
+        "cobertura": 0.253
+      },
+      "2021": {
+        "cedulas": 711,
+        "desaparecidas": 1451,
+        "cobertura": 0.49
+      },
+      "2022": {
+        "cedulas": 817,
+        "desaparecidas": 1528,
+        "cobertura": 0.535
+      },
+      "2023": {
+        "cedulas": 849,
+        "desaparecidas": 1383,
+        "cobertura": 0.614
+      },
+      "2024": {
+        "cedulas": 753,
+        "desaparecidas": 1087,
+        "cobertura": 0.693
+      },
+      "2025": {
+        "cedulas": 498,
+        "desaparecidas": 910,
+        "cobertura": 0.547
+      },
+      "2026": {
+        "cedulas": 247,
+        "desaparecidas": 569,
+        "cobertura": 0.434
+      }
+    },
+    "chi2": 638.2,
+    "gl": 6,
+    "p": 1.3254216059082977e-134
+  },
+  "E24d": {
+    "2018_y_anteriores_vs_2019_2026": [
+      0.25,
+      0.229,
+      0.273
+    ],
+    "desde_2019": {
+      "cedulas": 4555,
+      "desaparecidas": 10028,
+      "cobertura": 0.454
+    },
+    "sexo_por_grupo_de_edad": {
+      "MUJER_0-14": {
+        "cedulas": 61,
+        "desaparecidas": 152,
+        "cobertura": 0.401
+      },
+      "MUJER_15-19": {
+        "cedulas": 106,
+        "desaparecidas": 295,
+        "cobertura": 0.359
+      },
+      "MUJER_20+": {
+        "cedulas": 502,
+        "desaparecidas": 1353,
+        "cobertura": 0.371
+      },
+      "HOMBRE_0-14": {
+        "cedulas": 69,
+        "desaparecidas": 168,
+        "cobertura": 0.411
+      },
+      "HOMBRE_15-19": {
+        "cedulas": 464,
+        "desaparecidas": 1149,
+        "cobertura": 0.404
+      },
+      "HOMBRE_20+": {
+        "cedulas": 4057,
+        "desaparecidas": 13098,
+        "cobertura": 0.31
+      }
+    }
+  },
+  "hipotesis": {
+    "H24a": true,
+    "H24b": true,
+    "H24c": true,
+    "E24d": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-25T20:18:16+00:00",
+    "script": "pieces.p24_cedulas_cobertura",
+    "insumos_sha256": {
+      "s3-analysis-repd-stats-20260924T181640Z/hombres_desaparecidos_año_rango_edad.json": "55ec9734671c1193dd0153841735bf1e3ea1c84323f91e61024e36aa4e1d3db7",
+      "s3-analysis-repd-stats-20260924T181640Z/mujeres_desaparecidas_año_rango_edad.json": "55d7660a82e90fa7a93882001427fe5606212eb0a81e42848f451cef971164b2",
+      "s2-second-baseline-20260923T214140Z/records.ndjson": "e137857f7d5a6c1346ff7e85db9e28587fba480288e4ce649d8ad5cd4d7da82e"
+    }
+  }
+}

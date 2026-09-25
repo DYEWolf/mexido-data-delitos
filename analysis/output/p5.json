@@ -966,7 +966,7 @@
     }
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:33+00:00",
+    "generado": "2026-09-25T20:16:19+00:00",
     "script": "pieces.p5_concentracion",
     "insumos_sha256": {
       "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",

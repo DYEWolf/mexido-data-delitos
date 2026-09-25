@@ -1,0 +1,3555 @@
+{
+  "pregunta": "¿Qué deja de hacer la gente en Jalisco por miedo, y cómo se protege?",
+  "ediciones": {
+    "2026": "febrero-abril 2026",
+    "2025": "marzo-abril 2025"
+  },
+  "resultados": {
+    "2026": {
+      "personas_muestra": {
+        "jalisco": 2664,
+        "amg": 1754,
+        "resto_del_estado": 910,
+        "nacional": 91876
+      },
+      "actividades": [
+        {
+          "codigo": "01",
+          "actividad": "Salir de noche",
+          "jalisco": [
+            0.3998,
+            0.3773,
+            0.4228
+          ],
+          "amg": [
+            0.4579,
+            0.4268,
+            0.4892
+          ],
+          "resto_del_estado": [
+            0.2953,
+            0.2633,
+            0.3295
+          ],
+          "nacional": [
+            0.4473,
+            0.4415,
+            0.4532
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0475,
+            -0.0695,
+            -0.0256
+          ],
+          "personas_muestra_jalisco_aplica": 2504
+        },
+        {
+          "codigo": "02",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "jalisco": [
+            0.5659,
+            0.5323,
+            0.599
+          ],
+          "amg": [
+            0.6107,
+            0.5703,
+            0.6496
+          ],
+          "resto_del_estado": [
+            0.4813,
+            0.4251,
+            0.5381
+          ],
+          "nacional": [
+            0.6279,
+            0.6203,
+            0.6354
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0619,
+            -0.0938,
+            -0.03
+          ],
+          "personas_muestra_jalisco_aplica": 1737
+        },
+        {
+          "codigo": "03",
+          "actividad": "Visitar parientes o amigos(as)",
+          "jalisco": [
+            0.244,
+            0.2228,
+            0.2666
+          ],
+          "amg": [
+            0.2763,
+            0.2496,
+            0.3048
+          ],
+          "resto_del_estado": [
+            0.1843,
+            0.1528,
+            0.2205
+          ],
+          "nacional": [
+            0.2905,
+            0.2856,
+            0.2953
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0464,
+            -0.0674,
+            -0.0255
+          ],
+          "personas_muestra_jalisco_aplica": 2569
+        },
+        {
+          "codigo": "04",
+          "actividad": "Tomar taxi",
+          "jalisco": [
+            0.2909,
+            0.2666,
+            0.3166
+          ],
+          "amg": [
+            0.3294,
+            0.2971,
+            0.3634
+          ],
+          "resto_del_estado": [
+            0.2085,
+            0.1769,
+            0.2442
+          ],
+          "nacional": [
+            0.3044,
+            0.2987,
+            0.3101
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0134,
+            -0.0376,
+            0.0107
+          ],
+          "personas_muestra_jalisco_aplica": 1982
+        },
+        {
+          "codigo": "05",
+          "actividad": "Usar transporte público",
+          "jalisco": [
+            0.1914,
+            0.1712,
+            0.2134
+          ],
+          "amg": [
+            0.1996,
+            0.1745,
+            0.2273
+          ],
+          "resto_del_estado": [
+            0.1722,
+            0.1404,
+            0.2095
+          ],
+          "nacional": [
+            0.2301,
+            0.2251,
+            0.2353
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0387,
+            -0.0593,
+            -0.0182
+          ],
+          "personas_muestra_jalisco_aplica": 1758
+        },
+        {
+          "codigo": "06",
+          "actividad": "Llevar dinero en efectivo",
+          "jalisco": [
+            0.3772,
+            0.3539,
+            0.401
+          ],
+          "amg": [
+            0.4455,
+            0.4164,
+            0.4749
+          ],
+          "resto_del_estado": [
+            0.2535,
+            0.2225,
+            0.2871
+          ],
+          "nacional": [
+            0.4311,
+            0.4255,
+            0.4368
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.054,
+            -0.0767,
+            -0.0313
+          ],
+          "personas_muestra_jalisco_aplica": 2594
+        },
+        {
+          "codigo": "07",
+          "actividad": "Ir a la escuela",
+          "jalisco": [
+            0.0607,
+            0.037,
+            0.0979
+          ],
+          "amg": [
+            0.0469,
+            0.0229,
+            0.0934
+          ],
+          "resto_del_estado": [
+            0.0906,
+            0.0462,
+            0.1701
+          ],
+          "nacional": [
+            0.0551,
+            0.049,
+            0.062
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0055,
+            -0.0232,
+            0.0342
+          ],
+          "personas_muestra_jalisco_aplica": 264
+        },
+        {
+          "codigo": "08",
+          "actividad": "Ir al cine o al teatro",
+          "jalisco": [
+            0.1886,
+            0.1646,
+            0.2152
+          ],
+          "amg": [
+            0.2036,
+            0.1752,
+            0.2352
+          ],
+          "resto_del_estado": [
+            0.1416,
+            0.1047,
+            0.1888
+          ],
+          "nacional": [
+            0.216,
+            0.2106,
+            0.2215
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0274,
+            -0.0517,
+            -0.0032
+          ],
+          "personas_muestra_jalisco_aplica": 1505
+        },
+        {
+          "codigo": "09",
+          "actividad": "Salir a caminar",
+          "jalisco": [
+            0.2451,
+            0.2255,
+            0.2659
+          ],
+          "amg": [
+            0.2846,
+            0.2593,
+            0.3114
+          ],
+          "resto_del_estado": [
+            0.1695,
+            0.1422,
+            0.2007
+          ],
+          "nacional": [
+            0.3016,
+            0.2965,
+            0.3067
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0565,
+            -0.076,
+            -0.0369
+          ],
+          "personas_muestra_jalisco_aplica": 2410
+        },
+        {
+          "codigo": "10",
+          "actividad": "Usar joyas",
+          "jalisco": [
+            0.4344,
+            0.405,
+            0.4642
+          ],
+          "amg": [
+            0.5204,
+            0.4841,
+            0.5565
+          ],
+          "resto_del_estado": [
+            0.2656,
+            0.2297,
+            0.3048
+          ],
+          "nacional": [
+            0.4213,
+            0.4148,
+            0.4279
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0131,
+            -0.0154,
+            0.0416
+          ],
+          "personas_muestra_jalisco_aplica": 1714
+        },
+        {
+          "codigo": "11",
+          "actividad": "Salir a comer o cenar",
+          "jalisco": [
+            0.1718,
+            0.153,
+            0.1925
+          ],
+          "amg": [
+            0.1968,
+            0.1728,
+            0.2233
+          ],
+          "resto_del_estado": [
+            0.1242,
+            0.1,
+            0.1534
+          ],
+          "nacional": [
+            0.2141,
+            0.2095,
+            0.2187
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0422,
+            -0.0612,
+            -0.0233
+          ],
+          "personas_muestra_jalisco_aplica": 2518
+        },
+        {
+          "codigo": "12",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "jalisco": [
+            0.2372,
+            0.2156,
+            0.2602
+          ],
+          "amg": [
+            0.2859,
+            0.2582,
+            0.3153
+          ],
+          "resto_del_estado": [
+            0.1369,
+            0.1129,
+            0.1651
+          ],
+          "nacional": [
+            0.2436,
+            0.2384,
+            0.2488
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0064,
+            -0.0277,
+            0.0149
+          ],
+          "personas_muestra_jalisco_aplica": 2217
+        },
+        {
+          "codigo": "13",
+          "actividad": "Ir al estadio",
+          "jalisco": [
+            0.2184,
+            0.1888,
+            0.2513
+          ],
+          "amg": [
+            0.2543,
+            0.2173,
+            0.2951
+          ],
+          "resto_del_estado": [
+            0.1323,
+            0.0951,
+            0.181
+          ],
+          "nacional": [
+            0.198,
+            0.1916,
+            0.2047
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0204,
+            -0.0099,
+            0.0506
+          ],
+          "personas_muestra_jalisco_aplica": 884
+        },
+        {
+          "codigo": "14",
+          "actividad": "Frecuentar centros comerciales",
+          "jalisco": [
+            0.1558,
+            0.1379,
+            0.1755
+          ],
+          "amg": [
+            0.1715,
+            0.1492,
+            0.1963
+          ],
+          "resto_del_estado": [
+            0.1199,
+            0.0952,
+            0.1499
+          ],
+          "nacional": [
+            0.1606,
+            0.1565,
+            0.1648
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0048,
+            -0.0229,
+            0.0132
+          ],
+          "personas_muestra_jalisco_aplica": 2163
+        },
+        {
+          "codigo": "15",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "jalisco": [
+            0.2435,
+            0.2244,
+            0.2637
+          ],
+          "amg": [
+            0.2714,
+            0.2457,
+            0.2988
+          ],
+          "resto_del_estado": [
+            0.1942,
+            0.1672,
+            0.2243
+          ],
+          "nacional": [
+            0.2648,
+            0.2599,
+            0.2698
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0213,
+            -0.0403,
+            -0.0023
+          ],
+          "personas_muestra_jalisco_aplica": 2426
+        },
+        {
+          "codigo": "16",
+          "actividad": "Llevar teléfono móvil o celular",
+          "jalisco": [
+            0.0925,
+            0.0798,
+            0.107
+          ],
+          "amg": [
+            0.1042,
+            0.0879,
+            0.1233
+          ],
+          "resto_del_estado": [
+            0.0708,
+            0.054,
+            0.0924
+          ],
+          "nacional": [
+            0.1264,
+            0.1223,
+            0.1306
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0339,
+            -0.0471,
+            -0.0206
+          ],
+          "personas_muestra_jalisco_aplica": 2557
+        }
+      ],
+      "medidas": [
+        {
+          "codigo": "01",
+          "medida": "Cambiar o reforzar puertas o ventanas",
+          "jalisco": [
+            0.1682,
+            0.15,
+            0.1882
+          ],
+          "amg": [
+            0.2035,
+            0.1792,
+            0.2303
+          ],
+          "resto_del_estado": [
+            0.1044,
+            0.083,
+            0.1305
+          ],
+          "nacional": [
+            0.1979,
+            0.1936,
+            0.2022
+          ]
+        },
+        {
+          "codigo": "02",
+          "medida": "Cambiar, colocar o reforzar cerraduras o candados",
+          "jalisco": [
+            0.2245,
+            0.2045,
+            0.2459
+          ],
+          "amg": [
+            0.2707,
+            0.2452,
+            0.2978
+          ],
+          "resto_del_estado": [
+            0.1411,
+            0.1134,
+            0.1743
+          ],
+          "nacional": [
+            0.2375,
+            0.2329,
+            0.2421
+          ]
+        },
+        {
+          "codigo": "03",
+          "medida": "Colocar o reforzar rejas o bardas",
+          "jalisco": [
+            0.0993,
+            0.086,
+            0.1144
+          ],
+          "amg": [
+            0.1257,
+            0.1076,
+            0.1463
+          ],
+          "resto_del_estado": [
+            0.0515,
+            0.036,
+            0.0733
+          ],
+          "nacional": [
+            0.134,
+            0.1304,
+            0.1377
+          ]
+        },
+        {
+          "codigo": "04",
+          "medida": "Instalar alarmas o videocámaras",
+          "jalisco": [
+            0.1628,
+            0.1455,
+            0.1816
+          ],
+          "amg": [
+            0.1889,
+            0.1664,
+            0.2136
+          ],
+          "resto_del_estado": [
+            0.1155,
+            0.0885,
+            0.1494
+          ],
+          "nacional": [
+            0.167,
+            0.1632,
+            0.1709
+          ]
+        },
+        {
+          "codigo": "05",
+          "medida": "Contratar vigilancia privada en la calle o colonia",
+          "jalisco": [
+            0.0233,
+            0.0175,
+            0.031
+          ],
+          "amg": [
+            0.0349,
+            0.026,
+            0.0467
+          ],
+          "resto_del_estado": [
+            0.0024,
+            0.0007,
+            0.0088
+          ],
+          "nacional": [
+            0.0216,
+            0.02,
+            0.0234
+          ]
+        },
+        {
+          "codigo": "06",
+          "medida": "Acciones conjuntas con vecinos",
+          "jalisco": [
+            0.1025,
+            0.0851,
+            0.1229
+          ],
+          "amg": [
+            0.1447,
+            0.1198,
+            0.1738
+          ],
+          "resto_del_estado": [
+            0.0261,
+            0.0149,
+            0.0454
+          ],
+          "nacional": [
+            0.1162,
+            0.1123,
+            0.1202
+          ]
+        },
+        {
+          "codigo": "07",
+          "medida": "Contratar seguros",
+          "jalisco": [
+            0.0245,
+            0.0185,
+            0.0324
+          ],
+          "amg": [
+            0.0358,
+            0.0266,
+            0.0481
+          ],
+          "resto_del_estado": [
+            0.0041,
+            0.0017,
+            0.0098
+          ],
+          "nacional": [
+            0.0229,
+            0.0213,
+            0.0246
+          ]
+        },
+        {
+          "codigo": "08",
+          "medida": "Comprar un perro guardián",
+          "jalisco": [
+            0.0194,
+            0.0132,
+            0.0283
+          ],
+          "amg": [
+            0.0251,
+            0.0163,
+            0.0385
+          ],
+          "resto_del_estado": [
+            0.0091,
+            0.0043,
+            0.0191
+          ],
+          "nacional": [
+            0.0347,
+            0.0329,
+            0.0367
+          ]
+        },
+        {
+          "codigo": "09",
+          "medida": "Adquirir armas de fuego",
+          "jalisco": [
+            0.0043,
+            0.0025,
+            0.0074
+          ],
+          "amg": [
+            0.0039,
+            0.0019,
+            0.0077
+          ],
+          "resto_del_estado": [
+            0.0052,
+            0.0022,
+            0.0124
+          ],
+          "nacional": [
+            0.0045,
+            0.0038,
+            0.0052
+          ]
+        },
+        {
+          "codigo": "10",
+          "medida": "Cambiarse de vivienda",
+          "jalisco": [
+            0.0053,
+            0.0027,
+            0.0103
+          ],
+          "amg": [
+            0.0069,
+            0.0033,
+            0.0144
+          ],
+          "resto_del_estado": [
+            0.0022,
+            0.0005,
+            0.0089
+          ],
+          "nacional": [
+            0.0068,
+            0.0061,
+            0.0075
+          ]
+        },
+        {
+          "codigo": "11",
+          "medida": "Otra medida",
+          "jalisco": [
+            0.002,
+            0.0006,
+            0.0073
+          ],
+          "amg": [
+            0.0003,
+            0.0,
+            0.0019
+          ],
+          "resto_del_estado": [
+            0.0052,
+            0.0013,
+            0.0205
+          ],
+          "nacional": [
+            0.0008,
+            0.0005,
+            0.0011
+          ]
+        }
+      ],
+      "problemas_colonia": [
+        {
+          "codigo": "1",
+          "problema": "Falta de alumbrado público",
+          "reporta_jalisco": [
+            0.535,
+            0.5037,
+            0.5661
+          ],
+          "reporta_amg": [
+            0.5962,
+            0.5603,
+            0.6312
+          ],
+          "reporta_resto_del_estado": [
+            0.4244,
+            0.3762,
+            0.4741
+          ],
+          "reporta_nacional": [
+            0.5775,
+            0.5717,
+            0.5833
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4514,
+            0.4169,
+            0.4863
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4739,
+            0.4333,
+            0.5149
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.3941,
+            0.3341,
+            0.4574
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4697,
+            0.4625,
+            0.4769
+          ],
+          "personas_muestra_jalisco_reportan": 1384
+        },
+        {
+          "codigo": "2",
+          "problema": "Falta de agua",
+          "reporta_jalisco": [
+            0.4298,
+            0.3946,
+            0.4658
+          ],
+          "reporta_amg": [
+            0.4422,
+            0.4036,
+            0.4815
+          ],
+          "reporta_resto_del_estado": [
+            0.4075,
+            0.3361,
+            0.483
+          ],
+          "reporta_nacional": [
+            0.4916,
+            0.4845,
+            0.4987
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4614,
+            0.4216,
+            0.5018
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4917,
+            0.4456,
+            0.538
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.402,
+            0.3321,
+            0.4761
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.5154,
+            0.5067,
+            0.5241
+          ],
+          "personas_muestra_jalisco_reportan": 1097
+        },
+        {
+          "codigo": "3",
+          "problema": "Baches o fugas de agua",
+          "reporta_jalisco": [
+            0.4843,
+            0.4512,
+            0.5176
+          ],
+          "reporta_amg": [
+            0.5624,
+            0.5241,
+            0.5999
+          ],
+          "reporta_resto_del_estado": [
+            0.3432,
+            0.3015,
+            0.3874
+          ],
+          "reporta_nacional": [
+            0.5505,
+            0.5445,
+            0.5566
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4401,
+            0.4062,
+            0.4747
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4533,
+            0.413,
+            0.4942
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.4013,
+            0.3503,
+            0.4544
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4623,
+            0.4549,
+            0.4698
+          ],
+          "personas_muestra_jalisco_reportan": 1290
+        },
+        {
+          "codigo": "4",
+          "problema": "Pandillerismo violento",
+          "reporta_jalisco": [
+            0.1376,
+            0.1201,
+            0.1572
+          ],
+          "reporta_amg": [
+            0.1808,
+            0.1545,
+            0.2105
+          ],
+          "reporta_resto_del_estado": [
+            0.0594,
+            0.0461,
+            0.0762
+          ],
+          "reporta_nacional": [
+            0.1451,
+            0.1409,
+            0.1494
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.3898,
+            0.3266,
+            0.4569
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4064,
+            0.3343,
+            0.4827
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.2984,
+            0.1971,
+            0.4242
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.3146,
+            0.3007,
+            0.3289
+          ],
+          "personas_muestra_jalisco_reportan": 365
+        },
+        {
+          "codigo": "5",
+          "problema": "Robos",
+          "reporta_jalisco": [
+            0.405,
+            0.3785,
+            0.432
+          ],
+          "reporta_amg": [
+            0.5233,
+            0.4873,
+            0.5591
+          ],
+          "reporta_resto_del_estado": [
+            0.1909,
+            0.1568,
+            0.2304
+          ],
+          "reporta_nacional": [
+            0.4335,
+            0.4276,
+            0.4395
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.431,
+            0.3907,
+            0.4723
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4552,
+            0.4105,
+            0.5005
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.3112,
+            0.2368,
+            0.397
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.3975,
+            0.3885,
+            0.4066
+          ],
+          "personas_muestra_jalisco_reportan": 1083
+        },
+        {
+          "codigo": "6",
+          "problema": "Delincuencia en alrededores de escuelas",
+          "reporta_jalisco": [
+            0.2273,
+            0.2072,
+            0.2487
+          ],
+          "reporta_amg": [
+            0.2995,
+            0.2722,
+            0.3283
+          ],
+          "reporta_resto_del_estado": [
+            0.0968,
+            0.0781,
+            0.1193
+          ],
+          "reporta_nacional": [
+            0.2176,
+            0.2127,
+            0.2226
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4281,
+            0.3788,
+            0.4787
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4252,
+            0.3722,
+            0.4799
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.4442,
+            0.3158,
+            0.5806
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4097,
+            0.3979,
+            0.4216
+          ],
+          "personas_muestra_jalisco_reportan": 582
+        }
+      ],
+      "sensacion_de_ser_victima": [
+        {
+          "codigo": "1",
+          "delito": "Robo o asalto en la calle o transporte público",
+          "jalisco": [
+            0.6203,
+            0.5929,
+            0.6469
+          ],
+          "amg": [
+            0.7442,
+            0.7179,
+            0.7689
+          ],
+          "resto_del_estado": [
+            0.3967,
+            0.359,
+            0.4357
+          ],
+          "nacional": [
+            0.6471,
+            0.6419,
+            0.6523
+          ]
+        },
+        {
+          "codigo": "2",
+          "delito": "Lesiones por agresión física",
+          "jalisco": [
+            0.4347,
+            0.4103,
+            0.4594
+          ],
+          "amg": [
+            0.5105,
+            0.4831,
+            0.5379
+          ],
+          "resto_del_estado": [
+            0.2984,
+            0.2631,
+            0.3363
+          ],
+          "nacional": [
+            0.4839,
+            0.4784,
+            0.4893
+          ]
+        },
+        {
+          "codigo": "3",
+          "delito": "Extorsión o secuestro",
+          "jalisco": [
+            0.4014,
+            0.3777,
+            0.4256
+          ],
+          "amg": [
+            0.4454,
+            0.4182,
+            0.473
+          ],
+          "resto_del_estado": [
+            0.3222,
+            0.2826,
+            0.3645
+          ],
+          "nacional": [
+            0.4117,
+            0.4061,
+            0.4172
+          ]
+        }
+      ],
+      "al_menos_una_actividad": {
+        "jalisco": [
+          0.6973,
+          0.673,
+          0.7206
+        ],
+        "amg": [
+          0.7648,
+          0.7344,
+          0.7926
+        ],
+        "resto_del_estado": [
+          0.5754,
+          0.5354,
+          0.6143
+        ],
+        "nacional": [
+          0.7328,
+          0.7279,
+          0.7376
+        ]
+      },
+      "diferencia_amg_menos_resto_al_menos_una": [
+        0.1894,
+        0.1391,
+        0.2396
+      ],
+      "diferencia_jalisco_menos_nacional_al_menos_una": [
+        -0.0355,
+        -0.0582,
+        -0.0127
+      ],
+      "salir_de_noche_por_sexo": {
+        "mujeres": [
+          0.4739,
+          0.444,
+          0.5039
+        ],
+        "hombres": [
+          0.3208,
+          0.2912,
+          0.3518
+        ],
+        "diferencia_mujeres_menos_hombres": [
+          0.1531,
+          0.1132,
+          0.193
+        ],
+        "nacional_diferencia": [
+          0.149,
+          0.1393,
+          0.1586
+        ]
+      },
+      "al_menos_una_por_sexo_jalisco": {
+        "mujeres": [
+          0.7458,
+          0.7156,
+          0.7739
+        ],
+        "hombres": [
+          0.6437,
+          0.6106,
+          0.6756
+        ],
+        "diferencia": [
+          0.1021,
+          0.0632,
+          0.141
+        ]
+      },
+      "alguna_medida": {
+        "jalisco": [
+          0.3914,
+          0.3658,
+          0.4177
+        ],
+        "amg": [
+          0.4636,
+          0.4319,
+          0.4955
+        ],
+        "resto_del_estado": [
+          0.261,
+          0.2263,
+          0.299
+        ],
+        "nacional": [
+          0.4182,
+          0.4126,
+          0.4239
+        ]
+      },
+      "diferencia_jalisco_menos_nacional_alguna_medida": [
+        -0.0268,
+        -0.0516,
+        -0.0019
+      ],
+      "medidas_menos_actividades_jalisco": [
+        -0.3059,
+        -0.3347,
+        -0.2771
+      ],
+      "gasto": {
+        "pregunta_contestada_jalisco": 1618,
+        "no_sabe_jalisco": 84,
+        "incluye_medidas_electronicas": true,
+        "jalisco": {
+          "proporcion_que_gasta": [
+            0.3281,
+            0.3039,
+            0.3532
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            9120.4,
+            7699.7,
+            10541.1
+          ],
+          "casos_muestra_gastan": 833,
+          "total_estatal_pesos": [
+            18709458565,
+            15409743307,
+            22009173823
+          ]
+        },
+        "amg": {
+          "proporcion_que_gasta": [
+            0.3876,
+            0.3584,
+            0.4177
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            9575.1,
+            7968.3,
+            11181.8
+          ],
+          "casos_muestra_gastan": 640
+        },
+        "resto_del_estado": {
+          "proporcion_que_gasta": [
+            0.2221,
+            0.1875,
+            0.261
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            7706.3,
+            4759.1,
+            10653.5
+          ],
+          "casos_muestra_gastan": 193
+        },
+        "nacional": {
+          "proporcion_que_gasta": [
+            0.3533,
+            0.3479,
+            0.3586
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            9441.8,
+            9104.8,
+            9778.9
+          ],
+          "casos_muestra_gastan": 30008
+        }
+      },
+      "organizacion_robos_menos_alumbrado_jalisco": [
+        -0.0204,
+        -0.0644,
+        0.0236
+      ],
+      "llegar_tarde_o_dejar_casa_sola_2026": {
+        "jalisco": [
+          0.2594,
+          0.2381,
+          0.2819
+        ],
+        "amg": [
+          0.3069,
+          0.2784,
+          0.337
+        ],
+        "resto_del_estado": [
+          0.1745,
+          0.1468,
+          0.2062
+        ],
+        "nacional": [
+          0.3528,
+          0.3473,
+          0.3582
+        ]
+      },
+      "actividades_en_linea_2026": [
+        {
+          "codigo": "1",
+          "actividad": "Comprar o vender por internet",
+          "jalisco": [
+            0.2192,
+            0.1973,
+            0.2428
+          ],
+          "nacional": [
+            0.2455,
+            0.2402,
+            0.2508
+          ]
+        },
+        {
+          "codigo": "2",
+          "actividad": "Banca electrónica",
+          "jalisco": [
+            0.1195,
+            0.1029,
+            0.1384
+          ],
+          "nacional": [
+            0.1197,
+            0.1157,
+            0.1239
+          ]
+        },
+        {
+          "codigo": "3",
+          "actividad": "Comunicarse por internet",
+          "jalisco": [
+            0.1342,
+            0.1186,
+            0.1515
+          ],
+          "nacional": [
+            0.1353,
+            0.1315,
+            0.1392
+          ]
+        },
+        {
+          "codigo": "4",
+          "actividad": "Otra actividad en línea",
+          "jalisco": [
+            0.0018,
+            0.0005,
+            0.0058
+          ],
+          "nacional": [
+            0.0009,
+            0.0006,
+            0.0014
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "personas_muestra": {
+        "jalisco": 2561,
+        "amg": 1707,
+        "resto_del_estado": 854,
+        "nacional": 91182
+      },
+      "actividades": [
+        {
+          "codigo": "01",
+          "actividad": "Salir de noche",
+          "jalisco": [
+            0.4121,
+            0.3868,
+            0.4379
+          ],
+          "amg": [
+            0.4559,
+            0.427,
+            0.4852
+          ],
+          "resto_del_estado": [
+            0.3243,
+            0.2793,
+            0.3728
+          ],
+          "nacional": [
+            0.4637,
+            0.458,
+            0.4694
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0516,
+            -0.0761,
+            -0.0271
+          ],
+          "personas_muestra_jalisco_aplica": 2419
+        },
+        {
+          "codigo": "02",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "jalisco": [
+            0.5697,
+            0.5376,
+            0.6013
+          ],
+          "amg": [
+            0.5937,
+            0.5546,
+            0.6317
+          ],
+          "resto_del_estado": [
+            0.5222,
+            0.4626,
+            0.5812
+          ],
+          "nacional": [
+            0.6262,
+            0.6187,
+            0.6336
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0565,
+            -0.0871,
+            -0.0258
+          ],
+          "personas_muestra_jalisco_aplica": 1618
+        },
+        {
+          "codigo": "03",
+          "actividad": "Visitar parientes o amigos(as)",
+          "jalisco": [
+            0.2706,
+            0.2493,
+            0.2929
+          ],
+          "amg": [
+            0.2788,
+            0.254,
+            0.3052
+          ],
+          "resto_del_estado": [
+            0.2538,
+            0.2156,
+            0.2963
+          ],
+          "nacional": [
+            0.3054,
+            0.3003,
+            0.3105
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0348,
+            -0.0558,
+            -0.0139
+          ],
+          "personas_muestra_jalisco_aplica": 2494
+        },
+        {
+          "codigo": "04",
+          "actividad": "Tomar taxi",
+          "jalisco": [
+            0.3218,
+            0.2971,
+            0.3475
+          ],
+          "amg": [
+            0.345,
+            0.3172,
+            0.3738
+          ],
+          "resto_del_estado": [
+            0.2596,
+            0.2102,
+            0.316
+          ],
+          "nacional": [
+            0.33,
+            0.3242,
+            0.3359
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0083,
+            -0.0326,
+            0.016
+          ],
+          "personas_muestra_jalisco_aplica": 1840
+        },
+        {
+          "codigo": "05",
+          "actividad": "Usar transporte público",
+          "jalisco": [
+            0.2248,
+            0.2014,
+            0.2501
+          ],
+          "amg": [
+            0.2252,
+            0.1976,
+            0.2553
+          ],
+          "resto_del_estado": [
+            0.2239,
+            0.1799,
+            0.2749
+          ],
+          "nacional": [
+            0.2359,
+            0.2304,
+            0.2415
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0111,
+            -0.0346,
+            0.0124
+          ],
+          "personas_muestra_jalisco_aplica": 1784
+        },
+        {
+          "codigo": "06",
+          "actividad": "Llevar dinero en efectivo",
+          "jalisco": [
+            0.4338,
+            0.4093,
+            0.4586
+          ],
+          "amg": [
+            0.5034,
+            0.4747,
+            0.5321
+          ],
+          "resto_del_estado": [
+            0.2939,
+            0.2541,
+            0.3372
+          ],
+          "nacional": [
+            0.4475,
+            0.442,
+            0.4529
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0137,
+            -0.0372,
+            0.0099
+          ],
+          "personas_muestra_jalisco_aplica": 2519
+        },
+        {
+          "codigo": "07",
+          "actividad": "Ir a la escuela",
+          "jalisco": [
+            0.0694,
+            0.0418,
+            0.113
+          ],
+          "amg": [
+            0.0612,
+            0.0334,
+            0.1095
+          ],
+          "resto_del_estado": [
+            0.09,
+            0.0341,
+            0.2174
+          ],
+          "nacional": [
+            0.0607,
+            0.0532,
+            0.0692
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0086,
+            -0.0243,
+            0.0416
+          ],
+          "personas_muestra_jalisco_aplica": 288
+        },
+        {
+          "codigo": "08",
+          "actividad": "Ir al cine o al teatro",
+          "jalisco": [
+            0.1882,
+            0.1668,
+            0.2116
+          ],
+          "amg": [
+            0.1885,
+            0.1645,
+            0.2151
+          ],
+          "resto_del_estado": [
+            0.1869,
+            0.1426,
+            0.2411
+          ],
+          "nacional": [
+            0.234,
+            0.2283,
+            0.2398
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0458,
+            -0.0674,
+            -0.0242
+          ],
+          "personas_muestra_jalisco_aplica": 1550
+        },
+        {
+          "codigo": "09",
+          "actividad": "Salir a caminar",
+          "jalisco": [
+            0.2914,
+            0.2696,
+            0.3144
+          ],
+          "amg": [
+            0.3173,
+            0.2914,
+            0.3445
+          ],
+          "resto_del_estado": [
+            0.2381,
+            0.199,
+            0.2821
+          ],
+          "nacional": [
+            0.3202,
+            0.3148,
+            0.3256
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0287,
+            -0.0502,
+            -0.0072
+          ],
+          "personas_muestra_jalisco_aplica": 2375
+        },
+        {
+          "codigo": "10",
+          "actividad": "Usar joyas",
+          "jalisco": [
+            0.456,
+            0.4254,
+            0.487
+          ],
+          "amg": [
+            0.5308,
+            0.4938,
+            0.5674
+          ],
+          "resto_del_estado": [
+            0.2972,
+            0.248,
+            0.3517
+          ],
+          "nacional": [
+            0.4491,
+            0.4424,
+            0.4558
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.007,
+            -0.0223,
+            0.0363
+          ],
+          "personas_muestra_jalisco_aplica": 1814
+        },
+        {
+          "codigo": "11",
+          "actividad": "Salir a comer o cenar",
+          "jalisco": [
+            0.1808,
+            0.1632,
+            0.1997
+          ],
+          "amg": [
+            0.1924,
+            0.1723,
+            0.2143
+          ],
+          "resto_del_estado": [
+            0.1564,
+            0.1249,
+            0.1941
+          ],
+          "nacional": [
+            0.2327,
+            0.2278,
+            0.2376
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0519,
+            -0.0695,
+            -0.0343
+          ],
+          "personas_muestra_jalisco_aplica": 2399
+        },
+        {
+          "codigo": "12",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "jalisco": [
+            0.2641,
+            0.2407,
+            0.2888
+          ],
+          "amg": [
+            0.2884,
+            0.2616,
+            0.3169
+          ],
+          "resto_del_estado": [
+            0.2042,
+            0.1615,
+            0.2548
+          ],
+          "nacional": [
+            0.2708,
+            0.2655,
+            0.2762
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0068,
+            -0.0297,
+            0.0162
+          ],
+          "personas_muestra_jalisco_aplica": 2054
+        },
+        {
+          "codigo": "13",
+          "actividad": "Ir al estadio",
+          "jalisco": [
+            0.2397,
+            0.2101,
+            0.2719
+          ],
+          "amg": [
+            0.2544,
+            0.2215,
+            0.2905
+          ],
+          "resto_del_estado": [
+            0.1914,
+            0.1317,
+            0.2697
+          ],
+          "nacional": [
+            0.2166,
+            0.2096,
+            0.2238
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.023,
+            -0.0065,
+            0.0526
+          ],
+          "personas_muestra_jalisco_aplica": 938
+        },
+        {
+          "codigo": "14",
+          "actividad": "Frecuentar centros comerciales",
+          "jalisco": [
+            0.1748,
+            0.1556,
+            0.1959
+          ],
+          "amg": [
+            0.1755,
+            0.1546,
+            0.1985
+          ],
+          "resto_del_estado": [
+            0.173,
+            0.1317,
+            0.2238
+          ],
+          "nacional": [
+            0.1675,
+            0.1631,
+            0.1719
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0074,
+            -0.0119,
+            0.0267
+          ],
+          "personas_muestra_jalisco_aplica": 2046
+        },
+        {
+          "codigo": "15",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "jalisco": [
+            0.2528,
+            0.2312,
+            0.2756
+          ],
+          "amg": [
+            0.2607,
+            0.2367,
+            0.2863
+          ],
+          "resto_del_estado": [
+            0.2369,
+            0.1948,
+            0.285
+          ],
+          "nacional": [
+            0.2581,
+            0.2533,
+            0.2628
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            -0.0053,
+            -0.0265,
+            0.0159
+          ],
+          "personas_muestra_jalisco_aplica": 2344
+        },
+        {
+          "codigo": "16",
+          "actividad": "Llevar teléfono móvil o celular",
+          "jalisco": [
+            0.1414,
+            0.1254,
+            0.1591
+          ],
+          "amg": [
+            0.1764,
+            0.156,
+            0.1988
+          ],
+          "resto_del_estado": [
+            0.0686,
+            0.0483,
+            0.0967
+          ],
+          "nacional": [
+            0.1315,
+            0.1275,
+            0.1355
+          ],
+          "diferencia_jalisco_menos_nacional": [
+            0.0099,
+            -0.0062,
+            0.0261
+          ],
+          "personas_muestra_jalisco_aplica": 2468
+        }
+      ],
+      "medidas": [
+        {
+          "codigo": "01",
+          "medida": "Cambiar o reforzar puertas o ventanas",
+          "jalisco": [
+            0.1825,
+            0.164,
+            0.2026
+          ],
+          "amg": [
+            0.2234,
+            0.2018,
+            0.2465
+          ],
+          "resto_del_estado": [
+            0.101,
+            0.0766,
+            0.1319
+          ],
+          "nacional": [
+            0.1928,
+            0.1886,
+            0.1971
+          ]
+        },
+        {
+          "codigo": "02",
+          "medida": "Cambiar, colocar o reforzar cerraduras o candados",
+          "jalisco": [
+            0.2279,
+            0.2078,
+            0.2493
+          ],
+          "amg": [
+            0.2666,
+            0.2433,
+            0.2912
+          ],
+          "resto_del_estado": [
+            0.1509,
+            0.1231,
+            0.1836
+          ],
+          "nacional": [
+            0.2328,
+            0.2284,
+            0.2373
+          ]
+        },
+        {
+          "codigo": "03",
+          "medida": "Colocar o reforzar rejas o bardas",
+          "jalisco": [
+            0.1176,
+            0.1024,
+            0.1347
+          ],
+          "amg": [
+            0.1442,
+            0.1251,
+            0.1655
+          ],
+          "resto_del_estado": [
+            0.0648,
+            0.0455,
+            0.0914
+          ],
+          "nacional": [
+            0.1301,
+            0.1267,
+            0.1336
+          ]
+        },
+        {
+          "codigo": "04",
+          "medida": "Instalar alarmas o videocámaras",
+          "jalisco": [
+            0.1453,
+            0.1296,
+            0.1625
+          ],
+          "amg": [
+            0.1692,
+            0.1492,
+            0.1913
+          ],
+          "resto_del_estado": [
+            0.0976,
+            0.075,
+            0.126
+          ],
+          "nacional": [
+            0.1408,
+            0.1371,
+            0.1446
+          ]
+        },
+        {
+          "codigo": "05",
+          "medida": "Contratar vigilancia privada en la calle o colonia",
+          "jalisco": [
+            0.0089,
+            0.0048,
+            0.0163
+          ],
+          "amg": [
+            0.0114,
+            0.0061,
+            0.0212
+          ],
+          "resto_del_estado": [
+            0.0039,
+            0.0005,
+            0.0273
+          ],
+          "nacional": [
+            0.026,
+            0.024,
+            0.0282
+          ]
+        },
+        {
+          "codigo": "06",
+          "medida": "Acciones conjuntas con vecinos",
+          "jalisco": [
+            0.0999,
+            0.0847,
+            0.1173
+          ],
+          "amg": [
+            0.1298,
+            0.1092,
+            0.1536
+          ],
+          "resto_del_estado": [
+            0.0402,
+            0.0279,
+            0.0576
+          ],
+          "nacional": [
+            0.1129,
+            0.1094,
+            0.1165
+          ]
+        },
+        {
+          "codigo": "07",
+          "medida": "Contratar seguros",
+          "jalisco": [
+            0.0229,
+            0.0167,
+            0.0314
+          ],
+          "amg": [
+            0.0293,
+            0.0206,
+            0.0416
+          ],
+          "resto_del_estado": [
+            0.0103,
+            0.0055,
+            0.0192
+          ],
+          "nacional": [
+            0.0195,
+            0.0181,
+            0.021
+          ]
+        },
+        {
+          "codigo": "08",
+          "medida": "Comprar un perro guardián",
+          "jalisco": [
+            0.0361,
+            0.0282,
+            0.046
+          ],
+          "amg": [
+            0.0443,
+            0.0341,
+            0.0574
+          ],
+          "resto_del_estado": [
+            0.0196,
+            0.0102,
+            0.0374
+          ],
+          "nacional": [
+            0.0377,
+            0.0358,
+            0.0397
+          ]
+        },
+        {
+          "codigo": "09",
+          "medida": "Adquirir armas de fuego",
+          "jalisco": [
+            0.0032,
+            0.0016,
+            0.0062
+          ],
+          "amg": [
+            0.0038,
+            0.0018,
+            0.0081
+          ],
+          "resto_del_estado": [
+            0.002,
+            0.0005,
+            0.0079
+          ],
+          "nacional": [
+            0.0049,
+            0.0043,
+            0.0055
+          ]
+        },
+        {
+          "codigo": "10",
+          "medida": "Cambiarse de vivienda",
+          "jalisco": [
+            0.0058,
+            0.0035,
+            0.0093
+          ],
+          "amg": [
+            0.0058,
+            0.0033,
+            0.0104
+          ],
+          "resto_del_estado": [
+            0.0056,
+            0.0023,
+            0.0135
+          ],
+          "nacional": [
+            0.0053,
+            0.0047,
+            0.006
+          ]
+        },
+        {
+          "codigo": "11",
+          "medida": "Otra medida",
+          "jalisco": [
+            0.0007,
+            0.0001,
+            0.0034
+          ],
+          "amg": [
+            0.0011,
+            0.0002,
+            0.005
+          ],
+          "resto_del_estado": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nacional": [
+            0.0011,
+            0.0007,
+            0.0016
+          ]
+        }
+      ],
+      "problemas_colonia": [
+        {
+          "codigo": "1",
+          "problema": "Falta de alumbrado público",
+          "reporta_jalisco": [
+            0.4208,
+            0.3891,
+            0.453
+          ],
+          "reporta_amg": [
+            0.4752,
+            0.4392,
+            0.5115
+          ],
+          "reporta_resto_del_estado": [
+            0.3123,
+            0.2691,
+            0.3591
+          ],
+          "reporta_nacional": [
+            0.4765,
+            0.4705,
+            0.4825
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4498,
+            0.4144,
+            0.4857
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4625,
+            0.4224,
+            0.503
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.4114,
+            0.3349,
+            0.4924
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4704,
+            0.463,
+            0.4778
+          ],
+          "personas_muestra_jalisco_reportan": 1065
+        },
+        {
+          "codigo": "2",
+          "problema": "Falta de agua",
+          "reporta_jalisco": [
+            0.4553,
+            0.4202,
+            0.4908
+          ],
+          "reporta_amg": [
+            0.4898,
+            0.448,
+            0.5318
+          ],
+          "reporta_resto_del_estado": [
+            0.3864,
+            0.3225,
+            0.4545
+          ],
+          "reporta_nacional": [
+            0.5115,
+            0.5045,
+            0.5184
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4617,
+            0.4208,
+            0.5031
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4764,
+            0.4284,
+            0.5248
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.4247,
+            0.3549,
+            0.4977
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4891,
+            0.4809,
+            0.4974
+          ],
+          "personas_muestra_jalisco_reportan": 1134
+        },
+        {
+          "codigo": "3",
+          "problema": "Baches o fugas de agua",
+          "reporta_jalisco": [
+            0.5035,
+            0.4733,
+            0.5337
+          ],
+          "reporta_amg": [
+            0.5608,
+            0.5262,
+            0.5948
+          ],
+          "reporta_resto_del_estado": [
+            0.3895,
+            0.3446,
+            0.4363
+          ],
+          "reporta_nacional": [
+            0.5308,
+            0.5247,
+            0.537
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.4342,
+            0.399,
+            0.47
+          ],
+          "vecinos_se_organizan_amg": [
+            0.4451,
+            0.4036,
+            0.4875
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.4028,
+            0.3395,
+            0.4696
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.4355,
+            0.4281,
+            0.443
+          ],
+          "personas_muestra_jalisco_reportan": 1250
+        },
+        {
+          "codigo": "4",
+          "problema": "Pandillerismo violento",
+          "reporta_jalisco": [
+            0.1401,
+            0.1243,
+            0.1576
+          ],
+          "reporta_amg": [
+            0.1816,
+            0.1605,
+            0.2048
+          ],
+          "reporta_resto_del_estado": [
+            0.0575,
+            0.0417,
+            0.0787
+          ],
+          "reporta_nacional": [
+            0.1508,
+            0.1464,
+            0.1554
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.2606,
+            0.2094,
+            0.3194
+          ],
+          "vecinos_se_organizan_amg": [
+            0.27,
+            0.2133,
+            0.3353
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.2018,
+            0.1141,
+            0.3317
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.289,
+            0.2774,
+            0.3009
+          ],
+          "personas_muestra_jalisco_reportan": 368
+        },
+        {
+          "codigo": "5",
+          "problema": "Robos",
+          "reporta_jalisco": [
+            0.4627,
+            0.4336,
+            0.4921
+          ],
+          "reporta_amg": [
+            0.5801,
+            0.551,
+            0.6086
+          ],
+          "reporta_resto_del_estado": [
+            0.229,
+            0.1913,
+            0.2716
+          ],
+          "reporta_nacional": [
+            0.4636,
+            0.4575,
+            0.4697
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.3627,
+            0.3246,
+            0.4026
+          ],
+          "vecinos_se_organizan_amg": [
+            0.3752,
+            0.3337,
+            0.4186
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.2997,
+            0.2158,
+            0.3996
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.3839,
+            0.3755,
+            0.3923
+          ],
+          "personas_muestra_jalisco_reportan": 1138
+        },
+        {
+          "codigo": "6",
+          "problema": "Delincuencia en alrededores de escuelas",
+          "reporta_jalisco": [
+            0.2092,
+            0.1895,
+            0.2303
+          ],
+          "reporta_amg": [
+            0.2683,
+            0.2429,
+            0.2954
+          ],
+          "reporta_resto_del_estado": [
+            0.0914,
+            0.0703,
+            0.1182
+          ],
+          "reporta_nacional": [
+            0.2321,
+            0.2272,
+            0.237
+          ],
+          "vecinos_se_organizan_jalisco": [
+            0.3548,
+            0.3097,
+            0.4026
+          ],
+          "vecinos_se_organizan_amg": [
+            0.3721,
+            0.3232,
+            0.4237
+          ],
+          "vecinos_se_organizan_resto_del_estado": [
+            0.2537,
+            0.1583,
+            0.3806
+          ],
+          "vecinos_se_organizan_nacional": [
+            0.3859,
+            0.3751,
+            0.3968
+          ],
+          "personas_muestra_jalisco_reportan": 515
+        }
+      ],
+      "sensacion_de_ser_victima": [
+        {
+          "codigo": "1",
+          "delito": "Robo o asalto en la calle o transporte público",
+          "jalisco": [
+            0.6544,
+            0.6276,
+            0.6803
+          ],
+          "amg": [
+            0.773,
+            0.7481,
+            0.7962
+          ],
+          "resto_del_estado": [
+            0.4154,
+            0.3721,
+            0.46
+          ],
+          "nacional": [
+            0.6786,
+            0.6735,
+            0.6837
+          ]
+        },
+        {
+          "codigo": "2",
+          "delito": "Lesiones por agresión física",
+          "jalisco": [
+            0.5023,
+            0.4746,
+            0.5301
+          ],
+          "amg": [
+            0.5728,
+            0.5436,
+            0.6016
+          ],
+          "resto_del_estado": [
+            0.3604,
+            0.3134,
+            0.4103
+          ],
+          "nacional": [
+            0.5108,
+            0.5051,
+            0.5165
+          ]
+        },
+        {
+          "codigo": "3",
+          "delito": "Extorsión o secuestro",
+          "jalisco": [
+            0.4729,
+            0.4478,
+            0.4982
+          ],
+          "amg": [
+            0.5154,
+            0.486,
+            0.5447
+          ],
+          "resto_del_estado": [
+            0.3875,
+            0.3457,
+            0.4311
+          ],
+          "nacional": [
+            0.4332,
+            0.4278,
+            0.4386
+          ]
+        }
+      ],
+      "al_menos_una_actividad": {
+        "jalisco": [
+          0.7206,
+          0.6973,
+          0.7427
+        ],
+        "amg": [
+          0.7751,
+          0.7502,
+          0.7981
+        ],
+        "resto_del_estado": [
+          0.6121,
+          0.5653,
+          0.6569
+        ],
+        "nacional": [
+          0.7436,
+          0.7388,
+          0.7484
+        ]
+      },
+      "diferencia_amg_menos_resto_al_menos_una": [
+        0.163,
+        0.1102,
+        0.2157
+      ],
+      "diferencia_jalisco_menos_nacional_al_menos_una": [
+        -0.0231,
+        -0.0448,
+        -0.0014
+      ],
+      "salir_de_noche_por_sexo": {
+        "mujeres": [
+          0.4825,
+          0.4493,
+          0.5158
+        ],
+        "hombres": [
+          0.3303,
+          0.295,
+          0.3675
+        ],
+        "diferencia_mujeres_menos_hombres": [
+          0.1522,
+          0.1053,
+          0.1991
+        ],
+        "nacional_diferencia": [
+          0.1532,
+          0.1432,
+          0.1631
+        ]
+      },
+      "al_menos_una_por_sexo_jalisco": {
+        "mujeres": [
+          0.7555,
+          0.7225,
+          0.7858
+        ],
+        "hombres": [
+          0.6786,
+          0.6466,
+          0.7089
+        ],
+        "diferencia": [
+          0.077,
+          0.0338,
+          0.1201
+        ]
+      },
+      "alguna_medida": {
+        "jalisco": [
+          0.3922,
+          0.3666,
+          0.4185
+        ],
+        "amg": [
+          0.4587,
+          0.4303,
+          0.4874
+        ],
+        "resto_del_estado": [
+          0.2599,
+          0.2227,
+          0.3009
+        ],
+        "nacional": [
+          0.4132,
+          0.4076,
+          0.4188
+        ]
+      },
+      "diferencia_jalisco_menos_nacional_alguna_medida": [
+        -0.0209,
+        -0.0457,
+        0.0039
+      ],
+      "medidas_menos_actividades_jalisco": [
+        -0.3283,
+        -0.3547,
+        -0.302
+      ],
+      "gasto": {
+        "pregunta_contestada_jalisco": 978,
+        "no_sabe_jalisco": 93,
+        "incluye_medidas_electronicas": false,
+        "jalisco": {
+          "proporcion_que_gasta": [
+            0.3245,
+            0.3009,
+            0.3491
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            9054.5,
+            7585.4,
+            10523.6
+          ],
+          "casos_muestra_gastan": 782,
+          "total_estatal_pesos": [
+            18137692640,
+            14910419342,
+            21364965938
+          ]
+        },
+        "amg": {
+          "proporcion_que_gasta": [
+            0.3817,
+            0.3554,
+            0.4088
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            8598.4,
+            7102.1,
+            10094.6
+          ],
+          "casos_muestra_gastan": 617
+        },
+        "resto_del_estado": {
+          "proporcion_que_gasta": [
+            0.2133,
+            0.1792,
+            0.2519
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            10643.0,
+            6724.6,
+            14561.5
+          ],
+          "casos_muestra_gastan": 165
+        },
+        "nacional": {
+          "proporcion_que_gasta": [
+            0.3551,
+            0.3498,
+            0.3604
+          ],
+          "gasto_medio_entre_quienes_gastan_pesos": [
+            9237.5,
+            8891.7,
+            9583.3
+          ],
+          "casos_muestra_gastan": 30211
+        }
+      },
+      "organizacion_robos_menos_alumbrado_jalisco": [
+        -0.0871,
+        -0.1294,
+        -0.0447
+      ]
+    }
+  },
+  "cambio_2025_2026_al_menos_una": {
+    "jalisco": {
+      "diferencia": [
+        -0.0233,
+        -0.0562,
+        0.0097
+      ],
+      "razon": [
+        0.968,
+        0.924,
+        1.014
+      ]
+    },
+    "amg": {
+      "diferencia": [
+        -0.0103,
+        -0.048,
+        0.0274
+      ],
+      "razon": [
+        0.987,
+        0.939,
+        1.036
+      ]
+    },
+    "resto_del_estado": {
+      "diferencia": [
+        -0.0367,
+        -0.0973,
+        0.0238
+      ],
+      "razon": [
+        0.94,
+        0.849,
+        1.041
+      ]
+    },
+    "nacional": {
+      "diferencia": [
+        -0.0109,
+        -0.0177,
+        -0.0041
+      ],
+      "razon": [
+        0.985,
+        0.976,
+        0.995
+      ]
+    }
+  },
+  "cambio_2025_2026_por_actividad_razon": {
+    "Salir de noche": {
+      "jalisco": [
+        0.97,
+        0.892,
+        1.055
+      ],
+      "nacional": [
+        0.965,
+        0.947,
+        0.982
+      ]
+    },
+    "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)": {
+      "jalisco": [
+        0.993,
+        0.916,
+        1.078
+      ],
+      "nacional": [
+        1.003,
+        0.986,
+        1.02
+      ]
+    },
+    "Visitar parientes o amigos(as)": {
+      "jalisco": [
+        0.902,
+        0.799,
+        1.017
+      ],
+      "nacional": [
+        0.951,
+        0.929,
+        0.974
+      ]
+    },
+    "Tomar taxi": {
+      "jalisco": [
+        0.904,
+        0.805,
+        1.016
+      ],
+      "nacional": [
+        0.922,
+        0.899,
+        0.946
+      ]
+    },
+    "Usar transporte público": {
+      "jalisco": [
+        0.851,
+        0.73,
+        0.994
+      ],
+      "nacional": [
+        0.976,
+        0.945,
+        1.008
+      ]
+    },
+    "Llevar dinero en efectivo": {
+      "jalisco": [
+        0.869,
+        0.799,
+        0.946
+      ],
+      "nacional": [
+        0.963,
+        0.946,
+        0.981
+      ]
+    },
+    "Ir a la escuela": {
+      "jalisco": [
+        0.875,
+        0.435,
+        1.757
+      ],
+      "nacional": [
+        0.908,
+        0.761,
+        1.083
+      ]
+    },
+    "Ir al cine o al teatro": {
+      "jalisco": [
+        1.002,
+        0.838,
+        1.199
+      ],
+      "nacional": [
+        0.923,
+        0.891,
+        0.956
+      ]
+    },
+    "Salir a caminar": {
+      "jalisco": [
+        0.841,
+        0.751,
+        0.941
+      ],
+      "nacional": [
+        0.942,
+        0.92,
+        0.965
+      ]
+    },
+    "Usar joyas": {
+      "jalisco": [
+        0.953,
+        0.865,
+        1.049
+      ],
+      "nacional": [
+        0.938,
+        0.918,
+        0.959
+      ]
+    },
+    "Salir a comer o cenar": {
+      "jalisco": [
+        0.951,
+        0.816,
+        1.108
+      ],
+      "nacional": [
+        0.92,
+        0.893,
+        0.948
+      ]
+    },
+    "Llevar tarjeta de crédito o débito": {
+      "jalisco": [
+        0.898,
+        0.788,
+        1.024
+      ],
+      "nacional": [
+        0.899,
+        0.874,
+        0.926
+      ]
+    },
+    "Ir al estadio": {
+      "jalisco": [
+        0.911,
+        0.752,
+        1.105
+      ],
+      "nacional": [
+        0.914,
+        0.873,
+        0.958
+      ]
+    },
+    "Frecuentar centros comerciales": {
+      "jalisco": [
+        0.891,
+        0.754,
+        1.053
+      ],
+      "nacional": [
+        0.959,
+        0.924,
+        0.995
+      ]
+    },
+    "Viajar por carretera a otro estado o municipio": {
+      "jalisco": [
+        0.963,
+        0.855,
+        1.085
+      ],
+      "nacional": [
+        1.026,
+        1.0,
+        1.054
+      ]
+    },
+    "Llevar teléfono móvil o celular": {
+      "jalisco": [
+        0.654,
+        0.542,
+        0.79
+      ],
+      "nacional": [
+        0.961,
+        0.919,
+        1.005
+      ]
+    }
+  },
+  "validacion_tabulado_5_32": {
+    "2026": {
+      "cifras": [
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir de noche",
+          "propio": 39.98,
+          "inegi": 39.9795310755489,
+          "diferencia": 0.0,
+          "ee_propio": 1.161,
+          "ee_inegi": 1.16115464747599,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "propio": 56.59,
+          "inegi": 56.5939442026293,
+          "diferencia": -0.0,
+          "ee_propio": 1.705,
+          "ee_inegi": 1.70458872308678,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Visitar parientes o amigos(as)",
+          "propio": 24.4,
+          "inegi": 24.4025850552074,
+          "diferencia": -0.0,
+          "ee_propio": 1.116,
+          "ee_inegi": 1.11621717639449,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Tomar taxi",
+          "propio": 29.09,
+          "inegi": 29.0922601649368,
+          "diferencia": -0.0,
+          "ee_propio": 1.276,
+          "ee_inegi": 1.27646134507727,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Usar transporte público",
+          "propio": 19.14,
+          "inegi": 19.1425678609828,
+          "diferencia": 0.0,
+          "ee_propio": 1.077,
+          "ee_inegi": 1.07741156594982,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar dinero en efectivo",
+          "propio": 37.72,
+          "inegi": 37.7160761784988,
+          "diferencia": -0.0,
+          "ee_propio": 1.204,
+          "ee_inegi": 1.20367804071544,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir a la escuela",
+          "propio": 6.07,
+          "inegi": 6.06614314821663,
+          "diferencia": -0.0,
+          "ee_propio": 1.508,
+          "ee_inegi": 1.50809700151083,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir al cine o al teatro",
+          "propio": 18.86,
+          "inegi": 18.8605591407553,
+          "diferencia": 0.0,
+          "ee_propio": 1.289,
+          "ee_inegi": 1.28888292845196,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir a caminar",
+          "propio": 24.51,
+          "inegi": 24.5121052587721,
+          "diferencia": -0.0,
+          "ee_propio": 1.033,
+          "ee_inegi": 1.0325932593692,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Usar joyas",
+          "propio": 43.44,
+          "inegi": 43.4393323283874,
+          "diferencia": 0.0,
+          "ee_propio": 1.512,
+          "ee_inegi": 1.51158587374626,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir a comer o cenar",
+          "propio": 17.18,
+          "inegi": 17.1844285135891,
+          "diferencia": -0.0,
+          "ee_propio": 1.009,
+          "ee_inegi": 1.00896498111227,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "propio": 23.72,
+          "inegi": 23.7190261387685,
+          "diferencia": 0.0,
+          "ee_propio": 1.136,
+          "ee_inegi": 1.13643731813815,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir al estadio",
+          "propio": 21.84,
+          "inegi": 21.8431811337343,
+          "diferencia": -0.0,
+          "ee_propio": 1.594,
+          "ee_inegi": 1.59368449461798,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Frecuentar centros comerciales",
+          "propio": 15.58,
+          "inegi": 15.5759481631985,
+          "diferencia": -0.0,
+          "ee_propio": 0.958,
+          "ee_inegi": 0.958205167860467,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "propio": 24.35,
+          "inegi": 24.3528164297625,
+          "diferencia": 0.0,
+          "ee_propio": 1.004,
+          "ee_inegi": 1.00352754887716,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar teléfono móvil o celular",
+          "propio": 9.25,
+          "inegi": 9.25205115400999,
+          "diferencia": 0.0,
+          "ee_propio": 0.692,
+          "ee_inegi": 0.691600063791985,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir de noche",
+          "propio": 44.73,
+          "inegi": 44.7333857628618,
+          "diferencia": -0.0,
+          "ee_propio": 0.299,
+          "ee_inegi": 0.29922228278305,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "propio": 62.79,
+          "inegi": 62.7862593654825,
+          "diferencia": -0.0,
+          "ee_propio": 0.385,
+          "ee_inegi": 0.384939083080829,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Visitar parientes o amigos(as)",
+          "propio": 29.05,
+          "inegi": 29.0460309894778,
+          "diferencia": -0.0,
+          "ee_propio": 0.247,
+          "ee_inegi": 0.246730852166054,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Tomar taxi",
+          "propio": 30.44,
+          "inegi": 30.4372344541854,
+          "diferencia": -0.0,
+          "ee_propio": 0.293,
+          "ee_inegi": 0.29281736196622,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Usar transporte público",
+          "propio": 23.01,
+          "inegi": 23.01436061283,
+          "diferencia": -0.0,
+          "ee_propio": 0.26,
+          "ee_inegi": 0.260008287341694,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar dinero en efectivo",
+          "propio": 43.11,
+          "inegi": 43.1123365413223,
+          "diferencia": 0.0,
+          "ee_propio": 0.287,
+          "ee_inegi": 0.287096452646225,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir a la escuela",
+          "propio": 5.51,
+          "inegi": 5.51330148781902,
+          "diferencia": 0.0,
+          "ee_propio": 0.33,
+          "ee_inegi": 0.330498967109332,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir al cine o al teatro",
+          "propio": 21.6,
+          "inegi": 21.6030791362147,
+          "diferencia": 0.0,
+          "ee_propio": 0.278,
+          "ee_inegi": 0.278365867972457,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir a caminar",
+          "propio": 30.16,
+          "inegi": 30.1576375869251,
+          "diferencia": 0.0,
+          "ee_propio": 0.26,
+          "ee_inegi": 0.260400014122549,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Usar joyas",
+          "propio": 42.13,
+          "inegi": 42.1300726311041,
+          "diferencia": 0.0,
+          "ee_propio": 0.334,
+          "ee_inegi": 0.334447311238629,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir a comer o cenar",
+          "propio": 21.41,
+          "inegi": 21.4050861353631,
+          "diferencia": -0.0,
+          "ee_propio": 0.236,
+          "ee_inegi": 0.235968311443552,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "propio": 24.36,
+          "inegi": 24.3570796186404,
+          "diferencia": -0.0,
+          "ee_propio": 0.265,
+          "ee_inegi": 0.264635522958124,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir al estadio",
+          "propio": 19.8,
+          "inegi": 19.8036243630486,
+          "diferencia": 0.0,
+          "ee_propio": 0.334,
+          "ee_inegi": 0.33412620561342,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Frecuentar centros comerciales",
+          "propio": 16.06,
+          "inegi": 16.0575661626642,
+          "diferencia": -0.0,
+          "ee_propio": 0.212,
+          "ee_inegi": 0.211812444723598,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "propio": 26.48,
+          "inegi": 26.4821716280211,
+          "diferencia": -0.0,
+          "ee_propio": 0.252,
+          "ee_inegi": 0.251817867101322,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar teléfono móvil o celular",
+          "propio": 12.64,
+          "inegi": 12.6382962396401,
+          "diferencia": 0.0,
+          "ee_propio": 0.213,
+          "ee_inegi": 0.213240571988026,
+          "razon_ee": 1.0
+        }
+      ],
+      "max_diferencia": 0.0,
+      "razon_ee_min": 1.0,
+      "razon_ee_max": 1.0
+    },
+    "2025": {
+      "cifras": [
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir de noche",
+          "propio": 41.21,
+          "inegi": 41.2124662414724,
+          "diferencia": 0.0,
+          "ee_propio": 1.307,
+          "ee_inegi": 1.30652561933661,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "propio": 56.97,
+          "inegi": 56.9722615112209,
+          "diferencia": 0.0,
+          "ee_propio": 1.627,
+          "ee_inegi": 1.62705165742937,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Visitar parientes o amigos(as)",
+          "propio": 27.06,
+          "inegi": 27.0576537867222,
+          "diferencia": -0.0,
+          "ee_propio": 1.113,
+          "ee_inegi": 1.11309950481354,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Tomar taxi",
+          "propio": 32.18,
+          "inegi": 32.1754762375662,
+          "diferencia": 0.0,
+          "ee_propio": 1.286,
+          "ee_inegi": 1.28624392008969,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Usar transporte público",
+          "propio": 22.48,
+          "inegi": 22.4814207846829,
+          "diferencia": -0.0,
+          "ee_propio": 1.241,
+          "ee_inegi": 1.24098618652041,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar dinero en efectivo",
+          "propio": 43.38,
+          "inegi": 43.3804299598281,
+          "diferencia": -0.0,
+          "ee_propio": 1.258,
+          "ee_inegi": 1.25836121050872,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir a la escuela",
+          "propio": 6.94,
+          "inegi": 6.93561339233629,
+          "diferencia": -0.0,
+          "ee_propio": 1.766,
+          "ee_inegi": 1.76637530082284,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir al cine o al teatro",
+          "propio": 18.82,
+          "inegi": 18.8179875824857,
+          "diferencia": 0.0,
+          "ee_propio": 1.143,
+          "ee_inegi": 1.1430338327369,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir a caminar",
+          "propio": 29.14,
+          "inegi": 29.1448449940782,
+          "diferencia": -0.0,
+          "ee_propio": 1.143,
+          "ee_inegi": 1.14337387196842,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Usar joyas",
+          "propio": 45.6,
+          "inegi": 45.6026416055899,
+          "diferencia": -0.0,
+          "ee_propio": 1.571,
+          "ee_inegi": 1.57138643074482,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Salir a comer o cenar",
+          "propio": 18.08,
+          "inegi": 18.0754110048942,
+          "diferencia": 0.0,
+          "ee_propio": 0.929,
+          "ee_inegi": 0.929326199883384,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "propio": 26.41,
+          "inegi": 26.4075294855665,
+          "diferencia": 0.0,
+          "ee_propio": 1.228,
+          "ee_inegi": 1.22758148405218,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Ir al estadio",
+          "propio": 23.97,
+          "inegi": 23.9667747749833,
+          "diferencia": -0.0,
+          "ee_propio": 1.576,
+          "ee_inegi": 1.57608718402692,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Frecuentar centros comerciales",
+          "propio": 17.48,
+          "inegi": 17.4826244775441,
+          "diferencia": -0.0,
+          "ee_propio": 1.028,
+          "ee_inegi": 1.02824384218259,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "propio": 25.28,
+          "inegi": 25.2792822532674,
+          "diferencia": -0.0,
+          "ee_propio": 1.133,
+          "ee_inegi": 1.1326589293899,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "jalisco",
+          "actividad": "Llevar teléfono móvil o celular",
+          "propio": 14.14,
+          "inegi": 14.1429595592395,
+          "diferencia": 0.0,
+          "ee_propio": 0.859,
+          "ee_inegi": 0.858803761407806,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir de noche",
+          "propio": 46.37,
+          "inegi": 46.3724089147569,
+          "diferencia": 0.0,
+          "ee_propio": 0.291,
+          "ee_inegi": 0.290869137221122,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Permitir que los (las) menores de edad que viven en el hogar salgan solos(as)",
+          "propio": 62.62,
+          "inegi": 62.6182719396719,
+          "diferencia": -0.0,
+          "ee_propio": 0.378,
+          "ee_inegi": 0.378220289142431,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Visitar parientes o amigos(as)",
+          "propio": 30.54,
+          "inegi": 30.5400285356166,
+          "diferencia": -0.0,
+          "ee_propio": 0.26,
+          "ee_inegi": 0.260461725201006,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Tomar taxi",
+          "propio": 33.0,
+          "inegi": 33.0037070263783,
+          "diferencia": -0.0,
+          "ee_propio": 0.299,
+          "ee_inegi": 0.29886033775266,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Usar transporte público",
+          "propio": 23.59,
+          "inegi": 23.5903619475711,
+          "diferencia": 0.0,
+          "ee_propio": 0.283,
+          "ee_inegi": 0.282829714393933,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar dinero en efectivo",
+          "propio": 44.75,
+          "inegi": 44.7462194914237,
+          "diferencia": 0.0,
+          "ee_propio": 0.277,
+          "ee_inegi": 0.276892259715189,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir a la escuela",
+          "propio": 6.07,
+          "inegi": 6.07209035091992,
+          "diferencia": 0.0,
+          "ee_propio": 0.408,
+          "ee_inegi": 0.408496276813251,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir al cine o al teatro",
+          "propio": 23.4,
+          "inegi": 23.3986751148104,
+          "diferencia": -0.0,
+          "ee_propio": 0.295,
+          "ee_inegi": 0.295201631642646,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir a caminar",
+          "propio": 32.02,
+          "inegi": 32.0163276171627,
+          "diferencia": -0.0,
+          "ee_propio": 0.276,
+          "ee_inegi": 0.276468674297511,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Usar joyas",
+          "propio": 44.91,
+          "inegi": 44.9066298291539,
+          "diferencia": 0.0,
+          "ee_propio": 0.343,
+          "ee_inegi": 0.343113259081603,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Salir a comer o cenar",
+          "propio": 23.27,
+          "inegi": 23.2668419559127,
+          "diferencia": -0.0,
+          "ee_propio": 0.249,
+          "ee_inegi": 0.248610568083572,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar tarjeta de crédito o débito",
+          "propio": 27.08,
+          "inegi": 27.0841103675224,
+          "diferencia": 0.0,
+          "ee_propio": 0.273,
+          "ee_inegi": 0.273135285116117,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Ir al estadio",
+          "propio": 21.66,
+          "inegi": 21.6623376782048,
+          "diferencia": -0.0,
+          "ee_propio": 0.361,
+          "ee_inegi": 0.360594358330422,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Frecuentar centros comerciales",
+          "propio": 16.75,
+          "inegi": 16.7460040491067,
+          "diferencia": -0.0,
+          "ee_propio": 0.222,
+          "ee_inegi": 0.222290257984312,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Viajar por carretera a otro estado o municipio",
+          "propio": 25.81,
+          "inegi": 25.8052885313425,
+          "diferencia": -0.0,
+          "ee_propio": 0.243,
+          "ee_inegi": 0.243208983858823,
+          "razon_ee": 1.0
+        },
+        {
+          "dominio": "nacional",
+          "actividad": "Llevar teléfono móvil o celular",
+          "propio": 13.15,
+          "inegi": 13.1480466783034,
+          "diferencia": 0.0,
+          "ee_propio": 0.204,
+          "ee_inegi": 0.203941980720674,
+          "razon_ee": 1.0
+        }
+      ],
+      "max_diferencia": 0.0,
+      "razon_ee_min": 1.0,
+      "razon_ee_max": 1.0
+    }
+  },
+  "hipotesis": {
+    "H22a": true,
+    "H22b": true,
+    "H22c": true,
+    "H22d": true,
+    "H22e": true,
+    "H22f": false,
+    "H22g": true,
+    "H22h": true,
+    "E22i": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-25T20:18:14+00:00",
+    "script": "pieces.p22_costo_del_miedo",
+    "insumos_sha256": {
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2026_est.xlsx": "354f0437fa98744139c06dc25d6d41c0cb3c60e9fb02b7f7fd3662366aa2defc",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2026_err.xlsx": "76eb2bca6937095546c48aa5a86f761584cb4eadb88d2c862ac032f28031aa49",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2025_est.xlsx": "3e0db51a35e85a2783d63f024a4080dd02ff892c77fdb01e97cc2441261d982e",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2025_err.xlsx": "048dc6cf1ea6ee86b0def95edb93e2d20e8dfa9c58e5efcbfc4fe531eae8fcb1"
+    }
+  }
+}

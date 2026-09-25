@@ -1,6 +1,3 @@
-# Local Pi runtime state
-.atl/
-
 node_modules/
 
 # Secrets locales

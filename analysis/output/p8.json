@@ -262,7 +262,7 @@
     "H8c": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:35+00:00",
+    "generado": "2026-09-25T20:16:21+00:00",
     "script": "pieces.p8_fosas",
     "insumos_sha256": {
       "s3-fosas-20260924T184227Z/fosas-sitios.csv": "2a2b3785522f9b324499e75409f8c92227c303eaaf985da6c1ad218750776ba4",

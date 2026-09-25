@@ -1,0 +1,211 @@
+{
+  "pregunta": "¿El homicidio que registra el SESNSP sigue a los certificados de defunción?",
+  "definiciones": {
+    "sesnsp": "víctimas de homicidio doloso + feminicidio (estatal); carpetas de homicidio doloso (municipal)",
+    "inegi": "homicidios ocurridos en Jalisco, año de ocurrencia, registros 2015-2024",
+    "tipos_inegi": [
+      "accidente",
+      "homicidio",
+      "se ignora",
+      "suicidio"
+    ]
+  },
+  "H23a_razon_2015_2018_vs_2019_2023": {
+    "2015_2018": [
+      6461,
+      6894,
+      [
+        0.937,
+        0.906,
+        0.97
+      ]
+    ],
+    "2019_2023": [
+      11994,
+      10554,
+      [
+        1.136,
+        1.107,
+        1.167
+      ]
+    ],
+    "razon_de_razones": [
+      0.825,
+      0.79,
+      0.861
+    ]
+  },
+  "H23b_spearman_municipal_2015_2018": {
+    "rho": 0.841,
+    "ic95": [
+      0.769,
+      0.892
+    ],
+    "inegi_sin_municipio": 35,
+    "sesnsp_sin_municipio": 9,
+    "carpetas_sesnsp": 5354,
+    "homicidios_inegi": 6859
+  },
+  "H23c_violencia_oculta_inegi_2015_2018": {
+    "celda": [
+      "Arandas",
+      "Atotonilco el Alto",
+      "La Barca",
+      "San Juan de los Lagos",
+      "San Miguel el Alto",
+      "Tala"
+    ],
+    "de_los_12_se_mantienen": [
+      "Arandas",
+      "Atotonilco el Alto",
+      "La Barca",
+      "San Juan de los Lagos",
+      "San Miguel el Alto",
+      "Tala"
+    ],
+    "n_mantenidos": 6,
+    "spearman_tasas_desaparicion_homicidio": {
+      "rho": 0.135,
+      "ic95": [
+        -0.042,
+        0.304
+      ],
+      "p": 0.13245434704159792
+    }
+  },
+  "E23d_serie_anual": {
+    "2015": {
+      "victimas_sesnsp_homicidio_doloso": 1078,
+      "victimas_sesnsp_feminicidio": 65,
+      "carpetas_sesnsp_homicidio_doloso": 957,
+      "homicidios_inegi": 1194,
+      "intencion_no_determinada_inegi": 369,
+      "razon_victimas_sesnsp_inegi": [
+        0.957,
+        0.882,
+        1.039
+      ]
+    },
+    "2016": {
+      "victimas_sesnsp_homicidio_doloso": 1236,
+      "victimas_sesnsp_feminicidio": 49,
+      "carpetas_sesnsp_homicidio_doloso": 1105,
+      "homicidios_inegi": 1383,
+      "intencion_no_determinada_inegi": 459,
+      "razon_victimas_sesnsp_inegi": [
+        0.929,
+        0.861,
+        1.003
+      ]
+    },
+    "2017": {
+      "victimas_sesnsp_homicidio_doloso": 1555,
+      "victimas_sesnsp_feminicidio": 28,
+      "carpetas_sesnsp_homicidio_doloso": 1342,
+      "homicidios_inegi": 1641,
+      "intencion_no_determinada_inegi": 697,
+      "razon_victimas_sesnsp_inegi": [
+        0.965,
+        0.9,
+        1.034
+      ]
+    },
+    "2018": {
+      "victimas_sesnsp_homicidio_doloso": 2416,
+      "victimas_sesnsp_feminicidio": 34,
+      "carpetas_sesnsp_homicidio_doloso": 1959,
+      "homicidios_inegi": 2676,
+      "intencion_no_determinada_inegi": 513,
+      "razon_victimas_sesnsp_inegi": [
+        0.916,
+        0.866,
+        0.967
+      ]
+    },
+    "2019": {
+      "victimas_sesnsp_homicidio_doloso": 2671,
+      "victimas_sesnsp_feminicidio": 67,
+      "carpetas_sesnsp_homicidio_doloso": 2017,
+      "homicidios_inegi": 2529,
+      "intencion_no_determinada_inegi": 617,
+      "razon_victimas_sesnsp_inegi": [
+        1.083,
+        1.025,
+        1.143
+      ]
+    },
+    "2020": {
+      "victimas_sesnsp_homicidio_doloso": 2625,
+      "victimas_sesnsp_feminicidio": 72,
+      "carpetas_sesnsp_homicidio_doloso": 1754,
+      "homicidios_inegi": 2343,
+      "intencion_no_determinada_inegi": 643,
+      "razon_victimas_sesnsp_inegi": [
+        1.151,
+        1.089,
+        1.217
+      ]
+    },
+    "2021": {
+      "victimas_sesnsp_homicidio_doloso": 2370,
+      "victimas_sesnsp_feminicidio": 79,
+      "carpetas_sesnsp_homicidio_doloso": 1816,
+      "homicidios_inegi": 2241,
+      "intencion_no_determinada_inegi": 650,
+      "razon_victimas_sesnsp_inegi": [
+        1.093,
+        1.032,
+        1.158
+      ]
+    },
+    "2022": {
+      "victimas_sesnsp_homicidio_doloso": 2066,
+      "victimas_sesnsp_feminicidio": 43,
+      "carpetas_sesnsp_homicidio_doloso": 1600,
+      "homicidios_inegi": 1848,
+      "intencion_no_determinada_inegi": 519,
+      "razon_victimas_sesnsp_inegi": [
+        1.141,
+        1.072,
+        1.215
+      ]
+    },
+    "2023": {
+      "victimas_sesnsp_homicidio_doloso": 1962,
+      "victimas_sesnsp_feminicidio": 39,
+      "carpetas_sesnsp_homicidio_doloso": 1450,
+      "homicidios_inegi": 1593,
+      "intencion_no_determinada_inegi": 283,
+      "razon_victimas_sesnsp_inegi": [
+        1.256,
+        1.176,
+        1.342
+      ]
+    }
+  },
+  "E23d_tendencia_razon_2015_2023_pct_anual": [
+    3.9,
+    2.3,
+    5.6
+  ],
+  "hipotesis": {
+    "H23a": true,
+    "H23b": false,
+    "H23c": false,
+    "E23d": "exploratoria"
+  },
+  "_procedencia": {
+    "generado": "2026-09-25T20:18:15+00:00",
+    "script": "pieces.p23_sesnsp_vs_inegi",
+    "insumos_sha256": {
+      "s3-inegi-defunciones-2015-2017-20260925T182641Z/jalisco-defunciones-violentas.csv": "e19c06c2a409b1355d0ec2a425c9ed846ac386a27b8d85af049913f60b24304e",
+      "s3-inegi-defunciones-20260924T184755Z/jalisco-defunciones-violentas.csv": "d0418b6478d2099915b9d7fa03f019900b7bba193a32cde6ae9462f1af04088c",
+      "s3-extra-import-20260924T190235Z/sesnsp-victimas-estatal-2015-2025-jalisco.csv": "7f2eb3d88a8cae178c1b36b6ba00b3110b2c3822feabcdfddae1a106aee03949",
+      "s2-c04-sesnsp-2015-2025-20260924T032818Z/sesnsp-2015-2025-jalisco-subset.csv": "264e231b28ed1a67a101ce7c1b21211352aa4c4808bd29e7eba8a0407c2fe603",
+      "s2-c04-official-import-20260924T032403Z/sesnsp-2026-jalisco-subset.csv": "3fa408827279e934ec5ded2c6967c1c6de377a041b43e25f702b655c265c71a4",
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s2-c04-official-import-20260924T032403Z/conapo-jalisco-subset.csv": "048a27f15f7a44410950225411be21a0c0b2f7e024caab0e0872ae82a85dd5f4",
+      "s3-analysis-repd-stats-20260924T181640Z/datos_para_mapa.json": "fda9926d04d0a57c7d85ce983d40256c9d52c609c9340b726a77b1c51aef79cd"
+    }
+  }
+}

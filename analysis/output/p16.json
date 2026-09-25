@@ -2,7 +2,7 @@
   "pregunta": "¿Qué tan inseguro se siente Jalisco, y la percepción sigue la baja del homicidio registrado?",
   "resultados": {
     "2026": {
-      "levantamiento": "marzo-abril 2026",
+      "levantamiento": "febrero-abril 2026",
       "personas_muestra": {
         "jalisco": 2664,
         "amg": 1754,
@@ -2387,6 +2387,596 @@
       }
     }
   ],
+  "validacion_tabulados_inegi": {
+    "2026": {
+      "niveles": [
+        {
+          "nivel": "colonia o localidad",
+          "dominio": "jalisco",
+          "propio": 34.99,
+          "inegi": 34.991,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 1.21,
+          "ee_inegi": 1.21,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "colonia o localidad",
+          "dominio": "nacional",
+          "propio": 35.94,
+          "inegi": 35.94,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.296,
+          "ee_inegi": 0.296,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "municipio",
+          "dominio": "jalisco",
+          "propio": 59.81,
+          "inegi": 59.812,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 1.282,
+          "ee_inegi": 1.282,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "municipio",
+          "dominio": "nacional",
+          "propio": 60.86,
+          "inegi": 60.857,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.283,
+          "ee_inegi": 0.283,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "estado",
+          "dominio": "jalisco",
+          "propio": 78.92,
+          "inegi": 78.917,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.935,
+          "ee_inegi": 0.935,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "estado",
+          "dominio": "nacional",
+          "propio": 74.0,
+          "inegi": 73.998,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.204,
+          "ee_inegi": 0.204,
+          "razon_ee": 1.0
+        }
+      ],
+      "lugares": [
+        {
+          "lugar": "Su casa",
+          "dominio": "jalisco",
+          "propio": 11.32,
+          "inegi": 11.315,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "Su casa",
+          "dominio": "nacional",
+          "propio": 14.32,
+          "inegi": 14.323,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "Su trabajo",
+          "dominio": "jalisco",
+          "propio": 22.5,
+          "inegi": 22.5,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "Su trabajo",
+          "dominio": "nacional",
+          "propio": 24.28,
+          "inegi": 24.278,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La calle",
+          "dominio": "jalisco",
+          "propio": 52.23,
+          "inegi": 52.231,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La calle",
+          "dominio": "nacional",
+          "propio": 58.91,
+          "inegi": 58.909,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La escuela",
+          "dominio": "jalisco",
+          "propio": 31.05,
+          "inegi": 31.045,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La escuela",
+          "dominio": "nacional",
+          "propio": 32.61,
+          "inegi": 32.614,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El mercado",
+          "dominio": "jalisco",
+          "propio": 37.02,
+          "inegi": 37.017,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El mercado",
+          "dominio": "nacional",
+          "propio": 47.24,
+          "inegi": 47.238,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El centro comercial",
+          "dominio": "jalisco",
+          "propio": 35.11,
+          "inegi": 35.113,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El centro comercial",
+          "dominio": "nacional",
+          "propio": 37.56,
+          "inegi": 37.563,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El banco",
+          "dominio": "jalisco",
+          "propio": 52.45,
+          "inegi": 52.445,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El banco",
+          "dominio": "nacional",
+          "propio": 57.43,
+          "inegi": 57.433,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El cajero automático en la vía pública",
+          "dominio": "jalisco",
+          "propio": 66.48,
+          "inegi": 66.482,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El cajero automático en la vía pública",
+          "dominio": "nacional",
+          "propio": 70.41,
+          "inegi": 70.415,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El transporte público",
+          "dominio": "jalisco",
+          "propio": 55.78,
+          "inegi": 55.782,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El transporte público",
+          "dominio": "nacional",
+          "propio": 62.32,
+          "inegi": 62.319,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El automóvil",
+          "dominio": "jalisco",
+          "propio": 33.09,
+          "inegi": 33.089,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El automóvil",
+          "dominio": "nacional",
+          "propio": 38.2,
+          "inegi": 38.201,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La carretera",
+          "dominio": "jalisco",
+          "propio": 58.15,
+          "inegi": 58.154,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La carretera",
+          "dominio": "nacional",
+          "propio": 62.6,
+          "inegi": 62.597,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El parque o centro recreativo",
+          "dominio": "jalisco",
+          "propio": 43.82,
+          "inegi": 43.822,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El parque o centro recreativo",
+          "dominio": "nacional",
+          "propio": 47.39,
+          "inegi": 47.387,
+          "diferencia_puntos": 0.0
+        }
+      ],
+      "tendencia": [
+        {
+          "categoria": "Mejorará",
+          "dominio": "jalisco",
+          "propio": 26.93,
+          "inegi": 26.926,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Mejorará",
+          "dominio": "nacional",
+          "propio": 26.05,
+          "inegi": 26.047,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de bien",
+          "dominio": "jalisco",
+          "propio": 9.24,
+          "inegi": 9.242,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "categoria": "Seguirá igual de bien",
+          "dominio": "nacional",
+          "propio": 12.84,
+          "inegi": 12.835,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de mal",
+          "dominio": "jalisco",
+          "propio": 29.86,
+          "inegi": 29.86,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de mal",
+          "dominio": "nacional",
+          "propio": 29.95,
+          "inegi": 29.952,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "categoria": "Empeorará",
+          "dominio": "jalisco",
+          "propio": 31.91,
+          "inegi": 31.908,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Empeorará",
+          "dominio": "nacional",
+          "propio": 28.47,
+          "inegi": 28.47,
+          "diferencia_puntos": -0.0
+        }
+      ],
+      "max_dif_lugares": 0.0,
+      "max_dif_tendencia": 0.0
+    },
+    "2025": {
+      "niveles": [
+        {
+          "nivel": "colonia o localidad",
+          "dominio": "jalisco",
+          "propio": 37.17,
+          "inegi": 37.173,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 1.25,
+          "ee_inegi": 1.25,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "colonia o localidad",
+          "dominio": "nacional",
+          "propio": 40.46,
+          "inegi": 40.463,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.292,
+          "ee_inegi": 0.292,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "municipio",
+          "dominio": "jalisco",
+          "propio": 61.31,
+          "inegi": 61.31,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 1.398,
+          "ee_inegi": 1.398,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "municipio",
+          "dominio": "nacional",
+          "propio": 64.71,
+          "inegi": 64.71,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.285,
+          "ee_inegi": 0.285,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "estado",
+          "dominio": "jalisco",
+          "propio": 77.36,
+          "inegi": 77.363,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 1.15,
+          "ee_inegi": 1.15,
+          "razon_ee": 1.0
+        },
+        {
+          "nivel": "estado",
+          "dominio": "nacional",
+          "propio": 75.56,
+          "inegi": 75.556,
+          "diferencia_puntos": 0.0,
+          "ee_propio": 0.21,
+          "ee_inegi": 0.21,
+          "razon_ee": 1.0
+        }
+      ],
+      "lugares": [
+        {
+          "lugar": "Su casa",
+          "dominio": "jalisco",
+          "propio": 13.77,
+          "inegi": 13.774,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "Su casa",
+          "dominio": "nacional",
+          "propio": 16.23,
+          "inegi": 16.227,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "Su trabajo",
+          "dominio": "jalisco",
+          "propio": 21.57,
+          "inegi": 21.574,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "Su trabajo",
+          "dominio": "nacional",
+          "propio": 25.83,
+          "inegi": 25.832,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La calle",
+          "dominio": "jalisco",
+          "propio": 59.14,
+          "inegi": 59.14,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La calle",
+          "dominio": "nacional",
+          "propio": 62.04,
+          "inegi": 62.045,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "La escuela",
+          "dominio": "jalisco",
+          "propio": 24.75,
+          "inegi": 24.75,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La escuela",
+          "dominio": "nacional",
+          "propio": 33.6,
+          "inegi": 33.597,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El mercado",
+          "dominio": "jalisco",
+          "propio": 41.62,
+          "inegi": 41.619,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El mercado",
+          "dominio": "nacional",
+          "propio": 50.34,
+          "inegi": 50.336,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El centro comercial",
+          "dominio": "jalisco",
+          "propio": 36.53,
+          "inegi": 36.531,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El centro comercial",
+          "dominio": "nacional",
+          "propio": 39.66,
+          "inegi": 39.664,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El banco",
+          "dominio": "jalisco",
+          "propio": 58.92,
+          "inegi": 58.92,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El banco",
+          "dominio": "nacional",
+          "propio": 60.68,
+          "inegi": 60.677,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El cajero automático en la vía pública",
+          "dominio": "jalisco",
+          "propio": 69.79,
+          "inegi": 69.793,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El cajero automático en la vía pública",
+          "dominio": "nacional",
+          "propio": 73.5,
+          "inegi": 73.496,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El transporte público",
+          "dominio": "jalisco",
+          "propio": 59.36,
+          "inegi": 59.357,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El transporte público",
+          "dominio": "nacional",
+          "propio": 65.07,
+          "inegi": 65.068,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "El automóvil",
+          "dominio": "jalisco",
+          "propio": 34.14,
+          "inegi": 34.141,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El automóvil",
+          "dominio": "nacional",
+          "propio": 40.01,
+          "inegi": 40.009,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La carretera",
+          "dominio": "jalisco",
+          "propio": 58.38,
+          "inegi": 58.375,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "lugar": "La carretera",
+          "dominio": "nacional",
+          "propio": 62.91,
+          "inegi": 62.914,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El parque o centro recreativo",
+          "dominio": "jalisco",
+          "propio": 46.0,
+          "inegi": 46.002,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "lugar": "El parque o centro recreativo",
+          "dominio": "nacional",
+          "propio": 49.93,
+          "inegi": 49.935,
+          "diferencia_puntos": -0.0
+        }
+      ],
+      "tendencia": [
+        {
+          "categoria": "Mejorará",
+          "dominio": "jalisco",
+          "propio": 28.84,
+          "inegi": 28.844,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "categoria": "Mejorará",
+          "dominio": "nacional",
+          "propio": 27.33,
+          "inegi": 27.328,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de bien",
+          "dominio": "jalisco",
+          "propio": 9.3,
+          "inegi": 9.298,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de bien",
+          "dominio": "nacional",
+          "propio": 11.37,
+          "inegi": 11.365,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Seguirá igual de mal",
+          "dominio": "jalisco",
+          "propio": 30.96,
+          "inegi": 30.961,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "categoria": "Seguirá igual de mal",
+          "dominio": "nacional",
+          "propio": 30.25,
+          "inegi": 30.253,
+          "diferencia_puntos": -0.0
+        },
+        {
+          "categoria": "Empeorará",
+          "dominio": "jalisco",
+          "propio": 28.74,
+          "inegi": 28.737,
+          "diferencia_puntos": 0.0
+        },
+        {
+          "categoria": "Empeorará",
+          "dominio": "nacional",
+          "propio": 28.7,
+          "inegi": 28.701,
+          "diferencia_puntos": -0.0
+        }
+      ],
+      "max_dif_lugares": 0.0,
+      "max_dif_tendencia": 0.0
+    }
+  },
   "hipotesis": {
     "H16a": true,
     "H16b": false,
@@ -2394,13 +2984,19 @@
     "H16d": true,
     "H16e": true,
     "H16f": true,
-    "E16g": "exploratoria"
+    "E16g": "exploratoria",
+    "H16h": true,
+    "H16i": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:09:15+00:00",
+    "generado": "2026-09-25T20:17:01+00:00",
     "script": "pieces.p16_percepcion",
     "insumos_sha256": {
-      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97"
+      "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2026_est.xlsx": "354f0437fa98744139c06dc25d6d41c0cb3c60e9fb02b7f7fd3662366aa2defc",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2026_err.xlsx": "76eb2bca6937095546c48aa5a86f761584cb4eadb88d2c862ac032f28031aa49",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2025_est.xlsx": "3e0db51a35e85a2783d63f024a4080dd02ff892c77fdb01e97cc2441261d982e",
+      "s3-envipe-tabulados-20260925T174524Z/V_percepcion_seguridad_2025_err.xlsx": "048dc6cf1ea6ee86b0def95edb93e2d20e8dfa9c58e5efcbfc4fe531eae8fcb1"
     }
   }
 }

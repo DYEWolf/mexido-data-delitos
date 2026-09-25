@@ -408,7 +408,7 @@
     "H2c": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:33+00:00",
+    "generado": "2026-09-25T20:16:18+00:00",
     "script": "pieces.p2_sexo_edad",
     "insumos_sha256": {
       "s3-analysis-repd-stats-20260924T181640Z/hombres_desaparecidos_año_rango_edad.json": "55ec9734671c1193dd0153841735bf1e3ea1c84323f91e61024e36aa4e1d3db7",

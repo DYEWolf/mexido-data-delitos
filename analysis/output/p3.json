@@ -131,7 +131,7 @@
     "H3c": true
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:08:33+00:00",
+    "generado": "2026-09-25T20:16:18+00:00",
     "script": "pieces.p3_acervo",
     "insumos_sha256": {
       "s3-analysis-repd-stats-20260924T181640Z/grafica_personas_desaparecidas_por_año_sexo.json": "6a1bdcfacea3c9b860eccf4dac7e534a3b25745d6ca0487674081cbd7f2f9633",

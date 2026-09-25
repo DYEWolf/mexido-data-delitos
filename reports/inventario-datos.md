@@ -1,6 +1,6 @@
 # Inventario de datos — México Visible · Jalisco
 
-Actualizado: 2026-09-24. Toda la evidencia cruda vive en `/Users/chris/Documents/seguridad-mexico/` (privada, `0700`), con SHA-256 por archivo. Al repo solo llegan agregados.
+Actualizado: 2026-09-25. Toda la evidencia cruda vive en `/Users/chris/Documents/seguridad-mexico/` (privada, `0700`), con SHA-256 por archivo. Al repo solo llegan agregados.
 
 Leyenda de análisis: 🟢 profundo (hipótesis, intervalos, robustez) · 🟡 descriptivo · 🔴 solo cargado · ⏳ en proceso · ⛔ no disponible.
 
@@ -8,14 +8,17 @@ Leyenda de análisis: 🟢 profundo (hipótesis, intervalos, robustez) · 🟡 d
 
 | Fuente | Contenido | Periodo | Nivel | Carpeta | Análisis |
 |---|---|---|---|---|---|
-| REPD Jalisco, cédulas | 10,234 fichas de búsqueda (fuera del sitio por ahora) | ~2019–sep 2026 | persona | `s2-second-baseline-*` | 🟡 |
+| REPD Jalisco, cédulas | 10,234 fichas de búsqueda (fuera del sitio por ahora) | ~2019–sep 2026 | persona | `s2-second-baseline-*` | 🟢 pieza 24: cobertura contra la estadística oficial por sexo, edad y año (solo sexo, edad, fecha y estatus se leen); no representan al registro |
 | REPD Jalisco, estadística | 16,250 desaparecidas; 22,017 localizadas (3,295 sin vida); por año, sexo, edad, municipio, condición, victimización | 2018 y antes → ago 2026 | estado / municipio (acumulado) | `s3-analysis-repd-stats-*` | 🟢 |
-| SESNSP incidencia 2015–2025 | 1,471,935 delitos del fuero común, 40 tipos, 55 subtipos | ene 2015 → dic 2025 | municipio × mes | `s2-c04-sesnsp-2015-2025-*` | 🟢 homicidio doloso + 16 categorías comparables (pieza 6); modalidades de homicidio y lesiones (pieza 12); tendencias por región de 5 delitos (pieza 14); carpetas de feminicidio por región 2019–2023 (pieza 18) · 🔴 ~24 tipos menores |
+| SESNSP incidencia 2015–2025 | 1,471,935 delitos del fuero común, 40 tipos, 55 subtipos | ene 2015 → dic 2025 | municipio × mes | `s2-c04-sesnsp-2015-2025-*` | 🟢 homicidio doloso + 16 categorías comparables (pieza 6); modalidades de homicidio y lesiones (pieza 12); tendencias por región de 5 delitos (pieza 14); tendencias por municipio de los mismos 5 delitos con modelo jerárquico (pieza 19); carpetas de feminicidio por región 2019–2023 (pieza 18) y 2015–2018 (pieza 20); tendencias de los 27 tipos menores, participación de las categorías residuales y rupturas de registro (pieza 21) |
 | SESNSP RNID 2026 | 76,393 delitos, 47 tipos, 79 subtipos | ene → ago 2026 | municipio × mes | `s2-c04-official-import-*` | igual que arriba |
-| Fosas clandestinas (Fiscalía Especial en Personas Desaparecidas) | 259 sitios, 2,218 víctimas localizadas, 1,174 identificadas (H/M) | oct 2018 → ago 2026 | sitio, municipio | `s3-fosas-*` | 🟢 pieza 8 |
+| Fosas clandestinas (Fiscalía Especial en Personas Desaparecidas) | 259 sitios, 2,218 víctimas localizadas, 1,174 identificadas (H/M) | oct 2018 → ago 2026 | sitio, municipio | `s3-fosas-*` | 🟢 piezas 8 y 25 |
+| Plataforma Ciudadana de Fosas (PDH IBERO, ARTICLE 19, Data Cívica) | Hallazgos por municipio y año de tres fuentes: fiscalía estatal por transparencia, FGR y prensa (cota baja y alta) | 2006 → dic 2024 | municipio × año | `s3-plataforma-fosas-*` | 🟢 pieza 25 (Jalisco 2019–2024 contra el registro) · 🔴 otras entidades y años anteriores a 2019 |
 | INEGI defunciones registradas | Microdatos de todas las defunciones; ocurridas en Jalisco: 15,131 homicidios, más suicidios, accidentes y muertes de intención no determinada, con sexo, edad, municipio, arma (CIE-10), lugar | registro 2018–2024 (ocurrencia completa 2018–2023; 2024 parcial) | persona (anónima) | `s3-inegi-defunciones-*` → `jalisco-defunciones-violentas.csv` | 🟢 piezas 7, 10, 12, 15 (lugar de ocurrencia) y 18 (mujeres asesinadas por región) · 🔴 parentesco y violencia familiar: casi sin registro |
-| ENVIPE 2025 y 2026 (INEGI) | Victimización, cifra negra, percepción; microdatos con factores de expansión | victimización 2024 y 2025 | estado | `s3-envipe-*` | 🟢 pieza 9 (cifra negra, validada contra INEGI); pieza 13 (`tmod_vic.BP1_23` razón de no denuncia; `tper_vic1.AP5_4_xx` confianza en 10 autoridades); pieza 16 (`tper_vic1.AP4_3_x`, `AP4_4_xx`, `AP4_5_01`–`17`, `AP4_7_2`: percepción de seguridad, lugares, incivilidades y tendencia, Jalisco, AMG y resto del estado); pieza 17 (`BP1_23` por tipo de delito, `BPCOD`) · 🔴 resto del módulo `AP4` (actividades que se dejaron de hacer `AP4_10`, medidas de protección `AP4_11`, gasto `AP4_12`, problemas de la colonia `AP4_8`/`AP4_9`); la percepción aún no se compara con los tabulados publicados por INEGI |
-| CONAPO proyecciones | Población por municipio, sexo, edad | 1990–2040 | municipio | `s2-c04-official-import-*` | usado como denominador |
+| INEGI defunciones registradas 2015–2017 | Mismos microdatos, años de registro 2015–2017; en Jalisco, 4,095 homicidios registrados | registro 2015–2017 | persona (anónima) | `s3-inegi-defunciones-2015-2017-*` → `jalisco-defunciones-violentas.csv` | 🟢 pieza 20 (mujeres asesinadas por región, 2015–2018); pieza 23 (homicidios por año y municipio de ocurrencia 2015–2018 contra el SESNSP; celda de "violencia oculta" con 2015–2018) · 🔴 perfil por sexo y edad (pieza 7) y lugar de ocurrencia (pieza 15) no se extendieron a 2015–2018 |
+| ENVIPE 2025 y 2026 (INEGI) | Victimización, cifra negra, percepción; microdatos con factores de expansión | victimización 2024 y 2025 | estado | `s3-envipe-*` | 🟢 pieza 9 (cifra negra, validada contra INEGI); pieza 13 (`tmod_vic.BP1_23` razón de no denuncia; `tper_vic1.AP5_4_xx` confianza en 10 autoridades); pieza 16 (`tper_vic1.AP4_3_x`, `AP4_4_xx`, `AP4_5_01`–`17`, `AP4_7_2`: percepción de seguridad, lugares, incivilidades y tendencia, Jalisco, AMG y resto del estado); pieza 17 (`BP1_23` por tipo de delito, `BPCOD`); pieza 22 (`AP4_6`, `AP4_8`/`AP4_9` problemas de la colonia y organización vecinal, `AP4_10`/`AP4_10A` actividades que se dejaron de hacer, `AP4_11` medidas de protección, `AP4_12` gasto) |
+| ENVIPE 2025 y 2026, tabulados básicos (INEGI) | Tabulado V (percepción): estimaciones, errores estándar, CV e intervalos al 90%; tabulado VIII (áreas urbanas); PDF de resultados de Jalisco y nacionales | percepción 2025 y 2026 | estado | `s3-envipe-tabulados-*` | 🟢 validación de la pieza 16: estimaciones y errores estándar de colonia, municipio, entidad, lugares y tendencia reproducidos sin diferencias (H16h, H16i); validación de la pieza 22: cuadro 5.32, actividades cotidianas (H22g, H22h) · 🔴 tabulado VIII (área urbana de Guadalajara, que no coincide con los 10 municipios del AMG), IC al 90% y PDF solo como referencia |
+| CONAPO proyecciones | Población por municipio, sexo, edad | 1990–2040 | municipio | `s2-c04-official-import-*` | usado como denominador; población municipal 2019–2025 como offset del modelo jerárquico (pieza 19) |
 | INEGI Marco Geoestadístico | Límites y claves de 125 municipios | dic 2025 | municipio | `s2-inegi-import-*` | usado en mapa |
 
 ## Descargas manuales del dueño (importadas y verificadas 2026-09-24, `s3-extra-import-*`)
@@ -33,7 +36,6 @@ Leyenda de análisis: 🟢 profundo (hipótesis, intervalos, robustez) · 🟡 d
 | RNPDNO (Registro Nacional, CNB) | El tablero solo muestra gráficas generadas con JavaScript; no expone descarga directa |
 | Datos abiertos IJCF (necropsias, personas fallecidas sin identificar) | `datos.jalisco.gob.mx` no resuelve DNS hoy |
 | Data Cívica "Volver a desaparecer" (reconstrucción 2017–2024) | Sitio caído (error 522) |
-| Plataforma Ciudadana de Fosas | En línea; pendiente revisar si ofrece descarga |
 | Desaparición por municipio y año | El REPD no la publica |
 | Delitos del fuero federal por municipio | No se publica a ese nivel (fuera de alcance) |
 
@@ -74,7 +76,11 @@ Leyenda de análisis: 🟢 profundo (hipótesis, intervalos, robustez) · 🟡 d
 | Fosas, tabla pública ago-2026 (PDF) | 802,420 | `2c7f8f14c5f6ad6d` |
 | ENVIPE 2026 (ZIP) | 20,258,782 | `dd79f589eb6ed7d3` |
 | ENVIPE 2025 (ZIP) | 17,600,019 | `8a7a99fd90ce9d03` |
+| ENVIPE tabulado V 2026, estimaciones · errores (XLSX) | 6,265,890 · 1,844,587 | `354f0437fa987441` · `76eb2bca69370955` |
+| ENVIPE tabulado V 2025, estimaciones · errores (XLSX) | 6,085,746 · 1,983,301 | `3e0db51a35e85a27` · `048dc6cf1ea6ee86` |
+| Plataforma Ciudadana de Fosas, `bases_pcdf-2024.zip` | 1,349,202 | `49ed1b27a0b7b823` |
 | INEGI defunciones 2018 · 2019 · 2020 · 2021 | 23.6 · 28.0 · 39.0 · 40.5 MB | `3af26a3b13caa0df` · `ba58d2e57504f55d` · `79e3236a0b821bd0` · `20b6a0eb7dbd9dbe` |
+| INEGI defunciones 2015 · 2016 · 2017 | 24.4 · 20.1 · 21.2 MB | `0333ce59f2ae9db2` · `aafabea8c4e0bc3a` · `8f23bbdc8509984b` |
 | INEGI defunciones 2022 · 2023 · 2024 | 32.1 · 34.2 · 31.0 MB | `bd6b76a32a681cd7` · `527b69dcd62e3c61` · `74667c1b7dc2d922` |
 
 Cada corrida del análisis vuelve a calcular el SHA-256 completo de cada insumo que lee y lo guarda en `analysis/output/*.json` (`_procedencia`).

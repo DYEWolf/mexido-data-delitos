@@ -3696,7 +3696,7 @@
     "H17e": false
   },
   "_procedencia": {
-    "generado": "2026-09-24T21:09:35+00:00",
+    "generado": "2026-09-25T20:17:21+00:00",
     "script": "pieces.p17_motivos_por_delito",
     "insumos_sha256": {
       "s3-envipe-20260924T184849Z/conjunto_de_datos_envipe_2026_csv.zip": "dd79f589eb6ed7d3675cc86e21ac9bbdbf269913963091d8698d6e28e0540a17",
