@@ -13,6 +13,8 @@ Método del intervalo (revisión 24-09-2026, §9): el IC95 del Gini es el interv
 el sesgo hacia arriba del remuestreo Poisson; antes se reportaba el percentil. H5a y su umbral no cambian.
 
 Comparación: homicidio doloso 2019-2025 con el mismo método.
+Nota (2026-09-25): se exporta la tabla de los 125 municipios ("municipios": tasa cruda, tasa suavizada, IC95 y clase)
+para el mapa del sitio. No cambia ningún cálculo, umbral ni veredicto.
 Fuentes: estadística REPD por municipio (acumulado, 16,117 en municipios + 86 sin municipio), SESNSP, CONAPO 2025.
 """
 from __future__ import annotations
@@ -64,7 +66,12 @@ def run() -> dict:
                                                                          credible.rate, credible.eb_rate, credible.eb_lo, credible.eb_hi)],
             "top10_crudo_que_no_es_creible": [n for n in crude_top.nombre if n not in set(credible.nombre)],
             "lorenz": {"x": np.round(x, 4).tolist(), "y": np.round(y, 4).tolist()},
+            "municipios": [{"cvegeo": cv, "municipio": m.nombre, "casos": int(m[cases]), "tasa_cruda": round(m.rate, 1),
+                            "tasa_eb": round(m.eb_rate, 1), "ic95_eb": [round(m.eb_lo, 1), round(m.eb_hi, 1)],
+                            "clase": "superior" if m.eb_lo > state else "inferior" if m.eb_hi < state else "indistinguible"}
+                           for cv, m in r.sort_index().iterrows()],
         }
+        D.check(len(out[label]["municipios"]) == 125, f"tabla municipal de la pieza 5 ({label}) = 125 municipios")
         if label == "desaparicion":
             reg = r.groupby("region")[[cases, expo]].sum()
             reg["pct_casos"] = reg[cases] / reg[cases].sum(); reg["pct_pob"] = reg[expo] / reg[expo].sum()

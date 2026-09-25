@@ -171,7 +171,7 @@ A monochrome record with one link blue; all saturated color is data encoding, va
 - **Link Blue** (`link-blue`): links only, including "Leer el capítulo →" and "Ver los datos". It also drives focus rings, the text caret and the selection tint (`selection`). It is never used as a surface fill.
 
 ### Neutral
-- **Paper** (`paper`) and **Surface** (`surface`): pure white page and the white of maps, cards and inputs. They are identical in light; in dark they split, so that framed elements (map frames, cédula cards) lift slightly.
+- **Paper** (`paper`) and **Surface** (`surface`): pure white page and the white of maps, cards and inputs. They are identical in light; in dark they split, so that framed elements (map frames) lift slightly.
 - **Ink Secondary** (`ink-secondary`): ledes, figure subtitles, secondary text in stats, inactive navigation.
 - **Ink Tertiary** (`ink-tertiary`): source lines, bylines ("Capítulo 3 de 5 · Tendencias"), breadcrumbs, footnotes, axis tick labels.
 - **Hairline** (`hairline`): dividers between findings, stats and table rows; the top rule of each figure; card and chip borders.
@@ -234,7 +234,7 @@ Vertical rhythm is generous and asymmetric. Main padding is 40px top and 72px bo
 
 The home findings list is a two-column grid (text 5fr, chart 6fr, 56px gap), with the chapter link pinned under the text. Under 820px it becomes one column in the order text → chart → link. Stat strips use `auto-fit` columns of at least 200px and drop to two columns under 560px. Charts respond to their own width through container queries: row charts stack label over track under 560px, and axes with six or more ticks show every other label while keeping the reference tick (0% or 1×).
 
-Breakpoints in use: 480px (gutter, cédula grid to two columns), 560px (container: charts, stats, segmented controls scroll horizontally), 720–760px (header wraps; two-column blocks stack), 820px (findings stack). No page may scroll horizontally at 390px; wide tables scroll inside `.table-scroll`.
+Breakpoints in use: 480px (gutter), 560px (container: charts, stats, segmented controls scroll horizontally), 720–760px (header wraps; two-column blocks stack), 820px (findings stack). No page may scroll horizontally at 390px; wide tables scroll inside `.table-scroll`.
 
 ## Elevation & Depth
 
@@ -250,7 +250,7 @@ Flat by default. Depth is conveyed with rules, a single quiet fill and the paper
 
 ## Shapes
 
-Quiet, slightly softened geometry. 6px (`md`) is the working radius for buttons, inputs, callouts and notes; 8px (`lg`) for framed containers (map frames, cédula cards); 4px (`sm`) for tooltips, code and bar ends; 999px (`pill`) for chips, segmented controls and the theme toggle. Borders are 1px hairlines. The only heavier line is the 2px heavy rule, always horizontal, always opening a group. Waffle cells use 2px corners; bars are flat at the baseline and rounded 4px at the value end.
+Quiet, slightly softened geometry. 6px (`md`) is the working radius for buttons, inputs, callouts and notes; 8px (`lg`) for framed containers (map frames); 4px (`sm`) for tooltips, code and bar ends; 999px (`pill`) for chips, segmented controls and the theme toggle. Borders are 1px hairlines. The only heavier line is the 2px heavy rule, always horizontal, always opening a group. Waffle cells use 2px corners; bars are flat at the baseline and rounded 4px at the value end.
 
 ## Components
 
@@ -298,7 +298,7 @@ A 40px circular ghost button with a drawn 1.6px-stroke moon (in light) or sun (i
 - **Do** set argument in Source Serif 4 and evidence in the system sans, with tabular figures and the true minus sign.
 - **Do** keep each data color's meaning fixed site-wide (blue homicide/down, orange disappearance, red only up).
 - **Do** put chapter sequence and dataset context in a byline below the lede.
-- **Do** self-host every font and asset; the CSP allows no third-party origins except Turnstile.
+- **Do** self-host every font and asset; the CSP allows no third-party origins.
 - **Do** verify every page at 390px wide with no horizontal scroll, in both themes.
 
 ### Don't:

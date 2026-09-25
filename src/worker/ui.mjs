@@ -1,14 +1,7 @@
-// Shared layout, styles and HTML helpers. Server-rendered; the only external script is Turnstile on /retiro.
+// Shared layout, styles and HTML helpers. Server-rendered; no external scripts, styles or fonts.
 import { CHART_CSS, CHART_JS } from './charts.mjs';
 export const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export const fmt = (n) => (n === null || n === undefined ? '—' : Number(n).toLocaleString('es-MX'));
-export const titleCase = (s) => String(s ?? '').toLowerCase().replace(/(^|[\s(-])(\p{L})/gu, (m, p, c) => p + c.toUpperCase());
-export function fecha(iso) {
-  if (!iso) return 'Fecha no registrada';
-  const [y, m, d] = iso.split('-').map(Number);
-  const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-  return `${d} de ${meses[m - 1]} de ${y}`;
-}
 
 const CSS = `
 @font-face{font-family:"Source Serif 4";font-style:normal;font-weight:200 900;font-display:swap;src:url(/fonts/source-serif-4-latin-wght-normal.woff2) format("woff2")}
@@ -89,21 +82,12 @@ code{font-size:.88em;background:var(--soft);padding:1px 4px;border-radius:4px}
 .stat b{display:block;font-size:1.75rem;letter-spacing:-.02em;font-variant-numeric:tabular-nums;font-weight:650}.stat span{color:var(--ink-2);font-size:.9rem}
 form.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:0 0 20px}
 label{font-size:.85rem;color:var(--ink-2);display:flex;flex-direction:column;gap:4px}
-input,select,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--axis);border-radius:6px;padding:8px 10px;min-height:44px}
-input:hover,select:hover,textarea:hover{border-color:var(--ink-3)}
-input[type=search]{min-width:min(280px,100%)}select{max-width:100%}textarea{min-height:120px;width:100%}
+input,select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--axis);border-radius:6px;padding:8px 10px;min-height:44px}
+input:hover,select:hover{border-color:var(--ink-3)}
+select{max-width:100%}
 button,.btn{font:inherit;font-weight:550;background:var(--ink);color:var(--bg);border:1px solid var(--ink);border-radius:6px;padding:9px 18px;min-height:44px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
 button:hover,.btn:hover{background:var(--ink-2);border-color:var(--ink-2)}
 .btn.secondary,button.secondary{background:transparent;color:var(--ink);border:1px solid var(--axis)}.btn.secondary:hover,button.secondary:hover{border-color:var(--ink);background:transparent}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}@media (max-width:480px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit}
-.card:hover{border-color:var(--ink-3)}.photo{aspect-ratio:4/5;background:var(--soft);display:grid;place-items:center;color:var(--ink-3);font-size:2.2rem;font-weight:600}
-.photo img{width:100%;height:100%;object-fit:cover}.photo.empty{aspect-ratio:auto;height:88px;font-size:1.4rem;letter-spacing:.04em}.profile .photo.empty{height:auto;aspect-ratio:4/5;font-size:3rem}.card .body{padding:12px 14px}.card h3{font-size:1rem;margin:0 0 4px;line-height:1.3}
-.meta{color:var(--ink-2);font-size:.88rem;margin:0}.pager{display:flex;gap:10px;align-items:center;justify-content:center;margin:28px 0}
-.note{background:var(--warn-bg);color:var(--warn-ink);border-radius:6px;padding:12px 14px;font-size:.92rem;max-width:78ch}
-dl.fields{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:0}dl.fields dt{color:var(--ink-2)}dl.fields dd{margin:0}
-.profile{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:28px;align-items:start}
-@media (max-width:720px){.profile{grid-template-columns:1fr}dl.fields{grid-template-columns:1fr}dl.fields dt{margin-top:8px}}
 table{border-collapse:collapse;width:100%;font-size:.9rem;font-variant-numeric:tabular-nums}
 th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--ink-2);font-weight:600;border-bottom-color:var(--axis)}td.n,th.n{text-align:right}
 .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -129,7 +113,7 @@ const set=(t)=>{const go=()=>{d.dataset.theme=t;sync()};document.startViewTransi
 sync();b.addEventListener('click',()=>{const t=d.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('theme',t)}catch(e){}set(t)});
 mq.addEventListener('change',(e)=>{let s;try{s=localStorage.getItem('theme')}catch(x){}if(!s)set(e.matches?'dark':'light')})})()`;
 
-// Chapters of the findings, in reading order. The cédula wall and takedown form stay out of navigation (routes still exist).
+// Chapters of the findings, in reading order.
 export const CHAPTERS = [
   ['/violencia-letal', 'Violencia letal', 'Asesinados y desaparecidos'],
   ['/busqueda', 'Búsqueda', 'Fosas y búsqueda registrada'],
@@ -152,9 +136,6 @@ export function page({ title, path = '/', body, meta = {}, head = '', status = 2
 <script>${CHART_JS}</script><script>${THEME_JS}</script></body></html>`;
   return new Response(html, { status, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': cache,
     'x-content-type-options': 'nosniff', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-frame-options': 'DENY',
-    'content-security-policy': "default-src 'self'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'" } });
+    'content-security-policy': "default-src 'self'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'none'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'" } });
 }
 
-export function initials(nombre) {
-  return esc(String(nombre || '?').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase());
-}

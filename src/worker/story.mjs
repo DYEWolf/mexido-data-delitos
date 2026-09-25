@@ -3,6 +3,7 @@
 import { esc, page, CHAPTERS } from './ui.mjs';
 import { F } from './generated/findings.mjs';
 import { niceTicks, num, pc, sgn, range, figure, legend, table, stats, rows, stack, columns, line, pyramid, waffle, scatter, mapDefs, map, circleKey, spark } from './charts.mjs';
+import { rateLayer, p1Layer, trendSwitch, trendLegend } from './layers.mjs';
 
 const RG = { amg: 'Área metropolitana', an: 'Altos Norte', as: 'Altos Sur', resto: 'Resto del estado' };
 const RGC = { amg: '--amg', an: '--an', as: '--as', resto: '--resto' };
@@ -139,20 +140,19 @@ export function violenciaLetal() {
 
     const g = p1.grid;
     const cell = (h, d, k) => `<td class="n${k ? ` bv-${k}` : ''}">${g[h][d]}</td>`;
-    const grid = `<table class="bv"><caption>Los 125 municipios según su homicidio y su desaparición, comparados con el promedio del estado</caption><thead><tr><th></th><th class="n">Desaparición alta</th><th class="n">Indistinguible</th><th class="n">Desaparición baja</th></tr></thead><tbody>
-<tr><th>Homicidio alto</th>${cell('alto', 'alto', 'ambos')}${cell('alto', 'promedio', 'hom')}${cell('alto', 'bajo', 'hom')}</tr>
-<tr><th>Indistinguible</th>${cell('promedio', 'alto')}${cell('promedio', 'promedio')}${cell('promedio', 'bajo')}</tr>
-<tr><th>Homicidio bajo</th>${cell('bajo', 'alto', 'des')}${cell('bajo', 'promedio')}${cell('bajo', 'bajo')}</tr></tbody></table>`;
-    const figMap = figure({ id: 'mapa-violencia-oculta', cls: 'wide', title: '12 municipios donde un mapa de homicidios no mostraría la violencia',
-      sub: 'Homicidio doloso 2015–2025 (SESNSP) contra personas desaparecidas acumuladas (REPD), por municipio. "Alto" y "bajo" solo cuando el intervalo al 95% excluye el promedio del estado.',
-      legend: legend([{ label: `${CLS.oculta[1]} (${counts.oculta})`, color: '--des' }, { label: `${CLS.oculta_p[1]} (${counts.oculta_p})`, color: '--des', shape: 'half' },
-        { label: `${CLS.ambos[1]} (${counts.ambos})`, color: '--c3' }, { label: `${CLS.hom[1]} (${counts.hom})`, color: '--hom' }, { label: `Otros ${125 - Object.keys(p1.cls).length} municipios`, color: '--mid' }]),
-      body: map({ label: 'Mapa de municipios por homicidio y desaparición', fill: (c) => { const k = p1.cls[c]; if (!k) return { tip: `${mun(c)}\nSin contraste creíble de homicidio bajo con desaparición alta` };
-        const m = l12[c]; return { k: CLS[k][0], tip: `${mun(c)}\n${CLS[k][1]}${m ? `\n${num(m.des)} personas desaparecidas · ${num(m.hom)} homicidios 2015–2025\n${num(m.razon, 1)} veces la razón estatal de desaparecidas por homicidio` : ''}` }; } }) +
+    const grid = `<table class="bv"><caption>Los 125 municipios según su homicidio y su desaparición, comparados con el promedio del estado. Los colores son los del mapa.</caption><thead><tr><th></th><th class="n">Desaparición alta</th><th class="n">Indistinguible</th><th class="n">Desaparición baja</th></tr></thead><tbody>
+<tr><th>Homicidio alto</th>${cell('alto', 'alto', 'd0')}${cell('alto', 'promedio', 'dn1')}${cell('alto', 'bajo', 'dn2')}</tr>
+<tr><th>Indistinguible</th>${cell('promedio', 'alto', 'dp1')}${cell('promedio', 'promedio', 'd0')}${cell('promedio', 'bajo', 'dn1')}</tr>
+<tr><th>Homicidio bajo</th>${cell('bajo', 'alto', 'dp2')}${cell('bajo', 'promedio', 'dp1')}${cell('bajo', 'bajo', 'd0')}</tr></tbody></table>`;
+    const L1 = p1Layer();
+    const figMap = figure({ id: 'mapa-violencia-oculta', cls: 'wide', title: 'Dónde pesa más la desaparición que el homicidio',
+      sub: 'Cada municipio comparado con el promedio del estado en homicidio doloso (2015–2025) y en personas desaparecidas (acumulado). "Alto" y "bajo" solo cuando el intervalo al 95% excluye el promedio. En naranja fuerte, los 12 municipios con homicidio bajo y desaparición alta: un mapa de homicidios los mostraría tranquilos.',
+      legend: L1.legend,
+      body: map({ label: 'Mapa de municipios por homicidio y desaparición', fill: L1.fill }) +
         `<div class="two" style="margin-top:16px">${grid}<div><p class="fig-note" style="margin-top:0">Los 12 municipios, de mayor a menor razón de desaparecidas por homicidio respecto del promedio estatal:</p><ul class="chips">${p1.list12.map((m) => `<li><a href="/municipio/${m.cv}"${m.robust ? ' class="on"' : ''}>${esc(mun(m.cv))} · ${num(m.razon, 1)}×</a></li>`).join('')}</ul><p class="fig-note">Con borde de color: se sostienen también con los certificados de defunción de 2015–2018 (pieza 23).</p></div></div>`,
-      note: `Ejemplo: San Miguel el Alto registra ${num(p1.ejemplo.desaparecidas)} personas desaparecidas y ${num(p1.ejemplo.homicidios)} homicidios en 11 años. Los 12 se confirman con dos ventanas del SESNSP y con los homicidios del INEGI 2019–2023; con el homicidio de 2015–2018 se sostienen 6.`,
+      note: `Ejemplo: San Miguel el Alto registra ${num(p1.ejemplo.desaparecidas)} personas desaparecidas y ${num(p1.ejemplo.homicidios)} homicidios en 11 años. Los 12 se confirman con dos ventanas del SESNSP y con los homicidios del INEGI 2019–2023; con el homicidio de 2015–2018 se sostienen 6. ${p1.nNoBaja} municipios tienen homicidio bajo y desaparición no baja; ${p1.nNoBajaFuera} están fuera del área metropolitana.`,
       source: src('SESNSP, carpetas de homicidio doloso 2015–2025; REPD, personas desaparecidas por municipio (acumulado); INEGI, defunciones', 1, 7, 23),
-      table: table(['Municipio', 'Región', 'Desaparecidas', 'Homicidios 2015–2025', 'Razón relativa', 'IC95', '¿Con 2015–2018?'], p1.list12.map((m) => [ml(m.cv), RG[F.mun[m.cv].r], num(m.des), num(m.hom), num(m.razon, 2), range(m.ic[0], m.ic[1], 2), m.robust ? 'Sí' : 'No']), [2, 3, 4, 5]) });
+      table: table(['Municipio', 'Región', ...L1.head], Object.keys(F.mun).sort((a, b) => L1.value(b) - L1.value(a) || mun(a).localeCompare(mun(b), 'es')).map((c) => [ml(c), RG[F.mun[c].r], ...L1.row(c)]), [4, 5, 6]) });
 
     const figReg = figure({ id: 'por-region', title: 'Personas desaparecidas por cada homicidio, relativo al promedio del estado',
       sub: '1 = igual que el estado. Escala logarítmica. El punto lleno es la estimación principal; los círculos, las dos comprobaciones.',
@@ -167,18 +167,19 @@ export function violenciaLetal() {
       source: src('SESNSP, INEGI y REPD', 1, 7),
       table: table(['Región', 'SESNSP 2015–2025', 'SESNSP 2019–2025', 'INEGI 2019–2023'], ['as', 'resto', 'an', 'amg'].map((r) => [RG[r], ...['s1525', 's1925', 'inegi'].map((k) => `${num(p1.regions[k][r][0], 2)} [${range(p1.regions[k][r][1], p1.regions[k][r][2], 2)}]`)]), [1, 2, 3]) });
 
-    const altos = (k) => Object.fromEntries(p5[k].altos.map((m) => [m.cv, m]));
-    const ah = altos('hom'), ad = altos('des');
+    const Lh = rateLayer('hom'), Ld = rateLayer('des');
     const figConc = figure({ id: 'concentracion', cls: 'wide', title: 'El homicidio se concentra; la desaparición está repartida por el estado',
-      sub: 'Municipios con tasa creíblemente superior al promedio estatal (intervalo al 95% por encima), con suavizado para municipios chicos.',
-      body: `<div class="maps2"><div><h4>Homicidio doloso 2019–2025: ${p5.hom.altos.length} municipios</h4>${legend([{ label: 'Creíblemente superior', color: '--hom' }, { label: 'Indistinguible o inferior', color: '--mid' }])}${map({ small: true, label: 'Homicidio creíblemente alto', fill: (c) => ah[c] ? { k: 'hom', tip: `${mun(c)}\n${num(ah[c].eb, 1)} por 100 mil al año\nIC95 ${range(ah[c].ic[0], ah[c].ic[1])}` } : { tip: `${mun(c)}\nNo es creíblemente superior al promedio` } })}</div>
-<div><h4>Personas desaparecidas (acumulado): ${p5.des.altos.length} municipios</h4>${legend([{ label: 'Creíblemente superior', color: '--des' }, { label: 'Indistinguible o inferior', color: '--mid' }])}${map({ small: true, label: 'Desaparición creíblemente alta', fill: (c) => ad[c] ? { k: 'des', tip: `${mun(c)}\n${num(ad[c].eb, 1)} por 100 mil habitantes\nIC95 ${range(ad[c].ic[0], ad[c].ic[1])} · ${num(ad[c].casos)} personas` } : { tip: `${mun(c)}\nNo es creíblemente superior al promedio` } })}</div></div>
+      sub: 'Tasa de cada municipio comparada con la tasa del estado, con suavizado para municipios chicos. La misma escala en los dos mapas: cuántas veces el promedio estatal de cada fenómeno. Con borde, los municipios cuya diferencia con el promedio es creíble (intervalo al 95%).',
+      body: `<div class="maps2"><div><h4>Homicidio doloso 2019–2025 (estado: ${num(p5.hom.tasa, 1)} por 100 mil al año)</h4>${Lh.legend}${map({ small: true, label: 'Tasa de homicidio por municipio', fill: Lh.fill, overlay: Lh.overlay })}</div>
+<div><h4>Personas desaparecidas, acumulado (estado: ${num(p5.des.tasa, 0)} por 100 mil)</h4>${Ld.legend}${map({ small: true, label: 'Tasa de desaparición por municipio', fill: Ld.fill, overlay: Ld.overlay })}</div></div>
+<p class="fig-note">Creíblemente por encima del promedio: ${p5.hom.altos.length} municipios en homicidio y ${p5.des.altos.length} en desaparición.</p>
 <h4 style="margin:24px 0 8px;font-size:.92rem">Qué parte de la población concentra la mitad de los casos</h4>${rows({ min: 0, max: 60, ticks: [0, 10, 20, 30, 40, 50, 60], fmt: (v) => `${v}%`, valW: '4rem',
   rows: [{ label: 'Homicidio doloso 2019–2025', v: p5.hom.half * 100, bar: true, color: '--hom', ref: 50, val: pc(p5.hom.half * 100, 0), tip: `Homicidio\nLa mitad de los casos está en municipios con ${pc(p5.hom.half * 100, 0)} de la población` },
     { label: 'Personas desaparecidas', v: p5.des.half * 100, bar: true, color: '--des', ref: 50, val: pc(p5.des.half * 100, 0), tip: `Desaparición\nLa mitad de los casos está en municipios con ${pc(p5.des.half * 100, 0)} de la población` }], refLabel: 'Reparto parejo: 50%' })}
 <p class="fig-note">La marca vertical en 50% sería un reparto perfectamente parejo. Índice de concentración (Gini): homicidio ${num(p5.hom.gini, 2)}, desaparición ${num(p5.des.gini, 2)}.</p>`,
       source: src('REPD (acumulado) y SESNSP 2019–2025; tasas con suavizado bayesiano empírico y CONAPO', 5),
-      table: table(['Municipio', 'Región', 'Desaparición por 100 mil (suavizada)', 'IC95', '¿Homicidio creíblemente alto?'], p5.des.altos.map((m) => [ml(m.cv), RG[F.mun[m.cv].r], num(m.eb, 1), range(m.ic[0], m.ic[1]), ah[m.cv] ? 'Sí' : 'No']), [2, 3]) });
+      table: table(['Municipio', 'Región', 'Desaparición por 100 mil', 'IC95', 'Comparada con el promedio', 'Homicidio por 100 mil al año', 'IC95', 'Comparado con el promedio'],
+        Object.keys(F.mun).sort((a, b) => Ld.value(b) - Ld.value(a)).map((c) => [ml(c), RG[F.mun[c].r], ...Ld.row(c).filter((_, i) => i !== 2), ...Lh.row(c).filter((_, i) => i !== 2)]), [2, 3, 5, 6]) });
 
     const coh = p3.cohortes.filter((c) => c.y !== '2026');
     const figDeuda = figure({ id: 'deuda', title: 'Las denuncias bajan, pero cada año suma cientos de personas que no aparecen',
@@ -374,16 +375,14 @@ export function tendencias() {
 
     // Municipal trends map with a crime switcher (no JS: first crime).
     const p19 = F.p19;
-    const TL = { up: 'Sube creíblemente', down: 'Baja creíblemente', flat: 'Sin cambio claro' };
-    const attrs = (c) => p19.map((d, i) => { const m = d.m[c];
-      return ` data-c${i}="${m[3]}" data-t${i}="${esc(`${mun(c)} · ${d.k}\n${sgn(m[0])} al año\nIC95 ${sgn(m[1])} a ${sgn(m[2])} · ${TL[m[3]]}\n${num(m[4])} carpetas 2019–2025`)}"`; }).join('');
+    const sw = trendSwitch('m19');
     const summ = p19.map((d, i) => { const v = Object.values(d.m); const up = v.filter((m) => m[3] === 'up').length, down = v.filter((m) => m[3] === 'down').length;
-      return `<p class="fig-note" data-for="m19" data-k="${i}"${i ? ' hidden' : ''}><b>${esc(d.k)}:</b> ${down} municipios bajan y ${up} suben de forma creíble; ${125 - up - down} sin cambio claro. Estado: ${sgn(d.state[0])} al año; municipio típico: ${sgn(d.tipico[0])} (IC95 ${sgn(d.tipico[1])} a ${sgn(d.tipico[2])}).</p>`; }).join('');
+      return `<p class="fig-note" data-for="m19" data-k="${i}"${i ? ' hidden' : ''}><b>${esc(d.k)}:</b> ${down} municipios bajan y ${up} suben de forma creíble; en ${125 - up - down} el intervalo incluye el cero. Estado: ${sgn(d.state[0])} al año; municipio típico: ${sgn(d.tipico[0])} (IC95 ${sgn(d.tipico[1])} a ${sgn(d.tipico[2])}).</p>`; }).join('');
     const figMun = figure({ id: 'municipios', cls: 'wide', title: 'Tendencia 2019–2025 en cada municipio',
-      sub: 'Modelo jerárquico (binomial negativa): los municipios chicos se acercan a la tendencia típica según lo poco que dicen sus datos. Solo se colorea un cambio cuando su intervalo al 95% excluye el cero.',
+      sub: 'Cambio anual promedio estimado con un modelo jerárquico (binomial negativa): los municipios chicos se acercan a la tendencia típica según lo poco que dicen sus datos. Color fuerte: cambio creíble (el intervalo al 95% excluye el cero). Color claro: la estimación apunta en esa dirección, pero el intervalo incluye el cero.',
       legend: `<div class="seg" data-switch="m19" role="group" aria-label="Delito">${p19.map((d, i) => `<button type="button" data-k="${i}" aria-pressed="${i ? 'false' : 'true'}">${esc(d.k)}</button>`).join('')}</div>` +
-        legend([{ label: 'Baja creíblemente', color: '--down' }, { label: 'Sin cambio claro', color: '--mid' }, { label: 'Sube creíblemente', color: '--up' }]),
-      body: map({ label: 'Mapa de tendencias municipales', attrs: ' id="m19" data-k="0"', fill: (c) => ({ tip: `${mun(c)} · ${p19[0].k}`, attrs: attrs(c) }) }) + summ,
+        p19.map((_, i) => `<div data-for="m19" data-k="${i}"${i ? ' hidden' : ''}>${trendLegend(i)}</div>`).join(''),
+      body: sw.css + map({ label: 'Mapa de tendencias municipales', attrs: ' id="m19" data-k="0"', fill: sw.fill }) + summ,
       note: 'La tendencia "del estado" pondera por población y la dominan los municipios metropolitanos; la del "municipio típico" pesa igual a cada municipio. En robo, el municipio típico no baja: la baja estatal viene de Tonalá, Zapopan, Guadalajara y Tlajomulco.',
       source: src('SESNSP, carpetas 2019–2025 por municipio; CONAPO', 19),
       table: table(['Municipio', ...p19.map((d) => d.k)], Object.keys(F.mun).sort((a, b) => mun(a).localeCompare(mun(b), 'es')).map((c) => [ml(c), ...p19.map((d) => `${sgn(d.m[c][0])} [${sgn(d.m[c][1], 0)}, ${sgn(d.m[c][2], 0)}]`)]), [1, 2, 3, 4, 5]) });
@@ -454,14 +453,14 @@ export function victimas() {
       source: src('SESNSP, víctimas por sexo y edad; CONAPO 2026', 11),
       table: table(['Delito', 'Grupo', 'Tasa por 100 mil (8 meses)', 'IC95', 'Víctimas'], Object.entries(p11.grupos).flatMap(([k, g]) => g.map((x) => [k, `${x.s} ${age(x.e)}`, num(x.v[0], 1), range(x.v[1], x.v[2]), num(x.n)])), [2, 3, 4]) });
 
-    const vcm = Object.fromEntries(p11.vcm.altos.map((m) => [m.cv, m]));
+    const Lv = rateLayer('vcm');
     const figMap = figure({ id: 'mapa-violencia-mujeres', cls: 'wide', title: `${p11.vcm.altos.length} municipios con violencia familiar o sexual contra mujeres creíblemente por encima del estado`,
-      sub: `Mujeres víctimas de violencia familiar o sexual por cada 100 mil mujeres, enero–agosto 2026. Estado: ${num(p11.vcm.tasa)}.`,
-      legend: legend([{ label: 'Creíblemente superior a la tasa estatal', color: '--women' }, { label: 'Indistinguible o inferior', color: '--mid' }]),
-      body: map({ label: 'Mapa de violencia familiar y sexual contra mujeres', fill: (c) => vcm[c] ? { k: 'vcm', tip: `${mun(c)}\n${num(vcm[c].eb, 0)} por 100 mil mujeres\nIC95 ${range(vcm[c].ic[0], vcm[c].ic[1], 0)} · ${num(vcm[c].n)} víctimas` } : { tip: `${mun(c)}\nNo es creíblemente superior a la tasa estatal` } }),
-      note: 'Trece de los 16 están fuera del área metropolitana. Son víctimas denunciadas: un municipio con más denuncias puede tener más violencia o más acceso a denunciar.',
+      sub: `Mujeres víctimas de violencia familiar o sexual por cada 100 mil mujeres, enero–agosto 2026, con suavizado para municipios chicos, comparado con la tasa del estado (${num(p11.vcm.tasa)}). Con borde, los municipios cuya diferencia con el estado es creíble.`,
+      legend: Lv.legend,
+      body: map({ label: 'Mapa de violencia familiar y sexual contra mujeres', fill: Lv.fill, overlay: Lv.overlay }),
+      note: 'Trece de los 16 municipios creíblemente por encima están fuera del área metropolitana. Son víctimas denunciadas: un municipio con más denuncias puede tener más violencia o más acceso a denunciar.',
       source: src('SESNSP, víctimas municipales 2026; CONAPO; suavizado bayesiano empírico', 11),
-      table: table(['Municipio', 'Tasa por 100 mil mujeres', 'IC95', 'Víctimas'], p11.vcm.altos.map((m) => [ml(m.cv), num(m.eb, 0), range(m.ic[0], m.ic[1], 0), num(m.n)]), [1, 2, 3]) });
+      table: table(['Municipio', ...Lv.head], Object.keys(F.mun).sort((a, b) => Lv.value(b) - Lv.value(a)).map((c) => [ml(c), ...Lv.row(c)]), [1, 2, 3]) });
 
     const p15 = F.p15;
     const figLugar = figure({ id: 'donde-matan', title: 'Una de cada cuatro mujeres asesinadas murió en una vivienda, el doble que los hombres',

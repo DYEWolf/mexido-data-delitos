@@ -542,7 +542,1509 @@
         0.9988,
         1.0
       ]
-    }
+    },
+    "municipios": [
+      {
+        "cvegeo": "14001",
+        "municipio": "Acatic",
+        "casos": 24,
+        "tasa_cruda": 95.5,
+        "tasa_eb": 109.4,
+        "ic95_eb": [
+          75.2,
+          149.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14002",
+        "municipio": "Acatlán de Juárez",
+        "casos": 45,
+        "tasa_cruda": 155.6,
+        "tasa_eb": 159.2,
+        "ic95_eb": [
+          119.6,
+          204.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14003",
+        "municipio": "Ahualulco de Mercado",
+        "casos": 36,
+        "tasa_cruda": 145.9,
+        "tasa_eb": 151.7,
+        "ic95_eb": [
+          110.6,
+          199.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14004",
+        "municipio": "Amacueca",
+        "casos": 3,
+        "tasa_cruda": 48.7,
+        "tasa_eb": 107.1,
+        "ic95_eb": [
+          55.0,
+          176.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14005",
+        "municipio": "Amatitán",
+        "casos": 15,
+        "tasa_cruda": 84.0,
+        "tasa_eb": 104.8,
+        "ic95_eb": [
+          67.0,
+          150.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14006",
+        "municipio": "Ameca",
+        "casos": 108,
+        "tasa_cruda": 180.2,
+        "tasa_eb": 180.3,
+        "ic95_eb": [
+          149.1,
+          214.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14007",
+        "municipio": "San Juanito de Escobedo",
+        "casos": 13,
+        "tasa_cruda": 137.2,
+        "tasa_eb": 152.1,
+        "ic95_eb": [
+          95.1,
+          222.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14008",
+        "municipio": "Arandas",
+        "casos": 192,
+        "tasa_cruda": 223.2,
+        "tasa_eb": 220.9,
+        "ic95_eb": [
+          191.4,
+          252.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14009",
+        "municipio": "El Arenal",
+        "casos": 69,
+        "tasa_cruda": 307.0,
+        "tasa_eb": 284.6,
+        "ic95_eb": [
+          224.9,
+          351.2
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14010",
+        "municipio": "Atemajac de Brizuela",
+        "casos": 4,
+        "tasa_cruda": 44.2,
+        "tasa_eb": 92.0,
+        "ic95_eb": [
+          48.8,
+          148.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14011",
+        "municipio": "Atengo",
+        "casos": 7,
+        "tasa_cruda": 121.7,
+        "tasa_eb": 148.9,
+        "ic95_eb": [
+          84.8,
+          230.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14012",
+        "municipio": "Atenguillo",
+        "casos": 4,
+        "tasa_cruda": 88.8,
+        "tasa_eb": 136.8,
+        "ic95_eb": [
+          72.4,
+          221.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14013",
+        "municipio": "Atotonilco el Alto",
+        "casos": 176,
+        "tasa_cruda": 260.8,
+        "tasa_eb": 255.4,
+        "ic95_eb": [
+          219.9,
+          293.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14014",
+        "municipio": "Atoyac",
+        "casos": 8,
+        "tasa_cruda": 87.1,
+        "tasa_eb": 119.6,
+        "ic95_eb": [
+          69.5,
+          183.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14015",
+        "municipio": "Autlán de Navarro",
+        "casos": 119,
+        "tasa_cruda": 169.7,
+        "tasa_eb": 170.5,
+        "ic95_eb": [
+          142.2,
+          201.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14016",
+        "municipio": "Ayotlán",
+        "casos": 63,
+        "tasa_cruda": 137.4,
+        "tasa_eb": 141.6,
+        "ic95_eb": [
+          110.7,
+          176.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14017",
+        "municipio": "Ayutla",
+        "casos": 29,
+        "tasa_cruda": 216.5,
+        "tasa_eb": 207.0,
+        "ic95_eb": [
+          146.4,
+          278.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14018",
+        "municipio": "La Barca",
+        "casos": 179,
+        "tasa_cruda": 250.9,
+        "tasa_eb": 246.4,
+        "ic95_eb": [
+          212.4,
+          282.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14019",
+        "municipio": "Bolaños",
+        "casos": 1,
+        "tasa_cruda": 14.0,
+        "tasa_eb": 81.7,
+        "ic95_eb": [
+          38.9,
+          140.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14020",
+        "municipio": "Cabo Corrientes",
+        "casos": 17,
+        "tasa_cruda": 145.3,
+        "tasa_eb": 155.8,
+        "ic95_eb": [
+          101.6,
+          221.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14021",
+        "municipio": "Casimiro Castillo",
+        "casos": 57,
+        "tasa_cruda": 274.3,
+        "tasa_eb": 256.6,
+        "ic95_eb": [
+          198.4,
+          322.2
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14022",
+        "municipio": "Cihuatlán",
+        "casos": 109,
+        "tasa_cruda": 268.2,
+        "tasa_eb": 258.8,
+        "ic95_eb": [
+          214.2,
+          307.6
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14023",
+        "municipio": "Zapotlán el Grande",
+        "casos": 155,
+        "tasa_cruda": 122.2,
+        "tasa_eb": 124.4,
+        "ic95_eb": [
+          106.1,
+          144.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14024",
+        "municipio": "Cocula",
+        "casos": 40,
+        "tasa_cruda": 123.6,
+        "tasa_eb": 131.1,
+        "ic95_eb": [
+          96.9,
+          170.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14025",
+        "municipio": "Colotlán",
+        "casos": 62,
+        "tasa_cruda": 283.3,
+        "tasa_eb": 264.6,
+        "ic95_eb": [
+          206.6,
+          329.7
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14026",
+        "municipio": "Concepción de Buenos Aires",
+        "casos": 8,
+        "tasa_cruda": 120.7,
+        "tasa_eb": 146.3,
+        "ic95_eb": [
+          84.9,
+          224.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14027",
+        "municipio": "Cuautitlán de García Barragán",
+        "casos": 16,
+        "tasa_cruda": 84.6,
+        "tasa_eb": 104.4,
+        "ic95_eb": [
+          67.4,
+          149.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14028",
+        "municipio": "Cuautla",
+        "casos": 3,
+        "tasa_cruda": 154.7,
+        "tasa_eb": 173.5,
+        "ic95_eb": [
+          89.2,
+          285.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14029",
+        "municipio": "Cuquío",
+        "casos": 6,
+        "tasa_cruda": 33.3,
+        "tasa_eb": 64.7,
+        "ic95_eb": [
+          36.1,
+          101.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14030",
+        "municipio": "Chapala",
+        "casos": 105,
+        "tasa_cruda": 173.5,
+        "tasa_eb": 174.0,
+        "ic95_eb": [
+          143.5,
+          207.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14031",
+        "municipio": "Chimaltitán",
+        "casos": 8,
+        "tasa_cruda": 253.2,
+        "tasa_eb": 209.4,
+        "ic95_eb": [
+          121.6,
+          320.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14032",
+        "municipio": "Chiquilistlán",
+        "casos": 8,
+        "tasa_cruda": 132.0,
+        "tasa_eb": 153.8,
+        "ic95_eb": [
+          89.3,
+          235.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14033",
+        "municipio": "Degollado",
+        "casos": 23,
+        "tasa_cruda": 106.6,
+        "tasa_eb": 120.3,
+        "ic95_eb": [
+          82.2,
+          165.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14034",
+        "municipio": "Ejutla",
+        "casos": 2,
+        "tasa_cruda": 94.1,
+        "tasa_eb": 154.6,
+        "ic95_eb": [
+          76.7,
+          259.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14035",
+        "municipio": "Encarnación de Díaz",
+        "casos": 299,
+        "tasa_cruda": 555.9,
+        "tasa_eb": 524.7,
+        "ic95_eb": [
+          467.8,
+          585.0
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14036",
+        "municipio": "Etzatlán",
+        "casos": 38,
+        "tasa_cruda": 183.2,
+        "tasa_eb": 182.8,
+        "ic95_eb": [
+          134.2,
+          238.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14037",
+        "municipio": "El Grullo",
+        "casos": 43,
+        "tasa_cruda": 160.3,
+        "tasa_eb": 163.5,
+        "ic95_eb": [
+          122.0,
+          210.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14038",
+        "municipio": "Guachinango",
+        "casos": 4,
+        "tasa_cruda": 94.6,
+        "tasa_eb": 140.9,
+        "ic95_eb": [
+          74.6,
+          227.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14039",
+        "municipio": "Guadalajara",
+        "casos": 2654,
+        "tasa_cruda": 191.8,
+        "tasa_eb": 191.7,
+        "ic95_eb": [
+          184.5,
+          199.1
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14040",
+        "municipio": "Hostotipaquillo",
+        "casos": 7,
+        "tasa_cruda": 79.6,
+        "tasa_eb": 115.8,
+        "ic95_eb": [
+          65.9,
+          179.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14041",
+        "municipio": "Huejúcar",
+        "casos": 36,
+        "tasa_cruda": 575.4,
+        "tasa_eb": 402.7,
+        "ic95_eb": [
+          293.5,
+          528.8
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14042",
+        "municipio": "Huejuquilla el Alto",
+        "casos": 35,
+        "tasa_cruda": 303.5,
+        "tasa_eb": 267.1,
+        "ic95_eb": [
+          193.9,
+          351.8
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14043",
+        "municipio": "La Huerta",
+        "casos": 90,
+        "tasa_cruda": 380.8,
+        "tasa_eb": 346.6,
+        "ic95_eb": [
+          281.7,
+          418.3
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14044",
+        "municipio": "Ixtlahuacán de los Membrillos",
+        "casos": 161,
+        "tasa_cruda": 194.8,
+        "tasa_eb": 194.1,
+        "ic95_eb": [
+          166.0,
+          224.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14045",
+        "municipio": "Ixtlahuacán del Río",
+        "casos": 29,
+        "tasa_cruda": 131.1,
+        "tasa_eb": 140.1,
+        "ic95_eb": [
+          99.0,
+          188.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14046",
+        "municipio": "Jalostotitlán",
+        "casos": 68,
+        "tasa_cruda": 206.1,
+        "tasa_eb": 202.9,
+        "ic95_eb": [
+          160.1,
+          250.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14047",
+        "municipio": "Jamay",
+        "casos": 27,
+        "tasa_cruda": 103.9,
+        "tasa_eb": 116.0,
+        "ic95_eb": [
+          81.2,
+          157.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14048",
+        "municipio": "Jesús María",
+        "casos": 31,
+        "tasa_cruda": 162.2,
+        "tasa_eb": 166.0,
+        "ic95_eb": [
+          118.5,
+          221.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14049",
+        "municipio": "Jilotlán de los Dolores",
+        "casos": 14,
+        "tasa_cruda": 145.5,
+        "tasa_eb": 157.5,
+        "ic95_eb": [
+          99.6,
+          228.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14050",
+        "municipio": "Jocotepec",
+        "casos": 113,
+        "tasa_cruda": 224.4,
+        "tasa_eb": 220.6,
+        "ic95_eb": [
+          183.2,
+          261.4
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14051",
+        "municipio": "Juanacatlán",
+        "casos": 41,
+        "tasa_cruda": 111.2,
+        "tasa_eb": 119.4,
+        "ic95_eb": [
+          88.5,
+          154.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14052",
+        "municipio": "Juchitlán",
+        "casos": 11,
+        "tasa_cruda": 199.1,
+        "tasa_eb": 190.6,
+        "ic95_eb": [
+          116.1,
+          283.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14053",
+        "municipio": "Lagos de Moreno",
+        "casos": 637,
+        "tasa_cruda": 348.2,
+        "tasa_eb": 343.9,
+        "ic95_eb": [
+          317.9,
+          370.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14054",
+        "municipio": "El Limón",
+        "casos": 5,
+        "tasa_cruda": 93.1,
+        "tasa_eb": 134.9,
+        "ic95_eb": [
+          73.4,
+          214.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14055",
+        "municipio": "Magdalena",
+        "casos": 35,
+        "tasa_cruda": 159.3,
+        "tasa_eb": 163.2,
+        "ic95_eb": [
+          118.5,
+          215.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14056",
+        "municipio": "Santa María del Oro",
+        "casos": 10,
+        "tasa_cruda": 612.4,
+        "tasa_eb": 289.3,
+        "ic95_eb": [
+          173.7,
+          433.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14057",
+        "municipio": "La Manzanilla de la Paz",
+        "casos": 12,
+        "tasa_cruda": 261.0,
+        "tasa_eb": 219.9,
+        "ic95_eb": [
+          135.8,
+          323.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14058",
+        "municipio": "Mascota",
+        "casos": 13,
+        "tasa_cruda": 89.6,
+        "tasa_eb": 112.6,
+        "ic95_eb": [
+          70.4,
+          164.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14059",
+        "municipio": "Mazamitla",
+        "casos": 58,
+        "tasa_cruda": 394.0,
+        "tasa_eb": 341.0,
+        "ic95_eb": [
+          264.2,
+          427.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14060",
+        "municipio": "Mexticacán",
+        "casos": 3,
+        "tasa_cruda": 53.9,
+        "tasa_eb": 113.3,
+        "ic95_eb": [
+          58.2,
+          186.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14061",
+        "municipio": "Mezquitic",
+        "casos": 6,
+        "tasa_cruda": 25.0,
+        "tasa_eb": 51.4,
+        "ic95_eb": [
+          28.6,
+          80.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14062",
+        "municipio": "Mixtlán",
+        "casos": 12,
+        "tasa_cruda": 318.5,
+        "tasa_eb": 241.0,
+        "ic95_eb": [
+          148.8,
+          354.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14063",
+        "municipio": "Ocotlán",
+        "casos": 107,
+        "tasa_cruda": 96.8,
+        "tasa_eb": 100.3,
+        "ic95_eb": [
+          82.9,
+          119.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14064",
+        "municipio": "Ojuelos de Jalisco",
+        "casos": 64,
+        "tasa_cruda": 180.0,
+        "tasa_eb": 180.1,
+        "ic95_eb": [
+          141.1,
+          223.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14065",
+        "municipio": "Pihuamo",
+        "casos": 24,
+        "tasa_cruda": 240.7,
+        "tasa_eb": 221.1,
+        "ic95_eb": [
+          152.0,
+          302.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14066",
+        "municipio": "Poncitlán",
+        "casos": 45,
+        "tasa_cruda": 79.5,
+        "tasa_eb": 87.6,
+        "ic95_eb": [
+          65.7,
+          112.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14067",
+        "municipio": "Puerto Vallarta",
+        "casos": 573,
+        "tasa_cruda": 184.2,
+        "tasa_eb": 184.2,
+        "ic95_eb": [
+          169.5,
+          199.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14068",
+        "municipio": "Villa Purificación",
+        "casos": 21,
+        "tasa_cruda": 174.8,
+        "tasa_eb": 176.6,
+        "ic95_eb": [
+          119.0,
+          245.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14069",
+        "municipio": "Quitupan",
+        "casos": 20,
+        "tasa_cruda": 273.3,
+        "tasa_eb": 236.4,
+        "ic95_eb": [
+          158.1,
+          330.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14070",
+        "municipio": "El Salto",
+        "casos": 529,
+        "tasa_cruda": 179.5,
+        "tasa_eb": 179.5,
+        "ic95_eb": [
+          164.7,
+          195.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14071",
+        "municipio": "San Cristóbal de la Barranca",
+        "casos": 3,
+        "tasa_cruda": 107.7,
+        "tasa_eb": 154.4,
+        "ic95_eb": [
+          79.3,
+          254.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14072",
+        "municipio": "San Diego de Alejandría",
+        "casos": 9,
+        "tasa_cruda": 111.2,
+        "tasa_eb": 137.4,
+        "ic95_eb": [
+          81.2,
+          208.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14073",
+        "municipio": "San Juan de los Lagos",
+        "casos": 169,
+        "tasa_cruda": 221.9,
+        "tasa_eb": 219.5,
+        "ic95_eb": [
+          188.4,
+          252.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14074",
+        "municipio": "San Julián",
+        "casos": 26,
+        "tasa_cruda": 144.8,
+        "tasa_eb": 152.5,
+        "ic95_eb": [
+          106.1,
+          207.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14075",
+        "municipio": "San Marcos",
+        "casos": 3,
+        "tasa_cruda": 78.8,
+        "tasa_eb": 136.2,
+        "ic95_eb": [
+          70.0,
+          224.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14076",
+        "municipio": "San Martín de Bolaños",
+        "casos": 20,
+        "tasa_cruda": 651.0,
+        "tasa_eb": 362.7,
+        "ic95_eb": [
+          242.6,
+          506.6
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14077",
+        "municipio": "San Martín Hidalgo",
+        "casos": 28,
+        "tasa_cruda": 96.4,
+        "tasa_eb": 108.6,
+        "ic95_eb": [
+          76.4,
+          146.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14078",
+        "municipio": "San Miguel el Alto",
+        "casos": 105,
+        "tasa_cruda": 324.9,
+        "tasa_eb": 306.0,
+        "ic95_eb": [
+          252.4,
+          364.8
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14079",
+        "municipio": "Gómez Farías",
+        "casos": 10,
+        "tasa_cruda": 56.1,
+        "tasa_eb": 82.9,
+        "ic95_eb": [
+          49.8,
+          124.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14080",
+        "municipio": "San Sebastián del Oeste",
+        "casos": 14,
+        "tasa_cruda": 290.4,
+        "tasa_eb": 235.4,
+        "ic95_eb": [
+          148.9,
+          341.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14081",
+        "municipio": "Santa María de los Ángeles",
+        "casos": 8,
+        "tasa_cruda": 194.5,
+        "tasa_eb": 187.2,
+        "ic95_eb": [
+          108.7,
+          286.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14082",
+        "municipio": "Sayula",
+        "casos": 64,
+        "tasa_cruda": 166.6,
+        "tasa_eb": 168.2,
+        "ic95_eb": [
+          131.8,
+          208.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14083",
+        "municipio": "Tala",
+        "casos": 307,
+        "tasa_cruda": 318.2,
+        "tasa_eb": 311.6,
+        "ic95_eb": [
+          278.2,
+          346.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14084",
+        "municipio": "Talpa de Allende",
+        "casos": 25,
+        "tasa_cruda": 163.6,
+        "tasa_eb": 167.8,
+        "ic95_eb": [
+          116.1,
+          228.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14085",
+        "municipio": "Tamazula de Gordiano",
+        "casos": 46,
+        "tasa_cruda": 126.4,
+        "tasa_eb": 132.9,
+        "ic95_eb": [
+          100.1,
+          170.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14086",
+        "municipio": "Tapalpa",
+        "casos": 40,
+        "tasa_cruda": 174.0,
+        "tasa_eb": 175.2,
+        "ic95_eb": [
+          129.6,
+          227.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14087",
+        "municipio": "Tecalitlán",
+        "casos": 30,
+        "tasa_cruda": 191.3,
+        "tasa_eb": 188.9,
+        "ic95_eb": [
+          134.2,
+          252.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14088",
+        "municipio": "Tecolotlán",
+        "casos": 34,
+        "tasa_cruda": 200.2,
+        "tasa_eb": 195.9,
+        "ic95_eb": [
+          141.7,
+          258.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14089",
+        "municipio": "Techaluta de Montenegro",
+        "casos": 5,
+        "tasa_cruda": 113.4,
+        "tasa_eb": 148.9,
+        "ic95_eb": [
+          81.0,
+          237.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14090",
+        "municipio": "Tenamaxtlán",
+        "casos": 10,
+        "tasa_cruda": 130.8,
+        "tasa_eb": 150.3,
+        "ic95_eb": [
+          90.3,
+          225.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14091",
+        "municipio": "Teocaltiche",
+        "casos": 89,
+        "tasa_cruda": 221.1,
+        "tasa_eb": 216.7,
+        "ic95_eb": [
+          175.9,
+          261.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14092",
+        "municipio": "Teocuitatlán de Corona",
+        "casos": 5,
+        "tasa_cruda": 42.0,
+        "tasa_eb": 82.4,
+        "ic95_eb": [
+          44.9,
+          131.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14093",
+        "municipio": "Tepatitlán de Morelos",
+        "casos": 251,
+        "tasa_cruda": 159.0,
+        "tasa_eb": 159.6,
+        "ic95_eb": [
+          140.8,
+          179.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14094",
+        "municipio": "Tequila",
+        "casos": 75,
+        "tasa_cruda": 159.1,
+        "tasa_eb": 161.2,
+        "ic95_eb": [
+          128.5,
+          197.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14095",
+        "municipio": "Teuchitlán",
+        "casos": 18,
+        "tasa_cruda": 185.3,
+        "tasa_eb": 183.9,
+        "ic95_eb": [
+          121.0,
+          259.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14096",
+        "municipio": "Tizapán el Alto",
+        "casos": 24,
+        "tasa_cruda": 96.4,
+        "tasa_eb": 110.2,
+        "ic95_eb": [
+          75.8,
+          151.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14097",
+        "municipio": "Tlajomulco de Zúñiga",
+        "casos": 1610,
+        "tasa_cruda": 194.0,
+        "tasa_eb": 193.9,
+        "ic95_eb": [
+          184.6,
+          203.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14098",
+        "municipio": "San Pedro Tlaquepaque",
+        "casos": 1301,
+        "tasa_cruda": 177.6,
+        "tasa_eb": 177.6,
+        "ic95_eb": [
+          168.1,
+          187.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14099",
+        "municipio": "Tolimán",
+        "casos": 11,
+        "tasa_cruda": 90.3,
+        "tasa_eb": 116.3,
+        "ic95_eb": [
+          70.8,
+          172.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14100",
+        "municipio": "Tomatlán",
+        "casos": 100,
+        "tasa_cruda": 281.6,
+        "tasa_eb": 269.4,
+        "ic95_eb": [
+          221.2,
+          322.4
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14101",
+        "municipio": "Tonalá",
+        "casos": 710,
+        "tasa_cruda": 116.4,
+        "tasa_eb": 116.9,
+        "ic95_eb": [
+          108.5,
+          125.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14102",
+        "municipio": "Tonaya",
+        "casos": 6,
+        "tasa_cruda": 100.4,
+        "tasa_eb": 136.6,
+        "ic95_eb": [
+          76.2,
+          214.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14103",
+        "municipio": "Tonila",
+        "casos": 23,
+        "tasa_cruda": 297.9,
+        "tasa_eb": 252.7,
+        "ic95_eb": [
+          172.6,
+          347.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14104",
+        "municipio": "Totatiche",
+        "casos": 6,
+        "tasa_cruda": 146.8,
+        "tasa_eb": 165.4,
+        "ic95_eb": [
+          92.2,
+          259.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14105",
+        "municipio": "Tototlán",
+        "casos": 10,
+        "tasa_cruda": 40.8,
+        "tasa_eb": 64.1,
+        "ic95_eb": [
+          38.5,
+          96.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14106",
+        "municipio": "Tuxcacuesco",
+        "casos": 24,
+        "tasa_cruda": 383.0,
+        "tasa_eb": 294.6,
+        "ic95_eb": [
+          202.6,
+          403.7
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14107",
+        "municipio": "Tuxcueca",
+        "casos": 10,
+        "tasa_cruda": 135.9,
+        "tasa_eb": 153.9,
+        "ic95_eb": [
+          92.4,
+          230.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14108",
+        "municipio": "Tuxpan",
+        "casos": 35,
+        "tasa_cruda": 85.2,
+        "tasa_eb": 95.3,
+        "ic95_eb": [
+          69.2,
+          125.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14109",
+        "municipio": "Unión de San Antonio",
+        "casos": 20,
+        "tasa_cruda": 99.9,
+        "tasa_eb": 115.8,
+        "ic95_eb": [
+          77.4,
+          161.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14110",
+        "municipio": "Unión de Tula",
+        "casos": 32,
+        "tasa_cruda": 225.0,
+        "tasa_eb": 213.8,
+        "ic95_eb": [
+          153.3,
+          284.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14111",
+        "municipio": "Valle de Guadalupe",
+        "casos": 6,
+        "tasa_cruda": 88.9,
+        "tasa_eb": 127.6,
+        "ic95_eb": [
+          71.1,
+          200.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14112",
+        "municipio": "Valle de Juárez",
+        "casos": 23,
+        "tasa_cruda": 324.2,
+        "tasa_eb": 265.9,
+        "ic95_eb": [
+          181.7,
+          365.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14113",
+        "municipio": "San Gabriel",
+        "casos": 57,
+        "tasa_cruda": 325.3,
+        "tasa_eb": 293.9,
+        "ic95_eb": [
+          227.2,
+          369.1
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14114",
+        "municipio": "Villa Corona",
+        "casos": 30,
+        "tasa_cruda": 152.7,
+        "tasa_eb": 158.3,
+        "ic95_eb": [
+          112.5,
+          211.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14115",
+        "municipio": "Villa Guerrero",
+        "casos": 12,
+        "tasa_cruda": 233.3,
+        "tasa_eb": 207.9,
+        "ic95_eb": [
+          128.4,
+          306.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14116",
+        "municipio": "Villa Hidalgo",
+        "casos": 16,
+        "tasa_cruda": 80.2,
+        "tasa_eb": 100.0,
+        "ic95_eb": [
+          64.6,
+          143.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14117",
+        "municipio": "Cañadas de Obregón",
+        "casos": 3,
+        "tasa_cruda": 63.6,
+        "tasa_eb": 123.3,
+        "ic95_eb": [
+          63.4,
+          202.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14118",
+        "municipio": "Yahualica de González Gallo",
+        "casos": 34,
+        "tasa_cruda": 151.9,
+        "tasa_eb": 157.1,
+        "ic95_eb": [
+          113.6,
+          207.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14119",
+        "municipio": "Zacoalco de Torres",
+        "casos": 25,
+        "tasa_cruda": 75.4,
+        "tasa_eb": 88.9,
+        "ic95_eb": [
+          61.5,
+          121.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14120",
+        "municipio": "Zapopan",
+        "casos": 2860,
+        "tasa_cruda": 179.0,
+        "tasa_eb": 179.0,
+        "ic95_eb": [
+          172.5,
+          185.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14121",
+        "municipio": "Zapotiltic",
+        "casos": 32,
+        "tasa_cruda": 81.3,
+        "tasa_eb": 92.3,
+        "ic95_eb": [
+          66.2,
+          122.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14122",
+        "municipio": "Zapotitlán de Vadillo",
+        "casos": 13,
+        "tasa_cruda": 164.4,
+        "tasa_eb": 170.7,
+        "ic95_eb": [
+          106.8,
+          249.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14123",
+        "municipio": "Zapotlán del Rey",
+        "casos": 5,
+        "tasa_cruda": 23.9,
+        "tasa_eb": 53.6,
+        "ic95_eb": [
+          29.2,
+          85.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14124",
+        "municipio": "Zapotlanejo",
+        "casos": 68,
+        "tasa_cruda": 104.2,
+        "tasa_eb": 109.5,
+        "ic95_eb": [
+          86.4,
+          135.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14125",
+        "municipio": "San Ignacio Cerro Gordo",
+        "casos": 28,
+        "tasa_cruda": 149.8,
+        "tasa_eb": 156.2,
+        "ic95_eb": [
+          109.9,
+          210.6
+        ],
+        "clase": "indistinguible"
+      }
+    ]
   },
   "por_region": [
     {
@@ -963,10 +2465,1512 @@
         0.9984,
         1.0
       ]
-    }
+    },
+    "municipios": [
+      {
+        "cvegeo": "14001",
+        "municipio": "Acatic",
+        "casos": 8,
+        "tasa_cruda": 4.7,
+        "tasa_eb": 5.9,
+        "ic95_eb": [
+          3.0,
+          9.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14002",
+        "municipio": "Acatlán de Juárez",
+        "casos": 47,
+        "tasa_cruda": 24.8,
+        "tasa_eb": 24.3,
+        "ic95_eb": [
+          18.0,
+          31.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14003",
+        "municipio": "Ahualulco de Mercado",
+        "casos": 12,
+        "tasa_cruda": 7.1,
+        "tasa_eb": 8.1,
+        "ic95_eb": [
+          4.5,
+          12.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14004",
+        "municipio": "Amacueca",
+        "casos": 4,
+        "tasa_cruda": 9.6,
+        "tasa_eb": 12.0,
+        "ic95_eb": [
+          4.8,
+          22.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14005",
+        "municipio": "Amatitán",
+        "casos": 20,
+        "tasa_cruda": 16.6,
+        "tasa_eb": 16.8,
+        "ic95_eb": [
+          10.6,
+          24.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14006",
+        "municipio": "Ameca",
+        "casos": 45,
+        "tasa_cruda": 10.6,
+        "tasa_eb": 10.9,
+        "ic95_eb": [
+          8.0,
+          14.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14007",
+        "municipio": "San Juanito de Escobedo",
+        "casos": 3,
+        "tasa_cruda": 4.5,
+        "tasa_eb": 7.2,
+        "ic95_eb": [
+          2.7,
+          14.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14008",
+        "municipio": "Arandas",
+        "casos": 29,
+        "tasa_cruda": 5.0,
+        "tasa_eb": 5.3,
+        "ic95_eb": [
+          3.6,
+          7.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14009",
+        "municipio": "El Arenal",
+        "casos": 34,
+        "tasa_cruda": 22.2,
+        "tasa_eb": 21.8,
+        "ic95_eb": [
+          15.3,
+          29.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14010",
+        "municipio": "Atemajac de Brizuela",
+        "casos": 2,
+        "tasa_cruda": 3.4,
+        "tasa_eb": 6.7,
+        "ic95_eb": [
+          2.2,
+          13.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14011",
+        "municipio": "Atengo",
+        "casos": 1,
+        "tasa_cruda": 2.5,
+        "tasa_eb": 7.1,
+        "ic95_eb": [
+          2.0,
+          15.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14012",
+        "municipio": "Atenguillo",
+        "casos": 3,
+        "tasa_cruda": 9.8,
+        "tasa_eb": 12.8,
+        "ic95_eb": [
+          4.7,
+          24.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14013",
+        "municipio": "Atotonilco el Alto",
+        "casos": 22,
+        "tasa_cruda": 4.8,
+        "tasa_eb": 5.2,
+        "ic95_eb": [
+          3.4,
+          7.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14014",
+        "municipio": "Atoyac",
+        "casos": 2,
+        "tasa_cruda": 3.2,
+        "tasa_eb": 6.3,
+        "ic95_eb": [
+          2.1,
+          12.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14015",
+        "municipio": "Autlán de Navarro",
+        "casos": 20,
+        "tasa_cruda": 4.2,
+        "tasa_eb": 4.7,
+        "ic95_eb": [
+          3.0,
+          6.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14016",
+        "municipio": "Ayotlán",
+        "casos": 6,
+        "tasa_cruda": 2.0,
+        "tasa_eb": 2.8,
+        "ic95_eb": [
+          1.3,
+          4.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14017",
+        "municipio": "Ayutla",
+        "casos": 13,
+        "tasa_cruda": 14.1,
+        "tasa_eb": 14.7,
+        "ic95_eb": [
+          8.4,
+          22.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14018",
+        "municipio": "La Barca",
+        "casos": 19,
+        "tasa_cruda": 3.9,
+        "tasa_eb": 4.3,
+        "ic95_eb": [
+          2.7,
+          6.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14019",
+        "municipio": "Bolaños",
+        "casos": 3,
+        "tasa_cruda": 6.0,
+        "tasa_eb": 9.0,
+        "ic95_eb": [
+          3.3,
+          17.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14020",
+        "municipio": "Cabo Corrientes",
+        "casos": 12,
+        "tasa_cruda": 15.1,
+        "tasa_eb": 15.6,
+        "ic95_eb": [
+          8.8,
+          24.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14021",
+        "municipio": "Casimiro Castillo",
+        "casos": 7,
+        "tasa_cruda": 4.8,
+        "tasa_eb": 6.2,
+        "ic95_eb": [
+          3.0,
+          10.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14022",
+        "municipio": "Cihuatlán",
+        "casos": 33,
+        "tasa_cruda": 11.6,
+        "tasa_eb": 11.9,
+        "ic95_eb": [
+          8.4,
+          16.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14023",
+        "municipio": "Zapotlán el Grande",
+        "casos": 52,
+        "tasa_cruda": 6.1,
+        "tasa_eb": 6.4,
+        "ic95_eb": [
+          4.8,
+          8.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14024",
+        "municipio": "Cocula",
+        "casos": 24,
+        "tasa_cruda": 11.1,
+        "tasa_eb": 11.6,
+        "ic95_eb": [
+          7.7,
+          16.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14025",
+        "municipio": "Colotlán",
+        "casos": 4,
+        "tasa_cruda": 2.7,
+        "tasa_eb": 4.3,
+        "ic95_eb": [
+          1.7,
+          8.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14026",
+        "municipio": "Concepción de Buenos Aires",
+        "casos": 4,
+        "tasa_cruda": 8.8,
+        "tasa_eb": 11.3,
+        "ic95_eb": [
+          4.6,
+          21.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14027",
+        "municipio": "Cuautitlán de García Barragán",
+        "casos": 17,
+        "tasa_cruda": 12.9,
+        "tasa_eb": 13.5,
+        "ic95_eb": [
+          8.3,
+          20.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14028",
+        "municipio": "Cuautla",
+        "casos": 0,
+        "tasa_cruda": 0.0,
+        "tasa_eb": 9.7,
+        "ic95_eb": [
+          2.0,
+          23.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14029",
+        "municipio": "Cuquío",
+        "casos": 3,
+        "tasa_cruda": 2.4,
+        "tasa_eb": 4.2,
+        "ic95_eb": [
+          1.6,
+          8.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14030",
+        "municipio": "Chapala",
+        "casos": 58,
+        "tasa_cruda": 14.3,
+        "tasa_eb": 14.4,
+        "ic95_eb": [
+          11.0,
+          18.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14031",
+        "municipio": "Chimaltitán",
+        "casos": 0,
+        "tasa_cruda": 0.0,
+        "tasa_eb": 7.7,
+        "ic95_eb": [
+          1.6,
+          18.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14032",
+        "municipio": "Chiquilistlán",
+        "casos": 3,
+        "tasa_cruda": 7.1,
+        "tasa_eb": 10.2,
+        "ic95_eb": [
+          3.8,
+          19.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14033",
+        "municipio": "Degollado",
+        "casos": 11,
+        "tasa_cruda": 7.3,
+        "tasa_eb": 8.4,
+        "ic95_eb": [
+          4.6,
+          13.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14034",
+        "municipio": "Ejutla",
+        "casos": 3,
+        "tasa_cruda": 20.8,
+        "tasa_eb": 19.4,
+        "ic95_eb": [
+          7.1,
+          37.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14035",
+        "municipio": "Encarnación de Díaz",
+        "casos": 180,
+        "tasa_cruda": 47.8,
+        "tasa_eb": 46.5,
+        "ic95_eb": [
+          40.0,
+          53.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14036",
+        "municipio": "Etzatlán",
+        "casos": 7,
+        "tasa_cruda": 4.9,
+        "tasa_eb": 6.3,
+        "ic95_eb": [
+          3.0,
+          10.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14037",
+        "municipio": "El Grullo",
+        "casos": 9,
+        "tasa_cruda": 4.8,
+        "tasa_eb": 5.9,
+        "ic95_eb": [
+          3.1,
+          9.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14038",
+        "municipio": "Guachinango",
+        "casos": 2,
+        "tasa_cruda": 6.7,
+        "tasa_eb": 10.8,
+        "ic95_eb": [
+          3.5,
+          22.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14039",
+        "municipio": "Guadalajara",
+        "casos": 2011,
+        "tasa_cruda": 20.6,
+        "tasa_eb": 20.6,
+        "ic95_eb": [
+          19.7,
+          21.5
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14040",
+        "municipio": "Hostotipaquillo",
+        "casos": 8,
+        "tasa_cruda": 12.9,
+        "tasa_eb": 14.1,
+        "ic95_eb": [
+          7.0,
+          23.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14041",
+        "municipio": "Huejúcar",
+        "casos": 12,
+        "tasa_cruda": 28.0,
+        "tasa_eb": 25.3,
+        "ic95_eb": [
+          14.1,
+          39.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14042",
+        "municipio": "Huejuquilla el Alto",
+        "casos": 4,
+        "tasa_cruda": 5.3,
+        "tasa_eb": 7.7,
+        "ic95_eb": [
+          3.1,
+          14.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14043",
+        "municipio": "La Huerta",
+        "casos": 20,
+        "tasa_cruda": 12.1,
+        "tasa_eb": 12.6,
+        "ic95_eb": [
+          8.0,
+          18.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14044",
+        "municipio": "Ixtlahuacán de los Membrillos",
+        "casos": 75,
+        "tasa_cruda": 14.3,
+        "tasa_eb": 14.4,
+        "ic95_eb": [
+          11.4,
+          17.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14045",
+        "municipio": "Ixtlahuacán del Río",
+        "casos": 22,
+        "tasa_cruda": 14.7,
+        "tasa_eb": 15.1,
+        "ic95_eb": [
+          9.7,
+          21.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14046",
+        "municipio": "Jalostotitlán",
+        "casos": 13,
+        "tasa_cruda": 5.6,
+        "tasa_eb": 6.5,
+        "ic95_eb": [
+          3.7,
+          10.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14047",
+        "municipio": "Jamay",
+        "casos": 7,
+        "tasa_cruda": 3.9,
+        "tasa_eb": 5.1,
+        "ic95_eb": [
+          2.5,
+          8.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14048",
+        "municipio": "Jesús María",
+        "casos": 10,
+        "tasa_cruda": 7.4,
+        "tasa_eb": 8.6,
+        "ic95_eb": [
+          4.6,
+          13.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14049",
+        "municipio": "Jilotlán de los Dolores",
+        "casos": 7,
+        "tasa_cruda": 10.4,
+        "tasa_eb": 12.0,
+        "ic95_eb": [
+          5.7,
+          20.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14050",
+        "municipio": "Jocotepec",
+        "casos": 63,
+        "tasa_cruda": 18.4,
+        "tasa_eb": 18.4,
+        "ic95_eb": [
+          14.2,
+          23.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14051",
+        "municipio": "Juanacatlán",
+        "casos": 43,
+        "tasa_cruda": 18.2,
+        "tasa_eb": 18.2,
+        "ic95_eb": [
+          13.3,
+          23.8
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14052",
+        "municipio": "Juchitlán",
+        "casos": 1,
+        "tasa_cruda": 2.6,
+        "tasa_eb": 7.2,
+        "ic95_eb": [
+          2.0,
+          15.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14053",
+        "municipio": "Lagos de Moreno",
+        "casos": 459,
+        "tasa_cruda": 36.7,
+        "tasa_eb": 36.5,
+        "ic95_eb": [
+          33.2,
+          39.9
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14054",
+        "municipio": "El Limón",
+        "casos": 0,
+        "tasa_cruda": 0.0,
+        "tasa_eb": 5.6,
+        "ic95_eb": [
+          1.2,
+          13.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14055",
+        "municipio": "Magdalena",
+        "casos": 13,
+        "tasa_cruda": 8.4,
+        "tasa_eb": 9.4,
+        "ic95_eb": [
+          5.4,
+          14.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14056",
+        "municipio": "Santa María del Oro",
+        "casos": 4,
+        "tasa_cruda": 32.6,
+        "tasa_eb": 24.3,
+        "ic95_eb": [
+          9.8,
+          45.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14057",
+        "municipio": "La Manzanilla de la Paz",
+        "casos": 9,
+        "tasa_cruda": 29.6,
+        "tasa_eb": 25.5,
+        "ic95_eb": [
+          13.2,
+          41.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14058",
+        "municipio": "Mascota",
+        "casos": 3,
+        "tasa_cruda": 2.9,
+        "tasa_eb": 5.1,
+        "ic95_eb": [
+          1.9,
+          9.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14059",
+        "municipio": "Mazamitla",
+        "casos": 39,
+        "tasa_cruda": 38.5,
+        "tasa_eb": 35.7,
+        "ic95_eb": [
+          25.7,
+          47.2
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14060",
+        "municipio": "Mexticacán",
+        "casos": 2,
+        "tasa_cruda": 5.2,
+        "tasa_eb": 9.2,
+        "ic95_eb": [
+          3.0,
+          18.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14061",
+        "municipio": "Mezquitic",
+        "casos": 18,
+        "tasa_cruda": 11.1,
+        "tasa_eb": 11.8,
+        "ic95_eb": [
+          7.3,
+          17.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14062",
+        "municipio": "Mixtlán",
+        "casos": 2,
+        "tasa_cruda": 7.7,
+        "tasa_eb": 11.8,
+        "ic95_eb": [
+          3.8,
+          24.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14063",
+        "municipio": "Ocotlán",
+        "casos": 36,
+        "tasa_cruda": 4.7,
+        "tasa_eb": 5.0,
+        "ic95_eb": [
+          3.6,
+          6.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14064",
+        "municipio": "Ojuelos de Jalisco",
+        "casos": 57,
+        "tasa_cruda": 23.4,
+        "tasa_eb": 23.1,
+        "ic95_eb": [
+          17.6,
+          29.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14065",
+        "municipio": "Pihuamo",
+        "casos": 8,
+        "tasa_cruda": 10.5,
+        "tasa_eb": 11.9,
+        "ic95_eb": [
+          5.9,
+          19.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14066",
+        "municipio": "Poncitlán",
+        "casos": 33,
+        "tasa_cruda": 8.5,
+        "tasa_eb": 8.9,
+        "ic95_eb": [
+          6.2,
+          12.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14067",
+        "municipio": "Puerto Vallarta",
+        "casos": 174,
+        "tasa_cruda": 8.2,
+        "tasa_eb": 8.3,
+        "ic95_eb": [
+          7.1,
+          9.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14068",
+        "municipio": "Villa Purificación",
+        "casos": 8,
+        "tasa_cruda": 9.8,
+        "tasa_eb": 11.2,
+        "ic95_eb": [
+          5.6,
+          18.7
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14069",
+        "municipio": "Quitupan",
+        "casos": 6,
+        "tasa_cruda": 11.2,
+        "tasa_eb": 12.9,
+        "ic95_eb": [
+          5.9,
+          22.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14070",
+        "municipio": "El Salto",
+        "casos": 481,
+        "tasa_cruda": 26.3,
+        "tasa_eb": 26.2,
+        "ic95_eb": [
+          24.0,
+          28.6
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14071",
+        "municipio": "San Cristóbal de la Barranca",
+        "casos": 18,
+        "tasa_cruda": 89.0,
+        "tasa_eb": 57.0,
+        "ic95_eb": [
+          35.3,
+          83.8
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14072",
+        "municipio": "San Diego de Alejandría",
+        "casos": 4,
+        "tasa_cruda": 7.2,
+        "tasa_eb": 9.8,
+        "ic95_eb": [
+          3.9,
+          18.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14073",
+        "municipio": "San Juan de los Lagos",
+        "casos": 68,
+        "tasa_cruda": 13.0,
+        "tasa_eb": 13.2,
+        "ic95_eb": [
+          10.3,
+          16.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14074",
+        "municipio": "San Julián",
+        "casos": 4,
+        "tasa_cruda": 3.3,
+        "tasa_eb": 5.1,
+        "ic95_eb": [
+          2.0,
+          9.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14075",
+        "municipio": "San Marcos",
+        "casos": 6,
+        "tasa_cruda": 22.4,
+        "tasa_eb": 20.8,
+        "ic95_eb": [
+          9.5,
+          36.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14076",
+        "municipio": "San Martín de Bolaños",
+        "casos": 0,
+        "tasa_cruda": 0.0,
+        "tasa_eb": 7.9,
+        "ic95_eb": [
+          1.6,
+          18.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14077",
+        "municipio": "San Martín Hidalgo",
+        "casos": 11,
+        "tasa_cruda": 5.5,
+        "tasa_eb": 6.4,
+        "ic95_eb": [
+          3.5,
+          10.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14078",
+        "municipio": "San Miguel el Alto",
+        "casos": 11,
+        "tasa_cruda": 4.9,
+        "tasa_eb": 5.8,
+        "ic95_eb": [
+          3.2,
+          9.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14079",
+        "municipio": "Gómez Farías",
+        "casos": 18,
+        "tasa_cruda": 15.0,
+        "tasa_eb": 15.4,
+        "ic95_eb": [
+          9.5,
+          22.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14080",
+        "municipio": "San Sebastián del Oeste",
+        "casos": 12,
+        "tasa_cruda": 34.2,
+        "tasa_eb": 29.0,
+        "ic95_eb": [
+          16.3,
+          45.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14081",
+        "municipio": "Santa María de los Ángeles",
+        "casos": 7,
+        "tasa_cruda": 26.3,
+        "tasa_eb": 23.2,
+        "ic95_eb": [
+          11.1,
+          39.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14082",
+        "municipio": "Sayula",
+        "casos": 23,
+        "tasa_cruda": 8.6,
+        "tasa_eb": 9.2,
+        "ic95_eb": [
+          6.0,
+          13.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14083",
+        "municipio": "Tala",
+        "casos": 57,
+        "tasa_cruda": 8.8,
+        "tasa_eb": 9.1,
+        "ic95_eb": [
+          6.9,
+          11.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14084",
+        "municipio": "Talpa de Allende",
+        "casos": 6,
+        "tasa_cruda": 5.6,
+        "tasa_eb": 7.3,
+        "ic95_eb": [
+          3.4,
+          12.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14085",
+        "municipio": "Tamazula de Gordiano",
+        "casos": 22,
+        "tasa_cruda": 8.2,
+        "tasa_eb": 8.8,
+        "ic95_eb": [
+          5.7,
+          12.6
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14086",
+        "municipio": "Tapalpa",
+        "casos": 5,
+        "tasa_cruda": 3.2,
+        "tasa_eb": 4.7,
+        "ic95_eb": [
+          2.0,
+          8.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14087",
+        "municipio": "Tecalitlán",
+        "casos": 8,
+        "tasa_cruda": 7.0,
+        "tasa_eb": 8.4,
+        "ic95_eb": [
+          4.2,
+          14.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14088",
+        "municipio": "Tecolotlán",
+        "casos": 15,
+        "tasa_cruda": 12.7,
+        "tasa_eb": 13.3,
+        "ic95_eb": [
+          7.9,
+          20.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14089",
+        "municipio": "Techaluta de Montenegro",
+        "casos": 3,
+        "tasa_cruda": 10.1,
+        "tasa_eb": 13.0,
+        "ic95_eb": [
+          4.8,
+          25.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14090",
+        "municipio": "Tenamaxtlán",
+        "casos": 0,
+        "tasa_cruda": 0.0,
+        "tasa_eb": 4.4,
+        "ic95_eb": [
+          0.9,
+          10.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14091",
+        "municipio": "Teocaltiche",
+        "casos": 60,
+        "tasa_cruda": 21.2,
+        "tasa_eb": 21.1,
+        "ic95_eb": [
+          16.2,
+          26.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14092",
+        "municipio": "Teocuitatlán de Corona",
+        "casos": 8,
+        "tasa_cruda": 9.9,
+        "tasa_eb": 11.3,
+        "ic95_eb": [
+          5.7,
+          19.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14093",
+        "municipio": "Tepatitlán de Morelos",
+        "casos": 62,
+        "tasa_cruda": 5.7,
+        "tasa_eb": 5.9,
+        "ic95_eb": [
+          4.6,
+          7.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14094",
+        "municipio": "Tequila",
+        "casos": 26,
+        "tasa_cruda": 8.1,
+        "tasa_eb": 8.6,
+        "ic95_eb": [
+          5.7,
+          12.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14095",
+        "municipio": "Teuchitlán",
+        "casos": 6,
+        "tasa_cruda": 8.8,
+        "tasa_eb": 10.6,
+        "ic95_eb": [
+          4.9,
+          18.6
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14096",
+        "municipio": "Tizapán el Alto",
+        "casos": 20,
+        "tasa_cruda": 12.0,
+        "tasa_eb": 12.5,
+        "ic95_eb": [
+          7.9,
+          18.1
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14097",
+        "municipio": "Tlajomulco de Zúñiga",
+        "casos": 1674,
+        "tasa_cruda": 30.7,
+        "tasa_eb": 30.7,
+        "ic95_eb": [
+          29.3,
+          32.2
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14098",
+        "municipio": "San Pedro Tlaquepaque",
+        "casos": 1917,
+        "tasa_cruda": 38.4,
+        "tasa_eb": 38.4,
+        "ic95_eb": [
+          36.7,
+          40.1
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14099",
+        "municipio": "Tolimán",
+        "casos": 7,
+        "tasa_cruda": 8.5,
+        "tasa_eb": 10.2,
+        "ic95_eb": [
+          4.9,
+          17.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14100",
+        "municipio": "Tomatlán",
+        "casos": 34,
+        "tasa_cruda": 13.4,
+        "tasa_eb": 13.7,
+        "ic95_eb": [
+          9.6,
+          18.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14101",
+        "municipio": "Tonalá",
+        "casos": 925,
+        "tasa_cruda": 22.3,
+        "tasa_eb": 22.3,
+        "ic95_eb": [
+          20.9,
+          23.8
+        ],
+        "clase": "superior"
+      },
+      {
+        "cvegeo": "14102",
+        "municipio": "Tonaya",
+        "casos": 6,
+        "tasa_cruda": 14.2,
+        "tasa_eb": 15.4,
+        "ic95_eb": [
+          7.0,
+          26.9
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14103",
+        "municipio": "Tonila",
+        "casos": 5,
+        "tasa_cruda": 9.3,
+        "tasa_eb": 11.4,
+        "ic95_eb": [
+          4.9,
+          20.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14104",
+        "municipio": "Totatiche",
+        "casos": 3,
+        "tasa_cruda": 10.3,
+        "tasa_eb": 13.1,
+        "ic95_eb": [
+          4.8,
+          25.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14105",
+        "municipio": "Tototlán",
+        "casos": 11,
+        "tasa_cruda": 6.5,
+        "tasa_eb": 7.5,
+        "ic95_eb": [
+          4.1,
+          12.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14106",
+        "municipio": "Tuxcacuesco",
+        "casos": 1,
+        "tasa_cruda": 2.4,
+        "tasa_eb": 7.0,
+        "ic95_eb": [
+          1.9,
+          15.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14107",
+        "municipio": "Tuxcueca",
+        "casos": 16,
+        "tasa_cruda": 32.4,
+        "tasa_eb": 28.8,
+        "ic95_eb": [
+          17.4,
+          43.2
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14108",
+        "municipio": "Tuxpan",
+        "casos": 27,
+        "tasa_cruda": 9.8,
+        "tasa_eb": 10.3,
+        "ic95_eb": [
+          6.9,
+          14.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14109",
+        "municipio": "Unión de San Antonio",
+        "casos": 30,
+        "tasa_cruda": 21.8,
+        "tasa_eb": 21.4,
+        "ic95_eb": [
+          14.7,
+          29.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14110",
+        "municipio": "Unión de Tula",
+        "casos": 8,
+        "tasa_cruda": 8.1,
+        "tasa_eb": 9.6,
+        "ic95_eb": [
+          4.8,
+          16.0
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14111",
+        "municipio": "Valle de Guadalupe",
+        "casos": 3,
+        "tasa_cruda": 6.4,
+        "tasa_eb": 9.5,
+        "ic95_eb": [
+          3.5,
+          18.4
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14112",
+        "municipio": "Valle de Juárez",
+        "casos": 8,
+        "tasa_cruda": 17.3,
+        "tasa_eb": 17.5,
+        "ic95_eb": [
+          8.8,
+          29.3
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14113",
+        "municipio": "San Gabriel",
+        "casos": 9,
+        "tasa_cruda": 7.5,
+        "tasa_eb": 8.8,
+        "ic95_eb": [
+          4.6,
+          14.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14114",
+        "municipio": "Villa Corona",
+        "casos": 13,
+        "tasa_cruda": 9.5,
+        "tasa_eb": 10.5,
+        "ic95_eb": [
+          6.0,
+          16.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14115",
+        "municipio": "Villa Guerrero",
+        "casos": 4,
+        "tasa_cruda": 10.6,
+        "tasa_eb": 12.9,
+        "ic95_eb": [
+          5.2,
+          24.0
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14116",
+        "municipio": "Villa Hidalgo",
+        "casos": 7,
+        "tasa_cruda": 4.9,
+        "tasa_eb": 6.3,
+        "ic95_eb": [
+          3.0,
+          10.8
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14117",
+        "municipio": "Cañadas de Obregón",
+        "casos": 3,
+        "tasa_cruda": 9.4,
+        "tasa_eb": 12.4,
+        "ic95_eb": [
+          4.6,
+          24.1
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14118",
+        "municipio": "Yahualica de González Gallo",
+        "casos": 5,
+        "tasa_cruda": 3.2,
+        "tasa_eb": 4.6,
+        "ic95_eb": [
+          2.0,
+          8.3
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14119",
+        "municipio": "Zacoalco de Torres",
+        "casos": 25,
+        "tasa_cruda": 11.2,
+        "tasa_eb": 11.7,
+        "ic95_eb": [
+          7.8,
+          16.4
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14120",
+        "municipio": "Zapopan",
+        "casos": 1346,
+        "tasa_cruda": 12.5,
+        "tasa_eb": 12.5,
+        "ic95_eb": [
+          11.8,
+          13.2
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14121",
+        "municipio": "Zapotiltic",
+        "casos": 25,
+        "tasa_cruda": 9.8,
+        "tasa_eb": 10.3,
+        "ic95_eb": [
+          6.9,
+          14.5
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14122",
+        "municipio": "Zapotitlán de Vadillo",
+        "casos": 5,
+        "tasa_cruda": 9.3,
+        "tasa_eb": 11.4,
+        "ic95_eb": [
+          4.9,
+          20.5
+        ],
+        "clase": "indistinguible"
+      },
+      {
+        "cvegeo": "14123",
+        "municipio": "Zapotlán del Rey",
+        "casos": 12,
+        "tasa_cruda": 8.5,
+        "tasa_eb": 9.5,
+        "ic95_eb": [
+          5.3,
+          14.9
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14124",
+        "municipio": "Zapotlanejo",
+        "casos": 43,
+        "tasa_cruda": 9.4,
+        "tasa_eb": 9.7,
+        "ic95_eb": [
+          7.1,
+          12.7
+        ],
+        "clase": "inferior"
+      },
+      {
+        "cvegeo": "14125",
+        "municipio": "San Ignacio Cerro Gordo",
+        "casos": 5,
+        "tasa_cruda": 3.8,
+        "tasa_eb": 5.5,
+        "ic95_eb": [
+          2.4,
+          9.8
+        ],
+        "clase": "inferior"
+      }
+    ]
   },
   "_procedencia": {
-    "generado": "2026-09-25T20:16:19+00:00",
+    "generado": "2026-09-25T22:26:43+00:00",
     "script": "pieces.p5_concentracion",
     "insumos_sha256": {
       "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",

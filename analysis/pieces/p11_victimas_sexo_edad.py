@@ -14,6 +14,8 @@ cercana a su proporción en la población (51%), no habría sesgo de género que
 Fuente: SESNSP, víctimas del fuero común por municipio, metodología RNID, enero-agosto 2026 (80,631 víctimas).
 La serie estatal 2015-2025 solo registra víctimas de delitos contra la persona (no incluye abuso sexual, violencia
 familiar ni robo), por lo que no hay tendencia por edad previa a 2026.
+Nota (2026-09-25): se exporta la tabla de los 125 municipios de violencia contra mujeres ("municipios") para el mapa
+del sitio. No cambia ningún cálculo, umbral ni veredicto.
 Denominadores: CONAPO 2026 por sexo y edad. Los rangos del SESNSP (0-12, 13-17, 18-29, 30-60, 61+) no coinciden con
 los quinquenios de CONAPO; el grupo 10-14 se reparte 3/5 a 0-12 y 2/5 a 13-17, y 60-64 se reparte 1/5 a 30-60 y 4/5
 a 61+ (supuesto de distribución uniforme dentro del quinquenio). Tasas por 100 mil habitantes en el periodo de 8 meses.
@@ -107,6 +109,7 @@ def run() -> dict:
     eb = eb_gamma(t.n, t.women); eb.index = t.index
     t = t.join(eb)
     high = t[t.eb_lo > state].sort_values("eb_rate", ascending=False)
+    D.check(len(t) == 125, "tabla municipal de la pieza 11 = 125 municipios")
 
     sex_share = lambda name: key[name]["mujeres"]
     minors_abuse = next(r for r in prof if r["delito"] == "Abuso sexual")["menores_0_17"]
@@ -123,7 +126,11 @@ def run() -> dict:
             "tasa_estatal": round(state, 1), "victimas": int(t.n.sum()),
             "creiblemente_superiores": [{"municipio": r.nombre, "region": r.region, "victimas": int(r.n),
                                          "tasa_eb": round(r.eb_rate, 1), "ic95": [round(r.eb_lo, 1), round(r.eb_hi, 1)]}
-                                        for r in high.itertuples()]},
+                                        for r in high.itertuples()],
+            "municipios": [{"cvegeo": cv, "municipio": r.nombre, "victimas": int(r.n), "tasa_eb": round(r.eb_rate, 1),
+                            "ic95": [round(r.eb_lo, 1), round(r.eb_hi, 1)],
+                            "clase": "superior" if r.eb_lo > state else "inferior" if r.eb_hi < state else "indistinguible"}
+                           for cv, r in t.sort_index().iterrows()]},
         "hipotesis": {
             "H11a": sex_share("Delitos sexuales (todos)")[1] >= 0.80,
             "H11b": minors_abuse[0] >= 0.40,

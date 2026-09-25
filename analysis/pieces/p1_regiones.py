@@ -17,6 +17,8 @@ Razón relativa R = (D/H) / (D_estado/H_estado) con IC exacto condicional (Clopp
 Límite conocido: D no tiene año por municipio; la ventana de D y la de H no coinciden exactamente.
 Nota (revisión 2026-09-24): H1c se declaró sobre la estimación puntual de rho. Se reporta además su IC95 (Fisher con
 error estándar de Bonett-Wright para Spearman); el veredicto de H1c/H1d no se cambia.
+Nota (2026-09-25): se exporta la tabla de los 125 municipios de la ventana principal ("municipios") para el mapa del
+sitio. Es la misma tabla con la que se clasifica; no cambia ningún cálculo, umbral ni veredicto.
 """
 from __future__ import annotations
 
@@ -95,6 +97,17 @@ def analyze(t: pd.DataFrame, years: tuple[int, int]) -> dict:
     }
 
 
+def municipal_table(r: pd.DataFrame, h_col: str) -> list[dict]:
+    """All 125 municipalities with both smoothed rates, their 95% intervals and the class of each (for maps)."""
+    D.check(len(r) == 125, "tabla municipal de la pieza 1 = 125 municipios")
+    rnd = lambda x: round(float(x), 2) if np.isfinite(x) else None
+    return [{"cvegeo": cv, "municipio": x.nombre, "region": x.region, "desaparecidas": int(x.desap), "homicidios": int(x[h_col]),
+             "desap_eb": round(x.d_eb, 1), "desap_ic95": [round(x.d_lo, 1), round(x.d_hi, 1)], "desaparicion": x.desaparicion,
+             "hom_eb": round(x.h_eb, 2), "hom_ic95": [round(x.h_lo, 2), round(x.h_hi, 2)], "homicidio": x.homicidio,
+             "razon_rel": rnd(x.razon_rel), "razon_ic95": [rnd(x.razon_lo), rnd(x.razon_hi)]}
+            for cv, x in r.sort_index().iterrows()]
+
+
 def run() -> dict:
     mun = D.municipios().set_index("cvegeo")
     pop = D.conapo()
@@ -112,6 +125,7 @@ def run() -> dict:
     main, rob = res["2015-2025"], res["2019-2025"]
     hid_main = {x["municipio"] for x in main["violencia_oculta"]}
     hid_rob = {x["municipio"] for x in rob["violencia_oculta"]}
+    main["municipios"] = municipal_table(main["_tabla"], "hom_2015")
     for v in res.values():
         v.pop("_tabla")
     h1b = lambda v: len(v["violencia_oculta"]) >= 10 and v["violencia_oculta_fuera_amg"] > len(v["violencia_oculta"]) / 2

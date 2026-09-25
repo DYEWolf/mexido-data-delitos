@@ -1265,5 +1265,5 @@ uv run python -m ingest.extra
 | `analysis/mvj/stats.py` | Intervalos de Poisson, suavizado bayesiano empírico, Lorenz/Gini con bootstrap |
 | `analysis/pieces/p*.py` | Una pieza por pregunta, con hipótesis declaradas en el encabezado |
 | `analysis/ingest/*.py` | Conversión y validación de fosas, defunciones INEGI y descargas manuales |
-| `analysis/output/p*.json` | Resultados agregados con procedencia de insumos |
+| `analysis/output/p*.json` | Resultados agregados con procedencia de insumos. Las piezas 1, 5 y 11 incluyen además la tabla de los 125 municipios (tasa suavizada, IC95 y clase) que usan los mapas del sitio; agregarla el 25-09-2026 no cambió ninguna otra cifra ni veredicto |
 | `sources/*.md` | Contratos de fuente (REPD, SESNSP, INEGI, CONAPO) |

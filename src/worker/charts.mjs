@@ -191,14 +191,17 @@ export function mapDefs() {
   return `<svg class="map-defs" aria-hidden="true" width="0" height="0"><defs>${Object.entries(MAP.paths).map(([c, d]) => `<path id="g${c}" d="${d}" vector-effect="non-scaling-stroke"/>`).join('')}</defs></svg>`;
 }
 
-// fill(cv) -> { k: class suffix, tip, attrs }; circles: [{ cv, v, tip, k }] sized by area; opts.inset shows the AMG zoom.
-export function map({ fill, circles = [], maxCircle, inset = true, label, attrs = '', small = false, link = true }) {
+// fill(cv) -> { k: class suffix, tip, attrs }; overlay(cv) -> { on, attrs } draws an ink outline above every fill (credible
+// differences); circles: [{ cv, v, tip, k }] sized by area; opts.inset shows the AMG zoom.
+export function map({ fill, overlay, circles = [], maxCircle, inset = true, label, attrs = '', small = false, link = true }) {
   const box = F.amgBox;
   const uses = (inInset) => Object.keys(MAP.paths).map((c) => {
     const f = fill(c) || {};
     const u = `<use href="#g${c}" class="f-${f.k || 'none'}" data-tip="${esc(f.tip || F.mun[c].n)}"${f.attrs || ''}${inInset ? '' : ' tabindex="-1"'}/>`;
     return link && !inInset ? `<a href="/municipio/${c}" aria-label="${esc(F.mun[c].n)}">${u}</a>` : u;
   }).join('');
+  // Outlines go after all fills so neighbours never paint over them; they ignore the pointer.
+  const outlines = () => (overlay ? Object.keys(MAP.paths).map((c) => { const o = overlay(c); return o ? `<use href="#g${c}" class="ov${o.on ? ' on' : ''}"${o.attrs || ''}/>` : ''; }).join('') : '');
   const cmax = maxCircle || Math.max(1, ...circles.map((c) => c.v));
   const rad = (v) => Math.sqrt(v / cmax) * (small ? 14 : 26);
   const circ = (inInset) => circles.filter((c) => c.v > 0 && (!inInset || (F.mun[c.cv].c[0] > box[0] && F.mun[c.cv].c[0] < box[0] + box[2] && F.mun[c.cv].c[1] > box[1] && F.mun[c.cv].c[1] < box[1] + box[3])))
@@ -208,8 +211,8 @@ export function map({ fill, circles = [], maxCircle, inset = true, label, attrs 
       const r = rad(c.v);
       return `<span class="mc${c.k ? ` mc-${c.k}` : ''}" tabindex="0" style="left:${lx.toFixed(2)}%;top:${ly.toFixed(2)}%;width:${(2 * r).toFixed(1)}px;height:${(2 * r).toFixed(1)}px" data-tip="${esc(c.tip)}"></span>`;
     }).join('');
-  const main = `<div class="map-main"><svg viewBox="0 0 ${MAP.width} ${MAP.height}" role="img" aria-label="${esc(label)}">${uses(false)}${inset ? `<rect class="inset-box" x="${box[0]}" y="${box[1]}" width="${box[2]}" height="${box[3]}"/>` : ''}</svg>${circ(false)}</div>`;
-  const ins = inset ? `<div class="map-inset"><p>Área metropolitana de Guadalajara, ampliada</p><div class="map-inset-v"><svg viewBox="${box.join(' ')}" aria-hidden="true">${uses(true)}</svg>${circ(true)}</div></div>` : '';
+  const main = `<div class="map-main"><svg viewBox="0 0 ${MAP.width} ${MAP.height}" role="img" aria-label="${esc(label)}">${uses(false)}${outlines()}${inset ? `<rect class="inset-box" x="${box[0]}" y="${box[1]}" width="${box[2]}" height="${box[3]}"/>` : ''}</svg>${circ(false)}</div>`;
+  const ins = inset ? `<div class="map-inset"><p>Área metropolitana de Guadalajara, ampliada</p><div class="map-inset-v"><svg viewBox="${box.join(' ')}" aria-hidden="true">${uses(true)}${outlines()}</svg>${circ(true)}</div></div>` : '';
   return `<div class="map${small ? ' small' : ''}${inset ? ' with-inset' : ''}"${attrs}>${main}${ins}</div>`;
 }
 
@@ -219,7 +222,8 @@ export function circleKey(values, max, fmtV = (v) => num(v), small = false) {
 }
 
 export const CHART_CSS = `
-:root{--wo:color-mix(in srgb,var(--ink) 13%,transparent)}
+:root{--wo:color-mix(in srgb,var(--ink) 13%,transparent);--des-l:color-mix(in srgb,var(--des) 42%,var(--surface));--hom-l:color-mix(in srgb,var(--hom) 42%,var(--surface));
+--up-l:color-mix(in srgb,var(--up) 42%,var(--surface));--down-l:color-mix(in srgb,var(--down) 42%,var(--surface))}
 .fig{margin:36px 0 44px;padding:14px 0 0;border-top:1px solid var(--line)}.fig-head h3{font-size:1.02rem;font-weight:650;margin:0 0 4px;line-height:1.35;max-width:60ch}.fig-sub{margin:0 0 14px;color:var(--ink-2);font-size:.9rem;max-width:72ch}
 .finding .fig,.fig .fig{border-top:0;padding-top:0}
 .fig-body{position:relative}.fig-src{color:var(--ink-3);font-size:.8rem;margin:12px 0 0}.fig-src a{color:inherit}
@@ -229,7 +233,7 @@ export const CHART_CSS = `
 .lg li{display:flex;align-items:center;gap:6px}.lg i{display:inline-block;background:var(--k)}
 .k-rect{width:12px;height:12px;border-radius:3px}.k-dot{width:10px;height:10px;border-radius:50%}.k-line{width:16px;height:2px;border-radius:1px}
 .k-ring{width:10px;height:10px;border-radius:50%;background:transparent!important;box-shadow:inset 0 0 0 2px var(--k)}.k-tick{width:2px;height:12px}
-.k-half{width:12px;height:12px;border-radius:3px;opacity:.45}.k-circle{width:12px;height:12px;border-radius:50%;background:transparent!important;border:1.5px solid var(--k)}
+.k-half{width:12px;height:12px;border-radius:3px;opacity:.45}.k-circle{width:12px;height:12px;border-radius:50%;background:transparent!important;border:1.5px solid var(--k)}.k-outline{width:12px;height:12px;border-radius:3px;background:var(--mid)!important;box-shadow:inset 0 0 0 2px var(--ink)}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:0 28px;margin:28px 0 12px;border-top:2px solid var(--rule)}
 .tile{padding:14px 0 16px;border-bottom:1px solid var(--line)}.tile b{display:block;font-size:clamp(1.7rem,3vw,2.1rem);line-height:1.1;letter-spacing:-.025em;font-weight:650;font-variant-numeric:tabular-nums}
 .tile span{display:block;color:var(--ink);font-size:.92rem;margin-top:6px;line-height:1.4;max-width:28ch}.tile small{display:block;color:var(--ink-3);font-size:.78rem;margin-top:6px;line-height:1.4}
@@ -307,7 +311,7 @@ export const CHART_CSS = `
 .map-defs{position:absolute;width:0;height:0;overflow:hidden}
 .map{display:grid;gap:12px;align-items:start}.map.with-inset{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}
 .map-main,.map-inset-v{position:relative}.map svg{display:block;width:100%;height:auto}
-.map use{stroke:var(--surface);stroke-width:.8;stroke-linejoin:round;fill:var(--mid)}.map a:focus{outline:none}
+.map use{stroke:var(--surface);stroke-width:.8;stroke-linejoin:round;fill:var(--mid)}.map use.ov{fill:none;stroke:none;pointer-events:none}.map use.ov.on{stroke:var(--ink);stroke-width:1}.map a:focus{outline:none}
 .map use:hover,.map a:focus use{stroke:var(--ink);stroke-width:1.8}.map-main svg{max-height:74vh}
 .inset-box{fill:none;stroke:var(--ink-3);stroke-width:1;vector-effect:non-scaling-stroke}
 .map-inset p{margin:0 0 6px;font-size:.8rem;color:var(--ink-2)}.map-inset-v{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg)}
@@ -315,16 +319,17 @@ export const CHART_CSS = `
 .mc:hover,.mc:focus{background:color-mix(in srgb,var(--ink) 35%,transparent);outline:none}
 .ckey{display:flex;align-items:flex-end;gap:14px;font-size:.8rem;color:var(--ink-2);margin:6px 0 0}.ckey span{display:flex;flex-direction:column;align-items:center;gap:4px}
 .ckey i{display:block;border-radius:50%;border:1.5px solid var(--ink);background:color-mix(in srgb,var(--ink) 18%,transparent)}
+.map .f-s1{fill:var(--seq-1)}.map .f-s2{fill:var(--seq-2)}.map .f-s3{fill:var(--seq-3)}.map .f-s4{fill:var(--seq-4)}.map .f-s5{fill:var(--seq-5)}
+.map .f-dp2{fill:var(--des)}.map .f-dp1{fill:var(--des-l)}.map .f-dn1{fill:var(--hom-l)}.map .f-dn2{fill:var(--hom)}
+.map .f-tp2{fill:var(--up)}.map .f-tp1{fill:var(--up-l)}.map .f-tn1{fill:var(--down-l)}.map .f-tn2{fill:var(--down)}
 .map .f-des{fill:var(--des)}.map .f-des-p{fill:var(--des);fill-opacity:.45}.map .f-hom{fill:var(--hom)}.map .f-ambos{fill:var(--c3)}
 .map .f-vcm{fill:var(--women)}.map .f-sel{fill:var(--ink)}.map .f-up{fill:var(--up)}.map .f-down{fill:var(--down)}.map .f-alto{fill:var(--up)}.map .f-otra{fill:var(--c2)}.map .f-reg{fill:var(--c1);fill-opacity:.35}
 .map.small.with-inset{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}
 @media (max-width:720px){.map.with-inset{grid-template-columns:1fr}}
-.map[data-k] use[data-c0]{fill:var(--mid)}
-.map[data-k="0"] use[data-c0="up"]{fill:var(--up)}.map[data-k="0"] use[data-c0="down"]{fill:var(--down)}.map[data-k="1"] use[data-c1="up"]{fill:var(--up)}.map[data-k="1"] use[data-c1="down"]{fill:var(--down)}.map[data-k="2"] use[data-c2="up"]{fill:var(--up)}.map[data-k="2"] use[data-c2="down"]{fill:var(--down)}.map[data-k="3"] use[data-c3="up"]{fill:var(--up)}.map[data-k="3"] use[data-c3="down"]{fill:var(--down)}.map[data-k="4"] use[data-c4="up"]{fill:var(--up)}.map[data-k="4"] use[data-c4="down"]{fill:var(--down)}
 .sparks{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}.spk{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--surface);font-size:.86rem}
 .spk b{display:block;font-weight:600;line-height:1.25;min-height:2.5em}.spk small{display:block;color:var(--ink-3);font-size:.72rem}
 table.bv{width:auto;max-width:100%;font-size:.85rem}table.bv caption{text-align:left;color:var(--ink-2);font-size:.85rem;padding-bottom:6px;caption-side:top}table.bv td{text-align:center;min-width:4.5rem;font-weight:600}@media (max-width:480px){table.bv{font-size:.78rem}table.bv td{min-width:0}table.bv th,table.bv td{padding:6px 5px}}
-table.bv th{font-weight:500}.bv-des{background:color-mix(in srgb,var(--des) 28%,transparent)}.bv-hom{background:color-mix(in srgb,var(--hom) 22%,transparent)}.bv-ambos{background:color-mix(in srgb,var(--c3) 28%,transparent)}
+table.bv th{font-weight:500}.bv-dp2{background:var(--des);color:#fff}.bv-dp1{background:var(--des-l)}.bv-d0{background:var(--mid)}.bv-dn1{background:var(--hom-l)}.bv-dn2{background:var(--hom);color:#fff}
 .maps2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.maps2 h4{font-size:.92rem;margin:0 0 6px}@media (max-width:720px){.maps2{grid-template-columns:1fr}}
 /* tooltip */
 .tt{position:fixed;z-index:20;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 4px 18px rgba(0,0,0,.12);

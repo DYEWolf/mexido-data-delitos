@@ -85,7 +85,16 @@ function build(geo) {
     ambos: w.alto_en_ambos.map((m) => cv(m.municipio)), soloHom: w.solo_homicidio_alto.map((m) => cv(m.municipio)),
     regions: { s1525: regionRows(w.por_region), s1925: regionRows(P[1].resultados['2019-2025'].por_region), inegi: regionRows(P[7].robustez_pieza1_con_inegi.por_region) },
     ejemplo: w.violencia_oculta.find((m) => m.municipio === 'San Miguel el Alto'),
+    // All 125: [desaparecidas, homicidios, desap_eb, lo, hi, clase, hom_eb, lo, hi, clase, razon_rel, lo, hi]
+    m: Object.fromEntries(need(w.municipios, 'p1 municipios').map((x) => [x.cvegeo, [x.desaparecidas, x.homicidios, x.desap_eb, ...x.desap_ic95, x.desaparicion,
+      x.hom_eb, ...x.hom_ic95, x.homicidio, x.razon_rel, ...x.razon_ic95]])),
   };
+  { // The full table must reproduce the published grid and lists.
+    const g = {}; for (const x of w.municipios) { g[x.homicidio] ??= {}; g[x.homicidio][x.desaparicion] = (g[x.homicidio][x.desaparicion] || 0) + 1; }
+    for (const h of ['alto', 'promedio', 'bajo']) for (const d of ['alto', 'promedio', 'bajo']) if ((g[h]?.[d] || 0) !== w.cuadricula_homicidio_x_desaparicion[h][d]) fail(`p1 grid ${h}/${d}`);
+    if (Object.keys(F.p1.m).length !== 125) fail('p1 municipios != 125');
+    for (const c of list12.map((m) => m.cv)) if (F.p1.m[c][5] !== 'alto' || F.p1.m[c][9] !== 'bajo') fail(`p1 ${c} not in hidden cell`);
+  }
 
   // P2: unresolved disappearance rate by sex and age (2019-2025), and outcome by sex.
   const ages = [...new Set(P[2].tasas.map((t) => t.age))];
@@ -108,7 +117,10 @@ function build(geo) {
   const thin = (l) => { const step = Math.max(1, Math.floor(l.x.length / 40)); const out = [];
     for (let i = 0; i < l.x.length; i += step) out.push([r3(l.x[i]), r3(l.y[i])]);
     const last = [r3(l.x.at(-1)), r3(l.y.at(-1))]; if (out.at(-1)[0] !== last[0]) out.push(last); return out; };
-  const conc = (k) => ({ gini: k.gini, ic: k.gini_ic95, top15: k.casos_en_municipios_con_15pct_poblacion_mas_afectada, half: k.poblacion_necesaria_para_50pct_casos,
+  const full = (list, altos, what) => { if (list.length !== 125) fail(`${what} municipios != 125`);
+    if (list.filter((x) => x.clase === 'superior').length !== altos.length) fail(`${what}: superiores no cuadran con la lista publicada`);
+    return Object.fromEntries(list.map((x) => [x.cvegeo, [x.casos ?? x.victimas, x.tasa_eb, ...(x.ic95_eb || x.ic95), x.clase]])); };
+  const conc = (k) => ({ m: full(k.municipios, k.creiblemente_superiores, 'p5'), gini: k.gini, ic: k.gini_ic95, top15: k.casos_en_municipios_con_15pct_poblacion_mas_afectada, half: k.poblacion_necesaria_para_50pct_casos,
     tasa: k.tasa_estatal, lorenz: thin(k.lorenz), altos: k.creiblemente_superiores.map((m) => ({ cv: cv(m.municipio), casos: m.casos, eb: m.tasa_eb, ic: m.ic95_eb })) });
   F.p5 = { des: conc(P[5].desaparicion), hom: conc(P[5].homicidio_2019_2025),
     regions: Object.fromEntries(P[5].por_region.map((x) => [reg(x.region), { casos: x.pct_casos, pob: x.pct_pob, desap: x.desap }])) };
@@ -147,7 +159,7 @@ function build(geo) {
   F.p11 = { total: P[11].total_victimas, calidad: P[11].calidad,
     perfil: P[11].perfil_por_delito.map((d) => ({ k: d.delito, n: d.victimas, muj: pct(d.mujeres), men: pct(d.menores_0_17) })),
     grupos: Object.fromEntries(['Abuso sexual', 'Violencia familiar', 'Robo con violencia', 'Homicidio doloso'].map((k) => [k, groups(k)])),
-    vcm: { tasa: P[11].violencia_contra_mujeres_municipios.tasa_estatal, victimas: P[11].violencia_contra_mujeres_municipios.victimas,
+    vcm: { m: full(P[11].violencia_contra_mujeres_municipios.municipios, P[11].violencia_contra_mujeres_municipios.creiblemente_superiores, 'p11'), tasa: P[11].violencia_contra_mujeres_municipios.tasa_estatal, victimas: P[11].violencia_contra_mujeres_municipios.victimas,
       altos: P[11].violencia_contra_mujeres_municipios.creiblemente_superiores.map((m) => ({ cv: cv(m.municipio), n: m.victimas, eb: m.tasa_eb, ic: m.ic95 })) } };
 
   // P12: the 2025 homicide drop.
