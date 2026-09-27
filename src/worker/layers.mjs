@@ -8,6 +8,21 @@ import { num, sgn, range, legend } from './charts.mjs';
 const mun = (c) => F.mun[c].n;
 const CLS_TXT = { superior: 'Creíblemente por encima del promedio', inferior: 'Creíblemente por debajo del promedio', indistinguible: 'No se distingue del promedio' };
 
+// ---- Graves registry: some sites carry a note from the source instead of a count ----
+export const FOSA_NOTA = {
+  'COMPETENCIA FGR': 'Sin cifra en el registro estatal: el caso lo lleva la FGR',
+  'IJCF PROCESANDO': 'Sin cifra todavía: el instituto forense sigue procesando el sitio',
+};
+const OTRO = { 'COMPETENCIA FGR': 'otro sitio lo lleva la FGR y no tiene cifra en el registro estatal', 'IJCF PROCESANDO': 'otro sitio sigue en proceso en el instituto forense, sin cifra todavía' };
+const vict = (n) => `${num(n)} ${n === 1 ? 'víctima localizada' : 'víctimas localizadas'}`;
+const sitios = (n) => `${num(n)} ${n === 1 ? 'sitio' : 'sitios'}`;
+const list = (m) => (m.notas || '').split('; ').filter(Boolean);
+// Tooltip lines and a short table cell for one municipality of the registry (F.p8.mun entry).
+export const fosaTip = (m) => (m.loc == null
+  ? `${sitios(m.sitios)} en el registro\n${list(m).map((n) => FOSA_NOTA[n]).join('\n')}`
+  : `${vict(m.loc)}\n${sitios(m.sitios)} · ${num(m.id)} identificadas${m.sinCifra ? `\nAdemás, ${list(m).map((n) => OTRO[n]).join('; ')}` : ''}`);
+export const fosaCell = (m) => (m.loc == null ? `Sin cifra (${list(m).map((n) => (n === 'COMPETENCIA FGR' ? 'competencia FGR' : 'IJCF procesando')).join(', ')})` : `${num(m.loc)}${m.sinCifra ? ` (+${m.sinCifra} sin cifra)` : ''}`);
+
 // ---- Rates: sequential ramp by ratio to the state rate ----
 const RATE_BREAKS = [0.5, 0.8, 1.25, 2];
 const RATE_LABELS = ['Menos de la mitad del promedio', '0.5 a 0.8 veces', 'Cerca del promedio (0.8 a 1.25)', '1.25 a 2 veces', 'El doble o más'];

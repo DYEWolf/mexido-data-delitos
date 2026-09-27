@@ -16,6 +16,11 @@ corte 31-08-2026 (oct 2018 en adelante). Cifras preliminares según la propia fu
 Añadido en la revisión del 2026-09-24 (H8c queda como fue declarada): comparación de base para H8c (proporción de
 municipios con fosa entre los demás municipios fuera del área metropolitana, prueba exacta de Fisher), totales fuera
 del área metropolitana y sitios registrados con 0 víctimas.
+
+Corrección del 2026-09-25: los dos "sitios con 0 víctimas" no tenían 0 en la fuente. En la columna de víctimas la tabla
+dice "COMPETENCIA FGR" (La Estanzuela, Teuchitlán: Rancho Izaguirre, caso atraído por la FGR) e "IJCF PROCESANDO"
+(Presa Santa Elena, Ameca); el convertidor los volvía 0. Ahora quedan sin cifra, con su nota, en "sitios_sin_cifra".
+Ningún total, proporción ni veredicto cambia, porque esos sitios sumaban 0.
 """
 from __future__ import annotations
 
@@ -63,8 +68,11 @@ def run() -> dict:
     f_out = f[~f.cvegeo.isin(amg)]
     start = pd.to_datetime(f.inicio, format="%m/%Y")
 
-    by_mun = f.groupby(["municipio", "region"]).agg(sitios=("id", "count"), localizadas=("localizadas", "sum"),
-                                                     identificadas=("identificadas", "sum")).reset_index()
+    # A municipality whose only sites have no count keeps no count (min_count=1), and carries the source's notes.
+    by_mun = f.groupby(["municipio", "region"]).agg(sitios=("id", "count"), localizadas=("localizadas", lambda s: s.sum(min_count=1)),
+                                                     identificadas=("identificadas", "sum"),
+                                                     sin_cifra=("localizadas", lambda s: int(s.isna().sum())),
+                                                     notas=("nota", lambda s: "; ".join(sorted(set(s.dropna()))) or None)).reset_index()
     return {
         "pregunta": "¿Qué dice el registro oficial de fosas, y qué deja fuera?",
         "totales": {"sitios": int(len(f)), "en_proceso": int((f.fin == "PROCESANDO").sum()),
@@ -84,9 +92,9 @@ def run() -> dict:
                       "victimas_localizadas": int(f_out.localizadas.sum()),
                       "proporcion_victimas": round(float(f_out.localizadas.sum() / f.localizadas.sum()), 4),
                       "proporcion_desaparecidas": round(1 - p_desap_amg, 4)},
-        "sitios_sin_victimas": f[f.localizadas == 0][["id", "sitio", "municipio", "inicio", "fin"]].to_dict("records"),
+        "sitios_sin_cifra": f[f.localizadas.isna()][["id", "sitio", "municipio", "inicio", "fin", "nota"]].to_dict("records"),
         "inicio_mas_antiguo": start.min().strftime("%m/%Y"),
-        "por_municipio": by_mun.sort_values("localizadas", ascending=False).to_dict("records"),
+        "por_municipio": by_mun.sort_values("localizadas", ascending=False, na_position="last").to_dict("records"),
         "hipotesis": {"H8a": ident[2] < 0.60, "H8b": p_fosas_amg[1] - p_desap_amg > 0.20,
                       "H8c": len(covered) / max(len(high), 1) < 0.25},
     }

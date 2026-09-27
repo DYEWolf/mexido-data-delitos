@@ -200,6 +200,9 @@ def fosas() -> pd.DataFrame:
     p = PATHS["fosas"]; _sha(p)
     df = pd.read_csv(p, dtype={"cvegeo": str})
     check(len(df) == 259 and df.localizadas.sum() == 2_218 and df.identificadas.sum() == 1_174, "fosas 259 / 2,218 / 1,174")
+    # Sites without a count carry the source's note instead (see ingest/fosas.py); never a silent 0.
+    check(set(df.nota.dropna()) <= {"COMPETENCIA FGR", "IJCF PROCESANDO"} and df[df.localizadas.isna()].nota.notna().all(),
+          "fosas: sitios sin cifra solo con notas documentadas de la fuente")
     return df
 
 

@@ -284,11 +284,11 @@
     "E25e": "exploratoria"
   },
   "_procedencia": {
-    "generado": "2026-09-25T20:18:16+00:00",
+    "generado": "2026-09-25T22:44:26+00:00",
     "script": "pieces.p25_fosas_otras_fuentes",
     "insumos_sha256": {
       "s2-inegi-import-20260923T221320Z/materialized-path-guard/geo-units.json": "54c4abac24f3e5e49ed7980838a6f3a202a9ce2583f6db0c33e7eaee24622b97",
-      "s3-fosas-20260924T184227Z/fosas-sitios.csv": "2a2b3785522f9b324499e75409f8c92227c303eaaf985da6c1ad218750776ba4",
+      "s3-fosas-20260924T184227Z/fosas-sitios.csv": "747215f9880e00f6bf79e175b979960ef874ed15a304658e40d9247ca36cccdb",
       "s3-plataforma-fosas-20260925T201301Z/bases_pcdf-2024.zip": "49ed1b27a0b7b82340d6bbbe80d6a63c24f649bdf009b78ea800571465043712"
     }
   }

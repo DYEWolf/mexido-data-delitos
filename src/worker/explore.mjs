@@ -4,7 +4,7 @@
 import { esc, page } from './ui.mjs';
 import { F } from './generated/findings.mjs';
 import { num, sgn, range, figure, legend, table, rows, mapDefs, map, circleKey } from './charts.mjs';
-import { rateLayer, p1Layer, trendLayer } from './layers.mjs';
+import { rateLayer, p1Layer, trendLayer, fosaTip, fosaCell } from './layers.mjs';
 
 const RG = { amg: 'Área metropolitana de Guadalajara', an: 'Altos Norte', as: 'Altos Sur', resto: 'Resto del estado' };
 const mun = (c) => F.mun[c].n;
@@ -38,12 +38,12 @@ function layers(db) {
       sub: 'Víctimas localizadas en sitios del registro público de la Fiscalía (círculos). En naranja, municipios fuera del área metropolitana donde la prensa o la fiscalía (por transparencia) reportan fosas en 2019–2024 sin ningún sitio en el registro.',
       legend: legend([{ label: `Con sitio en el registro (${F.p8.mun.length})`, color: '--c1', shape: 'half' }, { label: `Fosas en otras fuentes, sin sitio en el registro (${otras.size})`, color: '--c2' },
         { label: 'Sin sitio en el registro (no quiere decir que no haya fosas)', color: '--mid' }, { label: 'Víctimas localizadas', color: '--ink', shape: 'circle' }]),
-      keyValues: [10, 100, 750], maxCircle: Math.max(...F.p8.mun.map((m) => m.loc)),
-      fill: (c) => fosas[c] ? { k: 'reg', tip: `${mun(c)}\n${num(fosas[c].loc)} víctimas localizadas\n${num(fosas[c].sitios)} sitios · ${num(fosas[c].id)} identificadas` }
+      keyValues: [10, 100, 750], maxCircle: Math.max(...F.p8.mun.map((m) => m.loc || 0)),
+      fill: (c) => fosas[c] ? { k: 'reg', tip: `${mun(c)}\n${fosaTip(fosas[c])}` }
         : otras.has(c) ? { k: 'otra', tip: `${mun(c)}\nFosas reportadas por otras fuentes (2019–2024)\nSin sitio en el registro` } : { tip: `${mun(c)}\nSin sitio en el registro público` },
-      circles: F.p8.mun.map((m) => ({ cv: m.cv, v: m.loc, tip: `${mun(m.cv)}\n${num(m.loc)} víctimas localizadas` })),
-      head: ['Sitios', 'Víctimas localizadas', 'Identificadas'], value: (c) => (fosas[c] ? fosas[c].loc : otras.has(c) ? -0.5 : -1),
-      row: (c) => (fosas[c] ? [num(fosas[c].sitios), num(fosas[c].loc), num(fosas[c].id)] : [otras.has(c) ? 'Solo en otras fuentes' : '—', '—', '—']) },
+      circles: F.p8.mun.map((m) => ({ cv: m.cv, v: m.loc || 0, tip: `${mun(m.cv)}\n${fosaTip(m)}` })),
+      head: ['Sitios', 'Víctimas localizadas', 'Identificadas'], value: (c) => (fosas[c] ? fosas[c].loc ?? 0 : otras.has(c) ? -0.5 : -1),
+      row: (c) => (fosas[c] ? [num(fosas[c].sitios), fosaCell(fosas[c]), num(fosas[c].id)] : [otras.has(c) ? 'Solo en otras fuentes' : '—', '—', '—']) },
     mujeres: rate('vcm', 'Violencia contra mujeres', 'Víctimas', 11, `Mujeres víctimas de violencia familiar o sexual por 100 mil mujeres, enero–agosto 2026, con suavizado. Estado: ${num(F.p11.vcm.tasa)}.`),
     ...Object.fromEntries(F.p19.map((_, i) => [`tendencia-${i}`, trend(i)])),
   };
@@ -84,7 +84,7 @@ export async function municipio(req, env, code, loadOne) {
     `<b>Homicidio contra desaparición:</b> ${esc(p1Layer().label(code).toLowerCase())}. ${num(x1[0])} personas desaparecidas y ${num(x1[1])} homicidios dolosos en 2015–2025${
       l12[code] ? `; es uno de los 12 municipios con homicidio bajo y desaparición alta${l12[code].robust ? ', y se sostiene con el homicidio de 2015–2018' : ', aunque no se sostiene con el homicidio de 2015–2018'}. <a href="/violencia-letal#mapa-violencia-oculta">Ver en contexto</a>` : ''}.`,
     `<b>Violencia familiar o sexual contra mujeres</b> (enero–agosto 2026): ${num(v[1], 0)} víctimas por 100 mil mujeres (IC95 ${range(v[2], v[3], 0)}), ${CMP[v[4]]} (${num(F.p11.vcm.tasa)}).`,
-    fosas[code] ? `<b>Fosas en el registro público:</b> ${num(fosas[code].sitios)} ${fosas[code].sitios === 1 ? 'sitio' : 'sitios'}, ${num(fosas[code].loc)} víctimas localizadas, ${num(fosas[code].id)} identificadas.`
+    fosas[code] ? `<b>Fosas en el registro público:</b> ${esc(fosaTip(fosas[code]).replace(/\n/g, '. '))}.`
       : otras.has(code) ? '<b>Fosas reportadas por la prensa o por la fiscalía (transparencia) en 2019–2024</b>, sin ningún sitio en el registro público.'
         : '<b>Fosas:</b> sin sitios en el registro público de la Fiscalía (eso no quiere decir que no haya).',
   ];

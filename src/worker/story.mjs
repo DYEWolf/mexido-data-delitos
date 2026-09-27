@@ -3,12 +3,14 @@
 import { esc, page, CHAPTERS } from './ui.mjs';
 import { F } from './generated/findings.mjs';
 import { niceTicks, num, pc, sgn, range, figure, legend, table, stats, rows, stack, columns, line, pyramid, waffle, scatter, mapDefs, map, circleKey, spark } from './charts.mjs';
-import { rateLayer, p1Layer, trendSwitch, trendLegend } from './layers.mjs';
+import { rateLayer, p1Layer, trendSwitch, trendLegend, fosaTip, fosaCell } from './layers.mjs';
 
 const RG = { amg: 'Área metropolitana', an: 'Altos Norte', as: 'Altos Sur', resto: 'Resto del estado' };
 const RGC = { amg: '--amg', an: '--an', as: '--as', resto: '--resto' };
 const REGIONS = ['amg', 'an', 'as', 'resto'];
 const mun = (c) => F.mun[c].n;
+// Site names come in capitals from the registry PDF.
+const siteName = (s) => s.toLowerCase().replace(/(^|[\s(])(\p{L})/gu, (m, p, ch) => p + ch.toUpperCase());
 const ml = (c) => `<a href="/municipio/${c}">${esc(mun(c))}</a>`;
 const src = (text, ...pieces) => `Fuente: ${text}. ${pieces.map((p) => `<a href="/metodologia#p${p}">Pieza ${p}</a>`).join(' · ')}`;
 const iv = ([e, lo, hi], d = 1, unit = '%') => `${num(e, d)}${unit} (IC95 ${range(lo, hi, d)})`;
@@ -243,17 +245,17 @@ export function busqueda() {
         { label: 'Víctimas halladas en fosas registradas', parts: [{ v: p8.amg[0], color: '--amg', label: 'Área metropolitana', extra: `IC95 ${range(p8.amg[1], p8.amg[2])}%` }, { v: 100 - p8.amg[0], color: '--resto', label: 'Resto de Jalisco', extra: `${num(p8.fuera.victimas_localizadas)} víctimas` }] }]),
       source: src('Fiscalía del Estado de Jalisco, registro de sitios de inhumación clandestina (corte 31 ago 2026); REPD; CONAPO', 8) });
 
-    const cmax = Math.max(...p8.mun.map((m) => m.loc));
+    const cmax = Math.max(...p8.mun.map((m) => m.loc || 0));
     const figMap = figure({ id: 'mapa-fosas', cls: 'wide', title: 'Fosas registradas y fosas que otras fuentes reportan fuera del registro',
       sub: 'Círculos: víctimas localizadas en sitios del registro público, por municipio. Naranja: municipios fuera del área metropolitana donde la prensa o la base de la fiscalía obtenida por transparencia reportan fosas en 2019–2024, sin ningún sitio en el registro.',
       legend: legend([{ label: `Con sitio en el registro (${p8.mun.length} municipios)`, color: '--c1', shape: 'half' }, { label: `Fosas reportadas por otras fuentes, sin sitio en el registro (${otros.size})`, color: '--c2' }, { label: 'Víctimas localizadas en el registro', color: '--ink', shape: 'circle' }]) + circleKey([10, 100, 750], cmax),
       body: map({ label: 'Mapa de fosas registradas por municipio', maxCircle: cmax,
-        fill: (c) => reg[c] ? { k: 'reg', tip: `${mun(c)}\n${num(reg[c].loc)} víctimas localizadas\n${num(reg[c].sitios)} ${reg[c].sitios === 1 ? 'sitio' : 'sitios'} · ${num(reg[c].id)} identificadas` }
+        fill: (c) => reg[c] ? { k: 'reg', tip: `${mun(c)}\n${fosaTip(reg[c])}` }
           : otros.has(c) ? { k: 'otra', tip: `${mun(c)}\nFosas en ${fuente(c)} (2019–2024)\nSin sitio en el registro público` } : { tip: `${mun(c)}\nSin sitio registrado` },
-        circles: p8.mun.map((m) => ({ cv: m.cv, v: m.loc, tip: `${mun(m.cv)}\n${num(m.loc)} víctimas localizadas\n${num(m.sitios)} ${m.sitios === 1 ? 'sitio' : 'sitios'}` })) }),
+        circles: p8.mun.map((m) => ({ cv: m.cv, v: m.loc || 0, tip: `${mun(m.cv)}\n${fosaTip(m)}` })) }),
       note: (() => { const both = p25.fueraSinRegistro.filter((c) => F.p1.cls[c] === 'oculta' || F.p1.cls[c] === 'oculta_p'); return `${both.length === 2 ? 'Dos' : num(both.length)} de los ${otros.size} municipios con fosas fuera del registro, ${both.map(ml).join(' y ')}, están entre los 12 con homicidio bajo y desaparición alta.`; })(),
       source: src('Fiscalía del Estado de Jalisco (registro público); Plataforma Ciudadana de Fosas (PDH IBERO, ARTICLE 19, Data Cívica): prensa y fiscalía por transparencia', 8, 25),
-      table: table(['Municipio', 'Sitios', 'Víctimas localizadas', 'Identificadas'], p8.mun.map((m) => [ml(m.cv), num(m.sitios), num(m.loc), num(m.id)]), [1, 2, 3]) +
+      table: table(['Municipio', 'Sitios', 'Víctimas localizadas', 'Identificadas'], p8.mun.map((m) => [ml(m.cv), num(m.sitios), fosaCell(m), num(m.id)]), [1, 2, 3]) +
         table(['Fuera del registro', 'Fuente'], [...otros].map((c) => [ml(c), fuente(c)])) });
 
     const figId = figure({ id: 'identificacion', title: 'Cuatro de cada diez cuerpos hallados siguen sin nombre años después',
@@ -276,7 +278,7 @@ export function busqueda() {
       source: src('Fiscalía del Estado de Jalisco; Plataforma Ciudadana de Fosas', 25),
       table: table(['Año', 'Registro: sitios', 'Registro: víctimas', 'Fiscalía: fosas', 'Fiscalía: cuerpos', 'Prensa: fosas', 'Prensa: cuerpos'], p25.serie.map((x) => [x.y, num(x.regS), num(x.regV), num(x.fisF), num(x.fisC), num(x.preF), `${num(x.preLo)}–${num(x.preHi)}`]), [1, 2, 3, 4, 5, 6]) });
 
-    const iz = p8.sinVictimas.find((x) => mun(x.cv) === 'Teuchitlán');
+    const iz = p8.sinCifra.find((x) => x.nota === 'COMPETENCIA FGR'), se = p8.sinCifra.find((x) => x.nota === 'IJCF PROCESANDO');
     return chapter(1, {
       title: 'Fuera del área metropolitana casi no hay búsqueda registrada',
       description: 'El 95% de las víctimas halladas en fosas registradas en Jalisco están en el área metropolitana, donde está el 62% de las personas desaparecidas.',
@@ -290,7 +292,7 @@ export function busqueda() {
       body: `${mapDefs()}
 <section class="sec"><h2>La búsqueda registrada se queda en el área metropolitana</h2><p>La desaparición se reparte por todo el estado casi igual que la población. Las víctimas halladas en fosas, no.</p>${figShare}</section>
 <section class="sec"><h2>Lo que el registro deja fuera</h2><p>La falta de búsqueda registrada es de todo el interior del estado, no específica de donde más se desaparece: de 22 municipios del interior con desaparición creíblemente alta, 4 tienen alguna fosa registrada (18%), contra 7 de los otros 93 (7.5%), una diferencia que no es significativa.</p>${figMap}
-<div class="callout"><p><b>Rancho Izaguirre figura con 0 víctimas.</b> El sitio aparece en el registro como ${esc(iz ? `${iz.sitio.charAt(0)}${iz.sitio.slice(1).toLowerCase()}` : 'La Estanzuela')}, Teuchitlán (${esc(iz?.inicio || '03/2025')}), la localidad del rancho, ampliamente documentado. Muestra lo que el registro puede dejar fuera aun cuando registra el sitio. Presa Santa Elena, en Ameca, también figura con 0 víctimas.</p></div></section>
+<div class="callout"><p><b>Rancho Izaguirre no tiene cifra en el registro estatal.</b> El sitio aparece como ${esc(iz ? siteName(iz.sitio) : 'La Estanzuela')}, ${esc(mun(iz?.cv || '14095'))} (${esc(iz?.inicio || '03/2025')}), la localidad del rancho. En la columna de víctimas, la Fiscalía de Jalisco no escribe un número sino «Competencia FGR»: el caso lo atrajo la Fiscalía General de la República, y el registro estatal no cuenta las víctimas de los sitios que pasan a la federación. Ninguna de las fuentes que usamos publica una cifra de víctimas de ese sitio. Muestra otro límite del registro: lo que se vuelve caso federal queda fuera de sus cifras.</p><p>${esc(se ? siteName(se.sitio) : 'Presa Santa Elena')}, en ${esc(mun(se?.cv || '14006'))}, tampoco tiene cifra todavía: la fuente anota que el instituto forense sigue procesando el sitio.</p></div></section>
 <section class="sec"><h2>Identificar lleva años</h2>${figId}</section>
 <section class="sec"><h2>Tres fuentes, tres cifras</h2><p>La Plataforma Ciudadana de Fosas reúne lo que reporta la prensa y lo que la Fiscalía entregó por transparencia. Las tres fuentes coinciden en que casi todo lo hallado está en el área metropolitana. Difieren en cuánto se ha hallado y en cuántos municipios del interior aparecen.</p>${figFuentes}</section>`,
       reading: [

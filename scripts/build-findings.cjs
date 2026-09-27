@@ -141,8 +141,10 @@ function build(geo) {
   F.p8 = { tot: P[8].totales, ident: pct(P[8].proporcion_identificada), sexo: P[8].identificadas_por_sexo,
     porAnio: P[8].identificacion_por_año_de_inicio_sitios_cerrados.map((x) => ({ y: x.anio_inicio, loc: x.localizadas, id: x.identificadas, pct: x.pct })),
     amg: pct(P[8].proporcion_victimas_fosas_en_amg), amgDes: r1(P[8].proporcion_desaparecidas_en_amg * 100), fuera: P[8].fuera_amg,
-    mun: P[8].por_municipio.map((m) => ({ cv: cv(m.municipio), sitios: m.sitios, loc: m.localizadas, id: m.identificadas })),
-    sinVictimas: P[8].sitios_sin_victimas.map((s) => ({ sitio: s.sitio, cv: cv(s.municipio), inicio: s.inicio })) };
+    // loc is null when the source gives no count (a note such as "COMPETENCIA FGR" instead); never read it as 0.
+    mun: P[8].por_municipio.map((m) => ({ cv: cv(m.municipio), sitios: m.sitios, loc: m.localizadas, id: m.identificadas, sinCifra: m.sin_cifra, notas: m.notas })),
+    sinCifra: need(P[8].sitios_sin_cifra, 'p8 sitios_sin_cifra').map((x) => ({ sitio: x.sitio, cv: cv(x.municipio), inicio: x.inicio, fin: x.fin, nota: x.nota })) };
+  if (F.p8.sinCifra.some((x) => !['COMPETENCIA FGR', 'IJCF PROCESANDO'].includes(x.nota))) fail('p8: nota de la fuente no documentada');
 
   // P9: dark figure.
   const shortCrime = { '01': 'Robo total de vehículo', '02': 'Robo de accesorios de vehículo', '04': 'Robo en casa', '05': 'Robo o asalto en calle o transporte',

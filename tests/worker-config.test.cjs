@@ -116,12 +116,15 @@ test('Worker health endpoints are safe by default', async () => {
   assert.equal(publicHealth.status, 200);
   assert.deepEqual(await publicHealth.json(), { ok: true, environment: 'staging' });
 
-  const adminHealth = await worker.fetch(new Request('https://admin-staging.mexicovisible.com/admin/health'), env);
-  assert.equal(adminHealth.status, 403);
-  const adminBody = await adminHealth.json();
-  assert.equal(adminBody.ok, false);
-  assert.equal(adminBody.error, 'forbidden');
-  assert.equal(JSON.stringify(adminBody).includes('TURNSTILE'), false);
+  // The cédula admin is retired: its hostname and the /admin path serve nothing and leak no configuration.
+  const adminEnv = { ...env, ADMIN_HOSTNAME: 'admin-staging.mexicovisible.com', TURNSTILE_SECRET_KEY: 'secret' };
+  for (const url of ['https://admin-staging.mexicovisible.com/admin/health', 'https://admin-staging.mexicovisible.com/', 'https://staging.mexicovisible.com/admin']) {
+    const retired = await worker.fetch(new Request(url), adminEnv);
+    assert.equal(retired.status, 404, url);
+    const body = await retired.text();
+    assert.deepEqual(JSON.parse(body), { ok: false, error: 'not_found' }, url);
+    assert.equal(body.includes('TURNSTILE') || body.includes('secret'), false, url);
+  }
 
   const missing = await worker.fetch(new Request('https://staging.mexicovisible.com/missing'), env);
   assert.equal(missing.status, 404);
